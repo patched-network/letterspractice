@@ -429,13 +429,14 @@ class CouchAdmin {
     return { status: response.status, data };
   }
 
-  /** Check if CouchDB is reachable */
-  async checkConnectivity(): Promise<boolean> {
+  /** Can we reach CouchDB, and do our credentials work? */
+  async checkConnectivity(): Promise<"ok" | "auth" | "unreachable"> {
     try {
       const { status } = await this.request("/");
-      return status === 200;
+      if (status === 200) return "ok";
+      return status === 401 || status === 403 ? "auth" : "unreachable";
     } catch {
-      return false;
+      return "unreachable";
     }
   }
 
@@ -640,7 +641,19 @@ async function main() {
   );
 
   const reachable = await client.checkConnectivity();
-  if (!reachable) {
+  if (reachable === "auth") {
+    console.error(`\n  ❌ CouchDB at ${options.url} rejected the credentials for "${options.username}"`);
+    const fromEnv = ["COUCHDB_USERNAME", "COUCHDB_PASSWORD"].filter((v) => process.env[v]);
+    if (fromEnv.length) {
+      console.error(`  They came from ${fromEnv.join(" and ")} in your environment.`);
+      if (!remote) console.error(`  The local docker CouchDB uses ${DEFAULT_USERNAME}/${DEFAULT_PASSWORD}: unset ${fromEnv.join(" ")} and retry.`);
+    } else {
+      console.error(`  Pass --username / --password, or set COUCHDB_USERNAME / COUCHDB_PASSWORD.`);
+    }
+    console.error("");
+    process.exit(1);
+  }
+  if (reachable === "unreachable") {
     console.error(`\n  ❌ Cannot reach CouchDB at ${options.url}`);
     if (!remote) {
       console.error(`\n  Make sure CouchDB is running:`);

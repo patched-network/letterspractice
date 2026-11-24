@@ -12,6 +12,7 @@ import { bootAfterPaint } from "./scripts/vite-plugin-boot-after-paint";
 import { fontFallbacks } from "./scripts/postcss-font-fallbacks";
 import { markdownHtml } from "./scripts/vite-plugin-markdown-html";
 import { deploymentCsp } from "./scripts/vite-plugin-deployment-csp";
+import { siteUrlTags } from "./scripts/vite-plugin-site-url-tags";
 
 // The app's version, stamped on every study session (the data layer's
 // `appVersion`): the git commit, "-dirty" for a build with uncommitted tracked
@@ -152,6 +153,7 @@ export default defineConfig({
     // The deployment's CSP sources (media host, payment provider):
     // scripts/vite-plugin-deployment-csp.ts.
     deploymentCsp(),
+    siteUrlTags(),
     // A CouchDB build doesn't ship the packed static course:
     // scripts/vite-plugin-static-course.ts.
     staticCourse(),

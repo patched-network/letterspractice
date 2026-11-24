@@ -168,18 +168,24 @@ case "${1:-}" in
     # The watchers' first build wipes dist/; vite's dep scan fails if it
     # starts mid-wipe. Wait until every framework entry exists and has been
     # quiet for 5s.
+    # Each package's ESM entry ("module" in its package.json).
     entries=(common/dist/index.mjs db/dist/index.mjs
-      common-ui/dist/common-ui.es.js courseware/dist/index.mjs)
+      common-ui/dist/index.mjs courseware/dist/index.mjs)
     echo "waiting for framework builds..."
     sleep 5
+    waited=5
     while :; do
-      newest=0
+      newest=0 missing=""
       for e in "${entries[@]}"; do
-        t=$(stat -c %Y "$FW_DIR/packages/$e" 2>/dev/null) || { newest=-1; break; }
+        t=$(stat -c %Y "$FW_DIR/packages/$e" 2>/dev/null) || { newest=-1; missing=$e; break; }
         (( t > newest )) && newest=$t
       done
       (( newest > 0 && $(date +%s) - newest >= 5 )) && break
-      sleep 1
+      # A missing entry usually means a watcher failed (see the fw window), or
+      # a package's build output was renamed (update `entries`).
+      (( waited % 60 == 0 )) && [[ -n "$missing" ]] &&
+        echo "  still waiting after ${waited}s: no $missing (check the fw window)"
+      sleep 1; waited=$((waited + 1))
     done
     ;;
 

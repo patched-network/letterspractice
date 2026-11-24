@@ -1,0 +1,26 @@
+{
+  "prerequisites": {
+    "ui:missing-letters": [
+      {
+        "tag": "ui:who-said-that",
+        "masteryThreshold": {
+          "minCount": 2
+        }
+      },
+      {
+        "tag": "ui:word-selection",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "ui:spelling": [
+      {
+        "tag": "ui:missing-letters",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ]
+  }
+}

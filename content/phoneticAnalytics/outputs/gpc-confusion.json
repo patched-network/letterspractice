@@ -1,0 +1,4088 @@
+{
+  "generated": "2025-12-28T04:46:40.072Z",
+  "profiles": [
+    {
+      "gpcId": "GPC-o_e-OW",
+      "grapheme": "o_e",
+      "phoneme": "OW",
+      "correctFrequency": 180052,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 3537430,
+      "magicEConfusion": 2072944,
+      "totalConfusion": 5610374,
+      "clarityRatio": 0.03,
+      "topConfusionTraps": [
+        {
+          "word": "you",
+          "frequency": 2134713,
+          "correctGpc": "GPC-ou-UW",
+          "type": "substring"
+        },
+        {
+          "word": "on",
+          "frequency": 354742,
+          "correctGpc": "GPC-o-AA",
+          "type": "magic-e"
+        },
+        {
+          "word": "for",
+          "frequency": 351650,
+          "correctGpc": "GPC-o-AO",
+          "type": "magic-e"
+        },
+        {
+          "word": "don",
+          "frequency": 321085,
+          "correctGpc": "GPC-o-AA",
+          "type": "magic-e"
+        },
+        {
+          "word": "not",
+          "frequency": 276673,
+          "correctGpc": "GPC-o-AA",
+          "type": "magic-e"
+        },
+        {
+          "word": "out",
+          "frequency": 197131,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        },
+        {
+          "word": "got",
+          "frequency": 168631,
+          "correctGpc": "GPC-o-AA",
+          "type": "magic-e"
+        },
+        {
+          "word": "now",
+          "frequency": 163333,
+          "correctGpc": "GPC-ow-AW",
+          "type": "substring"
+        },
+        {
+          "word": "how",
+          "frequency": 155867,
+          "correctGpc": "GPC-ow-AW",
+          "type": "substring"
+        },
+        {
+          "word": "good",
+          "frequency": 133117,
+          "correctGpc": "GPC-oo-UH",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-o-AO",
+      "grapheme": "o",
+      "phoneme": "AO",
+      "correctFrequency": 636947,
+      "sameGraphemeConfusion": 1435997,
+      "substringConfusion": 3537430,
+      "magicEConfusion": 180052,
+      "totalConfusion": 5153479,
+      "clarityRatio": 0.12,
+      "topConfusionTraps": [
+        {
+          "word": "you",
+          "frequency": 2134713,
+          "correctGpc": "GPC-ou-UW",
+          "type": "substring"
+        },
+        {
+          "word": "on",
+          "frequency": 354742,
+          "correctGpc": "GPC-o-AA",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "don",
+          "frequency": 321085,
+          "correctGpc": "GPC-o-AA",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "not",
+          "frequency": 276673,
+          "correctGpc": "GPC-o-AA",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "out",
+          "frequency": 197131,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        },
+        {
+          "word": "got",
+          "frequency": 168631,
+          "correctGpc": "GPC-o-AA",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "now",
+          "frequency": 163333,
+          "correctGpc": "GPC-ow-AW",
+          "type": "substring"
+        },
+        {
+          "word": "how",
+          "frequency": 155867,
+          "correctGpc": "GPC-ow-AW",
+          "type": "substring"
+        },
+        {
+          "word": "good",
+          "frequency": 133117,
+          "correctGpc": "GPC-oo-UH",
+          "type": "substring"
+        },
+        {
+          "word": "look",
+          "frequency": 99311,
+          "correctGpc": "GPC-oo-UH",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-i_e-AY",
+      "grapheme": "i_e",
+      "phoneme": "AY",
+      "correctFrequency": 599096,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 452696,
+      "magicEConfusion": 3948836,
+      "totalConfusion": 4401532,
+      "clarityRatio": 0.14,
+      "topConfusionTraps": [
+        {
+          "word": "it",
+          "frequency": 963712,
+          "correctGpc": "GPC-i-IH",
+          "type": "magic-e"
+        },
+        {
+          "word": "in",
+          "frequency": 498444,
+          "correctGpc": "GPC-i-IH",
+          "type": "magic-e"
+        },
+        {
+          "word": "is",
+          "frequency": 459663,
+          "correctGpc": "GPC-i-IH",
+          "type": "magic-e"
+        },
+        {
+          "word": "this",
+          "frequency": 406915,
+          "correctGpc": "GPC-i-IH",
+          "type": "magic-e"
+        },
+        {
+          "word": "with",
+          "frequency": 257465,
+          "correctGpc": "GPC-i-IH",
+          "type": "magic-e"
+        },
+        {
+          "word": "right",
+          "frequency": 204428,
+          "correctGpc": "GPC-igh-AY",
+          "type": "substring"
+        },
+        {
+          "word": "if",
+          "frequency": 180610,
+          "correctGpc": "GPC-i-IH",
+          "type": "magic-e"
+        },
+        {
+          "word": "him",
+          "frequency": 177710,
+          "correctGpc": "GPC-i-IH",
+          "type": "magic-e"
+        },
+        {
+          "word": "did",
+          "frequency": 119410,
+          "correctGpc": "GPC-i-IH",
+          "type": "magic-e"
+        },
+        {
+          "word": "his",
+          "frequency": 108364,
+          "correctGpc": "GPC-i-IH",
+          "type": "magic-e"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-o-AA",
+      "grapheme": "o",
+      "phoneme": "AA",
+      "correctFrequency": 1435997,
+      "sameGraphemeConfusion": 636947,
+      "substringConfusion": 3537430,
+      "magicEConfusion": 180052,
+      "totalConfusion": 4354429,
+      "clarityRatio": 0.33,
+      "topConfusionTraps": [
+        {
+          "word": "you",
+          "frequency": 2134713,
+          "correctGpc": "GPC-ou-UW",
+          "type": "substring"
+        },
+        {
+          "word": "for",
+          "frequency": 351650,
+          "correctGpc": "GPC-o-AO",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "out",
+          "frequency": 197131,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        },
+        {
+          "word": "now",
+          "frequency": 163333,
+          "correctGpc": "GPC-ow-AW",
+          "type": "substring"
+        },
+        {
+          "word": "how",
+          "frequency": 155867,
+          "correctGpc": "GPC-ow-AW",
+          "type": "substring"
+        },
+        {
+          "word": "good",
+          "frequency": 133117,
+          "correctGpc": "GPC-oo-UH",
+          "type": "substring"
+        },
+        {
+          "word": "look",
+          "frequency": 99311,
+          "correctGpc": "GPC-oo-UH",
+          "type": "substring"
+        },
+        {
+          "word": "or",
+          "frequency": 86970,
+          "correctGpc": "GPC-o-AO",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "down",
+          "frequency": 76004,
+          "correctGpc": "GPC-ow-AW",
+          "type": "substring"
+        },
+        {
+          "word": "too",
+          "frequency": 69950,
+          "correctGpc": "GPC-oo-UW",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-u_e-Y_UW",
+      "grapheme": "u_e",
+      "phoneme": "Y_UW",
+      "correctFrequency": 8283,
+      "sameGraphemeConfusion": 38349,
+      "substringConfusion": 2418328,
+      "magicEConfusion": 1169138,
+      "totalConfusion": 3625815,
+      "clarityRatio": 0,
+      "topConfusionTraps": [
+        {
+          "word": "you",
+          "frequency": 2134713,
+          "correctGpc": "GPC-ou-UW",
+          "type": "substring"
+        },
+        {
+          "word": "just",
+          "frequency": 242206,
+          "correctGpc": "GPC-u-AH",
+          "type": "magic-e"
+        },
+        {
+          "word": "but",
+          "frequency": 225291,
+          "correctGpc": "GPC-u-AH",
+          "type": "magic-e"
+        },
+        {
+          "word": "out",
+          "frequency": 197131,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        },
+        {
+          "word": "up",
+          "frequency": 187170,
+          "correctGpc": "GPC-u-AH",
+          "type": "magic-e"
+        },
+        {
+          "word": "us",
+          "frequency": 86478,
+          "correctGpc": "GPC-u-AH",
+          "type": "magic-e"
+        },
+        {
+          "word": "much",
+          "frequency": 49636,
+          "correctGpc": "GPC-u-AH",
+          "type": "magic-e"
+        },
+        {
+          "word": "put",
+          "frequency": 42251,
+          "correctGpc": "GPC-u-UH",
+          "type": "magic-e"
+        },
+        {
+          "word": "must",
+          "frequency": 35661,
+          "correctGpc": "GPC-u-AH",
+          "type": "magic-e"
+        },
+        {
+          "word": "found",
+          "frequency": 20196,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-u_e-UW",
+      "grapheme": "u_e",
+      "phoneme": "UW",
+      "correctFrequency": 38349,
+      "sameGraphemeConfusion": 8283,
+      "substringConfusion": 2418328,
+      "magicEConfusion": 1169138,
+      "totalConfusion": 3595749,
+      "clarityRatio": 0.01,
+      "topConfusionTraps": [
+        {
+          "word": "you",
+          "frequency": 2134713,
+          "correctGpc": "GPC-ou-UW",
+          "type": "substring"
+        },
+        {
+          "word": "just",
+          "frequency": 242206,
+          "correctGpc": "GPC-u-AH",
+          "type": "magic-e"
+        },
+        {
+          "word": "but",
+          "frequency": 225291,
+          "correctGpc": "GPC-u-AH",
+          "type": "magic-e"
+        },
+        {
+          "word": "out",
+          "frequency": 197131,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        },
+        {
+          "word": "up",
+          "frequency": 187170,
+          "correctGpc": "GPC-u-AH",
+          "type": "magic-e"
+        },
+        {
+          "word": "us",
+          "frequency": 86478,
+          "correctGpc": "GPC-u-AH",
+          "type": "magic-e"
+        },
+        {
+          "word": "much",
+          "frequency": 49636,
+          "correctGpc": "GPC-u-AH",
+          "type": "magic-e"
+        },
+        {
+          "word": "put",
+          "frequency": 42251,
+          "correctGpc": "GPC-u-UH",
+          "type": "magic-e"
+        },
+        {
+          "word": "must",
+          "frequency": 35661,
+          "correctGpc": "GPC-u-AH",
+          "type": "magic-e"
+        },
+        {
+          "word": "found",
+          "frequency": 20196,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-u-UH",
+      "grapheme": "u",
+      "phoneme": "UH",
+      "correctFrequency": 66390,
+      "sameGraphemeConfusion": 1102748,
+      "substringConfusion": 2418328,
+      "magicEConfusion": 46632,
+      "totalConfusion": 3567708,
+      "clarityRatio": 0.02,
+      "topConfusionTraps": [
+        {
+          "word": "you",
+          "frequency": 2134713,
+          "correctGpc": "GPC-ou-UW",
+          "type": "substring"
+        },
+        {
+          "word": "just",
+          "frequency": 242206,
+          "correctGpc": "GPC-u-AH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "but",
+          "frequency": 225291,
+          "correctGpc": "GPC-u-AH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "out",
+          "frequency": 197131,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        },
+        {
+          "word": "up",
+          "frequency": 187170,
+          "correctGpc": "GPC-u-AH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "us",
+          "frequency": 86478,
+          "correctGpc": "GPC-u-AH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "much",
+          "frequency": 49636,
+          "correctGpc": "GPC-u-AH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "must",
+          "frequency": 35661,
+          "correctGpc": "GPC-u-AH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "found",
+          "frequency": 20196,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        },
+        {
+          "word": "fuck",
+          "frequency": 19307,
+          "correctGpc": "GPC-u-AH",
+          "type": "same-grapheme"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-o_final-OW",
+      "grapheme": "o_final",
+      "phoneme": "OW",
+      "correctFrequency": 735627,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 3537430,
+      "magicEConfusion": 0,
+      "totalConfusion": 3537430,
+      "clarityRatio": 0.21,
+      "topConfusionTraps": [
+        {
+          "word": "you",
+          "frequency": 2134713,
+          "correctGpc": "GPC-ou-UW",
+          "type": "substring"
+        },
+        {
+          "word": "out",
+          "frequency": 197131,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        },
+        {
+          "word": "now",
+          "frequency": 163333,
+          "correctGpc": "GPC-ow-AW",
+          "type": "substring"
+        },
+        {
+          "word": "how",
+          "frequency": 155867,
+          "correctGpc": "GPC-ow-AW",
+          "type": "substring"
+        },
+        {
+          "word": "good",
+          "frequency": 133117,
+          "correctGpc": "GPC-oo-UH",
+          "type": "substring"
+        },
+        {
+          "word": "look",
+          "frequency": 99311,
+          "correctGpc": "GPC-oo-UH",
+          "type": "substring"
+        },
+        {
+          "word": "down",
+          "frequency": 76004,
+          "correctGpc": "GPC-ow-AW",
+          "type": "substring"
+        },
+        {
+          "word": "too",
+          "frequency": 69950,
+          "correctGpc": "GPC-oo-UW",
+          "type": "substring"
+        },
+        {
+          "word": "boy",
+          "frequency": 27021,
+          "correctGpc": "GPC-oy-OY",
+          "type": "substring"
+        },
+        {
+          "word": "show",
+          "frequency": 24906,
+          "correctGpc": "GPC-ow-OW",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-a_e-EY",
+      "grapheme": "a_e",
+      "phoneme": "EY",
+      "correctFrequency": 538364,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 868753,
+      "magicEConfusion": 2289015,
+      "totalConfusion": 3157768,
+      "clarityRatio": 0.17,
+      "topConfusionTraps": [
+        {
+          "word": "that",
+          "frequency": 719677,
+          "correctGpc": "GPC-a-AE",
+          "type": "magic-e"
+        },
+        {
+          "word": "can",
+          "frequency": 267620,
+          "correctGpc": "GPC-a-AE",
+          "type": "magic-e"
+        },
+        {
+          "word": "all",
+          "frequency": 263255,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        },
+        {
+          "word": "at",
+          "frequency": 164072,
+          "correctGpc": "GPC-a-AE",
+          "type": "magic-e"
+        },
+        {
+          "word": "as",
+          "frequency": 113068,
+          "correctGpc": "GPC-a-AE",
+          "type": "magic-e"
+        },
+        {
+          "word": "back",
+          "frequency": 102467,
+          "correctGpc": "GPC-a-AE",
+          "type": "magic-e"
+        },
+        {
+          "word": "an",
+          "frequency": 95071,
+          "correctGpc": "GPC-a-AE",
+          "type": "magic-e"
+        },
+        {
+          "word": "man",
+          "frequency": 94133,
+          "correctGpc": "GPC-a-AE",
+          "type": "magic-e"
+        },
+        {
+          "word": "had",
+          "frequency": 85472,
+          "correctGpc": "GPC-a-AE",
+          "type": "magic-e"
+        },
+        {
+          "word": "say",
+          "frequency": 83629,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-h-HH",
+      "grapheme": "h",
+      "phoneme": "HH",
+      "correctFrequency": 1464413,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 3053810,
+      "magicEConfusion": 0,
+      "totalConfusion": 3053810,
+      "clarityRatio": 0.48,
+      "topConfusionTraps": [
+        {
+          "word": "that",
+          "frequency": 719677,
+          "correctGpc": "GPC-th-DH",
+          "type": "substring"
+        },
+        {
+          "word": "this",
+          "frequency": 406915,
+          "correctGpc": "GPC-th-DH",
+          "type": "substring"
+        },
+        {
+          "word": "with",
+          "frequency": 257465,
+          "correctGpc": "GPC-th-DH",
+          "type": "substring"
+        },
+        {
+          "word": "right",
+          "frequency": 204428,
+          "correctGpc": "GPC-igh-AY",
+          "type": "substring"
+        },
+        {
+          "word": "she",
+          "frequency": 190377,
+          "correctGpc": "GPC-sh-SH",
+          "type": "substring"
+        },
+        {
+          "word": "why",
+          "frequency": 114687,
+          "correctGpc": "GPC-wh-W",
+          "type": "substring"
+        },
+        {
+          "word": "when",
+          "frequency": 103739,
+          "correctGpc": "GPC-wh-W",
+          "type": "substring"
+        },
+        {
+          "word": "them",
+          "frequency": 90720,
+          "correctGpc": "GPC-th-DH",
+          "type": "substring"
+        },
+        {
+          "word": "then",
+          "frequency": 75966,
+          "correctGpc": "GPC-th-DH",
+          "type": "substring"
+        },
+        {
+          "word": "thing",
+          "frequency": 55522,
+          "correctGpc": "GPC-th-TH",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-s-Z",
+      "grapheme": "s",
+      "phoneme": "Z",
+      "correctFrequency": 1079789,
+      "sameGraphemeConfusion": 2271347,
+      "substringConfusion": 460973,
+      "magicEConfusion": 0,
+      "totalConfusion": 2732320,
+      "clarityRatio": 0.4,
+      "topConfusionTraps": [
+        {
+          "word": "this",
+          "frequency": 406915,
+          "correctGpc": "GPC-s-S",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "just",
+          "frequency": 242206,
+          "correctGpc": "GPC-s-S",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "so",
+          "frequency": 216452,
+          "correctGpc": "GPC-s-S",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "she",
+          "frequency": 190377,
+          "correctGpc": "GPC-sh-SH",
+          "type": "substring"
+        },
+        {
+          "word": "see",
+          "frequency": 130393,
+          "correctGpc": "GPC-s-S",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "yes",
+          "frequency": 101835,
+          "correctGpc": "GPC-s-S",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "us",
+          "frequency": 86478,
+          "correctGpc": "GPC-s-S",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "say",
+          "frequency": 83629,
+          "correctGpc": "GPC-s-S",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "still",
+          "frequency": 40225,
+          "correctGpc": "GPC-s-S",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "last",
+          "frequency": 36878,
+          "correctGpc": "GPC-s-S",
+          "type": "same-grapheme"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-u-AH",
+      "grapheme": "u",
+      "phoneme": "AH",
+      "correctFrequency": 1102748,
+      "sameGraphemeConfusion": 66390,
+      "substringConfusion": 2418328,
+      "magicEConfusion": 46632,
+      "totalConfusion": 2531350,
+      "clarityRatio": 0.44,
+      "topConfusionTraps": [
+        {
+          "word": "you",
+          "frequency": 2134713,
+          "correctGpc": "GPC-ou-UW",
+          "type": "substring"
+        },
+        {
+          "word": "out",
+          "frequency": 197131,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        },
+        {
+          "word": "put",
+          "frequency": 42251,
+          "correctGpc": "GPC-u-UH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "found",
+          "frequency": 20196,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        },
+        {
+          "word": "true",
+          "frequency": 12921,
+          "correctGpc": "GPC-u_e-UW",
+          "type": "magic-e"
+        },
+        {
+          "word": "full",
+          "frequency": 8512,
+          "correctGpc": "GPC-u-UH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "sounds",
+          "frequency": 7970,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        },
+        {
+          "word": "pull",
+          "frequency": 7469,
+          "correctGpc": "GPC-u-UH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "sound",
+          "frequency": 7313,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        },
+        {
+          "word": "mouth",
+          "frequency": 5325,
+          "correctGpc": "GPC-ou-AW",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-ou-AW",
+      "grapheme": "ou",
+      "phoneme": "AW",
+      "correctFrequency": 276257,
+      "sameGraphemeConfusion": 2142071,
+      "substringConfusion": 0,
+      "magicEConfusion": 0,
+      "totalConfusion": 2142071,
+      "clarityRatio": 0.13,
+      "topConfusionTraps": [
+        {
+          "word": "you",
+          "frequency": 2134713,
+          "correctGpc": "GPC-ou-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "group",
+          "frequency": 3762,
+          "correctGpc": "GPC-ou-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "soup",
+          "frequency": 1285,
+          "correctGpc": "GPC-ou-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "youth",
+          "frequency": 858,
+          "correctGpc": "GPC-ou-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "wounds",
+          "frequency": 717,
+          "correctGpc": "GPC-ou-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "groups",
+          "frequency": 471,
+          "correctGpc": "GPC-ou-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "chou",
+          "frequency": 55,
+          "correctGpc": "GPC-ou-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "yous",
+          "frequency": 46,
+          "correctGpc": "GPC-ou-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "youths",
+          "frequency": 36,
+          "correctGpc": "GPC-ou-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "jour",
+          "frequency": 34,
+          "correctGpc": "GPC-ou-UW",
+          "type": "same-grapheme"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-e_e-IY",
+      "grapheme": "e_e",
+      "phoneme": "IY",
+      "correctFrequency": 326909,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 452632,
+      "magicEConfusion": 1508725,
+      "totalConfusion": 1961357,
+      "clarityRatio": 0.17,
+      "topConfusionTraps": [
+        {
+          "word": "get",
+          "frequency": 233772,
+          "correctGpc": "GPC-e-EH",
+          "type": "magic-e"
+        },
+        {
+          "word": "well",
+          "frequency": 152523,
+          "correctGpc": "GPC-e-EH",
+          "type": "magic-e"
+        },
+        {
+          "word": "see",
+          "frequency": 130393,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "let",
+          "frequency": 123381,
+          "correctGpc": "GPC-e-EH",
+          "type": "magic-e"
+        },
+        {
+          "word": "when",
+          "frequency": 103739,
+          "correctGpc": "GPC-e-EH",
+          "type": "magic-e"
+        },
+        {
+          "word": "yes",
+          "frequency": 101835,
+          "correctGpc": "GPC-e-EH",
+          "type": "magic-e"
+        },
+        {
+          "word": "them",
+          "frequency": 90720,
+          "correctGpc": "GPC-e-EH",
+          "type": "magic-e"
+        },
+        {
+          "word": "tell",
+          "frequency": 87949,
+          "correctGpc": "GPC-e-EH",
+          "type": "magic-e"
+        },
+        {
+          "word": "then",
+          "frequency": 75966,
+          "correctGpc": "GPC-e-EH",
+          "type": "magic-e"
+        },
+        {
+          "word": "need",
+          "frequency": 66040,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-t-T",
+      "grapheme": "t",
+      "phoneme": "T",
+      "correctFrequency": 5313079,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 1883824,
+      "magicEConfusion": 0,
+      "totalConfusion": 1883824,
+      "clarityRatio": 2.82,
+      "topConfusionTraps": [
+        {
+          "word": "that",
+          "frequency": 719677,
+          "correctGpc": "GPC-th-DH",
+          "type": "substring"
+        },
+        {
+          "word": "this",
+          "frequency": 406915,
+          "correctGpc": "GPC-th-DH",
+          "type": "substring"
+        },
+        {
+          "word": "with",
+          "frequency": 257465,
+          "correctGpc": "GPC-th-DH",
+          "type": "substring"
+        },
+        {
+          "word": "them",
+          "frequency": 90720,
+          "correctGpc": "GPC-th-DH",
+          "type": "substring"
+        },
+        {
+          "word": "then",
+          "frequency": 75966,
+          "correctGpc": "GPC-th-DH",
+          "type": "substring"
+        },
+        {
+          "word": "thing",
+          "frequency": 55522,
+          "correctGpc": "GPC-th-TH",
+          "type": "substring"
+        },
+        {
+          "word": "these",
+          "frequency": 46104,
+          "correctGpc": "GPC-th-DH",
+          "type": "substring"
+        },
+        {
+          "word": "those",
+          "frequency": 38404,
+          "correctGpc": "GPC-th-DH",
+          "type": "substring"
+        },
+        {
+          "word": "than",
+          "frequency": 37679,
+          "correctGpc": "GPC-th-DH",
+          "type": "substring"
+        },
+        {
+          "word": "things",
+          "frequency": 35337,
+          "correctGpc": "GPC-th-TH",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-th-TH",
+      "grapheme": "th",
+      "phoneme": "TH",
+      "correctFrequency": 166724,
+      "sameGraphemeConfusion": 1679099,
+      "substringConfusion": 0,
+      "magicEConfusion": 0,
+      "totalConfusion": 1679099,
+      "clarityRatio": 0.1,
+      "topConfusionTraps": [
+        {
+          "word": "that",
+          "frequency": 719677,
+          "correctGpc": "GPC-th-DH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "this",
+          "frequency": 406915,
+          "correctGpc": "GPC-th-DH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "with",
+          "frequency": 257465,
+          "correctGpc": "GPC-th-DH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "them",
+          "frequency": 90720,
+          "correctGpc": "GPC-th-DH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "then",
+          "frequency": 75966,
+          "correctGpc": "GPC-th-DH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "these",
+          "frequency": 46104,
+          "correctGpc": "GPC-th-DH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "those",
+          "frequency": 38404,
+          "correctGpc": "GPC-th-DH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "than",
+          "frequency": 37679,
+          "correctGpc": "GPC-th-DH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "thee",
+          "frequency": 1327,
+          "correctGpc": "GPC-th-DH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "thy",
+          "frequency": 1243,
+          "correctGpc": "GPC-th-DH",
+          "type": "same-grapheme"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-g-JH",
+      "grapheme": "g",
+      "phoneme": "JH",
+      "correctFrequency": 31629,
+      "sameGraphemeConfusion": 1002462,
+      "substringConfusion": 543422,
+      "magicEConfusion": 0,
+      "totalConfusion": 1545884,
+      "clarityRatio": 0.02,
+      "topConfusionTraps": [
+        {
+          "word": "get",
+          "frequency": 233772,
+          "correctGpc": "GPC-g-G",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "right",
+          "frequency": 204428,
+          "correctGpc": "GPC-igh-AY",
+          "type": "substring"
+        },
+        {
+          "word": "go",
+          "frequency": 193445,
+          "correctGpc": "GPC-g-G",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "got",
+          "frequency": 168631,
+          "correctGpc": "GPC-g-G",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "good",
+          "frequency": 133117,
+          "correctGpc": "GPC-g-G",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "thing",
+          "frequency": 55522,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "god",
+          "frequency": 46061,
+          "correctGpc": "GPC-g-G",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "night",
+          "frequency": 44168,
+          "correctGpc": "GPC-igh-AY",
+          "type": "substring"
+        },
+        {
+          "word": "things",
+          "frequency": 35337,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "big",
+          "frequency": 34824,
+          "correctGpc": "GPC-g-G",
+          "type": "same-grapheme"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-s-S",
+      "grapheme": "s",
+      "phoneme": "S",
+      "correctFrequency": 2325545,
+      "sameGraphemeConfusion": 1079789,
+      "substringConfusion": 460973,
+      "magicEConfusion": 0,
+      "totalConfusion": 1540762,
+      "clarityRatio": 1.51,
+      "topConfusionTraps": [
+        {
+          "word": "is",
+          "frequency": 459663,
+          "correctGpc": "GPC-s-Z",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "she",
+          "frequency": 190377,
+          "correctGpc": "GPC-sh-SH",
+          "type": "substring"
+        },
+        {
+          "word": "as",
+          "frequency": 113068,
+          "correctGpc": "GPC-s-Z",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "his",
+          "frequency": 108364,
+          "correctGpc": "GPC-s-Z",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "has",
+          "frequency": 57830,
+          "correctGpc": "GPC-s-Z",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "these",
+          "frequency": 46104,
+          "correctGpc": "GPC-s-Z",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "those",
+          "frequency": 38404,
+          "correctGpc": "GPC-s-Z",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "things",
+          "frequency": 35337,
+          "correctGpc": "GPC-s-Z",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "show",
+          "frequency": 24906,
+          "correctGpc": "GPC-sh-SH",
+          "type": "substring"
+        },
+        {
+          "word": "shit",
+          "frequency": 24207,
+          "correctGpc": "GPC-sh-SH",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-a-AE",
+      "grapheme": "a",
+      "phoneme": "AE",
+      "correctFrequency": 2289015,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 868753,
+      "magicEConfusion": 538364,
+      "totalConfusion": 1407117,
+      "clarityRatio": 1.63,
+      "topConfusionTraps": [
+        {
+          "word": "all",
+          "frequency": 263255,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        },
+        {
+          "word": "take",
+          "frequency": 96443,
+          "correctGpc": "GPC-a_e-EY",
+          "type": "magic-e"
+        },
+        {
+          "word": "say",
+          "frequency": 83629,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "way",
+          "frequency": 72661,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "make",
+          "frequency": 70775,
+          "correctGpc": "GPC-a_e-EY",
+          "type": "magic-e"
+        },
+        {
+          "word": "call",
+          "frequency": 43931,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        },
+        {
+          "word": "talk",
+          "frequency": 43605,
+          "correctGpc": "GPC-alk-AO_K",
+          "type": "substring"
+        },
+        {
+          "word": "wait",
+          "frequency": 42343,
+          "correctGpc": "GPC-ai-EY",
+          "type": "substring"
+        },
+        {
+          "word": "day",
+          "frequency": 40893,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "name",
+          "frequency": 32735,
+          "correctGpc": "GPC-a_e-EY",
+          "type": "magic-e"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-c-S",
+      "grapheme": "c",
+      "phoneme": "S",
+      "correctFrequency": 105620,
+      "sameGraphemeConfusion": 562193,
+      "substringConfusion": 496302,
+      "magicEConfusion": 0,
+      "totalConfusion": 1058495,
+      "clarityRatio": 0.1,
+      "topConfusionTraps": [
+        {
+          "word": "can",
+          "frequency": 267620,
+          "correctGpc": "GPC-c-K",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "back",
+          "frequency": 102467,
+          "correctGpc": "GPC-ck-K",
+          "type": "substring"
+        },
+        {
+          "word": "much",
+          "frequency": 49636,
+          "correctGpc": "GPC-ch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "call",
+          "frequency": 43931,
+          "correctGpc": "GPC-c-K",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "which",
+          "frequency": 24339,
+          "correctGpc": "GPC-ch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "came",
+          "frequency": 23650,
+          "correctGpc": "GPC-c-K",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "fuck",
+          "frequency": 19307,
+          "correctGpc": "GPC-ck-K",
+          "type": "substring"
+        },
+        {
+          "word": "school",
+          "frequency": 16989,
+          "correctGpc": "GPC-ch-K",
+          "type": "substring"
+        },
+        {
+          "word": "such",
+          "frequency": 14852,
+          "correctGpc": "GPC-ch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "case",
+          "frequency": 14403,
+          "correctGpc": "GPC-c-K",
+          "type": "same-grapheme"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-i-IH",
+      "grapheme": "i",
+      "phoneme": "IH",
+      "correctFrequency": 3948836,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 452696,
+      "magicEConfusion": 599096,
+      "totalConfusion": 1051792,
+      "clarityRatio": 3.75,
+      "topConfusionTraps": [
+        {
+          "word": "right",
+          "frequency": 204428,
+          "correctGpc": "GPC-igh-AY",
+          "type": "substring"
+        },
+        {
+          "word": "like",
+          "frequency": 203947,
+          "correctGpc": "GPC-i_e-AY",
+          "type": "magic-e"
+        },
+        {
+          "word": "time",
+          "frequency": 99890,
+          "correctGpc": "GPC-i_e-AY",
+          "type": "magic-e"
+        },
+        {
+          "word": "night",
+          "frequency": 44168,
+          "correctGpc": "GPC-igh-AY",
+          "type": "substring"
+        },
+        {
+          "word": "wait",
+          "frequency": 42343,
+          "correctGpc": "GPC-ai-EY",
+          "type": "substring"
+        },
+        {
+          "word": "life",
+          "frequency": 40629,
+          "correctGpc": "GPC-i_e-AY",
+          "type": "magic-e"
+        },
+        {
+          "word": "nice",
+          "frequency": 33125,
+          "correctGpc": "GPC-i_e-AY",
+          "type": "magic-e"
+        },
+        {
+          "word": "fine",
+          "frequency": 30502,
+          "correctGpc": "GPC-i_e-AY",
+          "type": "magic-e"
+        },
+        {
+          "word": "might",
+          "frequency": 26334,
+          "correctGpc": "GPC-igh-AY",
+          "type": "substring"
+        },
+        {
+          "word": "while",
+          "frequency": 17821,
+          "correctGpc": "GPC-i_e-AY",
+          "type": "magic-e"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-l-L",
+      "grapheme": "l",
+      "phoneme": "L",
+      "correctFrequency": 1219593,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 928123,
+      "magicEConfusion": 0,
+      "totalConfusion": 928123,
+      "clarityRatio": 1.31,
+      "topConfusionTraps": [
+        {
+          "word": "all",
+          "frequency": 263255,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        },
+        {
+          "word": "well",
+          "frequency": 152523,
+          "correctGpc": "GPC-ll-L",
+          "type": "substring"
+        },
+        {
+          "word": "will",
+          "frequency": 108306,
+          "correctGpc": "GPC-ll-L",
+          "type": "substring"
+        },
+        {
+          "word": "tell",
+          "frequency": 87949,
+          "correctGpc": "GPC-ll-L",
+          "type": "substring"
+        },
+        {
+          "word": "call",
+          "frequency": 43931,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        },
+        {
+          "word": "talk",
+          "frequency": 43605,
+          "correctGpc": "GPC-alk-AO_K",
+          "type": "substring"
+        },
+        {
+          "word": "still",
+          "frequency": 40225,
+          "correctGpc": "GPC-ll-L",
+          "type": "substring"
+        },
+        {
+          "word": "hell",
+          "frequency": 24012,
+          "correctGpc": "GPC-ll-L",
+          "type": "substring"
+        },
+        {
+          "word": "kill",
+          "frequency": 23081,
+          "correctGpc": "GPC-ll-L",
+          "type": "substring"
+        },
+        {
+          "word": "walk",
+          "frequency": 11009,
+          "correctGpc": "GPC-alk-AO_K",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-w-W",
+      "grapheme": "w",
+      "phoneme": "W",
+      "correctFrequency": 1260996,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 802771,
+      "magicEConfusion": 0,
+      "totalConfusion": 802771,
+      "clarityRatio": 1.57,
+      "topConfusionTraps": [
+        {
+          "word": "now",
+          "frequency": 163333,
+          "correctGpc": "GPC-ow-AW",
+          "type": "substring"
+        },
+        {
+          "word": "how",
+          "frequency": 155867,
+          "correctGpc": "GPC-ow-AW",
+          "type": "substring"
+        },
+        {
+          "word": "why",
+          "frequency": 114687,
+          "correctGpc": "GPC-wh-W",
+          "type": "substring"
+        },
+        {
+          "word": "when",
+          "frequency": 103739,
+          "correctGpc": "GPC-wh-W",
+          "type": "substring"
+        },
+        {
+          "word": "down",
+          "frequency": 76004,
+          "correctGpc": "GPC-ow-AW",
+          "type": "substring"
+        },
+        {
+          "word": "show",
+          "frequency": 24906,
+          "correctGpc": "GPC-ow-OW",
+          "type": "substring"
+        },
+        {
+          "word": "which",
+          "frequency": 24339,
+          "correctGpc": "GPC-wh-W",
+          "type": "substring"
+        },
+        {
+          "word": "own",
+          "frequency": 23419,
+          "correctGpc": "GPC-ow-OW",
+          "type": "substring"
+        },
+        {
+          "word": "while",
+          "frequency": 17821,
+          "correctGpc": "GPC-wh-W",
+          "type": "substring"
+        },
+        {
+          "word": "town",
+          "frequency": 12644,
+          "correctGpc": "GPC-ow-AW",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-e-EH",
+      "grapheme": "e",
+      "phoneme": "EH",
+      "correctFrequency": 1508725,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 452632,
+      "magicEConfusion": 326909,
+      "totalConfusion": 779541,
+      "clarityRatio": 1.94,
+      "topConfusionTraps": [
+        {
+          "word": "here",
+          "frequency": 230788,
+          "correctGpc": "GPC-e_e-IY",
+          "type": "magic-e"
+        },
+        {
+          "word": "see",
+          "frequency": 130393,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "need",
+          "frequency": 66040,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "these",
+          "frequency": 46104,
+          "correctGpc": "GPC-e_e-IY",
+          "type": "magic-e"
+        },
+        {
+          "word": "keep",
+          "frequency": 35846,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "feel",
+          "frequency": 31989,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "three",
+          "frequency": 27654,
+          "correctGpc": "GPC-e_e-IY",
+          "type": "magic-e"
+        },
+        {
+          "word": "seen",
+          "frequency": 19633,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "meet",
+          "frequency": 17966,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "week",
+          "frequency": 12164,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-c-K",
+      "grapheme": "c",
+      "phoneme": "K",
+      "correctFrequency": 562253,
+      "sameGraphemeConfusion": 105620,
+      "substringConfusion": 496302,
+      "magicEConfusion": 0,
+      "totalConfusion": 601922,
+      "clarityRatio": 0.93,
+      "topConfusionTraps": [
+        {
+          "word": "back",
+          "frequency": 102467,
+          "correctGpc": "GPC-ck-K",
+          "type": "substring"
+        },
+        {
+          "word": "much",
+          "frequency": 49636,
+          "correctGpc": "GPC-ch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "nice",
+          "frequency": 33125,
+          "correctGpc": "GPC-c-S",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "place",
+          "frequency": 30736,
+          "correctGpc": "GPC-c-S",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "which",
+          "frequency": 24339,
+          "correctGpc": "GPC-ch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "fuck",
+          "frequency": 19307,
+          "correctGpc": "GPC-ck-K",
+          "type": "substring"
+        },
+        {
+          "word": "school",
+          "frequency": 16989,
+          "correctGpc": "GPC-ch-K",
+          "type": "substring"
+        },
+        {
+          "word": "such",
+          "frequency": 14852,
+          "correctGpc": "GPC-ch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "face",
+          "frequency": 14747,
+          "correctGpc": "GPC-c-S",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "check",
+          "frequency": 14228,
+          "correctGpc": "GPC-ch-CH",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-g-G",
+      "grapheme": "g",
+      "phoneme": "G",
+      "correctFrequency": 1003739,
+      "sameGraphemeConfusion": 31629,
+      "substringConfusion": 543422,
+      "magicEConfusion": 0,
+      "totalConfusion": 575051,
+      "clarityRatio": 1.75,
+      "topConfusionTraps": [
+        {
+          "word": "right",
+          "frequency": 204428,
+          "correctGpc": "GPC-igh-AY",
+          "type": "substring"
+        },
+        {
+          "word": "thing",
+          "frequency": 55522,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "night",
+          "frequency": 44168,
+          "correctGpc": "GPC-igh-AY",
+          "type": "substring"
+        },
+        {
+          "word": "things",
+          "frequency": 35337,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "long",
+          "frequency": 34433,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "might",
+          "frequency": 26334,
+          "correctGpc": "GPC-igh-AY",
+          "type": "substring"
+        },
+        {
+          "word": "bring",
+          "frequency": 16685,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "change",
+          "frequency": 12258,
+          "correctGpc": "GPC-g-JH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "fight",
+          "frequency": 10255,
+          "correctGpc": "GPC-igh-AY",
+          "type": "substring"
+        },
+        {
+          "word": "high",
+          "frequency": 9945,
+          "correctGpc": "GPC-igh-AY",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-e_final-IY",
+      "grapheme": "e_final",
+      "phoneme": "IY",
+      "correctFrequency": 1807076,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 452632,
+      "magicEConfusion": 0,
+      "totalConfusion": 452632,
+      "clarityRatio": 3.99,
+      "topConfusionTraps": [
+        {
+          "word": "see",
+          "frequency": 130393,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "need",
+          "frequency": 66040,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "keep",
+          "frequency": 35846,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "feel",
+          "frequency": 31989,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "seen",
+          "frequency": 19633,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "meet",
+          "frequency": 17966,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "week",
+          "frequency": 12164,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "sleep",
+          "frequency": 11625,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "seems",
+          "frequency": 8545,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        },
+        {
+          "word": "needs",
+          "frequency": 8198,
+          "correctGpc": "GPC-ee-IY",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-ow-OW",
+      "grapheme": "ow",
+      "phoneme": "OW",
+      "correctFrequency": 88356,
+      "sameGraphemeConfusion": 430120,
+      "substringConfusion": 0,
+      "magicEConfusion": 0,
+      "totalConfusion": 430120,
+      "clarityRatio": 0.21,
+      "topConfusionTraps": [
+        {
+          "word": "now",
+          "frequency": 163333,
+          "correctGpc": "GPC-ow-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "how",
+          "frequency": 155867,
+          "correctGpc": "GPC-ow-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "down",
+          "frequency": 76004,
+          "correctGpc": "GPC-ow-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "town",
+          "frequency": 12644,
+          "correctGpc": "GPC-ow-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "wow",
+          "frequency": 8160,
+          "correctGpc": "GPC-ow-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "brown",
+          "frequency": 3066,
+          "correctGpc": "GPC-ow-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "crowd",
+          "frequency": 1906,
+          "correctGpc": "GPC-ow-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "cow",
+          "frequency": 1301,
+          "correctGpc": "GPC-ow-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "bow",
+          "frequency": 1034,
+          "correctGpc": "GPC-ow-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "clown",
+          "frequency": 807,
+          "correctGpc": "GPC-ow-AW",
+          "type": "same-grapheme"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-y-Y",
+      "grapheme": "y",
+      "phoneme": "Y",
+      "correctFrequency": 2274102,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 365680,
+      "magicEConfusion": 0,
+      "totalConfusion": 365680,
+      "clarityRatio": 6.22,
+      "topConfusionTraps": [
+        {
+          "word": "say",
+          "frequency": 83629,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "way",
+          "frequency": 72661,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "day",
+          "frequency": 40893,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "boy",
+          "frequency": 27021,
+          "correctGpc": "GPC-oy-OY",
+          "type": "substring"
+        },
+        {
+          "word": "stay",
+          "frequency": 26298,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "may",
+          "frequency": 26080,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "play",
+          "frequency": 18081,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "days",
+          "frequency": 15592,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "pay",
+          "frequency": 12985,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "boys",
+          "frequency": 11432,
+          "correctGpc": "GPC-oy-OY",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-y_final-AY",
+      "grapheme": "y_final",
+      "phoneme": "AY",
+      "correctFrequency": 568707,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 365680,
+      "magicEConfusion": 0,
+      "totalConfusion": 365680,
+      "clarityRatio": 1.56,
+      "topConfusionTraps": [
+        {
+          "word": "say",
+          "frequency": 83629,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "way",
+          "frequency": 72661,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "day",
+          "frequency": 40893,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "boy",
+          "frequency": 27021,
+          "correctGpc": "GPC-oy-OY",
+          "type": "substring"
+        },
+        {
+          "word": "stay",
+          "frequency": 26298,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "may",
+          "frequency": 26080,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "play",
+          "frequency": 18081,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "days",
+          "frequency": 15592,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "pay",
+          "frequency": 12985,
+          "correctGpc": "GPC-ay-EY",
+          "type": "substring"
+        },
+        {
+          "word": "boys",
+          "frequency": 11432,
+          "correctGpc": "GPC-oy-OY",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-ll-L",
+      "grapheme": "ll",
+      "phoneme": "L",
+      "correctFrequency": 527646,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 343528,
+      "magicEConfusion": 0,
+      "totalConfusion": 343528,
+      "clarityRatio": 1.54,
+      "topConfusionTraps": [
+        {
+          "word": "all",
+          "frequency": 263255,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        },
+        {
+          "word": "call",
+          "frequency": 43931,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        },
+        {
+          "word": "small",
+          "frequency": 6373,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        },
+        {
+          "word": "fall",
+          "frequency": 6044,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        },
+        {
+          "word": "ball",
+          "frequency": 5353,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        },
+        {
+          "word": "calls",
+          "frequency": 4097,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        },
+        {
+          "word": "wall",
+          "frequency": 3605,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        },
+        {
+          "word": "hall",
+          "frequency": 2649,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        },
+        {
+          "word": "balls",
+          "frequency": 2048,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        },
+        {
+          "word": "tall",
+          "frequency": 1649,
+          "correctGpc": "GPC-all-AO_L",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-k-K",
+      "grapheme": "k",
+      "phoneme": "K",
+      "correctFrequency": 783066,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 334873,
+      "magicEConfusion": 0,
+      "totalConfusion": 334873,
+      "clarityRatio": 2.34,
+      "topConfusionTraps": [
+        {
+          "word": "back",
+          "frequency": 102467,
+          "correctGpc": "GPC-ck-K",
+          "type": "substring"
+        },
+        {
+          "word": "talk",
+          "frequency": 43605,
+          "correctGpc": "GPC-alk-AO_K",
+          "type": "substring"
+        },
+        {
+          "word": "fuck",
+          "frequency": 19307,
+          "correctGpc": "GPC-ck-K",
+          "type": "substring"
+        },
+        {
+          "word": "check",
+          "frequency": 14228,
+          "correctGpc": "GPC-ck-K",
+          "type": "substring"
+        },
+        {
+          "word": "jack",
+          "frequency": 12831,
+          "correctGpc": "GPC-ck-K",
+          "type": "substring"
+        },
+        {
+          "word": "walk",
+          "frequency": 11009,
+          "correctGpc": "GPC-alk-AO_K",
+          "type": "substring"
+        },
+        {
+          "word": "pick",
+          "frequency": 10118,
+          "correctGpc": "GPC-ck-K",
+          "type": "substring"
+        },
+        {
+          "word": "black",
+          "frequency": 8565,
+          "correctGpc": "GPC-ck-K",
+          "type": "substring"
+        },
+        {
+          "word": "sick",
+          "frequency": 8437,
+          "correctGpc": "GPC-ck-K",
+          "type": "substring"
+        },
+        {
+          "word": "luck",
+          "frequency": 7840,
+          "correctGpc": "GPC-ck-K",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-oo-UW",
+      "grapheme": "oo",
+      "phoneme": "UW",
+      "correctFrequency": 197396,
+      "sameGraphemeConfusion": 293853,
+      "substringConfusion": 0,
+      "magicEConfusion": 0,
+      "totalConfusion": 293853,
+      "clarityRatio": 0.67,
+      "topConfusionTraps": [
+        {
+          "word": "good",
+          "frequency": 133117,
+          "correctGpc": "GPC-oo-UH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "look",
+          "frequency": 99311,
+          "correctGpc": "GPC-oo-UH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "took",
+          "frequency": 17454,
+          "correctGpc": "GPC-oo-UH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "looks",
+          "frequency": 15886,
+          "correctGpc": "GPC-oo-UH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "book",
+          "frequency": 9026,
+          "correctGpc": "GPC-oo-UH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "books",
+          "frequency": 3456,
+          "correctGpc": "GPC-oo-UH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "foot",
+          "frequency": 3311,
+          "correctGpc": "GPC-oo-UH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "cook",
+          "frequency": 2324,
+          "correctGpc": "GPC-oo-UH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "hook",
+          "frequency": 1938,
+          "correctGpc": "GPC-oo-UH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "woods",
+          "frequency": 1482,
+          "correctGpc": "GPC-oo-UH",
+          "type": "same-grapheme"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-ou-UW",
+      "grapheme": "ou",
+      "phoneme": "UW",
+      "correctFrequency": 2142071,
+      "sameGraphemeConfusion": 276257,
+      "substringConfusion": 0,
+      "magicEConfusion": 0,
+      "totalConfusion": 276257,
+      "clarityRatio": 7.75,
+      "topConfusionTraps": [
+        {
+          "word": "out",
+          "frequency": 197131,
+          "correctGpc": "GPC-ou-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "found",
+          "frequency": 20196,
+          "correctGpc": "GPC-ou-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "sounds",
+          "frequency": 7970,
+          "correctGpc": "GPC-ou-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "sound",
+          "frequency": 7313,
+          "correctGpc": "GPC-ou-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "mouth",
+          "frequency": 5325,
+          "correctGpc": "GPC-ou-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "count",
+          "frequency": 4588,
+          "correctGpc": "GPC-ou-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "proud",
+          "frequency": 4265,
+          "correctGpc": "GPC-ou-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "ground",
+          "frequency": 3696,
+          "correctGpc": "GPC-ou-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "round",
+          "frequency": 3393,
+          "correctGpc": "GPC-ou-AW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "south",
+          "frequency": 3288,
+          "correctGpc": "GPC-ou-AW",
+          "type": "same-grapheme"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-n-N",
+      "grapheme": "n",
+      "phoneme": "N",
+      "correctFrequency": 3547345,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 206396,
+      "magicEConfusion": 0,
+      "totalConfusion": 206396,
+      "clarityRatio": 17.19,
+      "topConfusionTraps": [
+        {
+          "word": "thing",
+          "frequency": 55522,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "things",
+          "frequency": 35337,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "long",
+          "frequency": 34433,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "bring",
+          "frequency": 16685,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "hang",
+          "frequency": 7535,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "king",
+          "frequency": 6592,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "sing",
+          "frequency": 4977,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "song",
+          "frequency": 4778,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "ring",
+          "frequency": 4730,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        },
+        {
+          "word": "strong",
+          "frequency": 4430,
+          "correctGpc": "GPC-ng-NG",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-ch-K",
+      "grapheme": "ch",
+      "phoneme": "K",
+      "correctFrequency": 19049,
+      "sameGraphemeConfusion": 167860,
+      "substringConfusion": 31469,
+      "magicEConfusion": 0,
+      "totalConfusion": 199329,
+      "clarityRatio": 0.1,
+      "topConfusionTraps": [
+        {
+          "word": "much",
+          "frequency": 49636,
+          "correctGpc": "GPC-ch-CH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "which",
+          "frequency": 24339,
+          "correctGpc": "GPC-ch-CH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "such",
+          "frequency": 14852,
+          "correctGpc": "GPC-ch-CH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "check",
+          "frequency": 14228,
+          "correctGpc": "GPC-ch-CH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "change",
+          "frequency": 12258,
+          "correctGpc": "GPC-ch-CH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "bitch",
+          "frequency": 8609,
+          "correctGpc": "GPC-tch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "catch",
+          "frequency": 6911,
+          "correctGpc": "GPC-tch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "lunch",
+          "frequency": 5310,
+          "correctGpc": "GPC-ch-CH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "rich",
+          "frequency": 4100,
+          "correctGpc": "GPC-ch-CH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "french",
+          "frequency": 3541,
+          "correctGpc": "GPC-ch-CH",
+          "type": "same-grapheme"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-oo-UH",
+      "grapheme": "oo",
+      "phoneme": "UH",
+      "correctFrequency": 293853,
+      "sameGraphemeConfusion": 197396,
+      "substringConfusion": 0,
+      "magicEConfusion": 0,
+      "totalConfusion": 197396,
+      "clarityRatio": 1.49,
+      "topConfusionTraps": [
+        {
+          "word": "too",
+          "frequency": 69950,
+          "correctGpc": "GPC-oo-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "room",
+          "frequency": 22415,
+          "correctGpc": "GPC-oo-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "school",
+          "frequency": 16989,
+          "correctGpc": "GPC-oo-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "soon",
+          "frequency": 13140,
+          "correctGpc": "GPC-oo-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "cool",
+          "frequency": 9990,
+          "correctGpc": "GPC-oo-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "shoot",
+          "frequency": 8412,
+          "correctGpc": "GPC-oo-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "food",
+          "frequency": 7876,
+          "correctGpc": "GPC-oo-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "poor",
+          "frequency": 6583,
+          "correctGpc": "GPC-oo-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "fool",
+          "frequency": 4556,
+          "correctGpc": "GPC-oo-UW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "moon",
+          "frequency": 2548,
+          "correctGpc": "GPC-oo-UW",
+          "type": "same-grapheme"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-th-DH",
+      "grapheme": "th",
+      "phoneme": "DH",
+      "correctFrequency": 1679099,
+      "sameGraphemeConfusion": 166724,
+      "substringConfusion": 0,
+      "magicEConfusion": 0,
+      "totalConfusion": 166724,
+      "clarityRatio": 10.07,
+      "topConfusionTraps": [
+        {
+          "word": "thing",
+          "frequency": 55522,
+          "correctGpc": "GPC-th-TH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "things",
+          "frequency": 35337,
+          "correctGpc": "GPC-th-TH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "three",
+          "frequency": 27654,
+          "correctGpc": "GPC-th-TH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "throw",
+          "frequency": 6570,
+          "correctGpc": "GPC-th-TH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "mouth",
+          "frequency": 5325,
+          "correctGpc": "GPC-th-TH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "south",
+          "frequency": 3288,
+          "correctGpc": "GPC-th-TH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "north",
+          "frequency": 3258,
+          "correctGpc": "GPC-th-TH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "teeth",
+          "frequency": 2440,
+          "correctGpc": "GPC-th-TH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "faith",
+          "frequency": 2363,
+          "correctGpc": "GPC-th-TH",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "smith",
+          "frequency": 1856,
+          "correctGpc": "GPC-th-TH",
+          "type": "same-grapheme"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-ow-AW",
+      "grapheme": "ow",
+      "phoneme": "AW",
+      "correctFrequency": 430120,
+      "sameGraphemeConfusion": 88356,
+      "substringConfusion": 0,
+      "magicEConfusion": 0,
+      "totalConfusion": 88356,
+      "clarityRatio": 4.87,
+      "topConfusionTraps": [
+        {
+          "word": "show",
+          "frequency": 24906,
+          "correctGpc": "GPC-ow-OW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "own",
+          "frequency": 23419,
+          "correctGpc": "GPC-ow-OW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "throw",
+          "frequency": 6570,
+          "correctGpc": "GPC-ow-OW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "blow",
+          "frequency": 4976,
+          "correctGpc": "GPC-ow-OW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "slow",
+          "frequency": 3877,
+          "correctGpc": "GPC-ow-OW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "grow",
+          "frequency": 3034,
+          "correctGpc": "GPC-ow-OW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "low",
+          "frequency": 3016,
+          "correctGpc": "GPC-ow-OW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "ow",
+          "frequency": 2903,
+          "correctGpc": "GPC-ow-OW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "shows",
+          "frequency": 2117,
+          "correctGpc": "GPC-ow-OW",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "snow",
+          "frequency": 1599,
+          "correctGpc": "GPC-ow-OW",
+          "type": "same-grapheme"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-f-F",
+      "grapheme": "f",
+      "phoneme": "F",
+      "correctFrequency": 965093,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 83796,
+      "magicEConfusion": 0,
+      "totalConfusion": 83796,
+      "clarityRatio": 11.52,
+      "topConfusionTraps": [
+        {
+          "word": "off",
+          "frequency": 60155,
+          "correctGpc": "GPC-ff-F",
+          "type": "substring"
+        },
+        {
+          "word": "stuff",
+          "frequency": 15653,
+          "correctGpc": "GPC-ff-F",
+          "type": "substring"
+        },
+        {
+          "word": "staff",
+          "frequency": 1632,
+          "correctGpc": "GPC-ff-F",
+          "type": "substring"
+        },
+        {
+          "word": "jeff",
+          "frequency": 1539,
+          "correctGpc": "GPC-ff-F",
+          "type": "substring"
+        },
+        {
+          "word": "cliff",
+          "frequency": 1100,
+          "correctGpc": "GPC-ff-F",
+          "type": "substring"
+        },
+        {
+          "word": "stiff",
+          "frequency": 523,
+          "correctGpc": "GPC-ff-F",
+          "type": "substring"
+        },
+        {
+          "word": "bluff",
+          "frequency": 317,
+          "correctGpc": "GPC-ff-F",
+          "type": "substring"
+        },
+        {
+          "word": "cuff",
+          "frequency": 291,
+          "correctGpc": "GPC-ff-F",
+          "type": "substring"
+        },
+        {
+          "word": "cuffs",
+          "frequency": 266,
+          "correctGpc": "GPC-ff-F",
+          "type": "substring"
+        },
+        {
+          "word": "puff",
+          "frequency": 227,
+          "correctGpc": "GPC-ff-F",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-ch-CH",
+      "grapheme": "ch",
+      "phoneme": "CH",
+      "correctFrequency": 167860,
+      "sameGraphemeConfusion": 19049,
+      "substringConfusion": 31469,
+      "magicEConfusion": 0,
+      "totalConfusion": 50518,
+      "clarityRatio": 3.32,
+      "topConfusionTraps": [
+        {
+          "word": "school",
+          "frequency": 16989,
+          "correctGpc": "GPC-ch-K",
+          "type": "same-grapheme"
+        },
+        {
+          "word": "bitch",
+          "frequency": 8609,
+          "correctGpc": "GPC-tch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "catch",
+          "frequency": 6911,
+          "correctGpc": "GPC-tch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "match",
+          "frequency": 2521,
+          "correctGpc": "GPC-tch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "switch",
+          "frequency": 1434,
+          "correctGpc": "GPC-tch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "witch",
+          "frequency": 1410,
+          "correctGpc": "GPC-tch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "scratch",
+          "frequency": 961,
+          "correctGpc": "GPC-tch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "mitch",
+          "frequency": 915,
+          "correctGpc": "GPC-tch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "patch",
+          "frequency": 888,
+          "correctGpc": "GPC-tch-CH",
+          "type": "substring"
+        },
+        {
+          "word": "pitch",
+          "frequency": 792,
+          "correctGpc": "GPC-tch-CH",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-p-P",
+      "grapheme": "p",
+      "phoneme": "P",
+      "correctFrequency": 812232,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 17674,
+      "magicEConfusion": 0,
+      "totalConfusion": 17674,
+      "clarityRatio": 45.96,
+      "topConfusionTraps": [
+        {
+          "word": "phone",
+          "frequency": 13756,
+          "correctGpc": "GPC-ph-F",
+          "type": "substring"
+        },
+        {
+          "word": "phil",
+          "frequency": 1830,
+          "correctGpc": "GPC-ph-F",
+          "type": "substring"
+        },
+        {
+          "word": "ralph",
+          "frequency": 783,
+          "correctGpc": "GPC-ph-F",
+          "type": "substring"
+        },
+        {
+          "word": "phase",
+          "frequency": 629,
+          "correctGpc": "GPC-ph-F",
+          "type": "substring"
+        },
+        {
+          "word": "phrase",
+          "frequency": 464,
+          "correctGpc": "GPC-ph-F",
+          "type": "substring"
+        },
+        {
+          "word": "graph",
+          "frequency": 38,
+          "correctGpc": "GPC-ph-F",
+          "type": "substring"
+        },
+        {
+          "word": "morph",
+          "frequency": 38,
+          "correctGpc": "GPC-ph-F",
+          "type": "substring"
+        },
+        {
+          "word": "oomph",
+          "frequency": 33,
+          "correctGpc": "GPC-ph-F",
+          "type": "substring"
+        },
+        {
+          "word": "staph",
+          "frequency": 25,
+          "correctGpc": "GPC-ph-F",
+          "type": "substring"
+        },
+        {
+          "word": "humph",
+          "frequency": 19,
+          "correctGpc": "GPC-ph-F",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-d-D",
+      "grapheme": "d",
+      "phoneme": "D",
+      "correctFrequency": 1592274,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 16530,
+      "magicEConfusion": 0,
+      "totalConfusion": 16530,
+      "clarityRatio": 96.33,
+      "topConfusionTraps": [
+        {
+          "word": "judge",
+          "frequency": 4063,
+          "correctGpc": "GPC-dge-JH",
+          "type": "substring"
+        },
+        {
+          "word": "bridge",
+          "frequency": 2331,
+          "correctGpc": "GPC-dge-JH",
+          "type": "substring"
+        },
+        {
+          "word": "add",
+          "frequency": 1686,
+          "correctGpc": "GPC-dd-D",
+          "type": "substring"
+        },
+        {
+          "word": "odd",
+          "frequency": 1226,
+          "correctGpc": "GPC-dd-D",
+          "type": "substring"
+        },
+        {
+          "word": "edge",
+          "frequency": 1199,
+          "correctGpc": "GPC-dge-JH",
+          "type": "substring"
+        },
+        {
+          "word": "odds",
+          "frequency": 970,
+          "correctGpc": "GPC-dd-D",
+          "type": "substring"
+        },
+        {
+          "word": "badge",
+          "frequency": 778,
+          "correctGpc": "GPC-dge-JH",
+          "type": "substring"
+        },
+        {
+          "word": "fridge",
+          "frequency": 502,
+          "correctGpc": "GPC-dge-JH",
+          "type": "substring"
+        },
+        {
+          "word": "dodge",
+          "frequency": 396,
+          "correctGpc": "GPC-dge-JH",
+          "type": "substring"
+        },
+        {
+          "word": "ridge",
+          "frequency": 361,
+          "correctGpc": "GPC-dge-JH",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-z-Z",
+      "grapheme": "z",
+      "phoneme": "Z",
+      "correctFrequency": 11041,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 1550,
+      "magicEConfusion": 0,
+      "totalConfusion": 1550,
+      "clarityRatio": 7.12,
+      "topConfusionTraps": [
+        {
+          "word": "buzz",
+          "frequency": 814,
+          "correctGpc": "GPC-zz-Z",
+          "type": "substring"
+        },
+        {
+          "word": "jazz",
+          "frequency": 608,
+          "correctGpc": "GPC-zz-Z",
+          "type": "substring"
+        },
+        {
+          "word": "fuzz",
+          "frequency": 95,
+          "correctGpc": "GPC-zz-Z",
+          "type": "substring"
+        },
+        {
+          "word": "fizz",
+          "frequency": 31,
+          "correctGpc": "GPC-zz-Z",
+          "type": "substring"
+        },
+        {
+          "word": "frizz",
+          "frequency": 2,
+          "correctGpc": "GPC-zz-Z",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-r-R",
+      "grapheme": "r",
+      "phoneme": "R",
+      "correctFrequency": 1465368,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 640,
+      "magicEConfusion": 0,
+      "totalConfusion": 640,
+      "clarityRatio": 2289.64,
+      "topConfusionTraps": [
+        {
+          "word": "herr",
+          "frequency": 557,
+          "correctGpc": "GPC-rr-R",
+          "type": "substring"
+        },
+        {
+          "word": "err",
+          "frequency": 77,
+          "correctGpc": "GPC-rr-R",
+          "type": "substring"
+        },
+        {
+          "word": "corr",
+          "frequency": 3,
+          "correctGpc": "GPC-rr-R",
+          "type": "substring"
+        },
+        {
+          "word": "errs",
+          "frequency": 3,
+          "correctGpc": "GPC-rr-R",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-m-M",
+      "grapheme": "m",
+      "phoneme": "M",
+      "correctFrequency": 2075660,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 548,
+      "magicEConfusion": 0,
+      "totalConfusion": 548,
+      "clarityRatio": 3787.7,
+      "topConfusionTraps": [
+        {
+          "word": "umm",
+          "frequency": 334,
+          "correctGpc": "GPC-mm-M",
+          "type": "substring"
+        },
+        {
+          "word": "comm",
+          "frequency": 143,
+          "correctGpc": "GPC-mm-M",
+          "type": "substring"
+        },
+        {
+          "word": "grimm",
+          "frequency": 66,
+          "correctGpc": "GPC-mm-M",
+          "type": "substring"
+        },
+        {
+          "word": "mumm",
+          "frequency": 5,
+          "correctGpc": "GPC-mm-M",
+          "type": "substring"
+        }
+      ]
+    },
+    {
+      "gpcId": "GPC-b-B",
+      "grapheme": "b",
+      "phoneme": "B",
+      "correctFrequency": 1134420,
+      "sameGraphemeConfusion": 0,
+      "substringConfusion": 217,
+      "magicEConfusion": 0,
+      "totalConfusion": 217,
+      "clarityRatio": 5227.74,
+      "topConfusionTraps": [
+        {
+          "word": "cobb",
+          "frequency": 177,
+          "correctGpc": "GPC-bb-B",
+          "type": "substring"
+        },
+        {
+          "word": "ebb",
+          "frequency": 18,
+          "correctGpc": "GPC-bb-B",
+          "type": "substring"
+        },
+        {
+          "word": "ebbs",
+          "frequency": 7,
+          "correctGpc": "GPC-bb-B",
+          "type": "substring"
+        },
+        {
+          "word": "bibbs",
+          "frequency": 6,
+          "correctGpc": "GPC-bb-B",
+          "type": "substring"
+        },
+        {
+          "word": "chubb",
+          "frequency": 4,
+          "correctGpc": "GPC-bb-B",
+          "type": "substring"
+        },
+        {
+          "word": "cobbs",
+          "frequency": 3,
+          "correctGpc": "GPC-bb-B",
+          "type": "substring"
+        },
+        {
+          "word": "bibb",
+          "frequency": 2,
+          "correctGpc": "GPC-bb-B",
+          "type": "substring"
+        }
+      ]
+    }
+  ],
+  "sequenceAnalysis": [
+    {
+      "step": 1,
+      "gpcId": "GPC-all-AO_L",
+      "addedCorrectFreq": 263255,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 0,
+      "cumulativeConfusion": 0,
+      "confusionTimeIntegral": 0
+    },
+    {
+      "step": 2,
+      "gpcId": "GPC-c-K",
+      "addedCorrectFreq": 43931,
+      "addedConfusionFreq": 583572,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 583572,
+      "cumulativeConfusion": 583572,
+      "confusionTimeIntegral": 583572
+    },
+    {
+      "step": 3,
+      "gpcId": "GPC-o_final-OW",
+      "addedCorrectFreq": 9883,
+      "addedConfusionFreq": 3514350,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 3514350,
+      "cumulativeConfusion": 4097922,
+      "confusionTimeIntegral": 4681494
+    },
+    {
+      "step": 4,
+      "gpcId": "GPC-n-N",
+      "addedCorrectFreq": 304549,
+      "addedConfusionFreq": 205621,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 205621,
+      "cumulativeConfusion": 4303543,
+      "confusionTimeIntegral": 8985037
+    },
+    {
+      "step": 5,
+      "gpcId": "GPC-i-IH",
+      "addedCorrectFreq": 498444,
+      "addedConfusionFreq": 982569,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 982569,
+      "cumulativeConfusion": 5286112,
+      "confusionTimeIntegral": 14271149
+    },
+    {
+      "step": 6,
+      "gpcId": "GPC-t-T",
+      "addedCorrectFreq": 966259,
+      "addedConfusionFreq": 1733053,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 1733053,
+      "cumulativeConfusion": 7019165,
+      "confusionTimeIntegral": 21290314
+    },
+    {
+      "step": 7,
+      "gpcId": "GPC-o-AA",
+      "addedCorrectFreq": 632406,
+      "addedConfusionFreq": 722473,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 722473,
+      "cumulativeConfusion": 7741638,
+      "confusionTimeIntegral": 29031952
+    },
+    {
+      "step": 8,
+      "gpcId": "GPC-a-AE",
+      "addedCorrectFreq": 536941,
+      "addedConfusionFreq": 847577,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 847577,
+      "cumulativeConfusion": 8589215,
+      "confusionTimeIntegral": 37621167
+    },
+    {
+      "step": 9,
+      "gpcId": "GPC-th-DH",
+      "addedCorrectFreq": 757382,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 1676535,
+      "netConfusionChange": -1676535,
+      "cumulativeConfusion": 6912680,
+      "confusionTimeIntegral": 44533847
+    },
+    {
+      "step": 10,
+      "gpcId": "GPC-s-S",
+      "addedCorrectFreq": 664737,
+      "addedConfusionFreq": 1351027,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 1351027,
+      "cumulativeConfusion": 8263707,
+      "confusionTimeIntegral": 52797554
+    },
+    {
+      "step": 11,
+      "gpcId": "GPC-s-Z",
+      "addedCorrectFreq": 578410,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 949289,
+      "netConfusionChange": -949289,
+      "cumulativeConfusion": 7314418,
+      "confusionTimeIntegral": 60111972
+    },
+    {
+      "step": 12,
+      "gpcId": "GPC-d-D",
+      "addedCorrectFreq": 637962,
+      "addedConfusionFreq": 16530,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 16530,
+      "cumulativeConfusion": 7330948,
+      "confusionTimeIntegral": 67442920
+    },
+    {
+      "step": 13,
+      "gpcId": "GPC-g-G",
+      "addedCorrectFreq": 421853,
+      "addedConfusionFreq": 10884,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 10884,
+      "cumulativeConfusion": 7341832,
+      "confusionTimeIntegral": 74784752
+    },
+    {
+      "step": 14,
+      "gpcId": "GPC-e-EH",
+      "addedCorrectFreq": 391460,
+      "addedConfusionFreq": 727326,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 727326,
+      "cumulativeConfusion": 8069158,
+      "confusionTimeIntegral": 82853910
+    },
+    {
+      "step": 15,
+      "gpcId": "GPC-m-M",
+      "addedCorrectFreq": 363474,
+      "addedConfusionFreq": 548,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 548,
+      "cumulativeConfusion": 8069706,
+      "confusionTimeIntegral": 90923616
+    },
+    {
+      "step": 16,
+      "gpcId": "GPC-h-HH",
+      "addedCorrectFreq": 492697,
+      "addedConfusionFreq": 223040,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 223040,
+      "cumulativeConfusion": 8292746,
+      "confusionTimeIntegral": 99216362
+    },
+    {
+      "step": 17,
+      "gpcId": "GPC-e_final-IY",
+      "addedCorrectFreq": 863346,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 0,
+      "cumulativeConfusion": 8292746,
+      "confusionTimeIntegral": 107509108
+    },
+    {
+      "step": 18,
+      "gpcId": "GPC-w-W",
+      "addedCorrectFreq": 761594,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 0,
+      "cumulativeConfusion": 8292746,
+      "confusionTimeIntegral": 115801854
+    },
+    {
+      "step": 19,
+      "gpcId": "GPC-b-B",
+      "addedCorrectFreq": 455064,
+      "addedConfusionFreq": 213,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 213,
+      "cumulativeConfusion": 8292959,
+      "confusionTimeIntegral": 124094813
+    },
+    {
+      "step": 20,
+      "gpcId": "GPC-ll-L",
+      "addedCorrectFreq": 453544,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 0,
+      "cumulativeConfusion": 8292959,
+      "confusionTimeIntegral": 132387772
+    },
+    {
+      "step": 21,
+      "gpcId": "GPC-u-AH",
+      "addedCorrectFreq": 420912,
+      "addedConfusionFreq": 104173,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 104173,
+      "cumulativeConfusion": 8397132,
+      "confusionTimeIntegral": 140784904
+    },
+    {
+      "step": 22,
+      "gpcId": "GPC-ow-AW",
+      "addedCorrectFreq": 420020,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 429763,
+      "netConfusionChange": -429763,
+      "cumulativeConfusion": 7967369,
+      "confusionTimeIntegral": 148752273
+    },
+    {
+      "step": 23,
+      "gpcId": "GPC-y_final-AY",
+      "addedCorrectFreq": 414644,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 0,
+      "cumulativeConfusion": 7967369,
+      "confusionTimeIntegral": 156719642
+    },
+    {
+      "step": 24,
+      "gpcId": "GPC-p-P",
+      "addedCorrectFreq": 328681,
+      "addedConfusionFreq": 31,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 31,
+      "cumulativeConfusion": 7967400,
+      "confusionTimeIntegral": 164687042
+    },
+    {
+      "step": 25,
+      "gpcId": "GPC-l-L",
+      "addedCorrectFreq": 341501,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 0,
+      "cumulativeConfusion": 7967400,
+      "confusionTimeIntegral": 172654442
+    },
+    {
+      "step": 26,
+      "gpcId": "GPC-ay-EY",
+      "addedCorrectFreq": 311229,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 322898,
+      "netConfusionChange": -322898,
+      "cumulativeConfusion": 7644502,
+      "confusionTimeIntegral": 180298944
+    },
+    {
+      "step": 27,
+      "gpcId": "GPC-ee-IY",
+      "addedCorrectFreq": 299739,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 429920,
+      "netConfusionChange": -429920,
+      "cumulativeConfusion": 7214582,
+      "confusionTimeIntegral": 187513526
+    },
+    {
+      "step": 28,
+      "gpcId": "GPC-f-F",
+      "addedCorrectFreq": 339091,
+      "addedConfusionFreq": 23354,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 23354,
+      "cumulativeConfusion": 7237936,
+      "confusionTimeIntegral": 194751462
+    },
+    {
+      "step": 29,
+      "gpcId": "GPC-sh-SH",
+      "addedCorrectFreq": 295711,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 310854,
+      "netConfusionChange": -310854,
+      "cumulativeConfusion": 6927082,
+      "confusionTimeIntegral": 201678544
+    },
+    {
+      "step": 30,
+      "gpcId": "GPC-j-JH",
+      "addedCorrectFreq": 279720,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 0,
+      "cumulativeConfusion": 6927082,
+      "confusionTimeIntegral": 208605626
+    },
+    {
+      "step": 31,
+      "gpcId": "GPC-i_e-AY",
+      "addedCorrectFreq": 252770,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 556505,
+      "netConfusionChange": -556505,
+      "cumulativeConfusion": 6370577,
+      "confusionTimeIntegral": 214976203
+    },
+    {
+      "step": 32,
+      "gpcId": "GPC-k-K",
+      "addedCorrectFreq": 380979,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 0,
+      "cumulativeConfusion": 6370577,
+      "confusionTimeIntegral": 221346780
+    },
+    {
+      "step": 33,
+      "gpcId": "GPC-a_e-EY",
+      "addedCorrectFreq": 413783,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 467730,
+      "netConfusionChange": -467730,
+      "cumulativeConfusion": 5902847,
+      "confusionTimeIntegral": 227249627
+    },
+    {
+      "step": 34,
+      "gpcId": "GPC-oo-UH",
+      "addedCorrectFreq": 292595,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 293848,
+      "netConfusionChange": -293848,
+      "cumulativeConfusion": 5608999,
+      "confusionTimeIntegral": 232858626
+    },
+    {
+      "step": 35,
+      "gpcId": "GPC-ou-AW",
+      "addedCorrectFreq": 252628,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 274194,
+      "netConfusionChange": -274194,
+      "cumulativeConfusion": 5334805,
+      "confusionTimeIntegral": 238193431
+    },
+    {
+      "step": 36,
+      "gpcId": "GPC-r-R",
+      "addedCorrectFreq": 252560,
+      "addedConfusionFreq": 637,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 637,
+      "cumulativeConfusion": 5335442,
+      "confusionTimeIntegral": 243528873
+    },
+    {
+      "step": 37,
+      "gpcId": "GPC-o-AO",
+      "addedCorrectFreq": 509504,
+      "addedConfusionFreq": 38446,
+      "resolvedConfusionFreq": 582673,
+      "netConfusionChange": -544227,
+      "cumulativeConfusion": 4791215,
+      "confusionTimeIntegral": 248320088
+    },
+    {
+      "step": 38,
+      "gpcId": "GPC-igh-AY",
+      "addedCorrectFreq": 323200,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 323587,
+      "netConfusionChange": -323587,
+      "cumulativeConfusion": 4467628,
+      "confusionTimeIntegral": 252787716
+    },
+    {
+      "step": 39,
+      "gpcId": "GPC-e_e-IY",
+      "addedCorrectFreq": 293745,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 297406,
+      "netConfusionChange": -297406,
+      "cumulativeConfusion": 4170222,
+      "confusionTimeIntegral": 256957938
+    },
+    {
+      "step": 40,
+      "gpcId": "GPC-ck-K",
+      "addedCorrectFreq": 257305,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 259756,
+      "netConfusionChange": -259756,
+      "cumulativeConfusion": 3910466,
+      "confusionTimeIntegral": 260868404
+    },
+    {
+      "step": 41,
+      "gpcId": "GPC-wh-W",
+      "addedCorrectFreq": 249328,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 219893,
+      "netConfusionChange": -219893,
+      "cumulativeConfusion": 3690573,
+      "confusionTimeIntegral": 264558977
+    },
+    {
+      "step": 42,
+      "gpcId": "GPC-oo-UW",
+      "addedCorrectFreq": 176701,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 179483,
+      "netConfusionChange": -179483,
+      "cumulativeConfusion": 3511090,
+      "confusionTimeIntegral": 268070067
+    },
+    {
+      "step": 43,
+      "gpcId": "GPC-o_e-OW",
+      "addedCorrectFreq": 159098,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 178246,
+      "netConfusionChange": -178246,
+      "cumulativeConfusion": 3332844,
+      "confusionTimeIntegral": 271402911
+    },
+    {
+      "step": 44,
+      "gpcId": "GPC-ch-CH",
+      "addedCorrectFreq": 149868,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 167678,
+      "netConfusionChange": -167678,
+      "cumulativeConfusion": 3165166,
+      "confusionTimeIntegral": 274568077
+    },
+    {
+      "step": 45,
+      "gpcId": "GPC-y-Y",
+      "addedCorrectFreq": 138171,
+      "addedConfusionFreq": 83,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 83,
+      "cumulativeConfusion": 3165249,
+      "confusionTimeIntegral": 277733326
+    },
+    {
+      "step": 46,
+      "gpcId": "GPC-ou-UW",
+      "addedCorrectFreq": 2141213,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 2142016,
+      "netConfusionChange": -2142016,
+      "cumulativeConfusion": 1023233,
+      "confusionTimeIntegral": 278756559
+    },
+    {
+      "step": 47,
+      "gpcId": "GPC-ng-NG",
+      "addedCorrectFreq": 113123,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 203397,
+      "netConfusionChange": -203397,
+      "cumulativeConfusion": 819836,
+      "confusionTimeIntegral": 279576395
+    },
+    {
+      "step": 48,
+      "gpcId": "GPC-th-TH",
+      "addedCorrectFreq": 152781,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 49986,
+      "netConfusionChange": -49986,
+      "cumulativeConfusion": 769850,
+      "confusionTimeIntegral": 280346245
+    },
+    {
+      "step": 49,
+      "gpcId": "GPC-ai-EY",
+      "addedCorrectFreq": 103533,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 102477,
+      "netConfusionChange": -102477,
+      "cumulativeConfusion": 667373,
+      "confusionTimeIntegral": 281013618
+    },
+    {
+      "step": 50,
+      "gpcId": "GPC-c-S",
+      "addedCorrectFreq": 103189,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 105620,
+      "netConfusionChange": -105620,
+      "cumulativeConfusion": 561753,
+      "confusionTimeIntegral": 281575371
+    },
+    {
+      "step": 51,
+      "gpcId": "GPC-ss-S",
+      "addedCorrectFreq": 96740,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 91310,
+      "netConfusionChange": -91310,
+      "cumulativeConfusion": 470443,
+      "confusionTimeIntegral": 282045814
+    },
+    {
+      "step": 52,
+      "gpcId": "GPC-ow-OW",
+      "addedCorrectFreq": 88356,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 88356,
+      "netConfusionChange": -88356,
+      "cumulativeConfusion": 382087,
+      "confusionTimeIntegral": 282427901
+    },
+    {
+      "step": 53,
+      "gpcId": "GPC-v-V",
+      "addedCorrectFreq": 88081,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 0,
+      "cumulativeConfusion": 382087,
+      "confusionTimeIntegral": 282809988
+    },
+    {
+      "step": 54,
+      "gpcId": "GPC-ff-F",
+      "addedCorrectFreq": 83796,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 23354,
+      "netConfusionChange": -23354,
+      "cumulativeConfusion": 358733,
+      "confusionTimeIntegral": 283168721
+    },
+    {
+      "step": 55,
+      "gpcId": "GPC-u-UH",
+      "addedCorrectFreq": 66062,
+      "addedConfusionFreq": 1481,
+      "resolvedConfusionFreq": 61529,
+      "netConfusionChange": -60048,
+      "cumulativeConfusion": 298685,
+      "confusionTimeIntegral": 283467406
+    },
+    {
+      "step": 56,
+      "gpcId": "GPC-x-K_S",
+      "addedCorrectFreq": 61430,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 0,
+      "cumulativeConfusion": 298685,
+      "confusionTimeIntegral": 283766091
+    },
+    {
+      "step": 57,
+      "gpcId": "GPC-alk-AO_K",
+      "addedCorrectFreq": 56949,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 56949,
+      "netConfusionChange": -56949,
+      "cumulativeConfusion": 241736,
+      "confusionTimeIntegral": 284007827
+    },
+    {
+      "step": 58,
+      "gpcId": "GPC-oy-OY",
+      "addedCorrectFreq": 42782,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 42782,
+      "netConfusionChange": -42782,
+      "cumulativeConfusion": 198954,
+      "confusionTimeIntegral": 284206781
+    },
+    {
+      "step": 59,
+      "gpcId": "GPC-oa-OW",
+      "addedCorrectFreq": 41432,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 38828,
+      "netConfusionChange": -38828,
+      "cumulativeConfusion": 160126,
+      "confusionTimeIntegral": 284366907
+    },
+    {
+      "step": 60,
+      "gpcId": "GPC-u_e-UW",
+      "addedCorrectFreq": 38336,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 38336,
+      "netConfusionChange": -38336,
+      "cumulativeConfusion": 121790,
+      "confusionTimeIntegral": 284488697
+    },
+    {
+      "step": 61,
+      "gpcId": "GPC-tch-CH",
+      "addedCorrectFreq": 31469,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 31469,
+      "netConfusionChange": -31469,
+      "cumulativeConfusion": 90321,
+      "confusionTimeIntegral": 284579018
+    },
+    {
+      "step": 62,
+      "gpcId": "GPC-g-JH",
+      "addedCorrectFreq": 28585,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 7506,
+      "netConfusionChange": -7506,
+      "cumulativeConfusion": 82815,
+      "confusionTimeIntegral": 284661833
+    },
+    {
+      "step": 63,
+      "gpcId": "GPC-oi-OY",
+      "addedCorrectFreq": 25163,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 25163,
+      "netConfusionChange": -25163,
+      "cumulativeConfusion": 57652,
+      "confusionTimeIntegral": 284719485
+    },
+    {
+      "step": 64,
+      "gpcId": "GPC-ch-K",
+      "addedCorrectFreq": 19049,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 19049,
+      "netConfusionChange": -19049,
+      "cumulativeConfusion": 38603,
+      "confusionTimeIntegral": 284758088
+    },
+    {
+      "step": 65,
+      "gpcId": "GPC-ph-F",
+      "addedCorrectFreq": 17643,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 2721,
+      "netConfusionChange": -2721,
+      "cumulativeConfusion": 35882,
+      "confusionTimeIntegral": 284793970
+    },
+    {
+      "step": 66,
+      "gpcId": "GPC-dge-JH",
+      "addedCorrectFreq": 12285,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 12285,
+      "netConfusionChange": -12285,
+      "cumulativeConfusion": 23597,
+      "confusionTimeIntegral": 284817567
+    },
+    {
+      "step": 67,
+      "gpcId": "GPC-z-Z",
+      "addedCorrectFreq": 11041,
+      "addedConfusionFreq": 1550,
+      "resolvedConfusionFreq": 0,
+      "netConfusionChange": 1550,
+      "cumulativeConfusion": 25147,
+      "confusionTimeIntegral": 284842714
+    },
+    {
+      "step": 68,
+      "gpcId": "GPC-u_e-Y_UW",
+      "addedCorrectFreq": 8256,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 5789,
+      "netConfusionChange": -5789,
+      "cumulativeConfusion": 19358,
+      "confusionTimeIntegral": 284862072
+    },
+    {
+      "step": 69,
+      "gpcId": "GPC-tt-T",
+      "addedCorrectFreq": 6532,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 6532,
+      "netConfusionChange": -6532,
+      "cumulativeConfusion": 12826,
+      "confusionTimeIntegral": 284874898
+    },
+    {
+      "step": 70,
+      "gpcId": "GPC-dd-D",
+      "addedCorrectFreq": 4245,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 4245,
+      "netConfusionChange": -4245,
+      "cumulativeConfusion": 8581,
+      "confusionTimeIntegral": 284883479
+    },
+    {
+      "step": 71,
+      "gpcId": "GPC-gg-G",
+      "addedCorrectFreq": 3378,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 3378,
+      "netConfusionChange": -3378,
+      "cumulativeConfusion": 5203,
+      "confusionTimeIntegral": 284888682
+    },
+    {
+      "step": 72,
+      "gpcId": "GPC-nn-N",
+      "addedCorrectFreq": 2224,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 2224,
+      "netConfusionChange": -2224,
+      "cumulativeConfusion": 2979,
+      "confusionTimeIntegral": 284891661
+    },
+    {
+      "step": 73,
+      "gpcId": "GPC-zz-Z",
+      "addedCorrectFreq": 1550,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 1550,
+      "netConfusionChange": -1550,
+      "cumulativeConfusion": 1429,
+      "confusionTimeIntegral": 284893090
+    },
+    {
+      "step": 74,
+      "gpcId": "GPC-rr-R",
+      "addedCorrectFreq": 640,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 637,
+      "netConfusionChange": -637,
+      "cumulativeConfusion": 792,
+      "confusionTimeIntegral": 284893882
+    },
+    {
+      "step": 75,
+      "gpcId": "GPC-mm-M",
+      "addedCorrectFreq": 548,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 548,
+      "netConfusionChange": -548,
+      "cumulativeConfusion": 244,
+      "confusionTimeIntegral": 284894126
+    },
+    {
+      "step": 76,
+      "gpcId": "GPC-bb-B",
+      "addedCorrectFreq": 217,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 213,
+      "netConfusionChange": -213,
+      "cumulativeConfusion": 31,
+      "confusionTimeIntegral": 284894157
+    },
+    {
+      "step": 77,
+      "gpcId": "GPC-pp-P",
+      "addedCorrectFreq": 31,
+      "addedConfusionFreq": 0,
+      "resolvedConfusionFreq": 31,
+      "netConfusionChange": -31,
+      "cumulativeConfusion": 0,
+      "confusionTimeIntegral": 284894157
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "version": "1.0.0",
+  "courseId": "cb155bd265cd894d425dac227b00bd7d",
+  "courseName": "LettersPractice",
+  "courseConfig": {
+    "_id": "CourseConfig",
+    "docType": "COURSE_CONFIG",
+    "name": "LettersPractice",
+    "description": "LettersPractice course",
+    "courseId": "cb155bd265cd894d425dac227b00bd7d",
+    "admins": [],
+    "moderators": [],
+    "public": true,
+    "deleted": false,
+    "creator": "seed-local-db",
+    "dataShapes": [
+      {
+        "name": "ExampleCourse.datashape.SpellingQuestion",
+        "questionTypes": [
+          "ExampleCourse.question.SpellingQuestion"
+        ]
+      },
+      {
+        "name": "ExampleCourse.datashape.WhoSaidThat",
+        "questionTypes": [
+          "ExampleCourse.question.WhoSaidThat"
+        ]
+      },
+      {
+        "name": "ExampleCourse.datashape.WordSelection",
+        "questionTypes": [
+          "ExampleCourse.question.WordSelection"
+        ]
+      },
+      {
+        "name": "ExampleCourse.datashape.MissingLetters",
+        "questionTypes": [
+          "ExampleCourse.question.MissingLetters"
+        ]
+      },
+      {
+        "name": "ExampleCourse.datashape.GpcIntro",
+        "questionTypes": [
+          "ExampleCourse.question.GpcIntro"
+        ]
+      },
+      {
+        "name": "ExampleCourse.datashape.DigraphGpcIntro",
+        "questionTypes": [
+          "ExampleCourse.question.DigraphGpcIntro"
+        ]
+      },
+      {
+        "name": "ExampleCourse.datashape.SplitDigraphIntro",
+        "questionTypes": [
+          "ExampleCourse.question.SplitDigraphIntro"
+        ]
+      },
+      {
+        "name": "ExampleCourse.datashape.SightWordIntro",
+        "questionTypes": [
+          "ExampleCourse.question.SightWordIntro"
+        ]
+      }
+    ],
+    "questionTypes": [
+      {
+        "name": "ExampleCourse.question.SpellingQuestion",
+        "viewList": [
+          "SpellingQuestionView"
+        ],
+        "dataShapeList": [
+          "ExampleCourse.datashape.SpellingQuestion"
+        ]
+      },
+      {
+        "name": "ExampleCourse.question.WhoSaidThat",
+        "viewList": [
+          "WhoSaidThatView"
+        ],
+        "dataShapeList": [
+          "ExampleCourse.datashape.WhoSaidThat"
+        ]
+      },
+      {
+        "name": "ExampleCourse.question.WordSelection",
+        "viewList": [
+          "WordSelectionView"
+        ],
+        "dataShapeList": [
+          "ExampleCourse.datashape.WordSelection"
+        ]
+      },
+      {
+        "name": "ExampleCourse.question.MissingLetters",
+        "viewList": [
+          "MissingLettersView"
+        ],
+        "dataShapeList": [
+          "ExampleCourse.datashape.MissingLetters"
+        ]
+      },
+      {
+        "name": "ExampleCourse.question.GpcIntro",
+        "viewList": [
+          "GpcIntroView"
+        ],
+        "dataShapeList": [
+          "ExampleCourse.datashape.GpcIntro"
+        ]
+      },
+      {
+        "name": "ExampleCourse.question.DigraphGpcIntro",
+        "viewList": [
+          "DigraphGpcIntroView"
+        ],
+        "dataShapeList": [
+          "ExampleCourse.datashape.DigraphGpcIntro"
+        ]
+      },
+      {
+        "name": "ExampleCourse.question.SplitDigraphIntro",
+        "viewList": [
+          "SplitDigraphIntroView"
+        ],
+        "dataShapeList": [
+          "ExampleCourse.datashape.SplitDigraphIntro"
+        ]
+      },
+      {
+        "name": "ExampleCourse.question.SightWordIntro",
+        "viewList": [
+          "SightWordIntroView"
+        ],
+        "dataShapeList": [
+          "ExampleCourse.datashape.SightWordIntro"
+        ]
+      }
+    ],
+    "qaUsernamePattern": "@patched\\.network$"
+  },
+  "documentCount": 8925,
+  "chunks": [
+    {
+      "id": "COURSE_CONFIG-0000",
+      "docType": "COURSE_CONFIG",
+      "startKey": "CourseConfig",
+      "endKey": "CourseConfig",
+      "documentCount": 1,
+      "path": "chunks/COURSE_CONFIG-0000.json"
+    },
+    {
+      "id": "NAVIGATION_STRATEGY-0000",
+      "docType": "NAVIGATION_STRATEGY",
+      "startKey": "NAVIGATION_STRATEGY-hierarchy-concept",
+      "endKey": "NAVIGATION_STRATEGY-skill-staleness",
+      "documentCount": 12,
+      "path": "chunks/NAVIGATION_STRATEGY-0000.json"
+    },
+    {
+      "id": "TAG-0000",
+      "docType": "TAG",
+      "startKey": "TAG-concept:blend:coda",
+      "endKey": "TAG-ui:word-selection",
+      "documentCount": 344,
+      "path": "chunks/TAG-0000.json"
+    },
+    {
+      "id": "CARD-0000",
+      "docType": "CARD",
+      "startKey": "c-digraph-intro-ch-CH",
+      "endKey": "c-ml-knees-2",
+      "documentCount": 1000,
+      "path": "chunks/CARD-0000.json"
+    },
+    {
+      "id": "CARD-0001",
+      "docType": "CARD",
+      "startKey": "c-ml-knees-2,3",
+      "endKey": "c-ml-talk-1,2,3",
+      "documentCount": 1000,
+      "path": "chunks/CARD-0001.json"
+    },
+    {
+      "id": "CARD-0002",
+      "docType": "CARD",
+      "startKey": "c-ml-talk-2",
+      "endKey": "c-spelling-song",
+      "documentCount": 1000,
+      "path": "chunks/CARD-0002.json"
+    },
+    {
+      "id": "CARD-0003",
+      "docType": "CARD",
+      "startKey": "c-spelling-songs",
+      "endKey": "c-ws-such-coda",
+      "documentCount": 1000,
+      "path": "chunks/CARD-0003.json"
+    },
+    {
+      "id": "CARD-0004",
+      "docType": "CARD",
+      "startKey": "c-ws-such-onset",
+      "endKey": "c-wst-z-Z",
+      "documentCount": 284,
+      "path": "chunks/CARD-0004.json"
+    },
+    {
+      "id": "DISPLAYABLE_DATA-0000",
+      "docType": "DISPLAYABLE_DATA",
+      "startKey": "dd-digraph-intro-ch-CH",
+      "endKey": "dd-ml-knees-2",
+      "documentCount": 1000,
+      "path": "chunks/DISPLAYABLE_DATA-0000.json"
+    },
+    {
+      "id": "DISPLAYABLE_DATA-0001",
+      "docType": "DISPLAYABLE_DATA",
+      "startKey": "dd-ml-knees-2,3",
+      "endKey": "dd-ml-talk-1,2,3",
+      "documentCount": 1000,
+      "path": "chunks/DISPLAYABLE_DATA-0001.json"
+    },
+    {
+      "id": "DISPLAYABLE_DATA-0002",
+      "docType": "DISPLAYABLE_DATA",
+      "startKey": "dd-ml-talk-2",
+      "endKey": "dd-spelling-song",
+      "documentCount": 1000,
+      "path": "chunks/DISPLAYABLE_DATA-0002.json"
+    },
+    {
+      "id": "DISPLAYABLE_DATA-0003",
+      "docType": "DISPLAYABLE_DATA",
+      "startKey": "dd-spelling-songs",
+      "endKey": "dd-ws-such-coda",
+      "documentCount": 1000,
+      "path": "chunks/DISPLAYABLE_DATA-0003.json"
+    },
+    {
+      "id": "DISPLAYABLE_DATA-0004",
+      "docType": "DISPLAYABLE_DATA",
+      "startKey": "dd-ws-such-onset",
+      "endKey": "dd-wst-z-Z",
+      "documentCount": 284,
+      "path": "chunks/DISPLAYABLE_DATA-0004.json"
+    }
+  ],
+  "indices": [
+    {
+      "name": "elo",
+      "type": "btree",
+      "path": "indices/elo.json"
+    },
+    {
+      "name": "tags",
+      "type": "hash",
+      "path": "indices/tags.json"
+    },
+    {
+      "name": "view-cardsByInexperience-cardsByInexperience",
+      "type": "view",
+      "path": "indices/view-cardsByInexperience-cardsByInexperience.json"
+    },
+    {
+      "name": "view-elo-elo",
+      "type": "view",
+      "path": "indices/view-elo-elo.json"
+    },
+    {
+      "name": "view-getTags-getTags",
+      "type": "view",
+      "path": "indices/view-getTags-getTags.json"
+    }
+  ],
+  "designDocs": [
+    {
+      "_id": "_design/_auth",
+      "views": {}
+    },
+    {
+      "_id": "_design/cardsByInexperience",
+      "views": {
+        "cardsByInexperience": {
+          "map": "function (doc) {\n                if (doc.docType && doc.docType === 'CARD') {\n                    if (doc.elo && doc.elo.global && typeof doc.elo.global.count == 'number') {\n                        emit(doc.elo.global.count, doc.elo);\n                    } else if (doc.elo && typeof doc.elo == 'number') {\n                        emit(0, doc.elo);\n                    } else {\n                        emit(0, 995 + Math.floor(10 * Math.random()));\n                    }\n                }\n            }"
+        }
+      }
+    },
+    {
+      "_id": "_design/elo",
+      "views": {
+        "elo": {
+          "map": "function (doc) {\n                if (doc.docType && doc.docType === 'CARD') {\n                    if (doc.elo && typeof(doc.elo) === 'number') {\n                        emit(doc.elo, doc._id);\n                    } else if (doc.elo && doc.elo.global) {\n                        emit(doc.elo.global.score, doc._id);\n                    } else if (doc.elo) {\n                        emit(doc.elo.score, doc._id);\n                    } else {\n                        var randElo = 995 + Math.round(10 * Math.random());\n                        emit(randElo, doc._id);\n                    }\n                }\n            }"
+        }
+      }
+    },
+    {
+      "_id": "_design/getTags",
+      "views": {
+        "getTags": {
+          "map": "function (doc) {\n                if (doc.docType && doc.docType === \"TAG\") {\n                    for (var cardIndex in doc.taggedCards) {\n                        emit(doc.taggedCards[cardIndex], {\n                            docType: doc.docType,\n                            name: doc.name,\n                            snippit: doc.snippit,\n                            wiki: '',\n                            taggedCards: []\n                        });\n                    }\n                }\n            }"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2325 @@
+{
+  "_generated": "scripts/simulate-curriculum.ts — do not edit by hand",
+  "params": {
+    "runs": 9,
+    "ages": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "cardsPerMinute": 3.2,
+    "skillStart": 1500,
+    "skillPerCard": 0.5,
+    "maxSessions": 400,
+    "manualMinutes": 0,
+    "reviewShare": 0.7,
+    "seed": 1,
+    "userEloStart": 1000,
+    "eloK": 16
+  },
+  "facts": [
+    {
+      "gpc": "s-S",
+      "grapheme": "s",
+      "phoneme": "S",
+      "examples": [
+        "this",
+        "just",
+        "so"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "t-T",
+      "grapheme": "t",
+      "phoneme": "T",
+      "examples": [
+        "it",
+        "that",
+        "not"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "n-N",
+      "grapheme": "n",
+      "phoneme": "N",
+      "examples": [
+        "and",
+        "in",
+        "on"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "i-IH",
+      "grapheme": "i",
+      "phoneme": "IH",
+      "examples": [
+        "it",
+        "in",
+        "is"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "d-D",
+      "grapheme": "d",
+      "phoneme": "D",
+      "examples": [
+        "and",
+        "did",
+        "had"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "f-F",
+      "grapheme": "f",
+      "phoneme": "F",
+      "examples": [
+        "if",
+        "left",
+        "fun"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "a-AE",
+      "grapheme": "a",
+      "phoneme": "AE",
+      "examples": [
+        "that",
+        "and",
+        "can"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "o-AA",
+      "grapheme": "o",
+      "phoneme": "AA",
+      "examples": [
+        "on",
+        "not",
+        "got"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "h-HH",
+      "grapheme": "h",
+      "phoneme": "HH",
+      "examples": [
+        "he",
+        "him",
+        "his"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "m-M",
+      "grapheme": "m",
+      "phoneme": "M",
+      "examples": [
+        "me",
+        "him",
+        "man"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "e-EH",
+      "grapheme": "e",
+      "phoneme": "EH",
+      "examples": [
+        "get",
+        "let",
+        "yes"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "c-K",
+      "grapheme": "c",
+      "phoneme": "K",
+      "examples": [
+        "can",
+        "cut",
+        "fact"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "v-V",
+      "grapheme": "v",
+      "phoneme": "V",
+      "examples": [
+        "van"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "b-B",
+      "grapheme": "b",
+      "phoneme": "B",
+      "examples": [
+        "be",
+        "but",
+        "big"
+      ],
+      "lesson": "bed",
+      "kind": "intro"
+    },
+    {
+      "gpc": "g-G",
+      "grapheme": "g",
+      "phoneme": "G",
+      "examples": [
+        "get",
+        "go",
+        "got"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "p-P",
+      "grapheme": "p",
+      "phoneme": "P",
+      "examples": [
+        "up",
+        "help",
+        "stop"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "l-L",
+      "grapheme": "l",
+      "phoneme": "L",
+      "examples": [
+        "let",
+        "help",
+        "last"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "u-AH",
+      "grapheme": "u",
+      "phoneme": "AH",
+      "examples": [
+        "just",
+        "but",
+        "up"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "k-K",
+      "grapheme": "k",
+      "phoneme": "K",
+      "examples": [
+        "ask",
+        "kid",
+        "kids"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "r-R",
+      "grapheme": "r",
+      "phoneme": "R",
+      "examples": [
+        "run",
+        "bring",
+        "drink"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "w-W",
+      "grapheme": "w",
+      "phoneme": "W",
+      "examples": [
+        "we",
+        "with",
+        "went"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "x-K_S",
+      "grapheme": "x",
+      "phoneme": "K S",
+      "examples": [
+        "next",
+        "six",
+        "box"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "th-DH",
+      "grapheme": "th",
+      "phoneme": "DH",
+      "examples": [
+        "that",
+        "this",
+        "them"
+      ],
+      "lesson": "digraphs",
+      "kind": "intro"
+    },
+    {
+      "gpc": "j-JH",
+      "grapheme": "j",
+      "phoneme": "JH",
+      "examples": [
+        "just",
+        "job",
+        "jog"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "th-TH",
+      "grapheme": "th",
+      "phoneme": "TH",
+      "examples": [
+        "with",
+        "think",
+        "thank"
+      ],
+      "lesson": "digraphs",
+      "kind": "intro"
+    },
+    {
+      "gpc": "sh-SH",
+      "grapheme": "sh",
+      "phoneme": "SH",
+      "examples": [
+        "she",
+        "shut",
+        "wish"
+      ],
+      "lesson": "digraphs",
+      "kind": "intro"
+    },
+    {
+      "gpc": "y-Y",
+      "grapheme": "y",
+      "phoneme": "Y",
+      "examples": [
+        "yes",
+        "yet",
+        "yo"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "z-Z",
+      "grapheme": "z",
+      "phoneme": "Z",
+      "examples": [
+        "zip",
+        "zap"
+      ],
+      "lesson": "hello-world",
+      "kind": "intro"
+    },
+    {
+      "gpc": "ch-CH",
+      "grapheme": "ch",
+      "phoneme": "CH",
+      "examples": [
+        "much",
+        "such",
+        "rich"
+      ],
+      "lesson": "digraphs",
+      "kind": "intro"
+    },
+    {
+      "gpc": "a_e-EY",
+      "grapheme": "a_e",
+      "phoneme": "EY",
+      "examples": [
+        "take",
+        "make",
+        "name"
+      ],
+      "lesson": "split-digraphs",
+      "kind": "intro"
+    },
+    {
+      "gpc": "nk-NG_K",
+      "grapheme": "nk",
+      "phoneme": "NG K",
+      "examples": [
+        "think",
+        "thank",
+        "thanks"
+      ],
+      "lesson": "digraphs",
+      "kind": "released"
+    },
+    {
+      "gpc": "ng-NG",
+      "grapheme": "ng",
+      "phoneme": "NG",
+      "examples": [
+        "thing",
+        "things",
+        "long"
+      ],
+      "lesson": "digraphs",
+      "kind": "intro"
+    },
+    {
+      "gpc": "i_e-AY",
+      "grapheme": "i_e",
+      "phoneme": "AY",
+      "examples": [
+        "like",
+        "life",
+        "nice"
+      ],
+      "lesson": "split-digraphs",
+      "kind": "intro"
+    },
+    {
+      "gpc": "o_e-OW",
+      "grapheme": "o_e",
+      "phoneme": "OW",
+      "examples": [
+        "home",
+        "those",
+        "hope"
+      ],
+      "lesson": "split-digraphs",
+      "kind": "intro"
+    },
+    {
+      "gpc": "qu-K_W",
+      "grapheme": "qu",
+      "phoneme": "K W",
+      "examples": [
+        "quit"
+      ],
+      "lesson": "digraphs",
+      "kind": "intro"
+    },
+    {
+      "gpc": "e_e-IY",
+      "grapheme": "e_e",
+      "phoneme": "IY",
+      "examples": [
+        "here",
+        "these",
+        "pete"
+      ],
+      "lesson": "split-digraphs",
+      "kind": "intro"
+    },
+    {
+      "gpc": "ph-F",
+      "grapheme": "ph",
+      "phoneme": "F",
+      "examples": [
+        "phone"
+      ],
+      "lesson": "digraphs",
+      "kind": "intro"
+    },
+    {
+      "gpc": "u_e-UW",
+      "grapheme": "u_e",
+      "phoneme": "UW",
+      "examples": [
+        "dude",
+        "rule",
+        "tube"
+      ],
+      "lesson": "split-digraphs",
+      "kind": "intro"
+    },
+    {
+      "gpc": "o-OW-final",
+      "grapheme": "o",
+      "phoneme": "OW",
+      "examples": [
+        "no",
+        "so",
+        "go"
+      ],
+      "lesson": "final-open-vowels",
+      "kind": "released"
+    },
+    {
+      "gpc": "e-IY-final",
+      "grapheme": "e",
+      "phoneme": "IY",
+      "examples": [
+        "me",
+        "we",
+        "he"
+      ],
+      "lesson": "final-open-vowels",
+      "kind": "released"
+    },
+    {
+      "gpc": "i-AY-final",
+      "grapheme": "i",
+      "phoneme": "AY",
+      "examples": [
+        "hi"
+      ],
+      "lesson": "final-open-vowels",
+      "kind": "released"
+    },
+    {
+      "gpc": "WORD-was",
+      "grapheme": "was",
+      "examples": [
+        "was"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-you",
+      "grapheme": "you",
+      "examples": [
+        "you"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-the",
+      "grapheme": "the",
+      "examples": [
+        "the"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-of",
+      "grapheme": "of",
+      "examples": [
+        "of"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-have",
+      "grapheme": "have",
+      "examples": [
+        "have"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-do",
+      "grapheme": "do",
+      "examples": [
+        "do"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "s-Z",
+      "grapheme": "s",
+      "phoneme": "Z",
+      "examples": [
+        "is",
+        "as",
+        "his"
+      ],
+      "lesson": "hello-world",
+      "kind": "released"
+    },
+    {
+      "gpc": "WORD-are",
+      "grapheme": "are",
+      "examples": [
+        "are"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-one",
+      "grapheme": "one",
+      "examples": [
+        "one"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-who",
+      "grapheme": "who",
+      "examples": [
+        "who"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-would",
+      "grapheme": "would",
+      "examples": [
+        "would"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-could",
+      "grapheme": "could",
+      "examples": [
+        "could"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-should",
+      "grapheme": "should",
+      "examples": [
+        "should"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-said",
+      "grapheme": "said",
+      "examples": [
+        "said"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-two",
+      "grapheme": "two",
+      "examples": [
+        "two"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-does",
+      "grapheme": "does",
+      "examples": [
+        "does"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-friend",
+      "grapheme": "friend",
+      "examples": [
+        "friend"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    },
+    {
+      "gpc": "WORD-live",
+      "grapheme": "live",
+      "examples": [
+        "live"
+      ],
+      "lesson": "sight-words",
+      "kind": "intro"
+    }
+  ],
+  "profiles": [
+    {
+      "age": 2,
+      "sessionMinutes": [
+        2,
+        2
+      ],
+      "sessionCards": [
+        6,
+        6
+      ],
+      "sessionsRun": 64,
+      "lessons": [
+        {
+          "id": "hello-world",
+          "reachedIn": "9/9",
+          "session": 1,
+          "range": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "bed",
+          "reachedIn": "9/9",
+          "session": 11,
+          "range": [
+            7,
+            14
+          ]
+        },
+        {
+          "id": "digraphs",
+          "reachedIn": "9/9",
+          "session": 12,
+          "range": [
+            10,
+            14
+          ]
+        },
+        {
+          "id": "split-digraphs",
+          "reachedIn": "9/9",
+          "session": 26,
+          "range": [
+            25,
+            28
+          ]
+        },
+        {
+          "id": "final-open-vowels",
+          "reachedIn": "9/9",
+          "session": 36,
+          "range": [
+            33,
+            44
+          ]
+        },
+        {
+          "id": "sight-words",
+          "reachedIn": "9/9",
+          "session": 39,
+          "range": [
+            36,
+            47
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "gpc": "s-S",
+          "session": 1,
+          "order": 0
+        },
+        {
+          "gpc": "t-T",
+          "session": 2,
+          "order": 1
+        },
+        {
+          "gpc": "n-N",
+          "session": 3,
+          "order": 2
+        },
+        {
+          "gpc": "i-IH",
+          "session": 3,
+          "order": 3
+        },
+        {
+          "gpc": "d-D",
+          "session": 5,
+          "order": 5
+        },
+        {
+          "gpc": "f-F",
+          "session": 5,
+          "order": 5
+        },
+        {
+          "gpc": "a-AE",
+          "session": 6,
+          "order": 6
+        },
+        {
+          "gpc": "o-AA",
+          "session": 6,
+          "order": 6
+        },
+        {
+          "gpc": "h-HH",
+          "session": 7,
+          "order": 8
+        },
+        {
+          "gpc": "m-M",
+          "session": 8,
+          "order": 9
+        },
+        {
+          "gpc": "e-EH",
+          "session": 9,
+          "order": 11
+        },
+        {
+          "gpc": "c-K",
+          "session": 9,
+          "order": 11
+        },
+        {
+          "gpc": "v-V",
+          "session": 10,
+          "order": 12
+        },
+        {
+          "gpc": "b-B",
+          "session": 11,
+          "order": 13
+        },
+        {
+          "gpc": "g-G",
+          "session": 12,
+          "order": 13
+        },
+        {
+          "gpc": "p-P",
+          "session": 13,
+          "order": 15
+        },
+        {
+          "gpc": "l-L",
+          "session": 13,
+          "order": 16
+        },
+        {
+          "gpc": "u-AH",
+          "session": 15,
+          "order": 17
+        },
+        {
+          "gpc": "k-K",
+          "session": 15,
+          "order": 18
+        },
+        {
+          "gpc": "r-R",
+          "session": 16,
+          "order": 18
+        },
+        {
+          "gpc": "w-W",
+          "session": 16,
+          "order": 19
+        },
+        {
+          "gpc": "x-K_S",
+          "session": 18,
+          "order": 21
+        },
+        {
+          "gpc": "th-DH",
+          "session": 19,
+          "order": 22
+        },
+        {
+          "gpc": "j-JH",
+          "session": 19,
+          "order": 23
+        },
+        {
+          "gpc": "th-TH",
+          "session": 22,
+          "order": 24
+        },
+        {
+          "gpc": "sh-SH",
+          "session": 23,
+          "order": 25
+        },
+        {
+          "gpc": "y-Y",
+          "session": 23,
+          "order": 25
+        },
+        {
+          "gpc": "z-Z",
+          "session": 24,
+          "order": 28
+        },
+        {
+          "gpc": "ch-CH",
+          "session": 25,
+          "order": 27
+        },
+        {
+          "gpc": "a_e-EY",
+          "session": 26,
+          "order": 28
+        },
+        {
+          "gpc": "nk-NG_K",
+          "session": 27,
+          "order": 29
+        },
+        {
+          "gpc": "ng-NG",
+          "session": 27,
+          "order": 30
+        },
+        {
+          "gpc": "i_e-AY",
+          "session": 30,
+          "order": 31
+        },
+        {
+          "gpc": "o_e-OW",
+          "session": 30,
+          "order": 32
+        },
+        {
+          "gpc": "qu-K_W",
+          "session": 32,
+          "order": 33
+        },
+        {
+          "gpc": "e_e-IY",
+          "session": 33,
+          "order": 34
+        },
+        {
+          "gpc": "ph-F",
+          "session": 34,
+          "order": 36
+        },
+        {
+          "gpc": "u_e-UW",
+          "session": 35,
+          "order": 36
+        },
+        {
+          "gpc": "o-OW-final",
+          "session": 36,
+          "order": 37
+        },
+        {
+          "gpc": "e-IY-final",
+          "session": 36,
+          "order": 38
+        },
+        {
+          "gpc": "i-AY-final",
+          "session": 36,
+          "order": 39
+        },
+        {
+          "gpc": "WORD-was",
+          "session": 39,
+          "order": 41
+        },
+        {
+          "gpc": "WORD-you",
+          "session": 40,
+          "order": 42
+        },
+        {
+          "gpc": "WORD-the",
+          "session": 41,
+          "order": 43
+        },
+        {
+          "gpc": "WORD-of",
+          "session": 42,
+          "order": 44
+        },
+        {
+          "gpc": "WORD-have",
+          "session": 43,
+          "order": 45
+        },
+        {
+          "gpc": "WORD-do",
+          "session": 44,
+          "order": 46
+        },
+        {
+          "gpc": "s-Z",
+          "session": 44,
+          "order": 47
+        },
+        {
+          "gpc": "WORD-are",
+          "session": 45,
+          "order": 47
+        },
+        {
+          "gpc": "WORD-one",
+          "session": 46,
+          "order": 48
+        },
+        {
+          "gpc": "WORD-who",
+          "session": 47,
+          "order": 49
+        },
+        {
+          "gpc": "WORD-would",
+          "session": 48,
+          "order": 50
+        },
+        {
+          "gpc": "WORD-could",
+          "session": 48,
+          "order": 51
+        },
+        {
+          "gpc": "WORD-should",
+          "session": 48,
+          "order": 52
+        },
+        {
+          "gpc": "WORD-said",
+          "session": 49,
+          "order": 54
+        },
+        {
+          "gpc": "WORD-two",
+          "session": 50,
+          "order": 55
+        },
+        {
+          "gpc": "WORD-does",
+          "session": 51,
+          "order": 56
+        },
+        {
+          "gpc": "WORD-friend",
+          "session": 52,
+          "order": 57
+        },
+        {
+          "gpc": "WORD-live",
+          "session": 53,
+          "order": 58
+        }
+      ],
+      "readable": [
+        0,
+        0,
+        9,
+        9,
+        20,
+        62,
+        72,
+        99,
+        154,
+        166,
+        204,
+        244,
+        480,
+        480,
+        628,
+        821,
+        821,
+        861,
+        886,
+        886,
+        886,
+        915,
+        1007,
+        1022,
+        1081,
+        1081,
+        1218,
+        1218,
+        1218,
+        1218,
+        1218,
+        1232,
+        1232,
+        1238,
+        1238,
+        1279,
+        1279,
+        1279,
+        1280,
+        1281,
+        1282,
+        1283,
+        1284,
+        1312,
+        1313,
+        1314,
+        1315,
+        1318,
+        1319,
+        1320,
+        1321,
+        1322,
+        1323
+      ]
+    },
+    {
+      "age": 3,
+      "sessionMinutes": [
+        2,
+        3
+      ],
+      "sessionCards": [
+        6,
+        10
+      ],
+      "sessionsRun": 57,
+      "lessons": [
+        {
+          "id": "hello-world",
+          "reachedIn": "9/9",
+          "session": 1,
+          "range": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "bed",
+          "reachedIn": "9/9",
+          "session": 12,
+          "range": [
+            9,
+            14
+          ]
+        },
+        {
+          "id": "digraphs",
+          "reachedIn": "9/9",
+          "session": 11,
+          "range": [
+            10,
+            13
+          ]
+        },
+        {
+          "id": "split-digraphs",
+          "reachedIn": "9/9",
+          "session": 22,
+          "range": [
+            21,
+            23
+          ]
+        },
+        {
+          "id": "final-open-vowels",
+          "reachedIn": "9/9",
+          "session": 30,
+          "range": [
+            25,
+            111
+          ]
+        },
+        {
+          "id": "sight-words",
+          "reachedIn": "9/9",
+          "session": 33,
+          "range": [
+            28,
+            114
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "gpc": "s-S",
+          "session": 1,
+          "order": 0
+        },
+        {
+          "gpc": "t-T",
+          "session": 2,
+          "order": 1
+        },
+        {
+          "gpc": "n-N",
+          "session": 2,
+          "order": 2
+        },
+        {
+          "gpc": "i-IH",
+          "session": 3,
+          "order": 3
+        },
+        {
+          "gpc": "a-AE",
+          "session": 4,
+          "order": 5
+        },
+        {
+          "gpc": "f-F",
+          "session": 5,
+          "order": 6
+        },
+        {
+          "gpc": "o-AA",
+          "session": 6,
+          "order": 6
+        },
+        {
+          "gpc": "d-D",
+          "session": 6,
+          "order": 7
+        },
+        {
+          "gpc": "h-HH",
+          "session": 6,
+          "order": 7
+        },
+        {
+          "gpc": "m-M",
+          "session": 7,
+          "order": 9
+        },
+        {
+          "gpc": "c-K",
+          "session": 9,
+          "order": 11
+        },
+        {
+          "gpc": "e-EH",
+          "session": 9,
+          "order": 11
+        },
+        {
+          "gpc": "p-P",
+          "session": 9,
+          "order": 12
+        },
+        {
+          "gpc": "g-G",
+          "session": 10,
+          "order": 13
+        },
+        {
+          "gpc": "v-V",
+          "session": 10,
+          "order": 14
+        },
+        {
+          "gpc": "l-L",
+          "session": 12,
+          "order": 16
+        },
+        {
+          "gpc": "b-B",
+          "session": 12,
+          "order": 16
+        },
+        {
+          "gpc": "u-AH",
+          "session": 12,
+          "order": 17
+        },
+        {
+          "gpc": "th-DH",
+          "session": 13,
+          "order": 18
+        },
+        {
+          "gpc": "r-R",
+          "session": 13,
+          "order": 19
+        },
+        {
+          "gpc": "k-K",
+          "session": 14,
+          "order": 19
+        },
+        {
+          "gpc": "w-W",
+          "session": 15,
+          "order": 21
+        },
+        {
+          "gpc": "j-JH",
+          "session": 16,
+          "order": 23
+        },
+        {
+          "gpc": "x-K_S",
+          "session": 17,
+          "order": 22
+        },
+        {
+          "gpc": "z-Z",
+          "session": 18,
+          "order": 25
+        },
+        {
+          "gpc": "y-Y",
+          "session": 19,
+          "order": 25
+        },
+        {
+          "gpc": "th-TH",
+          "session": 19,
+          "order": 26
+        },
+        {
+          "gpc": "sh-SH",
+          "session": 20,
+          "order": 27
+        },
+        {
+          "gpc": "ch-CH",
+          "session": 21,
+          "order": 28
+        },
+        {
+          "gpc": "ng-NG",
+          "session": 21,
+          "order": 29
+        },
+        {
+          "gpc": "nk-NG_K",
+          "session": 21,
+          "order": 29
+        },
+        {
+          "gpc": "a_e-EY",
+          "session": 22,
+          "order": 29
+        },
+        {
+          "gpc": "o_e-OW",
+          "session": 23,
+          "order": 32
+        },
+        {
+          "gpc": "ph-F",
+          "session": 26,
+          "order": 34
+        },
+        {
+          "gpc": "i_e-AY",
+          "session": 26,
+          "order": 34
+        },
+        {
+          "gpc": "qu-K_W",
+          "session": 26,
+          "order": 34
+        },
+        {
+          "gpc": "e_e-IY",
+          "session": 27,
+          "order": 35
+        },
+        {
+          "gpc": "s-Z",
+          "session": 29,
+          "order": 35
+        },
+        {
+          "gpc": "u_e-UW",
+          "session": 29,
+          "order": 36
+        },
+        {
+          "gpc": "o-OW-final",
+          "session": 30,
+          "order": 38
+        },
+        {
+          "gpc": "e-IY-final",
+          "session": 30,
+          "order": 39
+        },
+        {
+          "gpc": "i-AY-final",
+          "session": 30,
+          "order": 40
+        },
+        {
+          "gpc": "WORD-was",
+          "session": 33,
+          "order": 41
+        },
+        {
+          "gpc": "WORD-you",
+          "session": 34,
+          "order": 42
+        },
+        {
+          "gpc": "WORD-the",
+          "session": 35,
+          "order": 43
+        },
+        {
+          "gpc": "WORD-of",
+          "session": 36,
+          "order": 44
+        },
+        {
+          "gpc": "WORD-have",
+          "session": 37,
+          "order": 45
+        },
+        {
+          "gpc": "WORD-do",
+          "session": 38,
+          "order": 46
+        },
+        {
+          "gpc": "WORD-are",
+          "session": 39,
+          "order": 47
+        },
+        {
+          "gpc": "WORD-one",
+          "session": 40,
+          "order": 48
+        },
+        {
+          "gpc": "WORD-who",
+          "session": 41,
+          "order": 49
+        },
+        {
+          "gpc": "WORD-would",
+          "session": 42,
+          "order": 51
+        },
+        {
+          "gpc": "WORD-could",
+          "session": 42,
+          "order": 52
+        },
+        {
+          "gpc": "WORD-should",
+          "session": 42,
+          "order": 53
+        },
+        {
+          "gpc": "WORD-said",
+          "session": 43,
+          "order": 54
+        },
+        {
+          "gpc": "WORD-two",
+          "session": 44,
+          "order": 55
+        },
+        {
+          "gpc": "WORD-does",
+          "session": 45,
+          "order": 56
+        },
+        {
+          "gpc": "WORD-friend",
+          "session": 46,
+          "order": 57
+        },
+        {
+          "gpc": "WORD-live",
+          "session": 47,
+          "order": 58
+        }
+      ],
+      "readable": [
+        0,
+        0,
+        9,
+        22,
+        34,
+        72,
+        99,
+        99,
+        229,
+        279,
+        279,
+        574,
+        734,
+        795,
+        827,
+        846,
+        886,
+        901,
+        948,
+        1022,
+        1218,
+        1218,
+        1218,
+        1218,
+        1218,
+        1238,
+        1238,
+        1238,
+        1265,
+        1306,
+        1306,
+        1306,
+        1307,
+        1308,
+        1309,
+        1310,
+        1311,
+        1312,
+        1313,
+        1314,
+        1315,
+        1318,
+        1319,
+        1320,
+        1321,
+        1322,
+        1323
+      ]
+    },
+    {
+      "age": 4,
+      "sessionMinutes": [
+        2,
+        4
+      ],
+      "sessionCards": [
+        6,
+        13
+      ],
+      "sessionsRun": 53,
+      "lessons": [
+        {
+          "id": "hello-world",
+          "reachedIn": "9/9",
+          "session": 1,
+          "range": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "bed",
+          "reachedIn": "9/9",
+          "session": 9,
+          "range": [
+            8,
+            14
+          ]
+        },
+        {
+          "id": "digraphs",
+          "reachedIn": "9/9",
+          "session": 11,
+          "range": [
+            9,
+            12
+          ]
+        },
+        {
+          "id": "split-digraphs",
+          "reachedIn": "9/9",
+          "session": 20,
+          "range": [
+            18,
+            20
+          ]
+        },
+        {
+          "id": "final-open-vowels",
+          "reachedIn": "9/9",
+          "session": 26,
+          "range": [
+            25,
+            91
+          ]
+        },
+        {
+          "id": "sight-words",
+          "reachedIn": "9/9",
+          "session": 29,
+          "range": [
+            28,
+            94
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "gpc": "s-S",
+          "session": 1,
+          "order": 0
+        },
+        {
+          "gpc": "t-T",
+          "session": 2,
+          "order": 1
+        },
+        {
+          "gpc": "n-N",
+          "session": 2,
+          "order": 2
+        },
+        {
+          "gpc": "i-IH",
+          "session": 3,
+          "order": 3
+        },
+        {
+          "gpc": "a-AE",
+          "session": 4,
+          "order": 5
+        },
+        {
+          "gpc": "f-F",
+          "session": 5,
+          "order": 6
+        },
+        {
+          "gpc": "o-AA",
+          "session": 5,
+          "order": 6
+        },
+        {
+          "gpc": "d-D",
+          "session": 6,
+          "order": 7
+        },
+        {
+          "gpc": "h-HH",
+          "session": 6,
+          "order": 8
+        },
+        {
+          "gpc": "m-M",
+          "session": 7,
+          "order": 9
+        },
+        {
+          "gpc": "e-EH",
+          "session": 8,
+          "order": 10
+        },
+        {
+          "gpc": "c-K",
+          "session": 8,
+          "order": 12
+        },
+        {
+          "gpc": "b-B",
+          "session": 9,
+          "order": 12
+        },
+        {
+          "gpc": "p-P",
+          "session": 9,
+          "order": 13
+        },
+        {
+          "gpc": "v-V",
+          "session": 10,
+          "order": 14
+        },
+        {
+          "gpc": "g-G",
+          "session": 10,
+          "order": 14
+        },
+        {
+          "gpc": "l-L",
+          "session": 10,
+          "order": 15
+        },
+        {
+          "gpc": "u-AH",
+          "session": 12,
+          "order": 18
+        },
+        {
+          "gpc": "k-K",
+          "session": 12,
+          "order": 18
+        },
+        {
+          "gpc": "r-R",
+          "session": 12,
+          "order": 19
+        },
+        {
+          "gpc": "w-W",
+          "session": 13,
+          "order": 20
+        },
+        {
+          "gpc": "x-K_S",
+          "session": 14,
+          "order": 22
+        },
+        {
+          "gpc": "th-DH",
+          "session": 14,
+          "order": 22
+        },
+        {
+          "gpc": "j-JH",
+          "session": 15,
+          "order": 23
+        },
+        {
+          "gpc": "th-TH",
+          "session": 16,
+          "order": 24
+        },
+        {
+          "gpc": "nk-NG_K",
+          "session": 16.5,
+          "order": 26
+        },
+        {
+          "gpc": "sh-SH",
+          "session": 18,
+          "order": 26
+        },
+        {
+          "gpc": "ch-CH",
+          "session": 18,
+          "order": 27
+        },
+        {
+          "gpc": "z-Z",
+          "session": 18,
+          "order": 28
+        },
+        {
+          "gpc": "y-Y",
+          "session": 18,
+          "order": 28
+        },
+        {
+          "gpc": "a_e-EY",
+          "session": 20,
+          "order": 29
+        },
+        {
+          "gpc": "ng-NG",
+          "session": 21,
+          "order": 31
+        },
+        {
+          "gpc": "i_e-AY",
+          "session": 21,
+          "order": 32
+        },
+        {
+          "gpc": "o_e-OW",
+          "session": 21,
+          "order": 32
+        },
+        {
+          "gpc": "e_e-IY",
+          "session": 23,
+          "order": 35
+        },
+        {
+          "gpc": "ph-F",
+          "session": 23,
+          "order": 35
+        },
+        {
+          "gpc": "qu-K_W",
+          "session": 23,
+          "order": 35
+        },
+        {
+          "gpc": "s-Z",
+          "session": 24,
+          "order": 35
+        },
+        {
+          "gpc": "u_e-UW",
+          "session": 25,
+          "order": 37
+        },
+        {
+          "gpc": "o-OW-final",
+          "session": 26,
+          "order": 38
+        },
+        {
+          "gpc": "e-IY-final",
+          "session": 26,
+          "order": 39
+        },
+        {
+          "gpc": "i-AY-final",
+          "session": 26,
+          "order": 40
+        },
+        {
+          "gpc": "WORD-was",
+          "session": 29,
+          "order": 42
+        },
+        {
+          "gpc": "WORD-you",
+          "session": 30,
+          "order": 43
+        },
+        {
+          "gpc": "WORD-the",
+          "session": 31,
+          "order": 44
+        },
+        {
+          "gpc": "WORD-of",
+          "session": 32,
+          "order": 45
+        },
+        {
+          "gpc": "WORD-have",
+          "session": 33,
+          "order": 46
+        },
+        {
+          "gpc": "WORD-do",
+          "session": 34,
+          "order": 47
+        },
+        {
+          "gpc": "WORD-are",
+          "session": 35,
+          "order": 48
+        },
+        {
+          "gpc": "WORD-one",
+          "session": 36,
+          "order": 49
+        },
+        {
+          "gpc": "WORD-who",
+          "session": 37,
+          "order": 50
+        },
+        {
+          "gpc": "WORD-would",
+          "session": 38,
+          "order": 51
+        },
+        {
+          "gpc": "WORD-could",
+          "session": 38,
+          "order": 52
+        },
+        {
+          "gpc": "WORD-should",
+          "session": 38,
+          "order": 53
+        },
+        {
+          "gpc": "WORD-said",
+          "session": 39,
+          "order": 54
+        },
+        {
+          "gpc": "WORD-two",
+          "session": 40,
+          "order": 55
+        },
+        {
+          "gpc": "WORD-does",
+          "session": 41,
+          "order": 56
+        },
+        {
+          "gpc": "WORD-friend",
+          "session": 42,
+          "order": 57
+        },
+        {
+          "gpc": "WORD-live",
+          "session": 43,
+          "order": 58
+        }
+      ],
+      "readable": [
+        0,
+        0,
+        9,
+        22,
+        41,
+        72,
+        99,
+        154,
+        268,
+        480,
+        480,
+        789,
+        821,
+        867,
+        886,
+        915,
+        973,
+        1147,
+        1147,
+        1147,
+        1218,
+        1218,
+        1238,
+        1265,
+        1265,
+        1306,
+        1306,
+        1306,
+        1307,
+        1308,
+        1309,
+        1310,
+        1311,
+        1312,
+        1313,
+        1314,
+        1315,
+        1318,
+        1319,
+        1320,
+        1321,
+        1322,
+        1323
+      ]
+    },
+    {
+      "age": 5,
+      "sessionMinutes": [
+        2,
+        5
+      ],
+      "sessionCards": [
+        6,
+        16
+      ],
+      "sessionsRun": 51,
+      "lessons": [
+        {
+          "id": "hello-world",
+          "reachedIn": "9/9",
+          "session": 1,
+          "range": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "bed",
+          "reachedIn": "9/9",
+          "session": 9,
+          "range": [
+            7,
+            12
+          ]
+        },
+        {
+          "id": "digraphs",
+          "reachedIn": "9/9",
+          "session": 12,
+          "range": [
+            9,
+            12
+          ]
+        },
+        {
+          "id": "split-digraphs",
+          "reachedIn": "9/9",
+          "session": 18,
+          "range": [
+            16,
+            19
+          ]
+        },
+        {
+          "id": "final-open-vowels",
+          "reachedIn": "9/9",
+          "session": 24,
+          "range": [
+            21,
+            75
+          ]
+        },
+        {
+          "id": "sight-words",
+          "reachedIn": "9/9",
+          "session": 27,
+          "range": [
+            24,
+            78
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "gpc": "s-S",
+          "session": 1,
+          "order": 0
+        },
+        {
+          "gpc": "t-T",
+          "session": 2,
+          "order": 1
+        },
+        {
+          "gpc": "n-N",
+          "session": 2,
+          "order": 2
+        },
+        {
+          "gpc": "i-IH",
+          "session": 3,
+          "order": 3
+        },
+        {
+          "gpc": "a-AE",
+          "session": 4,
+          "order": 5
+        },
+        {
+          "gpc": "f-F",
+          "session": 5,
+          "order": 6
+        },
+        {
+          "gpc": "o-AA",
+          "session": 5,
+          "order": 6
+        },
+        {
+          "gpc": "h-HH",
+          "session": 6,
+          "order": 7
+        },
+        {
+          "gpc": "d-D",
+          "session": 6,
+          "order": 8
+        },
+        {
+          "gpc": "m-M",
+          "session": 7,
+          "order": 9
+        },
+        {
+          "gpc": "e-EH",
+          "session": 7,
+          "order": 10
+        },
+        {
+          "gpc": "c-K",
+          "session": 8,
+          "order": 13
+        },
+        {
+          "gpc": "p-P",
+          "session": 9,
+          "order": 13
+        },
+        {
+          "gpc": "b-B",
+          "session": 9,
+          "order": 13
+        },
+        {
+          "gpc": "g-G",
+          "session": 9,
+          "order": 14
+        },
+        {
+          "gpc": "v-V",
+          "session": 9,
+          "order": 14
+        },
+        {
+          "gpc": "l-L",
+          "session": 10,
+          "order": 16
+        },
+        {
+          "gpc": "k-K",
+          "session": 11,
+          "order": 18
+        },
+        {
+          "gpc": "r-R",
+          "session": 11,
+          "order": 18
+        },
+        {
+          "gpc": "u-AH",
+          "session": 12,
+          "order": 19
+        },
+        {
+          "gpc": "th-DH",
+          "session": 12,
+          "order": 19
+        },
+        {
+          "gpc": "w-W",
+          "session": 13,
+          "order": 21
+        },
+        {
+          "gpc": "x-K_S",
+          "session": 13,
+          "order": 22
+        },
+        {
+          "gpc": "j-JH",
+          "session": 14,
+          "order": 23
+        },
+        {
+          "gpc": "th-TH",
+          "session": 15,
+          "order": 24
+        },
+        {
+          "gpc": "sh-SH",
+          "session": 16,
+          "order": 26
+        },
+        {
+          "gpc": "ch-CH",
+          "session": 16,
+          "order": 26
+        },
+        {
+          "gpc": "y-Y",
+          "session": 17,
+          "order": 29
+        },
+        {
+          "gpc": "a_e-EY",
+          "session": 18,
+          "order": 28
+        },
+        {
+          "gpc": "z-Z",
+          "session": 18,
+          "order": 29
+        },
+        {
+          "gpc": "i_e-AY",
+          "session": 18,
+          "order": 31
+        },
+        {
+          "gpc": "ng-NG",
+          "session": 19,
+          "order": 31
+        },
+        {
+          "gpc": "o_e-OW",
+          "session": 19,
+          "order": 33
+        },
+        {
+          "gpc": "qu-K_W",
+          "session": 20,
+          "order": 34
+        },
+        {
+          "gpc": "e_e-IY",
+          "session": 20,
+          "order": 35
+        },
+        {
+          "gpc": "ph-F",
+          "session": 22,
+          "order": 36
+        },
+        {
+          "gpc": "s-Z",
+          "session": 22,
+          "order": 36
+        },
+        {
+          "gpc": "nk-NG_K",
+          "session": 22,
+          "order": 37
+        },
+        {
+          "gpc": "u_e-UW",
+          "session": 22,
+          "order": 37
+        },
+        {
+          "gpc": "o-OW-final",
+          "session": 24,
+          "order": 38
+        },
+        {
+          "gpc": "e-IY-final",
+          "session": 24,
+          "order": 39
+        },
+        {
+          "gpc": "i-AY-final",
+          "session": 24,
+          "order": 40
+        },
+        {
+          "gpc": "WORD-was",
+          "session": 27,
+          "order": 41
+        },
+        {
+          "gpc": "WORD-you",
+          "session": 28,
+          "order": 43
+        },
+        {
+          "gpc": "WORD-the",
+          "session": 29,
+          "order": 44
+        },
+        {
+          "gpc": "WORD-of",
+          "session": 30,
+          "order": 45
+        },
+        {
+          "gpc": "WORD-have",
+          "session": 31,
+          "order": 46
+        },
+        {
+          "gpc": "WORD-do",
+          "session": 32,
+          "order": 47
+        },
+        {
+          "gpc": "WORD-are",
+          "session": 33,
+          "order": 48
+        },
+        {
+          "gpc": "WORD-one",
+          "session": 34,
+          "order": 49
+        },
+        {
+          "gpc": "WORD-who",
+          "session": 35,
+          "order": 50
+        },
+        {
+          "gpc": "WORD-would",
+          "session": 36,
+          "order": 51
+        },
+        {
+          "gpc": "WORD-could",
+          "session": 36,
+          "order": 52
+        },
+        {
+          "gpc": "WORD-should",
+          "session": 36,
+          "order": 53
+        },
+        {
+          "gpc": "WORD-said",
+          "session": 37,
+          "order": 54
+        },
+        {
+          "gpc": "WORD-two",
+          "session": 38,
+          "order": 55
+        },
+        {
+          "gpc": "WORD-does",
+          "session": 39,
+          "order": 56
+        },
+        {
+          "gpc": "WORD-friend",
+          "session": 40,
+          "order": 57
+        },
+        {
+          "gpc": "WORD-live",
+          "session": 41,
+          "order": 58
+        }
+      ],
+      "readable": [
+        0,
+        0,
+        9,
+        22,
+        41,
+        72,
+        129,
+        154,
+        325,
+        480,
+        661,
+        795,
+        867,
+        886,
+        915,
+        1047,
+        1065,
+        1081,
+        1152,
+        1166,
+        1166,
+        1265,
+        1265,
+        1306,
+        1306,
+        1306,
+        1307,
+        1308,
+        1309,
+        1310,
+        1311,
+        1312,
+        1313,
+        1314,
+        1315,
+        1318,
+        1319,
+        1320,
+        1321,
+        1322,
+        1323
+      ]
+    }
+  ]
+}

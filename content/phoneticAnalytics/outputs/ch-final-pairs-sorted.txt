@@ -1,0 +1,3 @@
+mac-mach	178	1440	95
+tec-tech	32	17	326
+hoc-hoch	8	13	6

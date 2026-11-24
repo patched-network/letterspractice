@@ -1,0 +1,56 @@
+/*
+ * Fallback faces sized like the web fonts, so the font swap doesn't move text:
+ * scripts/postcss-font-fallbacks.ts says why and puts these families into
+ * every Roboto and Poppins stack.
+ *
+ * Each is a local Arial, or Liberation Sans (Linux; same advance widths as
+ * Arial), scaled to the web font's average advance over English text
+ * (size-adjust) and given its hhea ascent, descent and line gap (divided by
+ * size-adjust, as the descriptors are scaled by it). Regular and bold separately:
+ * a bold face sets wider than a regular one scaled. Where neither font exists
+ * (Android), the face doesn't load and the stack moves on to sans-serif, which
+ * there is Roboto itself.
+ *
+ * Computed from the shipped files by scripts/font-fallback-metrics.ts; rerun it
+ * if @fontsource/roboto or @fontsource/poppins changes its fonts.
+ */
+
+@font-face {
+    font-family: "Roboto Fallback";
+    src: local("Arial"), local("ArialMT"), local("Liberation Sans"), local("LiberationSans");
+    font-weight: 100 549;
+    size-adjust: 99.58%;
+    ascent-override: 93.16%;
+    descent-override: 24.52%;
+    line-gap-override: 0%;
+}
+
+@font-face {
+    font-family: "Roboto Fallback";
+    src: local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"), local("LiberationSans-Bold");
+    font-weight: 550 1000;
+    size-adjust: 94.25%;
+    ascent-override: 98.44%;
+    descent-override: 25.9%;
+    line-gap-override: 0%;
+}
+
+@font-face {
+    font-family: "Poppins Fallback";
+    src: local("Arial"), local("ArialMT"), local("Liberation Sans"), local("LiberationSans");
+    font-weight: 100 549;
+    size-adjust: 111.73%;
+    ascent-override: 93.98%;
+    descent-override: 31.33%;
+    line-gap-override: 8.95%;
+}
+
+@font-face {
+    font-family: "Poppins Fallback";
+    src: local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"), local("LiberationSans-Bold");
+    font-weight: 550 1000;
+    size-adjust: 106.85%;
+    ascent-override: 98.26%;
+    descent-override: 32.75%;
+    line-gap-override: 9.36%;
+}

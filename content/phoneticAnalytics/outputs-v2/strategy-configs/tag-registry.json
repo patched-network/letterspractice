@@ -1,0 +1,4983 @@
+{
+  "generatedAt": "2026-11-02T09:16:37.119Z",
+  "totalTags": 628,
+  "byNamespace": {
+    "gpc": [
+      "gpc:expose:s-S",
+      "gpc:intro:s-S",
+      "gpc:exercise:s-S",
+      "gpc:expose:n-N",
+      "gpc:intro:n-N",
+      "gpc:exercise:n-N",
+      "gpc:expose:i-IH",
+      "gpc:intro:i-IH",
+      "gpc:exercise:i-IH",
+      "gpc:expose:t-T",
+      "gpc:intro:t-T",
+      "gpc:exercise:t-T",
+      "gpc:expose:s-Z",
+      "gpc:intro:s-Z",
+      "gpc:exercise:s-Z",
+      "gpc:expose:f-F",
+      "gpc:intro:f-F",
+      "gpc:exercise:f-F",
+      "gpc:expose:h-HH",
+      "gpc:intro:h-HH",
+      "gpc:exercise:h-HH",
+      "gpc:expose:o-AA",
+      "gpc:intro:o-AA",
+      "gpc:exercise:o-AA",
+      "gpc:expose:a-AE",
+      "gpc:intro:a-AE",
+      "gpc:exercise:a-AE",
+      "gpc:expose:d-D",
+      "gpc:intro:d-D",
+      "gpc:exercise:d-D",
+      "gpc:expose:m-M",
+      "gpc:intro:m-M",
+      "gpc:exercise:m-M",
+      "gpc:expose:v-V",
+      "gpc:intro:v-V",
+      "gpc:exercise:v-V",
+      "gpc:expose:c-K",
+      "gpc:intro:c-K",
+      "gpc:exercise:c-K",
+      "gpc:expose:th-DH",
+      "gpc:intro:th-DH",
+      "gpc:exercise:th-DH",
+      "gpc:expose:o-AH",
+      "gpc:intro:o-AH",
+      "gpc:exercise:o-AH",
+      "gpc:expose:e-EH",
+      "gpc:intro:e-EH",
+      "gpc:exercise:e-EH",
+      "gpc:expose:g-G",
+      "gpc:intro:g-G",
+      "gpc:exercise:g-G",
+      "gpc:expose:l-L",
+      "gpc:intro:l-L",
+      "gpc:exercise:l-L",
+      "gpc:expose:WORD-the",
+      "gpc:intro:WORD-the",
+      "gpc:exercise:WORD-the",
+      "gpc:expose:WORD-to",
+      "gpc:intro:WORD-to",
+      "gpc:exercise:WORD-to",
+      "gpc:expose:WORD-of",
+      "gpc:intro:WORD-of",
+      "gpc:exercise:WORD-of",
+      "gpc:expose:WORD-what",
+      "gpc:intro:WORD-what",
+      "gpc:exercise:WORD-what",
+      "gpc:expose:r-R",
+      "gpc:intro:r-R",
+      "gpc:exercise:r-R",
+      "gpc:expose:o-AO",
+      "gpc:intro:o-AO",
+      "gpc:exercise:o-AO",
+      "gpc:expose:WORD-my",
+      "gpc:intro:WORD-my",
+      "gpc:exercise:WORD-my",
+      "gpc:expose:WORD-your",
+      "gpc:intro:WORD-your",
+      "gpc:exercise:WORD-your",
+      "gpc:expose:WORD-do",
+      "gpc:intro:WORD-do",
+      "gpc:exercise:WORD-do",
+      "gpc:expose:WORD-was",
+      "gpc:intro:WORD-was",
+      "gpc:exercise:WORD-was",
+      "gpc:expose:e-IY-final",
+      "gpc:intro:e-IY-final",
+      "gpc:exercise:e-IY-final",
+      "gpc:expose:o-OW-final",
+      "gpc:intro:o-OW-final",
+      "gpc:exercise:o-OW-final",
+      "gpc:expose:w-W",
+      "gpc:intro:w-W",
+      "gpc:exercise:w-W",
+      "gpc:expose:b-B",
+      "gpc:intro:b-B",
+      "gpc:exercise:b-B",
+      "gpc:expose:u-AH",
+      "gpc:intro:u-AH",
+      "gpc:exercise:u-AH",
+      "gpc:expose:p-P",
+      "gpc:intro:p-P",
+      "gpc:exercise:p-P",
+      "gpc:expose:a-AA",
+      "gpc:intro:a-AA",
+      "gpc:exercise:a-AA",
+      "gpc:expose:sh-SH",
+      "gpc:intro:sh-SH",
+      "gpc:exercise:sh-SH",
+      "gpc:expose:i_e-AY",
+      "gpc:intro:i_e-AY",
+      "gpc:exercise:i_e-AY",
+      "gpc:expose:k-K",
+      "gpc:intro:k-K",
+      "gpc:exercise:k-K",
+      "gpc:expose:a_e-EY",
+      "gpc:intro:a_e-EY",
+      "gpc:exercise:a_e-EY",
+      "gpc:expose:ee-IY",
+      "gpc:intro:ee-IY",
+      "gpc:exercise:ee-IY",
+      "gpc:expose:ow-AW",
+      "gpc:intro:ow-AW",
+      "gpc:exercise:ow-AW",
+      "gpc:expose:ea-IY",
+      "gpc:intro:ea-IY",
+      "gpc:exercise:ea-IY",
+      "gpc:expose:ay-EY",
+      "gpc:intro:ay-EY",
+      "gpc:exercise:ay-EY",
+      "gpc:expose:ng-NG",
+      "gpc:intro:ng-NG",
+      "gpc:exercise:ng-NG",
+      "gpc:expose:th-TH",
+      "gpc:intro:th-TH",
+      "gpc:exercise:th-TH",
+      "gpc:expose:ou-AW",
+      "gpc:intro:ou-AW",
+      "gpc:exercise:ou-AW",
+      "gpc:expose:a-AH",
+      "gpc:intro:a-AH",
+      "gpc:exercise:a-AH",
+      "gpc:expose:oo-UH",
+      "gpc:intro:oo-UH",
+      "gpc:exercise:oo-UH",
+      "gpc:expose:nk-NG_K",
+      "gpc:intro:nk-NG_K",
+      "gpc:exercise:nk-NG_K",
+      "gpc:expose:ey-EY",
+      "gpc:intro:ey-EY",
+      "gpc:exercise:ey-EY",
+      "gpc:expose:j-JH",
+      "gpc:intro:j-JH",
+      "gpc:exercise:j-JH",
+      "gpc:expose:e_e-IY",
+      "gpc:intro:e_e-IY",
+      "gpc:exercise:e_e-IY",
+      "gpc:expose:WORD-are",
+      "gpc:intro:WORD-are",
+      "gpc:exercise:WORD-are",
+      "gpc:expose:er-ER",
+      "gpc:intro:er-ER",
+      "gpc:exercise:er-ER",
+      "gpc:expose:ck-K",
+      "gpc:intro:ck-K",
+      "gpc:exercise:ck-K",
+      "gpc:expose:y-IY-final",
+      "gpc:intro:y-IY-final",
+      "gpc:exercise:y-IY-final",
+      "gpc:expose:wh-W",
+      "gpc:intro:wh-W",
+      "gpc:exercise:wh-W",
+      "gpc:expose:y-AY-final",
+      "gpc:intro:y-AY-final",
+      "gpc:exercise:y-AY-final",
+      "gpc:expose:all-AO_L",
+      "gpc:intro:all-AO_L",
+      "gpc:exercise:all-AO_L",
+      "gpc:expose:oo-UW",
+      "gpc:intro:oo-UW",
+      "gpc:exercise:oo-UW",
+      "gpc:expose:e-IH",
+      "gpc:intro:e-IH",
+      "gpc:exercise:e-IH",
+      "gpc:expose:ch-CH",
+      "gpc:intro:ch-CH",
+      "gpc:exercise:ch-CH",
+      "gpc:expose:or-ER",
+      "gpc:intro:or-ER",
+      "gpc:exercise:or-ER",
+      "gpc:expose:o_e-OW",
+      "gpc:intro:o_e-OW",
+      "gpc:exercise:o_e-OW",
+      "gpc:expose:ea-EH",
+      "gpc:intro:ea-EH",
+      "gpc:exercise:ea-EH",
+      "gpc:expose:ir-ER",
+      "gpc:intro:ir-ER",
+      "gpc:exercise:ir-ER",
+      "gpc:expose:WORD-oh",
+      "gpc:intro:WORD-oh",
+      "gpc:exercise:WORD-oh",
+      "gpc:expose:ai-EY",
+      "gpc:intro:ai-EY",
+      "gpc:exercise:ai-EY",
+      "gpc:expose:c-S-soft",
+      "gpc:intro:c-S-soft",
+      "gpc:exercise:c-S-soft",
+      "gpc:expose:WORD-one",
+      "gpc:intro:WORD-one",
+      "gpc:exercise:WORD-one",
+      "gpc:expose:y-Y",
+      "gpc:intro:y-Y",
+      "gpc:exercise:y-Y",
+      "gpc:expose:ou-UW",
+      "gpc:intro:ou-UW",
+      "gpc:exercise:ou-UW",
+      "gpc:expose:ai-EH",
+      "gpc:intro:ai-EH",
+      "gpc:exercise:ai-EH",
+      "gpc:expose:ind-AY_N_D",
+      "gpc:intro:ind-AY_N_D",
+      "gpc:exercise:ind-AY_N_D",
+      "gpc:expose:ow-OW",
+      "gpc:intro:ow-OW",
+      "gpc:exercise:ow-OW",
+      "gpc:expose:WORD-who",
+      "gpc:intro:WORD-who",
+      "gpc:exercise:WORD-who",
+      "gpc:expose:old-OW_L_D",
+      "gpc:intro:old-OW_L_D",
+      "gpc:exercise:old-OW_L_D",
+      "gpc:expose:x-K_S",
+      "gpc:intro:x-K_S",
+      "gpc:exercise:x-K_S",
+      "gpc:expose:ll-L",
+      "gpc:intro:ll-L",
+      "gpc:exercise:ll-L",
+      "gpc:expose:nn-N",
+      "gpc:intro:nn-N",
+      "gpc:exercise:nn-N",
+      "gpc:expose:tt-T",
+      "gpc:intro:tt-T",
+      "gpc:exercise:tt-T",
+      "gpc:expose:ss-S",
+      "gpc:intro:ss-S",
+      "gpc:exercise:ss-S",
+      "gpc:expose:ff-F",
+      "gpc:intro:ff-F",
+      "gpc:exercise:ff-F",
+      "gpc:expose:kn-N-initial",
+      "gpc:intro:kn-N-initial",
+      "gpc:exercise:kn-N-initial",
+      "gpc:expose:rr-R",
+      "gpc:intro:rr-R",
+      "gpc:exercise:rr-R",
+      "gpc:expose:ie-IY",
+      "gpc:intro:ie-IY",
+      "gpc:exercise:ie-IY",
+      "gpc:expose:ur-ER",
+      "gpc:intro:ur-ER",
+      "gpc:exercise:ur-ER",
+      "gpc:expose:g-JH-soft",
+      "gpc:intro:g-JH-soft",
+      "gpc:exercise:g-JH-soft",
+      "gpc:expose:igh-AY",
+      "gpc:intro:igh-AY",
+      "gpc:exercise:igh-AY",
+      "gpc:expose:WORD-would",
+      "gpc:intro:WORD-would",
+      "gpc:exercise:WORD-would",
+      "gpc:expose:WORD-been",
+      "gpc:intro:WORD-been",
+      "gpc:exercise:WORD-been",
+      "gpc:expose:alk-AO_K",
+      "gpc:intro:alk-AO_K",
+      "gpc:exercise:alk-AO_K",
+      "gpc:expose:ew-UW",
+      "gpc:intro:ew-UW",
+      "gpc:exercise:ew-UW",
+      "gpc:expose:u-UH",
+      "gpc:intro:u-UH",
+      "gpc:exercise:u-UH",
+      "gpc:expose:WORD-could",
+      "gpc:intro:WORD-could",
+      "gpc:exercise:WORD-could",
+      "gpc:expose:ear-IH_R",
+      "gpc:intro:ear-IH_R",
+      "gpc:exercise:ear-IH_R",
+      "gpc:expose:au-AO",
+      "gpc:intro:au-AO",
+      "gpc:exercise:au-AO",
+      "gpc:expose:ar-ER",
+      "gpc:intro:ar-ER",
+      "gpc:exercise:ar-ER",
+      "gpc:expose:ey-IY",
+      "gpc:intro:ey-IY",
+      "gpc:exercise:ey-IY",
+      "gpc:expose:gu-G",
+      "gpc:intro:gu-G",
+      "gpc:exercise:gu-G",
+      "gpc:expose:are-EH_R",
+      "gpc:intro:are-EH_R",
+      "gpc:exercise:are-EH_R",
+      "gpc:expose:tch-CH",
+      "gpc:intro:tch-CH",
+      "gpc:exercise:tch-CH",
+      "gpc:expose:oy-OY",
+      "gpc:intro:oy-OY",
+      "gpc:exercise:oy-OY",
+      "gpc:expose:ea-EY",
+      "gpc:intro:ea-EY",
+      "gpc:exercise:ea-EY",
+      "gpc:expose:ti-SH",
+      "gpc:intro:ti-SH",
+      "gpc:exercise:ti-SH",
+      "gpc:expose:ough-AO",
+      "gpc:intro:ough-AO",
+      "gpc:exercise:ough-AO",
+      "gpc:expose:WORD-sure",
+      "gpc:intro:WORD-sure",
+      "gpc:exercise:WORD-sure",
+      "gpc:expose:WORD-any",
+      "gpc:intro:WORD-any",
+      "gpc:exercise:WORD-any",
+      "gpc:expose:pp-P",
+      "gpc:intro:pp-P",
+      "gpc:exercise:pp-P",
+      "gpc:expose:ie-AY",
+      "gpc:intro:ie-AY",
+      "gpc:exercise:ie-AY",
+      "gpc:expose:WORD-only",
+      "gpc:intro:WORD-only",
+      "gpc:exercise:WORD-only",
+      "gpc:expose:WORD-two",
+      "gpc:intro:WORD-two",
+      "gpc:exercise:WORD-two",
+      "gpc:expose:WORD-should",
+      "gpc:intro:WORD-should",
+      "gpc:exercise:WORD-should",
+      "gpc:expose:en-AH_N",
+      "gpc:intro:en-AH_N",
+      "gpc:exercise:en-AH_N",
+      "gpc:expose:le-AH_L",
+      "gpc:intro:le-AH_L",
+      "gpc:exercise:le-AH_L",
+      "gpc:expose:ou-AH",
+      "gpc:intro:ou-AH",
+      "gpc:exercise:ou-AH",
+      "gpc:expose:dd-D",
+      "gpc:intro:dd-D",
+      "gpc:exercise:dd-D",
+      "gpc:expose:oa-OW",
+      "gpc:intro:oa-OW",
+      "gpc:exercise:oa-OW",
+      "gpc:expose:aw-AO",
+      "gpc:intro:aw-AO",
+      "gpc:exercise:aw-AO",
+      "gpc:expose:mm-M",
+      "gpc:intro:mm-M",
+      "gpc:exercise:mm-M",
+      "gpc:expose:oi-OY",
+      "gpc:intro:oi-OY",
+      "gpc:exercise:oi-OY",
+      "gpc:expose:our-AO_R",
+      "gpc:intro:our-AO_R",
+      "gpc:exercise:our-AO_R",
+      "gpc:expose:gh-",
+      "gpc:intro:gh-",
+      "gpc:exercise:gh-",
+      "gpc:expose:ear-ER",
+      "gpc:intro:ear-ER",
+      "gpc:exercise:ear-ER",
+      "gpc:expose:wr-R-initial",
+      "gpc:intro:wr-R-initial",
+      "gpc:exercise:wr-R-initial",
+      "gpc:expose:qu-K_W",
+      "gpc:intro:qu-K_W",
+      "gpc:exercise:qu-K_W",
+      "gpc:expose:ire-AY_ER",
+      "gpc:intro:ire-AY_ER",
+      "gpc:exercise:ire-AY_ER",
+      "gpc:expose:WORD-does",
+      "gpc:intro:WORD-does",
+      "gpc:exercise:WORD-does",
+      "gpc:expose:el-AH_L",
+      "gpc:intro:el-AH_L",
+      "gpc:exercise:el-AH_L",
+      "gpc:expose:WORD-their",
+      "gpc:intro:WORD-their",
+      "gpc:exercise:WORD-their",
+      "gpc:expose:gh-F",
+      "gpc:intro:gh-F",
+      "gpc:exercise:gh-F",
+      "gpc:expose:in-AH_N",
+      "gpc:intro:in-AH_N",
+      "gpc:exercise:in-AH_N",
+      "gpc:expose:u_e-Y_UW",
+      "gpc:intro:u_e-Y_UW",
+      "gpc:exercise:u_e-Y_UW",
+      "gpc:expose:z-Z",
+      "gpc:intro:z-Z",
+      "gpc:exercise:z-Z",
+      "gpc:expose:ch-K",
+      "gpc:intro:ch-K",
+      "gpc:exercise:ch-K",
+      "gpc:expose:i-AY-final",
+      "gpc:intro:i-AY-final",
+      "gpc:exercise:i-AY-final",
+      "gpc:expose:u_e-UW",
+      "gpc:intro:u_e-UW",
+      "gpc:exercise:u_e-UW",
+      "gpc:expose:ue-UW",
+      "gpc:intro:ue-UW",
+      "gpc:exercise:ue-UW",
+      "gpc:expose:our-ER",
+      "gpc:intro:our-ER",
+      "gpc:exercise:our-ER",
+      "gpc:expose:ph-F",
+      "gpc:intro:ph-F",
+      "gpc:exercise:ph-F",
+      "gpc:expose:oor-AO_R",
+      "gpc:intro:oor-AO_R",
+      "gpc:exercise:oor-AO_R",
+      "gpc:expose:x-G_Z",
+      "gpc:intro:x-G_Z",
+      "gpc:exercise:x-G_Z",
+      "gpc:expose:WORD-friend",
+      "gpc:intro:WORD-friend",
+      "gpc:exercise:WORD-friend",
+      "gpc:expose:mn-M",
+      "gpc:intro:mn-M",
+      "gpc:exercise:mn-M",
+      "gpc:expose:WORD-move",
+      "gpc:intro:WORD-move",
+      "gpc:exercise:WORD-move",
+      "gpc:expose:gg-G",
+      "gpc:intro:gg-G",
+      "gpc:exercise:gg-G",
+      "gpc:expose:WORD-whole",
+      "gpc:intro:WORD-whole",
+      "gpc:exercise:WORD-whole",
+      "gpc:expose:ci-SH",
+      "gpc:intro:ci-SH",
+      "gpc:exercise:ci-SH",
+      "gpc:expose:WORD-many",
+      "gpc:intro:WORD-many",
+      "gpc:exercise:WORD-many",
+      "gpc:expose:ou-OW",
+      "gpc:intro:ou-OW",
+      "gpc:exercise:ou-OW",
+      "gpc:expose:ew-Y_UW",
+      "gpc:intro:ew-Y_UW",
+      "gpc:exercise:ew-Y_UW",
+      "gpc:expose:WORD-once",
+      "gpc:intro:WORD-once",
+      "gpc:exercise:WORD-once",
+      "gpc:expose:bb-B",
+      "gpc:intro:bb-B",
+      "gpc:exercise:bb-B",
+      "gpc:expose:WORD-says",
+      "gpc:intro:WORD-says",
+      "gpc:exercise:WORD-says",
+      "gpc:expose:ei-EY",
+      "gpc:intro:ei-EY",
+      "gpc:exercise:ei-EY",
+      "gpc:expose:ei-IY",
+      "gpc:intro:ei-IY",
+      "gpc:exercise:ei-IY",
+      "gpc:expose:ild-AY_L_D",
+      "gpc:intro:ild-AY_L_D",
+      "gpc:exercise:ild-AY_L_D",
+      "gpc:expose:dge-JH",
+      "gpc:intro:dge-JH",
+      "gpc:exercise:dge-JH",
+      "gpc:expose:WORD-heart",
+      "gpc:intro:WORD-heart",
+      "gpc:exercise:WORD-heart",
+      "gpc:expose:WORD-eyes",
+      "gpc:intro:WORD-eyes",
+      "gpc:exercise:WORD-eyes",
+      "gpc:expose:au-AE",
+      "gpc:intro:au-AE",
+      "gpc:exercise:au-AE",
+      "gpc:expose:ue-Y_UW",
+      "gpc:intro:ue-Y_UW",
+      "gpc:exercise:ue-Y_UW",
+      "gpc:expose:WORD-half",
+      "gpc:intro:WORD-half",
+      "gpc:exercise:WORD-half",
+      "gpc:expose:cc-K",
+      "gpc:intro:cc-K",
+      "gpc:exercise:cc-K",
+      "gpc:expose:mb-M",
+      "gpc:intro:mb-M",
+      "gpc:exercise:mb-M",
+      "gpc:expose:WORD-buy",
+      "gpc:intro:WORD-buy",
+      "gpc:exercise:WORD-buy",
+      "gpc:expose:si-ZH",
+      "gpc:intro:si-ZH",
+      "gpc:exercise:si-ZH",
+      "gpc:expose:oar-AO_R",
+      "gpc:intro:oar-AO_R",
+      "gpc:exercise:oar-AO_R",
+      "gpc:expose:oll-OW_L",
+      "gpc:intro:oll-OW_L",
+      "gpc:exercise:oll-OW_L",
+      "gpc:expose:i-IY-final",
+      "gpc:intro:i-IY-final",
+      "gpc:exercise:i-IY-final",
+      "gpc:expose:alt-AO_L_T",
+      "gpc:intro:alt-AO_L_T",
+      "gpc:exercise:alt-AO_L_T",
+      "gpc:expose:sc-S",
+      "gpc:intro:sc-S",
+      "gpc:exercise:sc-S",
+      "gpc:expose:ore-AO_R",
+      "gpc:intro:ore-AO_R",
+      "gpc:exercise:ore-AO_R",
+      "gpc:expose:WORD-eye",
+      "gpc:intro:WORD-eye",
+      "gpc:exercise:WORD-eye",
+      "gpc:expose:bt-T",
+      "gpc:intro:bt-T",
+      "gpc:exercise:bt-T",
+      "gpc:expose:ure-Y_UH_R",
+      "gpc:intro:ure-Y_UH_R",
+      "gpc:exercise:ure-Y_UH_R",
+      "gpc:expose:zz-Z",
+      "gpc:intro:zz-Z",
+      "gpc:exercise:zz-Z",
+      "gpc:expose:ch-SH",
+      "gpc:intro:ch-SH",
+      "gpc:exercise:ch-SH",
+      "gpc:expose:ie-IH",
+      "gpc:intro:ie-IH",
+      "gpc:exercise:ie-IH",
+      "gpc:expose:ei-AY",
+      "gpc:intro:ei-AY",
+      "gpc:exercise:ei-AY",
+      "gpc:expose:ire-AY_R",
+      "gpc:intro:ire-AY_R",
+      "gpc:exercise:ire-AY_R",
+      "gpc:expose:si-SH",
+      "gpc:intro:si-SH",
+      "gpc:exercise:si-SH",
+      "gpc:expose:eu-UW",
+      "gpc:intro:eu-UW",
+      "gpc:exercise:eu-UW",
+      "gpc:expose:eu-Y_UW",
+      "gpc:intro:eu-Y_UW",
+      "gpc:exercise:eu-Y_UW",
+      "gpc:expose:sch-SH",
+      "gpc:intro:sch-SH",
+      "gpc:exercise:sch-SH",
+      "gpc:expose:ure-ER",
+      "gpc:intro:ure-ER",
+      "gpc:exercise:ure-ER",
+      "gpc:expose:ew-OW",
+      "gpc:intro:ew-OW",
+      "gpc:exercise:ew-OW",
+      "gpc:expose:q-K",
+      "gpc:intro:q-K",
+      "gpc:exercise:q-K",
+      "gpc:expose:gu-G_W",
+      "gpc:intro:gu-G_W",
+      "gpc:exercise:gu-G_W",
+      "gpc:expose:ough-AO_F",
+      "gpc:intro:ough-AO_F",
+      "gpc:exercise:ough-AO_F",
+      "gpc:expose:gn-N-initial",
+      "gpc:intro:gn-N-initial",
+      "gpc:exercise:gn-N-initial",
+      "gpc:expose:rh-R-initial",
+      "gpc:intro:rh-R-initial",
+      "gpc:exercise:rh-R-initial",
+      "gpc:expose:ure-UH_R",
+      "gpc:intro:ure-UH_R",
+      "gpc:exercise:ure-UH_R",
+      "gpc:expose:ps-S-initial",
+      "gpc:intro:ps-S-initial",
+      "gpc:exercise:ps-S-initial",
+      "gpc:expose:x-Z",
+      "gpc:intro:x-Z",
+      "gpc:exercise:x-Z",
+      "gpc:expose:pn-N-initial",
+      "gpc:intro:pn-N-initial",
+      "gpc:exercise:pn-N-initial",
+      "gpc:expose:zz-T_S",
+      "gpc:intro:zz-T_S",
+      "gpc:exercise:zz-T_S",
+      "gpc:expose:WORD-have",
+      "gpc:intro:WORD-have",
+      "gpc:exercise:WORD-have",
+      "gpc:expose:WORD-live",
+      "gpc:intro:WORD-live",
+      "gpc:exercise:WORD-live",
+      "gpc:expose:WORD-said",
+      "gpc:intro:WORD-said",
+      "gpc:exercise:WORD-said",
+      "gpc:expose:WORD-you",
+      "gpc:intro:WORD-you",
+      "gpc:exercise:WORD-you"
+    ],
+    "concept": [
+      "concept:match:simple",
+      "concept:vowel:short",
+      "concept:lesson:bed",
+      "concept:match:digraph",
+      "concept:match:split_digraph",
+      "concept:match:whole_word",
+      "concept:vowel:final_open",
+      "concept:vowel:teams",
+      "concept:vowel:r_controlled",
+      "concept:vowel:l_controlled",
+      "concept:consonant:soft",
+      "concept:consonant:doubled",
+      "concept:match:silent",
+      "concept:unassigned",
+      "concept:skill:first-phoneme-diff",
+      "concept:skill:final-phoneme-diff",
+      "concept:skill:medial-vowel-diff",
+      "concept:skill:blending",
+      "concept:skill:segmenting"
+    ],
+    "ui": [
+      "ui:gpc-intro",
+      "ui:who-said-that",
+      "ui:word-selection",
+      "ui:missing-letters",
+      "ui:spelling",
+      "ui:vignette"
+    ]
+  },
+  "entries": [
+    {
+      "tag": "gpc:expose:s-S",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-s-S",
+      "description": "expose tag for s → /S/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:s-S",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-s-S",
+      "description": "intro tag for s → /S/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:s-S",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-s-S",
+      "description": "exercise tag for s → /S/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:n-N",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-n-N",
+      "description": "expose tag for n → /N/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:n-N",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-n-N",
+      "description": "intro tag for n → /N/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:n-N",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-n-N",
+      "description": "exercise tag for n → /N/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:i-IH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-i-IH",
+      "description": "expose tag for i → /IH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:intro:i-IH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-i-IH",
+      "description": "intro tag for i → /IH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:exercise:i-IH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-i-IH",
+      "description": "exercise tag for i → /IH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:expose:t-T",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-t-T",
+      "description": "expose tag for t → /T/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:t-T",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-t-T",
+      "description": "intro tag for t → /T/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:t-T",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-t-T",
+      "description": "exercise tag for t → /T/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:s-Z",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-s-Z",
+      "description": "expose tag for s → /Z/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:s-Z",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-s-Z",
+      "description": "intro tag for s → /Z/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:s-Z",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-s-Z",
+      "description": "exercise tag for s → /Z/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:f-F",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-f-F",
+      "description": "expose tag for f → /F/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:f-F",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-f-F",
+      "description": "intro tag for f → /F/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:f-F",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-f-F",
+      "description": "exercise tag for f → /F/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:h-HH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-h-HH",
+      "description": "expose tag for h → /HH/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:h-HH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-h-HH",
+      "description": "intro tag for h → /HH/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:h-HH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-h-HH",
+      "description": "exercise tag for h → /HH/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:o-AA",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-o-AA",
+      "description": "expose tag for o → /AA/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:intro:o-AA",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-o-AA",
+      "description": "intro tag for o → /AA/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:exercise:o-AA",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-o-AA",
+      "description": "exercise tag for o → /AA/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:expose:a-AE",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-a-AE",
+      "description": "expose tag for a → /AE/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:intro:a-AE",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-a-AE",
+      "description": "intro tag for a → /AE/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:exercise:a-AE",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-a-AE",
+      "description": "exercise tag for a → /AE/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:expose:d-D",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-d-D",
+      "description": "expose tag for d → /D/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:d-D",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-d-D",
+      "description": "intro tag for d → /D/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:d-D",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-d-D",
+      "description": "exercise tag for d → /D/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:m-M",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-m-M",
+      "description": "expose tag for m → /M/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:m-M",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-m-M",
+      "description": "intro tag for m → /M/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:m-M",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-m-M",
+      "description": "exercise tag for m → /M/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:v-V",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-v-V",
+      "description": "expose tag for v → /V/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:v-V",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-v-V",
+      "description": "intro tag for v → /V/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:v-V",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-v-V",
+      "description": "exercise tag for v → /V/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:c-K",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-c-K",
+      "description": "expose tag for c → /K/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:c-K",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-c-K",
+      "description": "intro tag for c → /K/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:c-K",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-c-K",
+      "description": "exercise tag for c → /K/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:th-DH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-th-DH",
+      "description": "expose tag for th → /DH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:th-DH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-th-DH",
+      "description": "intro tag for th → /DH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:th-DH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-th-DH",
+      "description": "exercise tag for th → /DH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:o-AH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-o-AH",
+      "description": "expose tag for o → /AH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:intro:o-AH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-o-AH",
+      "description": "intro tag for o → /AH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:exercise:o-AH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-o-AH",
+      "description": "exercise tag for o → /AH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:expose:e-EH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-e-EH",
+      "description": "expose tag for e → /EH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:intro:e-EH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-e-EH",
+      "description": "intro tag for e → /EH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:exercise:e-EH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-e-EH",
+      "description": "exercise tag for e → /EH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:expose:g-G",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-g-G",
+      "description": "expose tag for g → /G/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:g-G",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-g-G",
+      "description": "intro tag for g → /G/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:g-G",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-g-G",
+      "description": "exercise tag for g → /G/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:l-L",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-l-L",
+      "description": "expose tag for l → /L/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:l-L",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-l-L",
+      "description": "intro tag for l → /L/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:l-L",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-l-L",
+      "description": "exercise tag for l → /L/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:WORD-the",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-the",
+      "description": "expose tag for the → /DH AH/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-the",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-the",
+      "description": "intro tag for the → /DH AH/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-the",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-the",
+      "description": "exercise tag for the → /DH AH/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:WORD-to",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-to",
+      "description": "expose tag for to → /T UW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-to",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-to",
+      "description": "intro tag for to → /T UW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-to",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-to",
+      "description": "exercise tag for to → /T UW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:WORD-of",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-of",
+      "description": "expose tag for of → /AH V/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-of",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-of",
+      "description": "intro tag for of → /AH V/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-of",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-of",
+      "description": "exercise tag for of → /AH V/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:WORD-what",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-what",
+      "description": "expose tag for what → /W AH T/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-what",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-what",
+      "description": "intro tag for what → /W AH T/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-what",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-what",
+      "description": "exercise tag for what → /W AH T/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:r-R",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-r-R",
+      "description": "expose tag for r → /R/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:r-R",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-r-R",
+      "description": "intro tag for r → /R/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:r-R",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-r-R",
+      "description": "exercise tag for r → /R/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:o-AO",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-o-AO",
+      "description": "expose tag for o → /AO/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:intro:o-AO",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-o-AO",
+      "description": "intro tag for o → /AO/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:exercise:o-AO",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-o-AO",
+      "description": "exercise tag for o → /AO/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:expose:WORD-my",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-my",
+      "description": "expose tag for my → /M AY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-my",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-my",
+      "description": "intro tag for my → /M AY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-my",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-my",
+      "description": "exercise tag for my → /M AY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:WORD-your",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-your",
+      "description": "expose tag for your → /Y AO R/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-your",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-your",
+      "description": "intro tag for your → /Y AO R/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-your",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-your",
+      "description": "exercise tag for your → /Y AO R/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:WORD-do",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-do",
+      "description": "expose tag for do → /D UW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-do",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-do",
+      "description": "intro tag for do → /D UW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-do",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-do",
+      "description": "exercise tag for do → /D UW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:WORD-was",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-was",
+      "description": "expose tag for was → /W AH Z/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-was",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-was",
+      "description": "intro tag for was → /W AH Z/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-was",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-was",
+      "description": "exercise tag for was → /W AH Z/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:e-IY-final",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-e-IY-final",
+      "description": "expose tag for e → /IY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:intro:e-IY-final",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-e-IY-final",
+      "description": "intro tag for e → /IY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:exercise:e-IY-final",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-e-IY-final",
+      "description": "exercise tag for e → /IY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:expose:o-OW-final",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-o-OW-final",
+      "description": "expose tag for o → /OW/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:intro:o-OW-final",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-o-OW-final",
+      "description": "intro tag for o → /OW/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:exercise:o-OW-final",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-o-OW-final",
+      "description": "exercise tag for o → /OW/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:expose:w-W",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-w-W",
+      "description": "expose tag for w → /W/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:w-W",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-w-W",
+      "description": "intro tag for w → /W/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:w-W",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-w-W",
+      "description": "exercise tag for w → /W/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:b-B",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-b-B",
+      "description": "expose tag for b → /B/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:b-B",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-b-B",
+      "description": "intro tag for b → /B/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:b-B",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-b-B",
+      "description": "exercise tag for b → /B/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:u-AH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-u-AH",
+      "description": "expose tag for u → /AH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:intro:u-AH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-u-AH",
+      "description": "intro tag for u → /AH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:exercise:u-AH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-u-AH",
+      "description": "exercise tag for u → /AH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:expose:p-P",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-p-P",
+      "description": "expose tag for p → /P/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:p-P",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-p-P",
+      "description": "intro tag for p → /P/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:p-P",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-p-P",
+      "description": "exercise tag for p → /P/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:a-AA",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-a-AA",
+      "description": "expose tag for a → /AA/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:intro:a-AA",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-a-AA",
+      "description": "intro tag for a → /AA/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:exercise:a-AA",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-a-AA",
+      "description": "exercise tag for a → /AA/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:expose:sh-SH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-sh-SH",
+      "description": "expose tag for sh → /SH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:sh-SH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-sh-SH",
+      "description": "intro tag for sh → /SH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:sh-SH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-sh-SH",
+      "description": "exercise tag for sh → /SH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:i_e-AY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-i_e-AY",
+      "description": "expose tag for i_e → /AY/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:intro:i_e-AY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-i_e-AY",
+      "description": "intro tag for i_e → /AY/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:exercise:i_e-AY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-i_e-AY",
+      "description": "exercise tag for i_e → /AY/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:expose:k-K",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-k-K",
+      "description": "expose tag for k → /K/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:k-K",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-k-K",
+      "description": "intro tag for k → /K/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:k-K",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-k-K",
+      "description": "exercise tag for k → /K/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:a_e-EY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-a_e-EY",
+      "description": "expose tag for a_e → /EY/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:intro:a_e-EY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-a_e-EY",
+      "description": "intro tag for a_e → /EY/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:exercise:a_e-EY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-a_e-EY",
+      "description": "exercise tag for a_e → /EY/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:expose:ee-IY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ee-IY",
+      "description": "expose tag for ee → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ee-IY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ee-IY",
+      "description": "intro tag for ee → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ee-IY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ee-IY",
+      "description": "exercise tag for ee → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ow-AW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ow-AW",
+      "description": "expose tag for ow → /AW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ow-AW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ow-AW",
+      "description": "intro tag for ow → /AW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ow-AW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ow-AW",
+      "description": "exercise tag for ow → /AW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ea-IY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ea-IY",
+      "description": "expose tag for ea → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ea-IY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ea-IY",
+      "description": "intro tag for ea → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ea-IY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ea-IY",
+      "description": "exercise tag for ea → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ay-EY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ay-EY",
+      "description": "expose tag for ay → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ay-EY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ay-EY",
+      "description": "intro tag for ay → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ay-EY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ay-EY",
+      "description": "exercise tag for ay → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ng-NG",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ng-NG",
+      "description": "expose tag for ng → /NG/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:ng-NG",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ng-NG",
+      "description": "intro tag for ng → /NG/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:ng-NG",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ng-NG",
+      "description": "exercise tag for ng → /NG/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:th-TH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-th-TH",
+      "description": "expose tag for th → /TH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:th-TH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-th-TH",
+      "description": "intro tag for th → /TH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:th-TH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-th-TH",
+      "description": "exercise tag for th → /TH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:ou-AW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ou-AW",
+      "description": "expose tag for ou → /AW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ou-AW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ou-AW",
+      "description": "intro tag for ou → /AW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ou-AW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ou-AW",
+      "description": "exercise tag for ou → /AW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:a-AH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-a-AH",
+      "description": "expose tag for a → /AH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:intro:a-AH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-a-AH",
+      "description": "intro tag for a → /AH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:exercise:a-AH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-a-AH",
+      "description": "exercise tag for a → /AH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:expose:oo-UH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-oo-UH",
+      "description": "expose tag for oo → /UH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:oo-UH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-oo-UH",
+      "description": "intro tag for oo → /UH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:oo-UH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-oo-UH",
+      "description": "exercise tag for oo → /UH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:nk-NG_K",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-nk-NG_K",
+      "description": "expose tag for nk → /NG K/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:nk-NG_K",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-nk-NG_K",
+      "description": "intro tag for nk → /NG K/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:nk-NG_K",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-nk-NG_K",
+      "description": "exercise tag for nk → /NG K/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:ey-EY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ey-EY",
+      "description": "expose tag for ey → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ey-EY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ey-EY",
+      "description": "intro tag for ey → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ey-EY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ey-EY",
+      "description": "exercise tag for ey → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:j-JH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-j-JH",
+      "description": "expose tag for j → /JH/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:j-JH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-j-JH",
+      "description": "intro tag for j → /JH/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:j-JH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-j-JH",
+      "description": "exercise tag for j → /JH/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:e_e-IY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-e_e-IY",
+      "description": "expose tag for e_e → /IY/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:intro:e_e-IY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-e_e-IY",
+      "description": "intro tag for e_e → /IY/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:exercise:e_e-IY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-e_e-IY",
+      "description": "exercise tag for e_e → /IY/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:expose:WORD-are",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-are",
+      "description": "expose tag for are → /AA R/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-are",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-are",
+      "description": "intro tag for are → /AA R/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-are",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-are",
+      "description": "exercise tag for are → /AA R/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:er-ER",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-er-ER",
+      "description": "expose tag for er → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:er-ER",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-er-ER",
+      "description": "intro tag for er → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:er-ER",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-er-ER",
+      "description": "exercise tag for er → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:ck-K",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ck-K",
+      "description": "expose tag for ck → /K/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:ck-K",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ck-K",
+      "description": "intro tag for ck → /K/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:ck-K",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ck-K",
+      "description": "exercise tag for ck → /K/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:y-IY-final",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-y-IY-final",
+      "description": "expose tag for y → /IY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:intro:y-IY-final",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-y-IY-final",
+      "description": "intro tag for y → /IY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:exercise:y-IY-final",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-y-IY-final",
+      "description": "exercise tag for y → /IY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:expose:wh-W",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-wh-W",
+      "description": "expose tag for wh → /W/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:wh-W",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-wh-W",
+      "description": "intro tag for wh → /W/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:wh-W",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-wh-W",
+      "description": "exercise tag for wh → /W/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:y-AY-final",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-y-AY-final",
+      "description": "expose tag for y → /AY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:intro:y-AY-final",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-y-AY-final",
+      "description": "intro tag for y → /AY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:exercise:y-AY-final",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-y-AY-final",
+      "description": "exercise tag for y → /AY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:expose:all-AO_L",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-all-AO_L",
+      "description": "expose tag for all → /AO L/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:intro:all-AO_L",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-all-AO_L",
+      "description": "intro tag for all → /AO L/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:all-AO_L",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-all-AO_L",
+      "description": "exercise tag for all → /AO L/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:expose:oo-UW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-oo-UW",
+      "description": "expose tag for oo → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:oo-UW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-oo-UW",
+      "description": "intro tag for oo → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:oo-UW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-oo-UW",
+      "description": "exercise tag for oo → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:e-IH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-e-IH",
+      "description": "expose tag for e → /IH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:intro:e-IH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-e-IH",
+      "description": "intro tag for e → /IH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:exercise:e-IH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-e-IH",
+      "description": "exercise tag for e → /IH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:expose:ch-CH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ch-CH",
+      "description": "expose tag for ch → /CH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:ch-CH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ch-CH",
+      "description": "intro tag for ch → /CH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:ch-CH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ch-CH",
+      "description": "exercise tag for ch → /CH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:or-ER",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-or-ER",
+      "description": "expose tag for or → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:or-ER",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-or-ER",
+      "description": "intro tag for or → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:or-ER",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-or-ER",
+      "description": "exercise tag for or → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:o_e-OW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-o_e-OW",
+      "description": "expose tag for o_e → /OW/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:intro:o_e-OW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-o_e-OW",
+      "description": "intro tag for o_e → /OW/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:exercise:o_e-OW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-o_e-OW",
+      "description": "exercise tag for o_e → /OW/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:expose:ea-EH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ea-EH",
+      "description": "expose tag for ea → /EH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ea-EH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ea-EH",
+      "description": "intro tag for ea → /EH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ea-EH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ea-EH",
+      "description": "exercise tag for ea → /EH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ir-ER",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ir-ER",
+      "description": "expose tag for ir → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:ir-ER",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ir-ER",
+      "description": "intro tag for ir → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:ir-ER",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ir-ER",
+      "description": "exercise tag for ir → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:WORD-oh",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-oh",
+      "description": "expose tag for oh → /OW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-oh",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-oh",
+      "description": "intro tag for oh → /OW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-oh",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-oh",
+      "description": "exercise tag for oh → /OW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:ai-EY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ai-EY",
+      "description": "expose tag for ai → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ai-EY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ai-EY",
+      "description": "intro tag for ai → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ai-EY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ai-EY",
+      "description": "exercise tag for ai → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:c-S-soft",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-c-S-soft",
+      "description": "expose tag for c → /S/ (consonants_soft)"
+    },
+    {
+      "tag": "gpc:intro:c-S-soft",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-c-S-soft",
+      "description": "intro tag for c → /S/ (consonants_soft)"
+    },
+    {
+      "tag": "gpc:exercise:c-S-soft",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-c-S-soft",
+      "description": "exercise tag for c → /S/ (consonants_soft)"
+    },
+    {
+      "tag": "gpc:expose:WORD-one",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-one",
+      "description": "expose tag for one → /W AH N/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-one",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-one",
+      "description": "intro tag for one → /W AH N/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-one",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-one",
+      "description": "exercise tag for one → /W AH N/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:y-Y",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-y-Y",
+      "description": "expose tag for y → /Y/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:y-Y",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-y-Y",
+      "description": "intro tag for y → /Y/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:y-Y",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-y-Y",
+      "description": "exercise tag for y → /Y/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:ou-UW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ou-UW",
+      "description": "expose tag for ou → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ou-UW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ou-UW",
+      "description": "intro tag for ou → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ou-UW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ou-UW",
+      "description": "exercise tag for ou → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ai-EH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ai-EH",
+      "description": "expose tag for ai → /EH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ai-EH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ai-EH",
+      "description": "intro tag for ai → /EH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ai-EH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ai-EH",
+      "description": "exercise tag for ai → /EH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ind-AY_N_D",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ind-AY_N_D",
+      "description": "expose tag for ind → /AY N D/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:intro:ind-AY_N_D",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ind-AY_N_D",
+      "description": "intro tag for ind → /AY N D/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:ind-AY_N_D",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ind-AY_N_D",
+      "description": "exercise tag for ind → /AY N D/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:expose:ow-OW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ow-OW",
+      "description": "expose tag for ow → /OW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ow-OW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ow-OW",
+      "description": "intro tag for ow → /OW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ow-OW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ow-OW",
+      "description": "exercise tag for ow → /OW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:WORD-who",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-who",
+      "description": "expose tag for who → /HH UW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-who",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-who",
+      "description": "intro tag for who → /HH UW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-who",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-who",
+      "description": "exercise tag for who → /HH UW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:old-OW_L_D",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-old-OW_L_D",
+      "description": "expose tag for old → /OW L D/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:intro:old-OW_L_D",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-old-OW_L_D",
+      "description": "intro tag for old → /OW L D/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:old-OW_L_D",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-old-OW_L_D",
+      "description": "exercise tag for old → /OW L D/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:expose:x-K_S",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-x-K_S",
+      "description": "expose tag for x → /K S/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:x-K_S",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-x-K_S",
+      "description": "intro tag for x → /K S/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:x-K_S",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-x-K_S",
+      "description": "exercise tag for x → /K S/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:ll-L",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ll-L",
+      "description": "expose tag for ll → /L/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:intro:ll-L",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ll-L",
+      "description": "intro tag for ll → /L/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:ll-L",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ll-L",
+      "description": "exercise tag for ll → /L/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:expose:nn-N",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-nn-N",
+      "description": "expose tag for nn → /N/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:intro:nn-N",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-nn-N",
+      "description": "intro tag for nn → /N/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:nn-N",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-nn-N",
+      "description": "exercise tag for nn → /N/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:expose:tt-T",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-tt-T",
+      "description": "expose tag for tt → /T/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:intro:tt-T",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-tt-T",
+      "description": "intro tag for tt → /T/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:tt-T",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-tt-T",
+      "description": "exercise tag for tt → /T/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:expose:ss-S",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ss-S",
+      "description": "expose tag for ss → /S/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:intro:ss-S",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ss-S",
+      "description": "intro tag for ss → /S/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:ss-S",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ss-S",
+      "description": "exercise tag for ss → /S/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:expose:ff-F",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ff-F",
+      "description": "expose tag for ff → /F/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:intro:ff-F",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ff-F",
+      "description": "intro tag for ff → /F/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:ff-F",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ff-F",
+      "description": "exercise tag for ff → /F/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:expose:kn-N-initial",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-kn-N-initial",
+      "description": "expose tag for kn → /N/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:intro:kn-N-initial",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-kn-N-initial",
+      "description": "intro tag for kn → /N/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:exercise:kn-N-initial",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-kn-N-initial",
+      "description": "exercise tag for kn → /N/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:expose:rr-R",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-rr-R",
+      "description": "expose tag for rr → /R/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:intro:rr-R",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-rr-R",
+      "description": "intro tag for rr → /R/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:rr-R",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-rr-R",
+      "description": "exercise tag for rr → /R/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:expose:ie-IY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ie-IY",
+      "description": "expose tag for ie → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ie-IY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ie-IY",
+      "description": "intro tag for ie → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ie-IY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ie-IY",
+      "description": "exercise tag for ie → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ur-ER",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ur-ER",
+      "description": "expose tag for ur → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:ur-ER",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ur-ER",
+      "description": "intro tag for ur → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:ur-ER",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ur-ER",
+      "description": "exercise tag for ur → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:g-JH-soft",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-g-JH-soft",
+      "description": "expose tag for g → /JH/ (consonants_soft)"
+    },
+    {
+      "tag": "gpc:intro:g-JH-soft",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-g-JH-soft",
+      "description": "intro tag for g → /JH/ (consonants_soft)"
+    },
+    {
+      "tag": "gpc:exercise:g-JH-soft",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-g-JH-soft",
+      "description": "exercise tag for g → /JH/ (consonants_soft)"
+    },
+    {
+      "tag": "gpc:expose:igh-AY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-igh-AY",
+      "description": "expose tag for igh → /AY/ (trigraphs)"
+    },
+    {
+      "tag": "gpc:intro:igh-AY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-igh-AY",
+      "description": "intro tag for igh → /AY/ (trigraphs)"
+    },
+    {
+      "tag": "gpc:exercise:igh-AY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-igh-AY",
+      "description": "exercise tag for igh → /AY/ (trigraphs)"
+    },
+    {
+      "tag": "gpc:expose:WORD-would",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-would",
+      "description": "expose tag for would → /W UH D/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-would",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-would",
+      "description": "intro tag for would → /W UH D/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-would",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-would",
+      "description": "exercise tag for would → /W UH D/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:WORD-been",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-been",
+      "description": "expose tag for been → /B IH N/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-been",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-been",
+      "description": "intro tag for been → /B IH N/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-been",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-been",
+      "description": "exercise tag for been → /B IH N/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:alk-AO_K",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-alk-AO_K",
+      "description": "expose tag for alk → /AO K/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:intro:alk-AO_K",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-alk-AO_K",
+      "description": "intro tag for alk → /AO K/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:alk-AO_K",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-alk-AO_K",
+      "description": "exercise tag for alk → /AO K/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:expose:ew-UW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ew-UW",
+      "description": "expose tag for ew → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ew-UW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ew-UW",
+      "description": "intro tag for ew → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ew-UW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ew-UW",
+      "description": "exercise tag for ew → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:u-UH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-u-UH",
+      "description": "expose tag for u → /UH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:intro:u-UH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-u-UH",
+      "description": "intro tag for u → /UH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:exercise:u-UH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-u-UH",
+      "description": "exercise tag for u → /UH/ (vowels_short)"
+    },
+    {
+      "tag": "gpc:expose:WORD-could",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-could",
+      "description": "expose tag for could → /K UH D/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-could",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-could",
+      "description": "intro tag for could → /K UH D/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-could",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-could",
+      "description": "exercise tag for could → /K UH D/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:ear-IH_R",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ear-IH_R",
+      "description": "expose tag for ear → /IH R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:ear-IH_R",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ear-IH_R",
+      "description": "intro tag for ear → /IH R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:ear-IH_R",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ear-IH_R",
+      "description": "exercise tag for ear → /IH R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:au-AO",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-au-AO",
+      "description": "expose tag for au → /AO/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:au-AO",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-au-AO",
+      "description": "intro tag for au → /AO/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:au-AO",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-au-AO",
+      "description": "exercise tag for au → /AO/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ar-ER",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ar-ER",
+      "description": "expose tag for ar → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:ar-ER",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ar-ER",
+      "description": "intro tag for ar → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:ar-ER",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ar-ER",
+      "description": "exercise tag for ar → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:ey-IY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ey-IY",
+      "description": "expose tag for ey → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ey-IY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ey-IY",
+      "description": "intro tag for ey → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ey-IY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ey-IY",
+      "description": "exercise tag for ey → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:gu-G",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-gu-G",
+      "description": "expose tag for gu → /G/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:gu-G",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-gu-G",
+      "description": "intro tag for gu → /G/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:gu-G",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-gu-G",
+      "description": "exercise tag for gu → /G/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:are-EH_R",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-are-EH_R",
+      "description": "expose tag for are → /EH R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:are-EH_R",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-are-EH_R",
+      "description": "intro tag for are → /EH R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:are-EH_R",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-are-EH_R",
+      "description": "exercise tag for are → /EH R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:tch-CH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-tch-CH",
+      "description": "expose tag for tch → /CH/ (trigraphs)"
+    },
+    {
+      "tag": "gpc:intro:tch-CH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-tch-CH",
+      "description": "intro tag for tch → /CH/ (trigraphs)"
+    },
+    {
+      "tag": "gpc:exercise:tch-CH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-tch-CH",
+      "description": "exercise tag for tch → /CH/ (trigraphs)"
+    },
+    {
+      "tag": "gpc:expose:oy-OY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-oy-OY",
+      "description": "expose tag for oy → /OY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:oy-OY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-oy-OY",
+      "description": "intro tag for oy → /OY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:oy-OY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-oy-OY",
+      "description": "exercise tag for oy → /OY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ea-EY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ea-EY",
+      "description": "expose tag for ea → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ea-EY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ea-EY",
+      "description": "intro tag for ea → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ea-EY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ea-EY",
+      "description": "exercise tag for ea → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ti-SH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ti-SH",
+      "description": "expose tag for ti → /SH/ (latinate_digraphs)"
+    },
+    {
+      "tag": "gpc:intro:ti-SH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ti-SH",
+      "description": "intro tag for ti → /SH/ (latinate_digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:ti-SH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ti-SH",
+      "description": "exercise tag for ti → /SH/ (latinate_digraphs)"
+    },
+    {
+      "tag": "gpc:expose:ough-AO",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ough-AO",
+      "description": "expose tag for ough → /AO/ (vowels_diphthong_extended)"
+    },
+    {
+      "tag": "gpc:intro:ough-AO",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ough-AO",
+      "description": "intro tag for ough → /AO/ (vowels_diphthong_extended)"
+    },
+    {
+      "tag": "gpc:exercise:ough-AO",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ough-AO",
+      "description": "exercise tag for ough → /AO/ (vowels_diphthong_extended)"
+    },
+    {
+      "tag": "gpc:expose:WORD-sure",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-sure",
+      "description": "expose tag for sure → /SH UH R/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-sure",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-sure",
+      "description": "intro tag for sure → /SH UH R/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-sure",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-sure",
+      "description": "exercise tag for sure → /SH UH R/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:WORD-any",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-any",
+      "description": "expose tag for any → /EH N IY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-any",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-any",
+      "description": "intro tag for any → /EH N IY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-any",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-any",
+      "description": "exercise tag for any → /EH N IY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:pp-P",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-pp-P",
+      "description": "expose tag for pp → /P/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:intro:pp-P",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-pp-P",
+      "description": "intro tag for pp → /P/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:pp-P",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-pp-P",
+      "description": "exercise tag for pp → /P/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:expose:ie-AY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ie-AY",
+      "description": "expose tag for ie → /AY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ie-AY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ie-AY",
+      "description": "intro tag for ie → /AY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ie-AY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ie-AY",
+      "description": "exercise tag for ie → /AY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:WORD-only",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-only",
+      "description": "expose tag for only → /OW N L IY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-only",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-only",
+      "description": "intro tag for only → /OW N L IY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-only",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-only",
+      "description": "exercise tag for only → /OW N L IY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:WORD-two",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-two",
+      "description": "expose tag for two → /T UW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-two",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-two",
+      "description": "intro tag for two → /T UW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-two",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-two",
+      "description": "exercise tag for two → /T UW/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:WORD-should",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-should",
+      "description": "expose tag for should → /SH UH D/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-should",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-should",
+      "description": "intro tag for should → /SH UH D/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-should",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-should",
+      "description": "exercise tag for should → /SH UH D/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:en-AH_N",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-en-AH_N",
+      "description": "expose tag for en → /AH N/ (syllabic_consonants)"
+    },
+    {
+      "tag": "gpc:intro:en-AH_N",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-en-AH_N",
+      "description": "intro tag for en → /AH N/ (syllabic_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:en-AH_N",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-en-AH_N",
+      "description": "exercise tag for en → /AH N/ (syllabic_consonants)"
+    },
+    {
+      "tag": "gpc:expose:le-AH_L",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-le-AH_L",
+      "description": "expose tag for le → /AH L/ (syllabic_consonants)"
+    },
+    {
+      "tag": "gpc:intro:le-AH_L",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-le-AH_L",
+      "description": "intro tag for le → /AH L/ (syllabic_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:le-AH_L",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-le-AH_L",
+      "description": "exercise tag for le → /AH L/ (syllabic_consonants)"
+    },
+    {
+      "tag": "gpc:expose:ou-AH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ou-AH",
+      "description": "expose tag for ou → /AH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ou-AH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ou-AH",
+      "description": "intro tag for ou → /AH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ou-AH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ou-AH",
+      "description": "exercise tag for ou → /AH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:dd-D",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-dd-D",
+      "description": "expose tag for dd → /D/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:intro:dd-D",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-dd-D",
+      "description": "intro tag for dd → /D/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:dd-D",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-dd-D",
+      "description": "exercise tag for dd → /D/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:expose:oa-OW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-oa-OW",
+      "description": "expose tag for oa → /OW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:oa-OW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-oa-OW",
+      "description": "intro tag for oa → /OW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:oa-OW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-oa-OW",
+      "description": "exercise tag for oa → /OW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:aw-AO",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-aw-AO",
+      "description": "expose tag for aw → /AO/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:aw-AO",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-aw-AO",
+      "description": "intro tag for aw → /AO/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:aw-AO",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-aw-AO",
+      "description": "exercise tag for aw → /AO/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:mm-M",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-mm-M",
+      "description": "expose tag for mm → /M/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:intro:mm-M",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-mm-M",
+      "description": "intro tag for mm → /M/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:mm-M",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-mm-M",
+      "description": "exercise tag for mm → /M/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:expose:oi-OY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-oi-OY",
+      "description": "expose tag for oi → /OY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:oi-OY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-oi-OY",
+      "description": "intro tag for oi → /OY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:oi-OY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-oi-OY",
+      "description": "exercise tag for oi → /OY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:our-AO_R",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-our-AO_R",
+      "description": "expose tag for our → /AO R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:our-AO_R",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-our-AO_R",
+      "description": "intro tag for our → /AO R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:our-AO_R",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-our-AO_R",
+      "description": "exercise tag for our → /AO R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:gh-",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-gh-",
+      "description": "expose tag for gh → // (silent_patterns)"
+    },
+    {
+      "tag": "gpc:intro:gh-",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-gh-",
+      "description": "intro tag for gh → // (silent_patterns)"
+    },
+    {
+      "tag": "gpc:exercise:gh-",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-gh-",
+      "description": "exercise tag for gh → // (silent_patterns)"
+    },
+    {
+      "tag": "gpc:expose:ear-ER",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ear-ER",
+      "description": "expose tag for ear → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:ear-ER",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ear-ER",
+      "description": "intro tag for ear → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:ear-ER",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ear-ER",
+      "description": "exercise tag for ear → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:wr-R-initial",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-wr-R-initial",
+      "description": "expose tag for wr → /R/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:intro:wr-R-initial",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-wr-R-initial",
+      "description": "intro tag for wr → /R/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:exercise:wr-R-initial",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-wr-R-initial",
+      "description": "exercise tag for wr → /R/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:expose:qu-K_W",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-qu-K_W",
+      "description": "expose tag for qu → /K W/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:qu-K_W",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-qu-K_W",
+      "description": "intro tag for qu → /K W/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:qu-K_W",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-qu-K_W",
+      "description": "exercise tag for qu → /K W/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:ire-AY_ER",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ire-AY_ER",
+      "description": "expose tag for ire → /AY ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:ire-AY_ER",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ire-AY_ER",
+      "description": "intro tag for ire → /AY ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:ire-AY_ER",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ire-AY_ER",
+      "description": "exercise tag for ire → /AY ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:WORD-does",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-does",
+      "description": "expose tag for does → /D AH Z/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-does",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-does",
+      "description": "intro tag for does → /D AH Z/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-does",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-does",
+      "description": "exercise tag for does → /D AH Z/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:el-AH_L",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-el-AH_L",
+      "description": "expose tag for el → /AH L/ (syllabic_consonants)"
+    },
+    {
+      "tag": "gpc:intro:el-AH_L",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-el-AH_L",
+      "description": "intro tag for el → /AH L/ (syllabic_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:el-AH_L",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-el-AH_L",
+      "description": "exercise tag for el → /AH L/ (syllabic_consonants)"
+    },
+    {
+      "tag": "gpc:expose:WORD-their",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-their",
+      "description": "expose tag for their → /DH EH R/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-their",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-their",
+      "description": "intro tag for their → /DH EH R/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-their",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-their",
+      "description": "exercise tag for their → /DH EH R/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:gh-F",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-gh-F",
+      "description": "expose tag for gh → /F/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:intro:gh-F",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-gh-F",
+      "description": "intro tag for gh → /F/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:exercise:gh-F",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-gh-F",
+      "description": "exercise tag for gh → /F/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:expose:in-AH_N",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-in-AH_N",
+      "description": "expose tag for in → /AH N/ (syllabic_consonants)"
+    },
+    {
+      "tag": "gpc:intro:in-AH_N",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-in-AH_N",
+      "description": "intro tag for in → /AH N/ (syllabic_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:in-AH_N",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-in-AH_N",
+      "description": "exercise tag for in → /AH N/ (syllabic_consonants)"
+    },
+    {
+      "tag": "gpc:expose:u_e-Y_UW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-u_e-Y_UW",
+      "description": "expose tag for u_e → /Y UW/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:intro:u_e-Y_UW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-u_e-Y_UW",
+      "description": "intro tag for u_e → /Y UW/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:exercise:u_e-Y_UW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-u_e-Y_UW",
+      "description": "exercise tag for u_e → /Y UW/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:expose:z-Z",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-z-Z",
+      "description": "expose tag for z → /Z/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:z-Z",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-z-Z",
+      "description": "intro tag for z → /Z/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:z-Z",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-z-Z",
+      "description": "exercise tag for z → /Z/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:ch-K",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ch-K",
+      "description": "expose tag for ch → /K/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:ch-K",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ch-K",
+      "description": "intro tag for ch → /K/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:ch-K",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ch-K",
+      "description": "exercise tag for ch → /K/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:i-AY-final",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-i-AY-final",
+      "description": "expose tag for i → /AY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:intro:i-AY-final",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-i-AY-final",
+      "description": "intro tag for i → /AY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:exercise:i-AY-final",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-i-AY-final",
+      "description": "exercise tag for i → /AY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:expose:u_e-UW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-u_e-UW",
+      "description": "expose tag for u_e → /UW/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:intro:u_e-UW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-u_e-UW",
+      "description": "intro tag for u_e → /UW/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:exercise:u_e-UW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-u_e-UW",
+      "description": "exercise tag for u_e → /UW/ (vowels_long_split)"
+    },
+    {
+      "tag": "gpc:expose:ue-UW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ue-UW",
+      "description": "expose tag for ue → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ue-UW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ue-UW",
+      "description": "intro tag for ue → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ue-UW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ue-UW",
+      "description": "exercise tag for ue → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:our-ER",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-our-ER",
+      "description": "expose tag for our → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:our-ER",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-our-ER",
+      "description": "intro tag for our → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:our-ER",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-our-ER",
+      "description": "exercise tag for our → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:ph-F",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ph-F",
+      "description": "expose tag for ph → /F/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:ph-F",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ph-F",
+      "description": "intro tag for ph → /F/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:ph-F",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ph-F",
+      "description": "exercise tag for ph → /F/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:oor-AO_R",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-oor-AO_R",
+      "description": "expose tag for oor → /AO R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:oor-AO_R",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-oor-AO_R",
+      "description": "intro tag for oor → /AO R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:oor-AO_R",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-oor-AO_R",
+      "description": "exercise tag for oor → /AO R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:x-G_Z",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-x-G_Z",
+      "description": "expose tag for x → /G Z/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:x-G_Z",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-x-G_Z",
+      "description": "intro tag for x → /G Z/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:x-G_Z",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-x-G_Z",
+      "description": "exercise tag for x → /G Z/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:WORD-friend",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-friend",
+      "description": "expose tag for friend → /F R EH N D/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-friend",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-friend",
+      "description": "intro tag for friend → /F R EH N D/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-friend",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-friend",
+      "description": "exercise tag for friend → /F R EH N D/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:mn-M",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-mn-M",
+      "description": "expose tag for mn → /M/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:intro:mn-M",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-mn-M",
+      "description": "intro tag for mn → /M/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:exercise:mn-M",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-mn-M",
+      "description": "exercise tag for mn → /M/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:expose:WORD-move",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-move",
+      "description": "expose tag for move → /M UW V/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-move",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-move",
+      "description": "intro tag for move → /M UW V/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-move",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-move",
+      "description": "exercise tag for move → /M UW V/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:gg-G",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-gg-G",
+      "description": "expose tag for gg → /G/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:intro:gg-G",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-gg-G",
+      "description": "intro tag for gg → /G/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:gg-G",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-gg-G",
+      "description": "exercise tag for gg → /G/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:expose:WORD-whole",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-whole",
+      "description": "expose tag for whole → /HH OW L/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-whole",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-whole",
+      "description": "intro tag for whole → /HH OW L/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-whole",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-whole",
+      "description": "exercise tag for whole → /HH OW L/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:ci-SH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ci-SH",
+      "description": "expose tag for ci → /SH/ (latinate_digraphs)"
+    },
+    {
+      "tag": "gpc:intro:ci-SH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ci-SH",
+      "description": "intro tag for ci → /SH/ (latinate_digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:ci-SH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ci-SH",
+      "description": "exercise tag for ci → /SH/ (latinate_digraphs)"
+    },
+    {
+      "tag": "gpc:expose:WORD-many",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-many",
+      "description": "expose tag for many → /M EH N IY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-many",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-many",
+      "description": "intro tag for many → /M EH N IY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-many",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-many",
+      "description": "exercise tag for many → /M EH N IY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:ou-OW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ou-OW",
+      "description": "expose tag for ou → /OW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ou-OW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ou-OW",
+      "description": "intro tag for ou → /OW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ou-OW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ou-OW",
+      "description": "exercise tag for ou → /OW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ew-Y_UW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ew-Y_UW",
+      "description": "expose tag for ew → /Y UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ew-Y_UW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ew-Y_UW",
+      "description": "intro tag for ew → /Y UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ew-Y_UW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ew-Y_UW",
+      "description": "exercise tag for ew → /Y UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:WORD-once",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-once",
+      "description": "expose tag for once → /W AH N S/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-once",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-once",
+      "description": "intro tag for once → /W AH N S/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-once",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-once",
+      "description": "exercise tag for once → /W AH N S/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:bb-B",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-bb-B",
+      "description": "expose tag for bb → /B/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:intro:bb-B",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-bb-B",
+      "description": "intro tag for bb → /B/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:bb-B",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-bb-B",
+      "description": "exercise tag for bb → /B/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:expose:WORD-says",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-says",
+      "description": "expose tag for says → /S EH Z/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-says",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-says",
+      "description": "intro tag for says → /S EH Z/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-says",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-says",
+      "description": "exercise tag for says → /S EH Z/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:ei-EY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ei-EY",
+      "description": "expose tag for ei → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ei-EY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ei-EY",
+      "description": "intro tag for ei → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ei-EY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ei-EY",
+      "description": "exercise tag for ei → /EY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ei-IY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ei-IY",
+      "description": "expose tag for ei → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ei-IY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ei-IY",
+      "description": "intro tag for ei → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ei-IY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ei-IY",
+      "description": "exercise tag for ei → /IY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ild-AY_L_D",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ild-AY_L_D",
+      "description": "expose tag for ild → /AY L D/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:intro:ild-AY_L_D",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ild-AY_L_D",
+      "description": "intro tag for ild → /AY L D/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:ild-AY_L_D",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ild-AY_L_D",
+      "description": "exercise tag for ild → /AY L D/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:expose:dge-JH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-dge-JH",
+      "description": "expose tag for dge → /JH/ (trigraphs)"
+    },
+    {
+      "tag": "gpc:intro:dge-JH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-dge-JH",
+      "description": "intro tag for dge → /JH/ (trigraphs)"
+    },
+    {
+      "tag": "gpc:exercise:dge-JH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-dge-JH",
+      "description": "exercise tag for dge → /JH/ (trigraphs)"
+    },
+    {
+      "tag": "gpc:expose:WORD-heart",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-heart",
+      "description": "expose tag for heart → /HH AA R T/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-heart",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-heart",
+      "description": "intro tag for heart → /HH AA R T/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-heart",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-heart",
+      "description": "exercise tag for heart → /HH AA R T/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:WORD-eyes",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-eyes",
+      "description": "expose tag for eyes → /AY Z/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-eyes",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-eyes",
+      "description": "intro tag for eyes → /AY Z/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-eyes",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-eyes",
+      "description": "exercise tag for eyes → /AY Z/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:au-AE",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-au-AE",
+      "description": "expose tag for au → /AE/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:au-AE",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-au-AE",
+      "description": "intro tag for au → /AE/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:au-AE",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-au-AE",
+      "description": "exercise tag for au → /AE/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ue-Y_UW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ue-Y_UW",
+      "description": "expose tag for ue → /Y UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ue-Y_UW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ue-Y_UW",
+      "description": "intro tag for ue → /Y UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ue-Y_UW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ue-Y_UW",
+      "description": "exercise tag for ue → /Y UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:WORD-half",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-half",
+      "description": "expose tag for half → /HH AE F/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-half",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-half",
+      "description": "intro tag for half → /HH AE F/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-half",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-half",
+      "description": "exercise tag for half → /HH AE F/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:cc-K",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-cc-K",
+      "description": "expose tag for cc → /K/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:intro:cc-K",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-cc-K",
+      "description": "intro tag for cc → /K/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:cc-K",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-cc-K",
+      "description": "exercise tag for cc → /K/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:expose:mb-M",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-mb-M",
+      "description": "expose tag for mb → /M/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:intro:mb-M",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-mb-M",
+      "description": "intro tag for mb → /M/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:exercise:mb-M",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-mb-M",
+      "description": "exercise tag for mb → /M/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:expose:WORD-buy",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-buy",
+      "description": "expose tag for buy → /B AY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-buy",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-buy",
+      "description": "intro tag for buy → /B AY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-buy",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-buy",
+      "description": "exercise tag for buy → /B AY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:si-ZH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-si-ZH",
+      "description": "expose tag for si → /ZH/ (latinate_digraphs)"
+    },
+    {
+      "tag": "gpc:intro:si-ZH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-si-ZH",
+      "description": "intro tag for si → /ZH/ (latinate_digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:si-ZH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-si-ZH",
+      "description": "exercise tag for si → /ZH/ (latinate_digraphs)"
+    },
+    {
+      "tag": "gpc:expose:oar-AO_R",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-oar-AO_R",
+      "description": "expose tag for oar → /AO R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:oar-AO_R",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-oar-AO_R",
+      "description": "intro tag for oar → /AO R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:oar-AO_R",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-oar-AO_R",
+      "description": "exercise tag for oar → /AO R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:oll-OW_L",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-oll-OW_L",
+      "description": "expose tag for oll → /OW L/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:intro:oll-OW_L",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-oll-OW_L",
+      "description": "intro tag for oll → /OW L/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:oll-OW_L",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-oll-OW_L",
+      "description": "exercise tag for oll → /OW L/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:expose:i-IY-final",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-i-IY-final",
+      "description": "expose tag for i → /IY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:intro:i-IY-final",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-i-IY-final",
+      "description": "intro tag for i → /IY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:exercise:i-IY-final",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-i-IY-final",
+      "description": "exercise tag for i → /IY/ (vowels_final_open)"
+    },
+    {
+      "tag": "gpc:expose:alt-AO_L_T",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-alt-AO_L_T",
+      "description": "expose tag for alt → /AO L T/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:intro:alt-AO_L_T",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-alt-AO_L_T",
+      "description": "intro tag for alt → /AO L T/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:alt-AO_L_T",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-alt-AO_L_T",
+      "description": "exercise tag for alt → /AO L T/ (vowels_l_controlled)"
+    },
+    {
+      "tag": "gpc:expose:sc-S",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-sc-S",
+      "description": "expose tag for sc → /S/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:sc-S",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-sc-S",
+      "description": "intro tag for sc → /S/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:sc-S",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-sc-S",
+      "description": "exercise tag for sc → /S/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:ore-AO_R",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ore-AO_R",
+      "description": "expose tag for ore → /AO R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:ore-AO_R",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ore-AO_R",
+      "description": "intro tag for ore → /AO R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:ore-AO_R",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ore-AO_R",
+      "description": "exercise tag for ore → /AO R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:WORD-eye",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-WORD-eye",
+      "description": "expose tag for eye → /AY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:intro:WORD-eye",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-WORD-eye",
+      "description": "intro tag for eye → /AY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-eye",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-WORD-eye",
+      "description": "exercise tag for eye → /AY/ (sight_words)"
+    },
+    {
+      "tag": "gpc:expose:bt-T",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-bt-T",
+      "description": "expose tag for bt → /T/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:intro:bt-T",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-bt-T",
+      "description": "intro tag for bt → /T/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:exercise:bt-T",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-bt-T",
+      "description": "exercise tag for bt → /T/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:expose:ure-Y_UH_R",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ure-Y_UH_R",
+      "description": "expose tag for ure → /Y UH R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:ure-Y_UH_R",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ure-Y_UH_R",
+      "description": "intro tag for ure → /Y UH R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:ure-Y_UH_R",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ure-Y_UH_R",
+      "description": "exercise tag for ure → /Y UH R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:zz-Z",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-zz-Z",
+      "description": "expose tag for zz → /Z/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:intro:zz-Z",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-zz-Z",
+      "description": "intro tag for zz → /Z/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:zz-Z",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-zz-Z",
+      "description": "exercise tag for zz → /Z/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:expose:ch-SH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ch-SH",
+      "description": "expose tag for ch → /SH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:ch-SH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ch-SH",
+      "description": "intro tag for ch → /SH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:ch-SH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ch-SH",
+      "description": "exercise tag for ch → /SH/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:ie-IH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ie-IH",
+      "description": "expose tag for ie → /IH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ie-IH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ie-IH",
+      "description": "intro tag for ie → /IH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ie-IH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ie-IH",
+      "description": "exercise tag for ie → /IH/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ei-AY",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ei-AY",
+      "description": "expose tag for ei → /AY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ei-AY",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ei-AY",
+      "description": "intro tag for ei → /AY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ei-AY",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ei-AY",
+      "description": "exercise tag for ei → /AY/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:ire-AY_R",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ire-AY_R",
+      "description": "expose tag for ire → /AY R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:ire-AY_R",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ire-AY_R",
+      "description": "intro tag for ire → /AY R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:ire-AY_R",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ire-AY_R",
+      "description": "exercise tag for ire → /AY R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:si-SH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-si-SH",
+      "description": "expose tag for si → /SH/ (latinate_digraphs)"
+    },
+    {
+      "tag": "gpc:intro:si-SH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-si-SH",
+      "description": "intro tag for si → /SH/ (latinate_digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:si-SH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-si-SH",
+      "description": "exercise tag for si → /SH/ (latinate_digraphs)"
+    },
+    {
+      "tag": "gpc:expose:eu-UW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-eu-UW",
+      "description": "expose tag for eu → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:eu-UW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-eu-UW",
+      "description": "intro tag for eu → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:eu-UW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-eu-UW",
+      "description": "exercise tag for eu → /UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:eu-Y_UW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-eu-Y_UW",
+      "description": "expose tag for eu → /Y UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:eu-Y_UW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-eu-Y_UW",
+      "description": "intro tag for eu → /Y UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:eu-Y_UW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-eu-Y_UW",
+      "description": "exercise tag for eu → /Y UW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:sch-SH",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-sch-SH",
+      "description": "expose tag for sch → /SH/ (trigraphs)"
+    },
+    {
+      "tag": "gpc:intro:sch-SH",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-sch-SH",
+      "description": "intro tag for sch → /SH/ (trigraphs)"
+    },
+    {
+      "tag": "gpc:exercise:sch-SH",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-sch-SH",
+      "description": "exercise tag for sch → /SH/ (trigraphs)"
+    },
+    {
+      "tag": "gpc:expose:ure-ER",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ure-ER",
+      "description": "expose tag for ure → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:ure-ER",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ure-ER",
+      "description": "intro tag for ure → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:ure-ER",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ure-ER",
+      "description": "exercise tag for ure → /ER/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:ew-OW",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ew-OW",
+      "description": "expose tag for ew → /OW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:intro:ew-OW",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ew-OW",
+      "description": "intro tag for ew → /OW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:exercise:ew-OW",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ew-OW",
+      "description": "exercise tag for ew → /OW/ (vowels_teams)"
+    },
+    {
+      "tag": "gpc:expose:q-K",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-q-K",
+      "description": "expose tag for q → /K/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:q-K",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-q-K",
+      "description": "intro tag for q → /K/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:q-K",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-q-K",
+      "description": "exercise tag for q → /K/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:gu-G_W",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-gu-G_W",
+      "description": "expose tag for gu → /G W/ (digraphs)"
+    },
+    {
+      "tag": "gpc:intro:gu-G_W",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-gu-G_W",
+      "description": "intro tag for gu → /G W/ (digraphs)"
+    },
+    {
+      "tag": "gpc:exercise:gu-G_W",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-gu-G_W",
+      "description": "exercise tag for gu → /G W/ (digraphs)"
+    },
+    {
+      "tag": "gpc:expose:ough-AO_F",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ough-AO_F",
+      "description": "expose tag for ough → /AO F/ (vowels_diphthong_extended)"
+    },
+    {
+      "tag": "gpc:intro:ough-AO_F",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ough-AO_F",
+      "description": "intro tag for ough → /AO F/ (vowels_diphthong_extended)"
+    },
+    {
+      "tag": "gpc:exercise:ough-AO_F",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ough-AO_F",
+      "description": "exercise tag for ough → /AO F/ (vowels_diphthong_extended)"
+    },
+    {
+      "tag": "gpc:expose:gn-N-initial",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-gn-N-initial",
+      "description": "expose tag for gn → /N/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:intro:gn-N-initial",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-gn-N-initial",
+      "description": "intro tag for gn → /N/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:exercise:gn-N-initial",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-gn-N-initial",
+      "description": "exercise tag for gn → /N/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:expose:rh-R-initial",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-rh-R-initial",
+      "description": "expose tag for rh → /R/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:intro:rh-R-initial",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-rh-R-initial",
+      "description": "intro tag for rh → /R/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:exercise:rh-R-initial",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-rh-R-initial",
+      "description": "exercise tag for rh → /R/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:expose:ure-UH_R",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ure-UH_R",
+      "description": "expose tag for ure → /UH R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:intro:ure-UH_R",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ure-UH_R",
+      "description": "intro tag for ure → /UH R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:exercise:ure-UH_R",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ure-UH_R",
+      "description": "exercise tag for ure → /UH R/ (vowels_r_controlled)"
+    },
+    {
+      "tag": "gpc:expose:ps-S-initial",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-ps-S-initial",
+      "description": "expose tag for ps → /S/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:intro:ps-S-initial",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-ps-S-initial",
+      "description": "intro tag for ps → /S/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:exercise:ps-S-initial",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-ps-S-initial",
+      "description": "exercise tag for ps → /S/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:expose:x-Z",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-x-Z",
+      "description": "expose tag for x → /Z/ (consonants)"
+    },
+    {
+      "tag": "gpc:intro:x-Z",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-x-Z",
+      "description": "intro tag for x → /Z/ (consonants)"
+    },
+    {
+      "tag": "gpc:exercise:x-Z",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-x-Z",
+      "description": "exercise tag for x → /Z/ (consonants)"
+    },
+    {
+      "tag": "gpc:expose:pn-N-initial",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-pn-N-initial",
+      "description": "expose tag for pn → /N/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:intro:pn-N-initial",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-pn-N-initial",
+      "description": "intro tag for pn → /N/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:exercise:pn-N-initial",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-pn-N-initial",
+      "description": "exercise tag for pn → /N/ (silent_patterns)"
+    },
+    {
+      "tag": "gpc:expose:zz-T_S",
+      "namespace": "gpc",
+      "role": "expose",
+      "gpcId": "GPC-zz-T_S",
+      "description": "expose tag for zz → /T S/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:intro:zz-T_S",
+      "namespace": "gpc",
+      "role": "intro",
+      "gpcId": "GPC-zz-T_S",
+      "description": "intro tag for zz → /T S/ (doubled_consonants)"
+    },
+    {
+      "tag": "gpc:exercise:zz-T_S",
+      "namespace": "gpc",
+      "role": "exercise",
+      "gpcId": "GPC-zz-T_S",
+      "description": "exercise tag for zz → /T S/ (doubled_consonants)"
+    },
+    {
+      "tag": "concept:match:simple",
+      "namespace": "concept",
+      "conceptCategory": "match:simple",
+      "description": "Concept tag: match:simple"
+    },
+    {
+      "tag": "concept:vowel:short",
+      "namespace": "concept",
+      "conceptCategory": "vowel:short",
+      "description": "Concept tag: vowel:short"
+    },
+    {
+      "tag": "concept:lesson:bed",
+      "namespace": "concept",
+      "conceptCategory": "lesson:bed",
+      "description": "Concept tag: lesson:bed"
+    },
+    {
+      "tag": "concept:match:digraph",
+      "namespace": "concept",
+      "conceptCategory": "match:digraph",
+      "description": "Concept tag: match:digraph"
+    },
+    {
+      "tag": "concept:match:split_digraph",
+      "namespace": "concept",
+      "conceptCategory": "match:split_digraph",
+      "description": "Concept tag: match:split_digraph"
+    },
+    {
+      "tag": "concept:match:whole_word",
+      "namespace": "concept",
+      "conceptCategory": "match:whole_word",
+      "description": "Concept tag: match:whole_word"
+    },
+    {
+      "tag": "concept:vowel:final_open",
+      "namespace": "concept",
+      "conceptCategory": "vowel:final_open",
+      "description": "Concept tag: vowel:final_open"
+    },
+    {
+      "tag": "concept:vowel:teams",
+      "namespace": "concept",
+      "conceptCategory": "vowel:teams",
+      "description": "Concept tag: vowel:teams"
+    },
+    {
+      "tag": "concept:vowel:r_controlled",
+      "namespace": "concept",
+      "conceptCategory": "vowel:r_controlled",
+      "description": "Concept tag: vowel:r_controlled"
+    },
+    {
+      "tag": "concept:vowel:l_controlled",
+      "namespace": "concept",
+      "conceptCategory": "vowel:l_controlled",
+      "description": "Concept tag: vowel:l_controlled"
+    },
+    {
+      "tag": "concept:consonant:soft",
+      "namespace": "concept",
+      "conceptCategory": "consonant:soft",
+      "description": "Concept tag: consonant:soft"
+    },
+    {
+      "tag": "concept:consonant:doubled",
+      "namespace": "concept",
+      "conceptCategory": "consonant:doubled",
+      "description": "Concept tag: consonant:doubled"
+    },
+    {
+      "tag": "concept:match:silent",
+      "namespace": "concept",
+      "conceptCategory": "match:silent",
+      "description": "Concept tag: match:silent"
+    },
+    {
+      "tag": "concept:unassigned",
+      "namespace": "concept",
+      "conceptCategory": "unassigned",
+      "description": "Concept tag: unassigned"
+    },
+    {
+      "tag": "concept:skill:first-phoneme-diff",
+      "namespace": "concept",
+      "conceptCategory": "skill:first-phoneme-diff",
+      "description": "Concept tag: skill:first-phoneme-diff"
+    },
+    {
+      "tag": "concept:skill:final-phoneme-diff",
+      "namespace": "concept",
+      "conceptCategory": "skill:final-phoneme-diff",
+      "description": "Concept tag: skill:final-phoneme-diff"
+    },
+    {
+      "tag": "concept:skill:medial-vowel-diff",
+      "namespace": "concept",
+      "conceptCategory": "skill:medial-vowel-diff",
+      "description": "Concept tag: skill:medial-vowel-diff"
+    },
+    {
+      "tag": "concept:skill:blending",
+      "namespace": "concept",
+      "conceptCategory": "skill:blending",
+      "description": "Concept tag: skill:blending"
+    },
+    {
+      "tag": "concept:skill:segmenting",
+      "namespace": "concept",
+      "conceptCategory": "skill:segmenting",
+      "description": "Concept tag: skill:segmenting"
+    },
+    {
+      "tag": "ui:gpc-intro",
+      "namespace": "ui",
+      "description": "GpcIntro question type — one-time letter-sound introduction"
+    },
+    {
+      "tag": "ui:who-said-that",
+      "namespace": "ui",
+      "description": "WhoSaidThat question type"
+    },
+    {
+      "tag": "ui:word-selection",
+      "namespace": "ui",
+      "description": "WordSelection question type"
+    },
+    {
+      "tag": "ui:missing-letters",
+      "namespace": "ui",
+      "description": "MissingLetters question type"
+    },
+    {
+      "tag": "ui:spelling",
+      "namespace": "ui",
+      "description": "SpellingQuestion question type"
+    },
+    {
+      "tag": "ui:vignette",
+      "namespace": "ui",
+      "description": "Vignette introductory animation (future)"
+    },
+    {
+      "tag": "gpc:expose:WORD-have",
+      "namespace": "gpc",
+      "description": "Referenced in hierarchy (auto-discovered)"
+    },
+    {
+      "tag": "gpc:intro:WORD-have",
+      "namespace": "gpc",
+      "description": "Referenced as prerequisite (auto-discovered)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-have",
+      "namespace": "gpc",
+      "description": "Referenced in hierarchy (auto-discovered)"
+    },
+    {
+      "tag": "gpc:expose:WORD-live",
+      "namespace": "gpc",
+      "description": "Referenced in hierarchy (auto-discovered)"
+    },
+    {
+      "tag": "gpc:intro:WORD-live",
+      "namespace": "gpc",
+      "description": "Referenced as prerequisite (auto-discovered)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-live",
+      "namespace": "gpc",
+      "description": "Referenced in hierarchy (auto-discovered)"
+    },
+    {
+      "tag": "gpc:expose:WORD-said",
+      "namespace": "gpc",
+      "description": "Referenced in hierarchy (auto-discovered)"
+    },
+    {
+      "tag": "gpc:intro:WORD-said",
+      "namespace": "gpc",
+      "description": "Referenced as prerequisite (auto-discovered)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-said",
+      "namespace": "gpc",
+      "description": "Referenced in hierarchy (auto-discovered)"
+    },
+    {
+      "tag": "gpc:expose:WORD-you",
+      "namespace": "gpc",
+      "description": "Referenced in hierarchy (auto-discovered)"
+    },
+    {
+      "tag": "gpc:intro:WORD-you",
+      "namespace": "gpc",
+      "description": "Referenced as prerequisite (auto-discovered)"
+    },
+    {
+      "tag": "gpc:exercise:WORD-you",
+      "namespace": "gpc",
+      "description": "Referenced in hierarchy (auto-discovered)"
+    }
+  ]
+}

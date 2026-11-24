@@ -1,0 +1,157 @@
+{
+  "interferenceSets": [
+    {
+      "tags": [
+        "gpc:exercise:b-B",
+        "gpc:exercise:d-D"
+      ],
+      "decay": 0.9
+    },
+    {
+      "tags": [
+        "gpc:exercise:p-P",
+        "gpc:exercise:q-K"
+      ],
+      "decay": 0.85
+    },
+    {
+      "tags": [
+        "gpc:exercise:b-B",
+        "gpc:exercise:p-P"
+      ],
+      "decay": 0.6
+    },
+    {
+      "tags": [
+        "gpc:exercise:d-D",
+        "gpc:exercise:q-K"
+      ],
+      "decay": 0.6
+    },
+    {
+      "tags": [
+        "gpc:exercise:m-M",
+        "gpc:exercise:n-N"
+      ],
+      "decay": 0.55
+    },
+    {
+      "tags": [
+        "gpc:exercise:u-AH",
+        "gpc:exercise:n-N"
+      ],
+      "decay": 0.4
+    },
+    {
+      "tags": [
+        "gpc:exercise:h-HH",
+        "gpc:exercise:n-N"
+      ],
+      "decay": 0.4
+    },
+    {
+      "tags": [
+        "gpc:exercise:v-V",
+        "gpc:exercise:w-W"
+      ],
+      "decay": 0.35
+    },
+    {
+      "tags": [
+        "gpc:exercise:b-B",
+        "gpc:exercise:p-P"
+      ],
+      "decay": 0.7
+    },
+    {
+      "tags": [
+        "gpc:exercise:d-D",
+        "gpc:exercise:t-T"
+      ],
+      "decay": 0.7
+    },
+    {
+      "tags": [
+        "gpc:exercise:g-G",
+        "gpc:exercise:k-K"
+      ],
+      "decay": 0.7
+    },
+    {
+      "tags": [
+        "gpc:exercise:f-F",
+        "gpc:exercise:v-V"
+      ],
+      "decay": 0.65
+    },
+    {
+      "tags": [
+        "gpc:exercise:s-S",
+        "gpc:exercise:s-Z"
+      ],
+      "decay": 0.6
+    },
+    {
+      "tags": [
+        "gpc:exercise:th-TH",
+        "gpc:exercise:th-DH"
+      ],
+      "decay": 0.5
+    },
+    {
+      "tags": [
+        "gpc:exercise:sh-SH",
+        "gpc:exercise:ch-CH"
+      ],
+      "decay": 0.55
+    },
+    {
+      "tags": [
+        "gpc:exercise:a-AE",
+        "gpc:exercise:e-EH"
+      ],
+      "decay": 0.5
+    },
+    {
+      "tags": [
+        "gpc:exercise:i-IH",
+        "gpc:exercise:e-EH"
+      ],
+      "decay": 0.5
+    },
+    {
+      "tags": [
+        "gpc:exercise:o-AA",
+        "gpc:exercise:u-AH"
+      ],
+      "decay": 0.45
+    },
+    {
+      "tags": [
+        "gpc:exercise:a-AE",
+        "gpc:exercise:a_e-EY"
+      ],
+      "decay": 0.4
+    },
+    {
+      "tags": [
+        "gpc:exercise:i-IH",
+        "gpc:exercise:i_e-AY"
+      ],
+      "decay": 0.4
+    },
+    {
+      "tags": [
+        "gpc:exercise:o-AA",
+        "gpc:exercise:o_e-OW"
+      ],
+      "decay": 0.4
+    }
+  ],
+  "maturityThreshold": {
+    "minCount": 10,
+    "minElo": 1050,
+    "minElapsedDays": 3
+  },
+  "defaultDecay": 0.8
+}

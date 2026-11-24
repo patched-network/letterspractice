@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en" data-booting>
+    <head>
+        <meta charset="UTF-8" />
+
+        <!--
+            These strings are STATIC and duplicated seven ways below (title,
+            name=title, og:*, twitter:*). Two things to know before editing:
+
+            1. They echo the landing hero deliberately — the H1 is the literal
+               phrase "Teach your child to read" (the Engelmann wedge; see
+               src/components/landing/hero-read.spec.md §5). Title and H1
+               should move together.
+            2. The description is HOME_META's (src/content/pages.ts), which
+               pages.test.ts checks: the open build's, with no offer in it. A
+               deployment that sells access adds its tagline to the home page
+               (deployment/pitch.ts), at runtime and in its prerendered HTML.
+
+            The title is kept short on purpose: search results truncate around
+            60 characters, so the keyword phrase leads and the brand follows.
+        -->
+        <!-- Primary Meta Tags -->
+        <title>Teach your child to read - LettersPractice</title>
+        <meta name="title" content="Teach your child to read - LettersPractice" />
+        <meta name="description" content="Teach your child to read with a guided, interactive workbook." />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="%VITE_SITE_URL%/" />
+        <meta property="og:title" content="Teach your child to read - LettersPractice" />
+        <meta property="og:description" content="Teach your child to read with a guided, interactive workbook." />
+        <meta property="og:image" content="%VITE_SITE_URL%/og-image.png" />
+        <meta property="og:site_name" content="LettersPractice" />
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="%VITE_SITE_URL%/" />
+        <meta name="twitter:title" content="Teach your child to read - LettersPractice" />
+        <meta name="twitter:description" content="Teach your child to read with a guided, interactive workbook." />
+        <meta name="twitter:image" content="%VITE_SITE_URL%/og-image.png" />
+        <!--
+            Per-page values: the tags above are the site-wide defaults. Public
+            pages replace title/description/og/twitter (the preview image
+            too, with its size and alt text) and add a canonical link, at
+            runtime (src/services/pageMeta.ts) and in their prerendered HTML
+            (scripts/prerender-public.ts). og:image here is SITE_IMAGE in
+            src/content/pages.ts.
+        -->
+        <link rel="alternate" type="application/atom+xml" title="LettersPractice changelog" href="/changelog.xml" />
+        <!--
+            Prerendered public pages carry a static copy of the page inside
+            #app (<div data-prerendered>), for crawlers and link-preview bots
+            that don't run JavaScript. Browsers that do mostly don't show it:
+            it stays hidden until Vue mounts and replaces it. Without
+            JavaScript it all shows.
+
+            Except a page's marked part (data-prerender-show; the landing
+            page's hero), which shows from the HTML, before the app has loaded,
+            so the reader isn't left with a blank screen for the whole bundle
+            download. The prerender keeps that part as the app draws it and
+            tags everything around it data-prerender-off
+            (scripts/prerender-public.ts); its wrapper says
+            data-prerendered="show".
+        -->
+        <style>
+            [data-prerendered]:not([data-prerendered="show"]) { display: none; }
+            [data-prerendered] [data-prerender-off] { display: none !important; }
+            /*
+                Vuetify sizes v-main's padding for the app bar a frame after
+                mount, and animates it from 0: the whole page slides down 64 px
+                just as the app takes over (from the shown copy above, or from
+                blank). No transition until main.ts drops data-booting, once
+                that's settled; in-app layout changes still animate.
+            */
+            html[data-booting] .v-main { transition: none !important; }
+            /* No price in the Play Store app, not even in the copy shown
+               before mount (services/androidApp.ts; Play billing policy). */
+            html[data-android-app] [data-prerendered] .hero-pricing { display: none; }
+        </style>
+        <script>
+            // The Play Store app's marker, read before first paint for the rule
+            // above. Same param and key as services/androidApp.ts.
+            try {
+                if (new URLSearchParams(location.search).get("src") === "twa" || sessionStorage.getItem("lp-android-app") === "1") {
+                    document.documentElement.setAttribute("data-android-app", "");
+                }
+            } catch (e) {}
+        </script>
+        <noscript><style>
+            [data-prerendered] { display: block !important; }
+            [data-prerendered] [data-prerender-off] { display: revert !important; }
+        </style></noscript>
+
+        <!-- Favicons -->
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+        />
+
+        <link rel="icon" href="/favicon.ico" />
+
+        <!--
+            Installed app (PWA). The web manifest <link> is injected at build
+            time by vite-plugin-pwa (vite.config.ts); these are the extras iOS
+            reads from the page instead. theme-color matches the app bar
+            (theme `background`). Icons: scripts/gen-pwa-icons.sh.
+        -->
+        <meta name="theme-color" content="#FFFEF7" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="LettersPractice" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://accounts.google.com/gsi/ https://gc.zgo.at; frame-src 'self' https://accounts.google.com/gsi/; connect-src 'self' https://accounts.google.com/gsi/ https://*.goatcounter.com; style-src 'self' 'unsafe-inline' https://accounts.google.com/gsi/; font-src 'self' data:; img-src 'self' data: https:; media-src 'self' blob:"
+        />
+        <!--
+            Fonts are self-hosted (@fontsource, imported in main.ts), not
+            Google Fonts: the hero paints from this HTML, so a render-blocking
+            stylesheet and font files on two other origins were most of its
+            first paint. The build preloads the faces the landing page shows
+            first (scripts/vite-plugin-preload-fonts.ts).
+        -->
+    </head>
+    <body>
+        <!--
+            No boot markup here on purpose. Anything placed inside #app is
+            visible from HTML parse onward — i.e. for the whole bundle download,
+            which for a first-time visitor is the longest part of the load and
+            the worst possible moment to show a spinner. The pre-mount gap that
+            is actually worth covering is slow *initialization*, which only
+            starts once main.ts runs; see the deferred splash there. (A
+            prerendered page's static copy goes in here too, hidden but for
+            any part marked to show: see [data-prerendered] in the head.)
+        -->
+        <div id="app"></div>
+        <script type="module" src="/src/main.ts"></script>
+        <!-- GoatCounter analytics (privacy-friendly, no cookies) -->
+        <script>
+            // Redact query strings and one-time-token path segments (e.g.
+            // /verify?token=..., /reset-password?token=..., /join/<token>,
+            // /gift/claim/<token>) before they reach GoatCounter's dashboard.
+            // Keep in sync with the router.afterEach redaction in
+            // src/router/index.ts.
+            window.goatcounter = {
+                path: function (p) {
+                    var path = p.split('?')[0];
+                    // Don't track admin pageloads (covers the initial load;
+                    // client-side nav within /admin is skipped separately in
+                    // src/router/index.ts).
+                    if (path.startsWith('/admin')) return false;
+                    // Nightly measurement runs of /peek (PeekView, ?perf=session).
+                    if (/[?&]perf=session(&|$)/.test(p)) return false;
+                    return path
+                        .replace(/^\/join\/.+/, '/join/[redacted]')
+                        .replace(/^\/gift\/claim\/.+/, '/gift/claim/[redacted]');
+                },
+            };
+        </script>
+        <script data-goatcounter="https://letterspractice.goatcounter.com/count"
+                async src="https://gc.zgo.at/count.js"></script>
+    </body>
+</html>

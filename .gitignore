@@ -1,0 +1,151 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production builds
+/dist
+/build
+/dist-lib
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backup credentials
+.backup-credentials
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+
+# Bundled audio files (kept in sync with deploy scripts)
+public/audio/**/*.mp3
+
+# The maintainer's working docs: a symlink to a private checkout
+# (agent/<topic>/... in comments points there).
+/agent
+
+# Never commit a local copy of private docs or video footage (the footage
+# shows a real child).
+/bd/
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+Thumbs.db
+
+# Cypress
+/cypress/videos/
+/cypress/screenshots/
+
+# Local development
+.env.development
+
+# Package manager lockfiles (uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Skuilder specific
+/src/data/local-*.json
+.skuilder/
+
+.yarn/install-state.gz
+
+userdb-*
+logs
+
+# LetterPeople asset export output (regenerate via `yarn export:letterpeople`)
+/assets-export/
+/assets-export-neutral/
+
+# Email CTA button image — generated at deploy (regenerate via `yarn export:email-cta`)
+/public/email/nudge-cta.png
+
+# local debug dumps (user-db dumps, debug output)
+/dbg/
+
+# Lighthouse results (scripts/perf/)
+/.perf/
+
+# A deployment's overlay (paid access, its own routes and admin views, pitch,
+# CSP sources). Supplied at build time by that deployment (ours: the
+# commercial repo's deploy copies it in). See src/deployment/index.ts.
+/src/deployment/overlay/

@@ -1,0 +1,123 @@
+name: Nightly - landing page first load
+
+# The landing page's first-load checks, once a day rather than on every PR
+# (the build alone takes minutes). All against a local production build, so
+# no deployment involved: what production scores is commercial's nightly
+# PageSpeed run. agent/perf-boot/a.2.tracking.md, "Regression checks".
+#
+#   - byte budgets for the entry script, stylesheet and landing HTML
+#     (scripts/perf/budgets.ts). The trend is a CSV on the perf-history branch;
+#     the job summary shows tonight and the week before.
+#   - the app starts after the first paint (scripts/perf/paint-before-boot.ts)
+#   - the static hero hands over to the app without moving or blinking
+#     (scripts/perf/hero-swap-check.ts; Chromium phone and desktop, Firefox)
+#
+# A failed scheduled run emails whoever last changed the cron line.
+
+on:
+  schedule:
+    - cron: "15 7 * * *" # daily, 07:15 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write # push the CSV to perf-history
+
+concurrency:
+  group: nightly-landing
+  cancel-in-progress: false
+
+jobs:
+  landing:
+    name: Build, budgets, hand-over checks
+    # Not ubuntu-latest: that's 26.04 now, which Playwright (1.60) doesn't
+    # support yet (no browsers for it). Revisit when it does.
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Enable Corepack and prepare Yarn
+        run: |
+          corepack enable
+          corepack prepare yarn@4.6.0 --activate
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
+
+      - name: Cache yarn dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      # Chromium for the prerender and the checks; Firefox for hero-swap-check.
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium firefox
+
+      # As scripts/perf/audit-local.sh builds: the data layer pointed at the
+      # local server's /couch, which answers as "no session".
+      - name: Build
+        env:
+          VITE_COUCH_BASE_URL: localhost:4173/couch/
+          VITE_COUCHDB_PROTOCOL: http
+        run: yarn build:webapp
+
+      # The history branch holds only landing-budgets.csv; created on the first run.
+      - name: Check out perf-history
+        run: |
+          if git ls-remote --exit-code --heads origin perf-history > /dev/null; then
+            git fetch --depth=1 origin perf-history:refs/remotes/origin/perf-history
+            git worktree add -B perf-history history origin/perf-history
+          else
+            git worktree add --orphan -b perf-history history
+          fi
+
+      - name: Byte budgets
+        run: npx tsx scripts/perf/budgets.ts --csv history/landing-budgets.csv
+
+      # Also on a night over budget: that's the night worth having.
+      - name: Record the night
+        if: always()
+        run: |
+          cd history
+          [ -f landing-budgets.csv ] || exit 0
+          git add landing-budgets.csv
+          git diff --cached --quiet && exit 0
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+            commit -q -m "landing budgets $(date -u +%F)"
+          git push origin perf-history
+
+      - name: Serve the build
+        run: |
+          nohup node scripts/perf/serve-dist.mjs --port 4173 > serve-dist.log 2>&1 &
+          for _ in $(seq 1 30); do
+            curl -sf -o /dev/null http://localhost:4173/ && exit 0
+            sleep 1
+          done
+          cat serve-dist.log
+          exit 1
+
+      - name: App starts after the first paint
+        run: npx tsx scripts/perf/paint-before-boot.ts http://localhost:4173/
+
+      - name: Hero hand-over, Chromium phone
+        run: npx tsx scripts/perf/hero-swap-check.ts http://localhost:4173/ --engine chromium
+
+      - name: Hero hand-over, Chromium desktop
+        run: npx tsx scripts/perf/hero-swap-check.ts http://localhost:4173/ --engine chromium --viewport desktop
+
+      - name: Hero hand-over, Firefox phone
+        run: npx tsx scripts/perf/hero-swap-check.ts http://localhost:4173/ --engine firefox

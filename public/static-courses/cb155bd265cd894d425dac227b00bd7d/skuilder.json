@@ -1,0 +1,9 @@
+{
+  "name": "@skuilder/course-cb155bd265cd894d425dac227b00bd7d",
+  "version": "1.0.0",
+  "description": "LettersPractice",
+  "content": {
+    "type": "static",
+    "manifest": "./manifest.json"
+  }
+}

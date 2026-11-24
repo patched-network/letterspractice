@@ -1,0 +1,62 @@
+name: CI - Static course
+
+# public/static-courses/ is the packed course a fresh clone runs on (no
+# CouchDB). Repack it from the committed pipeline outputs and fail if the
+# committed copy differs: after a curriculum, seed or framework change, run
+# `yarn pack:course` and commit the result.
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  static-course:
+    name: Packed course is current
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Enable Corepack and prepare Yarn
+        run: |
+          corepack enable
+          corepack prepare yarn@4.6.0 --activate
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
+
+      - name: Cache yarn dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-static-${{ hashFiles('yarn.lock', 'content/phoneticAnalytics/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install dependencies
+        run: |
+          yarn install --immutable
+          yarn --cwd content/phoneticAnalytics install --immutable
+
+      - name: Repack the course (throwaway CouchDB in docker)
+        run: yarn pack:course
+
+      - name: Compare with the committed copy
+        run: |
+          git add -N public/static-courses
+          if ! git diff --quiet -- public/static-courses; then
+            git diff --stat -- public/static-courses
+            echo "::error::public/static-courses is stale. Run 'yarn pack:course' and commit the result."
+            exit 1
+          fi

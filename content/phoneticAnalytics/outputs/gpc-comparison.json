@@ -1,0 +1,659 @@
+{
+  "generated": "2025-12-28T04:04:44.945Z",
+  "strategies": [
+    {
+      "name": "Binary (current)",
+      "shortName": "binary",
+      "description": "Word counts only when ALL GPCs known. Current sequencer behavior.",
+      "finalCoverage": 37.21,
+      "sequence": [
+        {
+          "step": 1,
+          "gpcId": "GPC-y-Y",
+          "marginalScore": 0,
+          "cumulativeScore": 0,
+          "coveragePercent": 0
+        },
+        {
+          "step": 2,
+          "gpcId": "GPC-i-IH",
+          "marginalScore": 0,
+          "cumulativeScore": 0,
+          "coveragePercent": 0
+        },
+        {
+          "step": 3,
+          "gpcId": "GPC-t-T",
+          "marginalScore": 0.0461,
+          "cumulativeScore": 0.0461,
+          "coveragePercent": 4.61
+        },
+        {
+          "step": 4,
+          "gpcId": "GPC-n-N",
+          "marginalScore": 0.0239,
+          "cumulativeScore": 0.0699,
+          "coveragePercent": 6.99
+        },
+        {
+          "step": 5,
+          "gpcId": "GPC-o-AA",
+          "marginalScore": 0.0302,
+          "cumulativeScore": 0.1001,
+          "coveragePercent": 10.01
+        },
+        {
+          "step": 6,
+          "gpcId": "GPC-s-Z",
+          "marginalScore": 0.022,
+          "cumulativeScore": 0.1221,
+          "coveragePercent": 12.21
+        },
+        {
+          "step": 7,
+          "gpcId": "GPC-d-D",
+          "marginalScore": 0.0211,
+          "cumulativeScore": 0.1432,
+          "coveragePercent": 14.32
+        },
+        {
+          "step": 8,
+          "gpcId": "GPC-a-AE",
+          "marginalScore": 0.0192,
+          "cumulativeScore": 0.1625,
+          "coveragePercent": 16.25
+        },
+        {
+          "step": 9,
+          "gpcId": "GPC-h-HH",
+          "marginalScore": 0.0147,
+          "cumulativeScore": 0.1771,
+          "coveragePercent": 17.71
+        },
+        {
+          "step": 10,
+          "gpcId": "GPC-m-M",
+          "marginalScore": 0.0175,
+          "cumulativeScore": 0.1947,
+          "coveragePercent": 19.47
+        },
+        {
+          "step": 11,
+          "gpcId": "GPC-c-K",
+          "marginalScore": 0.0137,
+          "cumulativeScore": 0.2083,
+          "coveragePercent": 20.83
+        },
+        {
+          "step": 12,
+          "gpcId": "GPC-g-G",
+          "marginalScore": 0.0107,
+          "cumulativeScore": 0.219,
+          "coveragePercent": 21.9
+        },
+        {
+          "step": 13,
+          "gpcId": "GPC-e-EH",
+          "marginalScore": 0.0157,
+          "cumulativeScore": 0.2347,
+          "coveragePercent": 23.47
+        },
+        {
+          "step": 14,
+          "gpcId": "GPC-s-S",
+          "marginalScore": 0.0106,
+          "cumulativeScore": 0.2453,
+          "coveragePercent": 24.53
+        },
+        {
+          "step": 15,
+          "gpcId": "GPC-l-L",
+          "marginalScore": 0.0117,
+          "cumulativeScore": 0.257,
+          "coveragePercent": 25.7
+        },
+        {
+          "step": 16,
+          "gpcId": "GPC-f-F",
+          "marginalScore": 0.0124,
+          "cumulativeScore": 0.2694,
+          "coveragePercent": 26.94
+        },
+        {
+          "step": 17,
+          "gpcId": "GPC-p-P",
+          "marginalScore": 0.0096,
+          "cumulativeScore": 0.279,
+          "coveragePercent": 27.9
+        },
+        {
+          "step": 18,
+          "gpcId": "GPC-u-AH",
+          "marginalScore": 0.0189,
+          "cumulativeScore": 0.2979,
+          "coveragePercent": 29.79
+        },
+        {
+          "step": 19,
+          "gpcId": "GPC-b-B",
+          "marginalScore": 0.0191,
+          "cumulativeScore": 0.317,
+          "coveragePercent": 31.7
+        },
+        {
+          "step": 20,
+          "gpcId": "GPC-j-JH",
+          "marginalScore": 0.0132,
+          "cumulativeScore": 0.3302,
+          "coveragePercent": 33.02
+        },
+        {
+          "step": 21,
+          "gpcId": "GPC-r-R",
+          "marginalScore": 0.006,
+          "cumulativeScore": 0.3362,
+          "coveragePercent": 33.62
+        },
+        {
+          "step": 22,
+          "gpcId": "GPC-o-AO",
+          "marginalScore": 0.024,
+          "cumulativeScore": 0.3602,
+          "coveragePercent": 36.02
+        },
+        {
+          "step": 23,
+          "gpcId": "GPC-k-K",
+          "marginalScore": 0.0044,
+          "cumulativeScore": 0.3646,
+          "coveragePercent": 36.46
+        },
+        {
+          "step": 24,
+          "gpcId": "GPC-x-K_S",
+          "marginalScore": 0.0029,
+          "cumulativeScore": 0.3675,
+          "coveragePercent": 36.75
+        },
+        {
+          "step": 25,
+          "gpcId": "GPC-u-UH",
+          "marginalScore": 0.0021,
+          "cumulativeScore": 0.3696,
+          "coveragePercent": 36.96
+        },
+        {
+          "step": 26,
+          "gpcId": "GPC-w-W",
+          "marginalScore": 0.002,
+          "cumulativeScore": 0.3716,
+          "coveragePercent": 37.16
+        },
+        {
+          "step": 27,
+          "gpcId": "GPC-v-V",
+          "marginalScore": 0.0003,
+          "cumulativeScore": 0.3719,
+          "coveragePercent": 37.19
+        },
+        {
+          "step": 28,
+          "gpcId": "GPC-z-Z",
+          "marginalScore": 0.0001,
+          "cumulativeScore": 0.372,
+          "coveragePercent": 37.2
+        },
+        {
+          "step": 29,
+          "gpcId": "GPC-c-S",
+          "marginalScore": 0.0001,
+          "cumulativeScore": 0.3721,
+          "coveragePercent": 37.21
+        },
+        {
+          "step": 30,
+          "gpcId": "GPC-g-JH",
+          "marginalScore": 0.0001,
+          "cumulativeScore": 0.3721,
+          "coveragePercent": 37.21
+        }
+      ]
+    },
+    {
+      "name": "Weighted Mean",
+      "shortName": "mean",
+      "description": "Partial credit: score = fraction of known GPCs. More lenient.",
+      "finalCoverage": 71.9,
+      "sequence": [
+        {
+          "step": 1,
+          "gpcId": "GPC-t-T",
+          "marginalScore": 0.092,
+          "cumulativeScore": 0.092,
+          "coveragePercent": 9.2
+        },
+        {
+          "step": 2,
+          "gpcId": "GPC-i-IH",
+          "marginalScore": 0.0788,
+          "cumulativeScore": 0.1708,
+          "coveragePercent": 17.08
+        },
+        {
+          "step": 3,
+          "gpcId": "GPC-n-N",
+          "marginalScore": 0.0663,
+          "cumulativeScore": 0.2371,
+          "coveragePercent": 23.71
+        },
+        {
+          "step": 4,
+          "gpcId": "GPC-y-Y",
+          "marginalScore": 0.0533,
+          "cumulativeScore": 0.2904,
+          "coveragePercent": 29.04
+        },
+        {
+          "step": 5,
+          "gpcId": "GPC-m-M",
+          "marginalScore": 0.0399,
+          "cumulativeScore": 0.3303,
+          "coveragePercent": 33.03
+        },
+        {
+          "step": 6,
+          "gpcId": "GPC-a-AE",
+          "marginalScore": 0.039,
+          "cumulativeScore": 0.3693,
+          "coveragePercent": 36.93
+        },
+        {
+          "step": 7,
+          "gpcId": "GPC-s-S",
+          "marginalScore": 0.0369,
+          "cumulativeScore": 0.4063,
+          "coveragePercent": 40.63
+        },
+        {
+          "step": 8,
+          "gpcId": "GPC-h-HH",
+          "marginalScore": 0.0274,
+          "cumulativeScore": 0.4337,
+          "coveragePercent": 43.37
+        },
+        {
+          "step": 9,
+          "gpcId": "GPC-o-AA",
+          "marginalScore": 0.0253,
+          "cumulativeScore": 0.459,
+          "coveragePercent": 45.9
+        },
+        {
+          "step": 10,
+          "gpcId": "GPC-d-D",
+          "marginalScore": 0.0246,
+          "cumulativeScore": 0.4836,
+          "coveragePercent": 48.36
+        },
+        {
+          "step": 11,
+          "gpcId": "GPC-w-W",
+          "marginalScore": 0.0243,
+          "cumulativeScore": 0.5079,
+          "coveragePercent": 50.79
+        },
+        {
+          "step": 12,
+          "gpcId": "GPC-e-EH",
+          "marginalScore": 0.023,
+          "cumulativeScore": 0.5309,
+          "coveragePercent": 53.09
+        },
+        {
+          "step": 13,
+          "gpcId": "GPC-r-R",
+          "marginalScore": 0.0225,
+          "cumulativeScore": 0.5534,
+          "coveragePercent": 55.34
+        },
+        {
+          "step": 14,
+          "gpcId": "GPC-s-Z",
+          "marginalScore": 0.0209,
+          "cumulativeScore": 0.5742,
+          "coveragePercent": 57.42
+        },
+        {
+          "step": 15,
+          "gpcId": "GPC-b-B",
+          "marginalScore": 0.0206,
+          "cumulativeScore": 0.5949,
+          "coveragePercent": 59.49
+        },
+        {
+          "step": 16,
+          "gpcId": "GPC-u-AH",
+          "marginalScore": 0.0183,
+          "cumulativeScore": 0.6131,
+          "coveragePercent": 61.31
+        },
+        {
+          "step": 17,
+          "gpcId": "GPC-l-L",
+          "marginalScore": 0.0179,
+          "cumulativeScore": 0.631,
+          "coveragePercent": 63.1
+        },
+        {
+          "step": 18,
+          "gpcId": "GPC-g-G",
+          "marginalScore": 0.0171,
+          "cumulativeScore": 0.6482,
+          "coveragePercent": 64.82
+        },
+        {
+          "step": 19,
+          "gpcId": "GPC-f-F",
+          "marginalScore": 0.0163,
+          "cumulativeScore": 0.6645,
+          "coveragePercent": 66.45
+        },
+        {
+          "step": 20,
+          "gpcId": "GPC-p-P",
+          "marginalScore": 0.0131,
+          "cumulativeScore": 0.6776,
+          "coveragePercent": 67.76
+        },
+        {
+          "step": 21,
+          "gpcId": "GPC-k-K",
+          "marginalScore": 0.0121,
+          "cumulativeScore": 0.6896,
+          "coveragePercent": 68.96
+        },
+        {
+          "step": 22,
+          "gpcId": "GPC-o-AO",
+          "marginalScore": 0.011,
+          "cumulativeScore": 0.7006,
+          "coveragePercent": 70.06
+        },
+        {
+          "step": 23,
+          "gpcId": "GPC-c-K",
+          "marginalScore": 0.0088,
+          "cumulativeScore": 0.7094,
+          "coveragePercent": 70.94
+        },
+        {
+          "step": 24,
+          "gpcId": "GPC-j-JH",
+          "marginalScore": 0.0042,
+          "cumulativeScore": 0.7136,
+          "coveragePercent": 71.36
+        },
+        {
+          "step": 25,
+          "gpcId": "GPC-c-S",
+          "marginalScore": 0.0015,
+          "cumulativeScore": 0.7151,
+          "coveragePercent": 71.51
+        },
+        {
+          "step": 26,
+          "gpcId": "GPC-v-V",
+          "marginalScore": 0.0013,
+          "cumulativeScore": 0.7165,
+          "coveragePercent": 71.65
+        },
+        {
+          "step": 27,
+          "gpcId": "GPC-u-UH",
+          "marginalScore": 0.0011,
+          "cumulativeScore": 0.7175,
+          "coveragePercent": 71.75
+        },
+        {
+          "step": 28,
+          "gpcId": "GPC-x-K_S",
+          "marginalScore": 0.0009,
+          "cumulativeScore": 0.7184,
+          "coveragePercent": 71.84
+        },
+        {
+          "step": 29,
+          "gpcId": "GPC-g-JH",
+          "marginalScore": 0.0004,
+          "cumulativeScore": 0.7188,
+          "coveragePercent": 71.88
+        },
+        {
+          "step": 30,
+          "gpcId": "GPC-z-Z",
+          "marginalScore": 0.0002,
+          "cumulativeScore": 0.719,
+          "coveragePercent": 71.9
+        }
+      ]
+    },
+    {
+      "name": "Weighted Geometric",
+      "shortName": "geometric",
+      "description": "Geometric mean of segment scores. Balanced partial credit.",
+      "finalCoverage": 37.21,
+      "sequence": [
+        {
+          "step": 1,
+          "gpcId": "GPC-y-Y",
+          "marginalScore": 0,
+          "cumulativeScore": 0,
+          "coveragePercent": 0
+        },
+        {
+          "step": 2,
+          "gpcId": "GPC-i-IH",
+          "marginalScore": 0,
+          "cumulativeScore": 0,
+          "coveragePercent": 0
+        },
+        {
+          "step": 3,
+          "gpcId": "GPC-t-T",
+          "marginalScore": 0.0461,
+          "cumulativeScore": 0.0461,
+          "coveragePercent": 4.61
+        },
+        {
+          "step": 4,
+          "gpcId": "GPC-n-N",
+          "marginalScore": 0.0239,
+          "cumulativeScore": 0.0699,
+          "coveragePercent": 6.99
+        },
+        {
+          "step": 5,
+          "gpcId": "GPC-o-AA",
+          "marginalScore": 0.0302,
+          "cumulativeScore": 0.1001,
+          "coveragePercent": 10.01
+        },
+        {
+          "step": 6,
+          "gpcId": "GPC-s-Z",
+          "marginalScore": 0.022,
+          "cumulativeScore": 0.1221,
+          "coveragePercent": 12.21
+        },
+        {
+          "step": 7,
+          "gpcId": "GPC-d-D",
+          "marginalScore": 0.0211,
+          "cumulativeScore": 0.1432,
+          "coveragePercent": 14.32
+        },
+        {
+          "step": 8,
+          "gpcId": "GPC-a-AE",
+          "marginalScore": 0.0192,
+          "cumulativeScore": 0.1625,
+          "coveragePercent": 16.25
+        },
+        {
+          "step": 9,
+          "gpcId": "GPC-h-HH",
+          "marginalScore": 0.0147,
+          "cumulativeScore": 0.1771,
+          "coveragePercent": 17.71
+        },
+        {
+          "step": 10,
+          "gpcId": "GPC-m-M",
+          "marginalScore": 0.0175,
+          "cumulativeScore": 0.1947,
+          "coveragePercent": 19.47
+        },
+        {
+          "step": 11,
+          "gpcId": "GPC-c-K",
+          "marginalScore": 0.0137,
+          "cumulativeScore": 0.2083,
+          "coveragePercent": 20.83
+        },
+        {
+          "step": 12,
+          "gpcId": "GPC-g-G",
+          "marginalScore": 0.0107,
+          "cumulativeScore": 0.219,
+          "coveragePercent": 21.9
+        },
+        {
+          "step": 13,
+          "gpcId": "GPC-e-EH",
+          "marginalScore": 0.0157,
+          "cumulativeScore": 0.2347,
+          "coveragePercent": 23.47
+        },
+        {
+          "step": 14,
+          "gpcId": "GPC-s-S",
+          "marginalScore": 0.0106,
+          "cumulativeScore": 0.2453,
+          "coveragePercent": 24.53
+        },
+        {
+          "step": 15,
+          "gpcId": "GPC-l-L",
+          "marginalScore": 0.0117,
+          "cumulativeScore": 0.257,
+          "coveragePercent": 25.7
+        },
+        {
+          "step": 16,
+          "gpcId": "GPC-f-F",
+          "marginalScore": 0.0124,
+          "cumulativeScore": 0.2694,
+          "coveragePercent": 26.94
+        },
+        {
+          "step": 17,
+          "gpcId": "GPC-p-P",
+          "marginalScore": 0.0096,
+          "cumulativeScore": 0.279,
+          "coveragePercent": 27.9
+        },
+        {
+          "step": 18,
+          "gpcId": "GPC-u-AH",
+          "marginalScore": 0.0189,
+          "cumulativeScore": 0.2979,
+          "coveragePercent": 29.79
+        },
+        {
+          "step": 19,
+          "gpcId": "GPC-b-B",
+          "marginalScore": 0.0191,
+          "cumulativeScore": 0.317,
+          "coveragePercent": 31.7
+        },
+        {
+          "step": 20,
+          "gpcId": "GPC-j-JH",
+          "marginalScore": 0.0132,
+          "cumulativeScore": 0.3302,
+          "coveragePercent": 33.02
+        },
+        {
+          "step": 21,
+          "gpcId": "GPC-r-R",
+          "marginalScore": 0.006,
+          "cumulativeScore": 0.3362,
+          "coveragePercent": 33.62
+        },
+        {
+          "step": 22,
+          "gpcId": "GPC-o-AO",
+          "marginalScore": 0.024,
+          "cumulativeScore": 0.3602,
+          "coveragePercent": 36.02
+        },
+        {
+          "step": 23,
+          "gpcId": "GPC-k-K",
+          "marginalScore": 0.0044,
+          "cumulativeScore": 0.3646,
+          "coveragePercent": 36.46
+        },
+        {
+          "step": 24,
+          "gpcId": "GPC-x-K_S",
+          "marginalScore": 0.0029,
+          "cumulativeScore": 0.3675,
+          "coveragePercent": 36.75
+        },
+        {
+          "step": 25,
+          "gpcId": "GPC-u-UH",
+          "marginalScore": 0.0021,
+          "cumulativeScore": 0.3696,
+          "coveragePercent": 36.96
+        },
+        {
+          "step": 26,
+          "gpcId": "GPC-w-W",
+          "marginalScore": 0.002,
+          "cumulativeScore": 0.3716,
+          "coveragePercent": 37.16
+        },
+        {
+          "step": 27,
+          "gpcId": "GPC-v-V",
+          "marginalScore": 0.0003,
+          "cumulativeScore": 0.3719,
+          "coveragePercent": 37.19
+        },
+        {
+          "step": 28,
+          "gpcId": "GPC-z-Z",
+          "marginalScore": 0.0001,
+          "cumulativeScore": 0.372,
+          "coveragePercent": 37.2
+        },
+        {
+          "step": 29,
+          "gpcId": "GPC-c-S",
+          "marginalScore": 0.0001,
+          "cumulativeScore": 0.3721,
+          "coveragePercent": 37.21
+        },
+        {
+          "step": 30,
+          "gpcId": "GPC-g-JH",
+          "marginalScore": 0.0001,
+          "cumulativeScore": 0.3721,
+          "coveragePercent": 37.21
+        }
+      ]
+    }
+  ]
+}

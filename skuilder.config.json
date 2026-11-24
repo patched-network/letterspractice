@@ -1,0 +1,57 @@
+{
+  "title": "LettersPractice",
+  "course": "cb155bd265cd894d425dac227b00bd7d",
+  "dataLayerType": "static",
+  "theme": {
+    "name": "educational",
+    "defaultMode": "light",
+    "light": {
+      "dark": false,
+      "colors": {
+        "primary": "#F57C00",
+        "secondary": "#FF9800",
+        "accent": "#FFB74D",
+        "error": "#F44336",
+        "info": "#2196F3",
+        "success": "#4CAF50",
+        "warning": "#FF9800",
+        "background": "#FFFEF7",
+        "surface": "#FFFFFF",
+        "surface-bright": "#FFFFFF",
+        "surface-light": "#FFF8E1",
+        "surface-variant": "#FFF3E0",
+        "on-surface-variant": "#F57C00",
+        "primary-darken-1": "#E65100",
+        "secondary-darken-1": "#F57C00",
+        "on-primary": "#FFFFFF",
+        "on-secondary": "#000000",
+        "on-background": "#212121",
+        "on-surface": "#212121"
+      }
+    },
+    "dark": {
+      "dark": true,
+      "colors": {
+        "primary": "#FF9800",
+        "secondary": "#FFB74D",
+        "accent": "#FFCC02",
+        "error": "#FF5252",
+        "info": "#2196F3",
+        "success": "#4CAF50",
+        "warning": "#FF9800",
+        "background": "#121212",
+        "surface": "#1E1E1E",
+        "surface-bright": "#2C2C2C",
+        "surface-light": "#2C2C2C",
+        "surface-variant": "#2E1A00",
+        "on-surface-variant": "#FFCC02",
+        "primary-darken-1": "#F57C00",
+        "secondary-darken-1": "#FF9800",
+        "on-primary": "#000000",
+        "on-secondary": "#000000",
+        "on-background": "#FFFFFF",
+        "on-surface": "#FFFFFF"
+      }
+    }
+  }
+}

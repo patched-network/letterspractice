@@ -1,0 +1,4725 @@
+{
+  "prerequisites": {
+    "gpc:exercise:s-S": [
+      {
+        "tag": "gpc:intro:s-S",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:n-N": [
+      {
+        "tag": "gpc:expose:n-N",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:n-N": [
+      {
+        "tag": "gpc:intro:n-N",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:i-IH": [
+      {
+        "tag": "gpc:expose:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:i-IH": [
+      {
+        "tag": "gpc:intro:i-IH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:t-T": [
+      {
+        "tag": "gpc:expose:t-T",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:t-T": [
+      {
+        "tag": "gpc:intro:t-T",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:s-Z": [
+      {
+        "tag": "gpc:expose:s-Z",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:s-Z": [
+      {
+        "tag": "gpc:intro:s-Z",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:f-F": [
+      {
+        "tag": "gpc:expose:f-F",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:f-F": [
+      {
+        "tag": "gpc:intro:f-F",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:h-HH": [
+      {
+        "tag": "gpc:expose:h-HH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:h-HH": [
+      {
+        "tag": "gpc:intro:h-HH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:o-AA": [
+      {
+        "tag": "gpc:expose:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:o-AA": [
+      {
+        "tag": "gpc:intro:o-AA",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:a-AE": [
+      {
+        "tag": "gpc:expose:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:a-AE": [
+      {
+        "tag": "gpc:intro:a-AE",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:m-M": [
+      {
+        "tag": "gpc:expose:m-M",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:m-M": [
+      {
+        "tag": "gpc:intro:m-M",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:v-V": [
+      {
+        "tag": "gpc:expose:v-V",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:v-V": [
+      {
+        "tag": "gpc:intro:v-V",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:c-K": [
+      {
+        "tag": "gpc:expose:c-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:c-K": [
+      {
+        "tag": "gpc:intro:c-K",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:d-D": [
+      {
+        "tag": "gpc:expose:d-D",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:d-D": [
+      {
+        "tag": "gpc:intro:d-D",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:th-DH": [
+      {
+        "tag": "gpc:expose:th-DH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:t-T",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:h-HH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:th-DH": [
+      {
+        "tag": "gpc:intro:th-DH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:a-AH": [
+      {
+        "tag": "gpc:expose:a-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:a-AH": [
+      {
+        "tag": "gpc:intro:a-AH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:wh-W": [
+      {
+        "tag": "gpc:expose:wh-W",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:w-W",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:h-HH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:wh-W": [
+      {
+        "tag": "gpc:intro:wh-W",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:e-EH": [
+      {
+        "tag": "gpc:expose:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:e-EH": [
+      {
+        "tag": "gpc:intro:e-EH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:g-G": [
+      {
+        "tag": "gpc:expose:g-G",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:g-G": [
+      {
+        "tag": "gpc:intro:g-G",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-i": [
+      {
+        "tag": "gpc:expose:WORD-i",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-i": [
+      {
+        "tag": "gpc:intro:WORD-i",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-the": [
+      {
+        "tag": "gpc:expose:WORD-the",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-the": [
+      {
+        "tag": "gpc:intro:WORD-the",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-to": [
+      {
+        "tag": "gpc:expose:WORD-to",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-to": [
+      {
+        "tag": "gpc:intro:WORD-to",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-of": [
+      {
+        "tag": "gpc:expose:WORD-of",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-of": [
+      {
+        "tag": "gpc:intro:WORD-of",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:r-R": [
+      {
+        "tag": "gpc:expose:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:r-R": [
+      {
+        "tag": "gpc:intro:r-R",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:o-AO": [
+      {
+        "tag": "gpc:expose:o-AO",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:o-AO": [
+      {
+        "tag": "gpc:intro:o-AO",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:o-AH": [
+      {
+        "tag": "gpc:expose:o-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:o-AH": [
+      {
+        "tag": "gpc:intro:o-AH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:l-L": [
+      {
+        "tag": "gpc:expose:l-L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:l-L": [
+      {
+        "tag": "gpc:intro:l-L",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:w-W": [
+      {
+        "tag": "gpc:expose:w-W",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:w-W": [
+      {
+        "tag": "gpc:intro:w-W",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:a-AA": [
+      {
+        "tag": "gpc:expose:a-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:a-AA": [
+      {
+        "tag": "gpc:intro:a-AA",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:e-IY-final": [
+      {
+        "tag": "gpc:expose:e-IY-final",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:e-IY-final": [
+      {
+        "tag": "gpc:intro:e-IY-final",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:o-OW-final": [
+      {
+        "tag": "gpc:expose:o-OW-final",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:o-OW-final": [
+      {
+        "tag": "gpc:intro:o-OW-final",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:y-AY-final": [
+      {
+        "tag": "gpc:expose:y-AY-final",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:y-AY-final": [
+      {
+        "tag": "gpc:intro:y-AY-final",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:b-B": [
+      {
+        "tag": "gpc:expose:b-B",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:b-B": [
+      {
+        "tag": "gpc:intro:b-B",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:u-AH": [
+      {
+        "tag": "gpc:expose:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:u-AH": [
+      {
+        "tag": "gpc:intro:u-AH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:p-P": [
+      {
+        "tag": "gpc:expose:p-P",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:p-P": [
+      {
+        "tag": "gpc:intro:p-P",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:i_e-AY": [
+      {
+        "tag": "gpc:expose:i_e-AY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:i_e-AY": [
+      {
+        "tag": "gpc:intro:i_e-AY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      }
+    ],
+    "gpc:intro:WORD-your": [
+      {
+        "tag": "gpc:expose:WORD-your",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-your": [
+      {
+        "tag": "gpc:intro:WORD-your",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:k-K": [
+      {
+        "tag": "gpc:expose:k-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:k-K": [
+      {
+        "tag": "gpc:intro:k-K",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:a_e-EY": [
+      {
+        "tag": "gpc:expose:a_e-EY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:a_e-EY": [
+      {
+        "tag": "gpc:intro:a_e-EY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      }
+    ],
+    "gpc:intro:ou-AW": [
+      {
+        "tag": "gpc:expose:ou-AW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ou-AW": [
+      {
+        "tag": "gpc:intro:ou-AW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ee-IY": [
+      {
+        "tag": "gpc:expose:ee-IY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ee-IY": [
+      {
+        "tag": "gpc:intro:ee-IY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ow-AW": [
+      {
+        "tag": "gpc:expose:ow-AW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:w-W",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ow-AW": [
+      {
+        "tag": "gpc:intro:ow-AW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ay-EY": [
+      {
+        "tag": "gpc:expose:ay-EY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:y-Y",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ay-EY": [
+      {
+        "tag": "gpc:intro:ay-EY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ea-IY": [
+      {
+        "tag": "gpc:expose:ea-IY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ea-IY": [
+      {
+        "tag": "gpc:intro:ea-IY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ng-NG": [
+      {
+        "tag": "gpc:expose:ng-NG",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:n-N",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:g-G",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ng-NG": [
+      {
+        "tag": "gpc:intro:ng-NG",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:sh-SH": [
+      {
+        "tag": "gpc:expose:sh-SH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:s-S",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:h-HH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:sh-SH": [
+      {
+        "tag": "gpc:intro:sh-SH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:oo-UH": [
+      {
+        "tag": "gpc:expose:oo-UH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:oo-UH": [
+      {
+        "tag": "gpc:intro:oo-UH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-do": [
+      {
+        "tag": "gpc:expose:WORD-do",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-do": [
+      {
+        "tag": "gpc:intro:WORD-do",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ey-EY": [
+      {
+        "tag": "gpc:expose:ey-EY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:y-Y",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ey-EY": [
+      {
+        "tag": "gpc:intro:ey-EY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:j-JH": [
+      {
+        "tag": "gpc:expose:j-JH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:j-JH": [
+      {
+        "tag": "gpc:intro:j-JH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ck-K": [
+      {
+        "tag": "gpc:expose:ck-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:c-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:k-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ck-K": [
+      {
+        "tag": "gpc:intro:ck-K",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:e_e-IY": [
+      {
+        "tag": "gpc:expose:e_e-IY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:e_e-IY": [
+      {
+        "tag": "gpc:intro:e_e-IY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      }
+    ],
+    "gpc:intro:WORD-are": [
+      {
+        "tag": "gpc:expose:WORD-are",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-are": [
+      {
+        "tag": "gpc:intro:WORD-are",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:th-TH": [
+      {
+        "tag": "gpc:expose:th-TH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:t-T",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:h-HH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:th-TH": [
+      {
+        "tag": "gpc:intro:th-TH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:er-ER": [
+      {
+        "tag": "gpc:expose:er-ER",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:er-ER": [
+      {
+        "tag": "gpc:intro:er-ER",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:nk-NG_K": [
+      {
+        "tag": "gpc:expose:nk-NG_K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:n-N",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:k-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:nk-NG_K": [
+      {
+        "tag": "gpc:intro:nk-NG_K",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:y-IY-final": [
+      {
+        "tag": "gpc:expose:y-IY-final",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:y-IY-final": [
+      {
+        "tag": "gpc:intro:y-IY-final",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:oo-UW": [
+      {
+        "tag": "gpc:expose:oo-UW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:oo-UW": [
+      {
+        "tag": "gpc:intro:oo-UW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:e-IH": [
+      {
+        "tag": "gpc:expose:e-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:e-IH": [
+      {
+        "tag": "gpc:intro:e-IH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:all-AO_L": [
+      {
+        "tag": "gpc:expose:all-AO_L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:l-L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:l-L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:all-AO_L": [
+      {
+        "tag": "gpc:intro:all-AO_L",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ch-CH": [
+      {
+        "tag": "gpc:expose:ch-CH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:c-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:h-HH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ch-CH": [
+      {
+        "tag": "gpc:intro:ch-CH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:or-ER": [
+      {
+        "tag": "gpc:expose:or-ER",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:or-ER": [
+      {
+        "tag": "gpc:intro:or-ER",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:o_e-OW": [
+      {
+        "tag": "gpc:expose:o_e-OW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:o_e-OW": [
+      {
+        "tag": "gpc:intro:o_e-OW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      }
+    ],
+    "gpc:intro:ea-EH": [
+      {
+        "tag": "gpc:expose:ea-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ea-EH": [
+      {
+        "tag": "gpc:intro:ea-EH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ir-ER": [
+      {
+        "tag": "gpc:expose:ir-ER",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ir-ER": [
+      {
+        "tag": "gpc:intro:ir-ER",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-oh": [
+      {
+        "tag": "gpc:expose:WORD-oh",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-oh": [
+      {
+        "tag": "gpc:intro:WORD-oh",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ai-EY": [
+      {
+        "tag": "gpc:expose:ai-EY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ai-EY": [
+      {
+        "tag": "gpc:intro:ai-EY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-one": [
+      {
+        "tag": "gpc:expose:WORD-one",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-one": [
+      {
+        "tag": "gpc:intro:WORD-one",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:y-Y": [
+      {
+        "tag": "gpc:expose:y-Y",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:y-Y": [
+      {
+        "tag": "gpc:intro:y-Y",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ou-UW": [
+      {
+        "tag": "gpc:expose:ou-UW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ou-UW": [
+      {
+        "tag": "gpc:intro:ou-UW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:c-S-soft": [
+      {
+        "tag": "gpc:expose:c-S-soft",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:c-S-soft": [
+      {
+        "tag": "gpc:intro:c-S-soft",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ai-EH": [
+      {
+        "tag": "gpc:expose:ai-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ai-EH": [
+      {
+        "tag": "gpc:intro:ai-EH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ind-AY_N_D": [
+      {
+        "tag": "gpc:expose:ind-AY_N_D",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:n-N",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:d-D",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ind-AY_N_D": [
+      {
+        "tag": "gpc:intro:ind-AY_N_D",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ow-OW": [
+      {
+        "tag": "gpc:expose:ow-OW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:w-W",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ow-OW": [
+      {
+        "tag": "gpc:intro:ow-OW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-who": [
+      {
+        "tag": "gpc:expose:WORD-who",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-who": [
+      {
+        "tag": "gpc:intro:WORD-who",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:old-OW_L_D": [
+      {
+        "tag": "gpc:expose:old-OW_L_D",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:l-L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:d-D",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:old-OW_L_D": [
+      {
+        "tag": "gpc:intro:old-OW_L_D",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:x-K_S": [
+      {
+        "tag": "gpc:expose:x-K_S",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:x-K_S": [
+      {
+        "tag": "gpc:intro:x-K_S",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ur-ER": [
+      {
+        "tag": "gpc:expose:ur-ER",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ur-ER": [
+      {
+        "tag": "gpc:intro:ur-ER",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ie-IY": [
+      {
+        "tag": "gpc:expose:ie-IY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ie-IY": [
+      {
+        "tag": "gpc:intro:ie-IY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ll-L": [
+      {
+        "tag": "gpc:expose:ll-L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:l-L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:l-L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ll-L": [
+      {
+        "tag": "gpc:intro:ll-L",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:nn-N": [
+      {
+        "tag": "gpc:expose:nn-N",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:n-N",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:n-N",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:nn-N": [
+      {
+        "tag": "gpc:intro:nn-N",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:tt-T": [
+      {
+        "tag": "gpc:expose:tt-T",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:t-T",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:t-T",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:tt-T": [
+      {
+        "tag": "gpc:intro:tt-T",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ss-S": [
+      {
+        "tag": "gpc:expose:ss-S",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:s-S",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:s-S",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ss-S": [
+      {
+        "tag": "gpc:intro:ss-S",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ff-F": [
+      {
+        "tag": "gpc:expose:ff-F",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:f-F",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:f-F",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ff-F": [
+      {
+        "tag": "gpc:intro:ff-F",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:kn-N-initial": [
+      {
+        "tag": "gpc:expose:kn-N-initial",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:kn-N-initial": [
+      {
+        "tag": "gpc:intro:kn-N-initial",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:rr-R": [
+      {
+        "tag": "gpc:expose:rr-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:rr-R": [
+      {
+        "tag": "gpc:intro:rr-R",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:g-JH-soft": [
+      {
+        "tag": "gpc:expose:g-JH-soft",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:g-JH-soft": [
+      {
+        "tag": "gpc:intro:g-JH-soft",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-would": [
+      {
+        "tag": "gpc:expose:WORD-would",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-would": [
+      {
+        "tag": "gpc:intro:WORD-would",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-been": [
+      {
+        "tag": "gpc:expose:WORD-been",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-been": [
+      {
+        "tag": "gpc:intro:WORD-been",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:igh-AY": [
+      {
+        "tag": "gpc:expose:igh-AY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:g-G",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:h-HH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:igh-AY": [
+      {
+        "tag": "gpc:intro:igh-AY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:alk-AO_K": [
+      {
+        "tag": "gpc:expose:alk-AO_K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:l-L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:k-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:alk-AO_K": [
+      {
+        "tag": "gpc:intro:alk-AO_K",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ew-UW": [
+      {
+        "tag": "gpc:expose:ew-UW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:w-W",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ew-UW": [
+      {
+        "tag": "gpc:intro:ew-UW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:u-UH": [
+      {
+        "tag": "gpc:expose:u-UH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:u-UH": [
+      {
+        "tag": "gpc:intro:u-UH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-could": [
+      {
+        "tag": "gpc:expose:WORD-could",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-could": [
+      {
+        "tag": "gpc:intro:WORD-could",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ear-IH_R": [
+      {
+        "tag": "gpc:expose:ear-IH_R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ear-IH_R": [
+      {
+        "tag": "gpc:intro:ear-IH_R",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:au-AO": [
+      {
+        "tag": "gpc:expose:au-AO",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:au-AO": [
+      {
+        "tag": "gpc:intro:au-AO",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ar-ER": [
+      {
+        "tag": "gpc:expose:ar-ER",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ar-ER": [
+      {
+        "tag": "gpc:intro:ar-ER",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ey-IY": [
+      {
+        "tag": "gpc:expose:ey-IY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:y-Y",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ey-IY": [
+      {
+        "tag": "gpc:intro:ey-IY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:gu-G": [
+      {
+        "tag": "gpc:expose:gu-G",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:g-G",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:gu-G": [
+      {
+        "tag": "gpc:intro:gu-G",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:are-EH_R": [
+      {
+        "tag": "gpc:expose:are-EH_R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:are-EH_R": [
+      {
+        "tag": "gpc:intro:are-EH_R",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:tch-CH": [
+      {
+        "tag": "gpc:expose:tch-CH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:t-T",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:c-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:h-HH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:tch-CH": [
+      {
+        "tag": "gpc:intro:tch-CH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:oy-OY": [
+      {
+        "tag": "gpc:expose:oy-OY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:y-Y",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:oy-OY": [
+      {
+        "tag": "gpc:intro:oy-OY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ea-EY": [
+      {
+        "tag": "gpc:expose:ea-EY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ea-EY": [
+      {
+        "tag": "gpc:intro:ea-EY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-mr": [
+      {
+        "tag": "gpc:expose:WORD-mr",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-mr": [
+      {
+        "tag": "gpc:intro:WORD-mr",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ti-SH": [
+      {
+        "tag": "gpc:expose:ti-SH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:t-T",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ti-SH": [
+      {
+        "tag": "gpc:intro:ti-SH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ough-AO": [
+      {
+        "tag": "gpc:expose:ough-AO",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ough-AO": [
+      {
+        "tag": "gpc:intro:ough-AO",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-any": [
+      {
+        "tag": "gpc:expose:WORD-any",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-any": [
+      {
+        "tag": "gpc:intro:WORD-any",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:pp-P": [
+      {
+        "tag": "gpc:expose:pp-P",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:p-P",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:p-P",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:pp-P": [
+      {
+        "tag": "gpc:intro:pp-P",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ie-AY": [
+      {
+        "tag": "gpc:expose:ie-AY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ie-AY": [
+      {
+        "tag": "gpc:intro:ie-AY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-only": [
+      {
+        "tag": "gpc:expose:WORD-only",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-only": [
+      {
+        "tag": "gpc:intro:WORD-only",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-two": [
+      {
+        "tag": "gpc:expose:WORD-two",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-two": [
+      {
+        "tag": "gpc:intro:WORD-two",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-should": [
+      {
+        "tag": "gpc:expose:WORD-should",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-should": [
+      {
+        "tag": "gpc:intro:WORD-should",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:oa-OW": [
+      {
+        "tag": "gpc:expose:oa-OW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:oa-OW": [
+      {
+        "tag": "gpc:intro:oa-OW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:aw-AO": [
+      {
+        "tag": "gpc:expose:aw-AO",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:w-W",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:aw-AO": [
+      {
+        "tag": "gpc:intro:aw-AO",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:en-AH_N": [
+      {
+        "tag": "gpc:expose:en-AH_N",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:en-AH_N": [
+      {
+        "tag": "gpc:intro:en-AH_N",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:le-AH_L": [
+      {
+        "tag": "gpc:expose:le-AH_L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:le-AH_L": [
+      {
+        "tag": "gpc:intro:le-AH_L",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ou-AH": [
+      {
+        "tag": "gpc:expose:ou-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ou-AH": [
+      {
+        "tag": "gpc:intro:ou-AH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:dd-D": [
+      {
+        "tag": "gpc:expose:dd-D",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:d-D",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:d-D",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:dd-D": [
+      {
+        "tag": "gpc:intro:dd-D",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:mm-M": [
+      {
+        "tag": "gpc:expose:mm-M",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:m-M",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:m-M",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:mm-M": [
+      {
+        "tag": "gpc:intro:mm-M",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:oi-OY": [
+      {
+        "tag": "gpc:expose:oi-OY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:oi-OY": [
+      {
+        "tag": "gpc:intro:oi-OY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:our-AO_R": [
+      {
+        "tag": "gpc:expose:our-AO_R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:our-AO_R": [
+      {
+        "tag": "gpc:intro:our-AO_R",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:gh-": [
+      {
+        "tag": "gpc:expose:gh-",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:gh-": [
+      {
+        "tag": "gpc:intro:gh-",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ear-ER": [
+      {
+        "tag": "gpc:expose:ear-ER",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ear-ER": [
+      {
+        "tag": "gpc:intro:ear-ER",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:wr-R-initial": [
+      {
+        "tag": "gpc:expose:wr-R-initial",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:wr-R-initial": [
+      {
+        "tag": "gpc:intro:wr-R-initial",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:qu-K_W": [
+      {
+        "tag": "gpc:expose:qu-K_W",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:q-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:qu-K_W": [
+      {
+        "tag": "gpc:intro:qu-K_W",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ire-AY_ER": [
+      {
+        "tag": "gpc:expose:ire-AY_ER",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ire-AY_ER": [
+      {
+        "tag": "gpc:intro:ire-AY_ER",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-does": [
+      {
+        "tag": "gpc:expose:WORD-does",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-does": [
+      {
+        "tag": "gpc:intro:WORD-does",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:el-AH_L": [
+      {
+        "tag": "gpc:expose:el-AH_L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:el-AH_L": [
+      {
+        "tag": "gpc:intro:el-AH_L",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-their": [
+      {
+        "tag": "gpc:expose:WORD-their",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-their": [
+      {
+        "tag": "gpc:intro:WORD-their",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:gh-F": [
+      {
+        "tag": "gpc:expose:gh-F",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:gh-F": [
+      {
+        "tag": "gpc:intro:gh-F",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:in-AH_N": [
+      {
+        "tag": "gpc:expose:in-AH_N",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:in-AH_N": [
+      {
+        "tag": "gpc:intro:in-AH_N",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:u_e-Y_UW": [
+      {
+        "tag": "gpc:expose:u_e-Y_UW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:u_e-Y_UW": [
+      {
+        "tag": "gpc:intro:u_e-Y_UW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      }
+    ],
+    "gpc:intro:z-Z": [
+      {
+        "tag": "gpc:expose:z-Z",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:z-Z": [
+      {
+        "tag": "gpc:intro:z-Z",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ch-K": [
+      {
+        "tag": "gpc:expose:ch-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:c-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:h-HH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ch-K": [
+      {
+        "tag": "gpc:intro:ch-K",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:i-AY-final": [
+      {
+        "tag": "gpc:expose:i-AY-final",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:i-AY-final": [
+      {
+        "tag": "gpc:intro:i-AY-final",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:u_e-UW": [
+      {
+        "tag": "gpc:expose:u_e-UW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:u_e-UW": [
+      {
+        "tag": "gpc:intro:u_e-UW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 5,
+          "minElo": 1020
+        }
+      }
+    ],
+    "gpc:intro:ue-UW": [
+      {
+        "tag": "gpc:expose:ue-UW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ue-UW": [
+      {
+        "tag": "gpc:intro:ue-UW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:our-ER": [
+      {
+        "tag": "gpc:expose:our-ER",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:our-ER": [
+      {
+        "tag": "gpc:intro:our-ER",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ph-F": [
+      {
+        "tag": "gpc:expose:ph-F",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:p-P",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:h-HH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ph-F": [
+      {
+        "tag": "gpc:intro:ph-F",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:oor-AO_R": [
+      {
+        "tag": "gpc:expose:oor-AO_R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:oor-AO_R": [
+      {
+        "tag": "gpc:intro:oor-AO_R",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:x-G_Z": [
+      {
+        "tag": "gpc:expose:x-G_Z",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:x-G_Z": [
+      {
+        "tag": "gpc:intro:x-G_Z",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:mn-M": [
+      {
+        "tag": "gpc:expose:mn-M",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:mn-M": [
+      {
+        "tag": "gpc:intro:mn-M",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:gg-G": [
+      {
+        "tag": "gpc:expose:gg-G",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:g-G",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:g-G",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:gg-G": [
+      {
+        "tag": "gpc:intro:gg-G",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ci-SH": [
+      {
+        "tag": "gpc:expose:ci-SH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:c-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ci-SH": [
+      {
+        "tag": "gpc:intro:ci-SH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-many": [
+      {
+        "tag": "gpc:expose:WORD-many",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-many": [
+      {
+        "tag": "gpc:intro:WORD-many",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ou-OW": [
+      {
+        "tag": "gpc:expose:ou-OW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ou-OW": [
+      {
+        "tag": "gpc:intro:ou-OW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ew-Y_UW": [
+      {
+        "tag": "gpc:expose:ew-Y_UW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:w-W",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ew-Y_UW": [
+      {
+        "tag": "gpc:intro:ew-Y_UW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-once": [
+      {
+        "tag": "gpc:expose:WORD-once",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-once": [
+      {
+        "tag": "gpc:intro:WORD-once",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:bb-B": [
+      {
+        "tag": "gpc:expose:bb-B",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:b-B",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:b-B",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:bb-B": [
+      {
+        "tag": "gpc:intro:bb-B",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-says": [
+      {
+        "tag": "gpc:expose:WORD-says",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-says": [
+      {
+        "tag": "gpc:intro:WORD-says",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-mrs": [
+      {
+        "tag": "gpc:expose:WORD-mrs",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-mrs": [
+      {
+        "tag": "gpc:intro:WORD-mrs",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ei-EY": [
+      {
+        "tag": "gpc:expose:ei-EY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ei-EY": [
+      {
+        "tag": "gpc:intro:ei-EY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ei-IY": [
+      {
+        "tag": "gpc:expose:ei-IY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ei-IY": [
+      {
+        "tag": "gpc:intro:ei-IY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ild-AY_L_D": [
+      {
+        "tag": "gpc:expose:ild-AY_L_D",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:l-L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:d-D",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ild-AY_L_D": [
+      {
+        "tag": "gpc:intro:ild-AY_L_D",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:dge-JH": [
+      {
+        "tag": "gpc:expose:dge-JH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:d-D",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:g-G",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:dge-JH": [
+      {
+        "tag": "gpc:intro:dge-JH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:au-AE": [
+      {
+        "tag": "gpc:expose:au-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:au-AE": [
+      {
+        "tag": "gpc:intro:au-AE",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ue-Y_UW": [
+      {
+        "tag": "gpc:expose:ue-Y_UW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ue-Y_UW": [
+      {
+        "tag": "gpc:intro:ue-Y_UW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:cc-K": [
+      {
+        "tag": "gpc:expose:cc-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:c-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:c-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:cc-K": [
+      {
+        "tag": "gpc:intro:cc-K",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:mb-M": [
+      {
+        "tag": "gpc:expose:mb-M",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:mb-M": [
+      {
+        "tag": "gpc:intro:mb-M",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:si-ZH": [
+      {
+        "tag": "gpc:expose:si-ZH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:s-S",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:si-ZH": [
+      {
+        "tag": "gpc:intro:si-ZH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:oar-AO_R": [
+      {
+        "tag": "gpc:expose:oar-AO_R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:oar-AO_R": [
+      {
+        "tag": "gpc:intro:oar-AO_R",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:oll-OW_L": [
+      {
+        "tag": "gpc:expose:oll-OW_L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:l-L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:l-L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:oll-OW_L": [
+      {
+        "tag": "gpc:intro:oll-OW_L",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:i-IY-final": [
+      {
+        "tag": "gpc:expose:i-IY-final",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:i-IY-final": [
+      {
+        "tag": "gpc:intro:i-IY-final",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:alt-AO_L_T": [
+      {
+        "tag": "gpc:expose:alt-AO_L_T",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:a-AE",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:l-L",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:t-T",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:alt-AO_L_T": [
+      {
+        "tag": "gpc:intro:alt-AO_L_T",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:sc-S": [
+      {
+        "tag": "gpc:expose:sc-S",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:s-S",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:c-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:sc-S": [
+      {
+        "tag": "gpc:intro:sc-S",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ore-AO_R": [
+      {
+        "tag": "gpc:expose:ore-AO_R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:o-AA",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ore-AO_R": [
+      {
+        "tag": "gpc:intro:ore-AO_R",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:bt-T": [
+      {
+        "tag": "gpc:expose:bt-T",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:bt-T": [
+      {
+        "tag": "gpc:intro:bt-T",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ure-Y_UH_R": [
+      {
+        "tag": "gpc:expose:ure-Y_UH_R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ure-Y_UH_R": [
+      {
+        "tag": "gpc:intro:ure-Y_UH_R",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:zz-Z": [
+      {
+        "tag": "gpc:expose:zz-Z",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:z-Z",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:z-Z",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:zz-Z": [
+      {
+        "tag": "gpc:intro:zz-Z",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ch-SH": [
+      {
+        "tag": "gpc:expose:ch-SH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:c-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:h-HH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ch-SH": [
+      {
+        "tag": "gpc:intro:ch-SH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ie-IH": [
+      {
+        "tag": "gpc:expose:ie-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ie-IH": [
+      {
+        "tag": "gpc:intro:ie-IH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ei-AY": [
+      {
+        "tag": "gpc:expose:ei-AY",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ei-AY": [
+      {
+        "tag": "gpc:intro:ei-AY",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-ms": [
+      {
+        "tag": "gpc:expose:WORD-ms",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-ms": [
+      {
+        "tag": "gpc:intro:WORD-ms",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ire-AY_R": [
+      {
+        "tag": "gpc:expose:ire-AY_R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ire-AY_R": [
+      {
+        "tag": "gpc:intro:ire-AY_R",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:si-SH": [
+      {
+        "tag": "gpc:expose:si-SH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:s-S",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:i-IH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:si-SH": [
+      {
+        "tag": "gpc:intro:si-SH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:eu-UW": [
+      {
+        "tag": "gpc:expose:eu-UW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:eu-UW": [
+      {
+        "tag": "gpc:intro:eu-UW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:eu-Y_UW": [
+      {
+        "tag": "gpc:expose:eu-Y_UW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:eu-Y_UW": [
+      {
+        "tag": "gpc:intro:eu-Y_UW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:sch-SH": [
+      {
+        "tag": "gpc:expose:sch-SH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:s-S",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:c-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:h-HH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:sch-SH": [
+      {
+        "tag": "gpc:intro:sch-SH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ure-ER": [
+      {
+        "tag": "gpc:expose:ure-ER",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ure-ER": [
+      {
+        "tag": "gpc:intro:ure-ER",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ew-OW": [
+      {
+        "tag": "gpc:expose:ew-OW",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:w-W",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ew-OW": [
+      {
+        "tag": "gpc:intro:ew-OW",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-jr": [
+      {
+        "tag": "gpc:expose:WORD-jr",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-jr": [
+      {
+        "tag": "gpc:intro:WORD-jr",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:q-K": [
+      {
+        "tag": "gpc:expose:q-K",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:q-K": [
+      {
+        "tag": "gpc:intro:q-K",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:gu-G_W": [
+      {
+        "tag": "gpc:expose:gu-G_W",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:g-G",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:gu-G_W": [
+      {
+        "tag": "gpc:intro:gu-G_W",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:WORD-sr": [
+      {
+        "tag": "gpc:expose:WORD-sr",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:WORD-sr": [
+      {
+        "tag": "gpc:intro:WORD-sr",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ough-AO_F": [
+      {
+        "tag": "gpc:expose:ough-AO_F",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ough-AO_F": [
+      {
+        "tag": "gpc:intro:ough-AO_F",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:gn-N-initial": [
+      {
+        "tag": "gpc:expose:gn-N-initial",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:gn-N-initial": [
+      {
+        "tag": "gpc:intro:gn-N-initial",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:rh-R-initial": [
+      {
+        "tag": "gpc:expose:rh-R-initial",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:rh-R-initial": [
+      {
+        "tag": "gpc:intro:rh-R-initial",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ure-UH_R": [
+      {
+        "tag": "gpc:expose:ure-UH_R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:u-AH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:r-R",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:e-EH",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ure-UH_R": [
+      {
+        "tag": "gpc:intro:ure-UH_R",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:ps-S-initial": [
+      {
+        "tag": "gpc:expose:ps-S-initial",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:ps-S-initial": [
+      {
+        "tag": "gpc:intro:ps-S-initial",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:x-Z": [
+      {
+        "tag": "gpc:expose:x-Z",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:x-Z": [
+      {
+        "tag": "gpc:intro:x-Z",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:pn-N-initial": [
+      {
+        "tag": "gpc:expose:pn-N-initial",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:pn-N-initial": [
+      {
+        "tag": "gpc:intro:pn-N-initial",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "gpc:intro:zz-T_S": [
+      {
+        "tag": "gpc:expose:zz-T_S",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:z-Z",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:exercise:z-Z",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "gpc:exercise:zz-T_S": [
+      {
+        "tag": "gpc:intro:zz-T_S",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "concept:vowel:short": [
+      {
+        "tag": "concept:match:simple",
+        "masteryThreshold": {
+          "minCount": 8,
+          "minElo": 1020
+        }
+      }
+    ],
+    "concept:match:digraph": [
+      {
+        "tag": "concept:match:simple",
+        "masteryThreshold": {
+          "minCount": 20,
+          "minElo": 1040
+        }
+      },
+      {
+        "tag": "concept:vowel:short",
+        "masteryThreshold": {
+          "minCount": 10,
+          "minElo": 1030
+        }
+      }
+    ],
+    "concept:match:whole_word": [
+      {
+        "tag": "concept:match:simple",
+        "masteryThreshold": {
+          "minCount": 15,
+          "minElo": 1030
+        }
+      },
+      {
+        "tag": "concept:vowel:short",
+        "masteryThreshold": {
+          "minCount": 8
+        }
+      }
+    ],
+    "concept:match:split_digraph": [
+      {
+        "tag": "concept:vowel:short",
+        "masteryThreshold": {
+          "minCount": 15,
+          "minElo": 1070
+        }
+      },
+      {
+        "tag": "concept:match:simple",
+        "masteryThreshold": {
+          "minCount": 25,
+          "minElo": 1050
+        }
+      }
+    ],
+    "concept:vowel:final_open": [
+      {
+        "tag": "concept:match:split_digraph",
+        "masteryThreshold": {
+          "minCount": 5
+        }
+      }
+    ],
+    "concept:vowel:teams": [
+      {
+        "tag": "concept:match:split_digraph",
+        "masteryThreshold": {
+          "minCount": 10,
+          "minElo": 1040
+        }
+      }
+    ],
+    "concept:vowel:r_controlled": [
+      {
+        "tag": "concept:vowel:teams",
+        "masteryThreshold": {
+          "minCount": 8
+        }
+      }
+    ],
+    "concept:vowel:l_controlled": [
+      {
+        "tag": "concept:vowel:r_controlled",
+        "masteryThreshold": {
+          "minCount": 5
+        }
+      }
+    ],
+    "concept:consonant:soft": [
+      {
+        "tag": "concept:match:simple",
+        "masteryThreshold": {
+          "minCount": 40,
+          "minElo": 1080
+        }
+      },
+      {
+        "tag": "concept:match:digraph",
+        "masteryThreshold": {
+          "minCount": 15
+        }
+      }
+    ],
+    "concept:consonant:doubled": [
+      {
+        "tag": "concept:match:simple",
+        "masteryThreshold": {
+          "minCount": 30,
+          "minElo": 1060
+        }
+      }
+    ],
+    "concept:match:silent": [
+      {
+        "tag": "concept:consonant:doubled",
+        "masteryThreshold": {
+          "minCount": 5
+        }
+      }
+    ],
+    "ui:missing-letters": [
+      {
+        "tag": "ui:word-selection",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      }
+    ],
+    "ui:spelling": [
+      {
+        "tag": "ui:missing-letters",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "ui:who-said-that",
+        "masteryThreshold": {
+          "minCount": 5
+        }
+      }
+    ]
+  }
+}

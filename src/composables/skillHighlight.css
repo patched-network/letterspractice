@@ -1,0 +1,38 @@
+/**
+ * Skill-highlight classes (see useSkillHighlight.ts, which imports this file).
+ *
+ * Global on purpose: the classes land on tiles rendered inside the
+ * lesson-report child components, so scoped styles can't reach them. Imported
+ * by the composable rather than a view so the styling travels with the
+ * feature — the cards glow wherever they're mounted (/progress, /showHN),
+ * not only where someone remembered to copy a style block. Class names are
+ * specific enough not to collide.
+ */
+@keyframes skill-hl-shimmer {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(var(--v-theme-primary), 0); }
+  50% { box-shadow: 0 0 8px 2px rgba(var(--v-theme-primary), 0.55); }
+}
+.skill-hl {
+  position: relative;
+  z-index: 1;
+  outline: 2px solid rgba(var(--v-theme-primary), 0.55);
+  outline-offset: 1px;
+  border-radius: 4px;
+  animation: skill-hl-shimmer 1.6s ease-in-out infinite;
+}
+/* Needed-but-not-yet-learned: a quiet dashed attention ring, no pulse. */
+.skill-hl--missing {
+  outline-style: dashed;
+  outline-color: rgba(var(--v-theme-error), 0.7);
+  animation: none;
+}
+/* Stronger when the carousel / checker is hovered or focused. */
+.skill-hl--strong {
+  outline-width: 3px;
+}
+.skill-hl--strong.skill-hl--used {
+  animation-duration: 0.9s;
+}
+.skill-hl--strong.skill-hl--missing {
+  outline-color: rgb(var(--v-theme-error));
+}

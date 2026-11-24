@@ -1,0 +1,163 @@
+{
+  "prerequisites": {
+    "concept:vowel:short": [
+      {
+        "tag": "concept:match:simple",
+        "masteryThreshold": {
+          "minCount": 8,
+          "minElo": 1020
+        }
+      }
+    ],
+    "concept:lesson:bed": [
+      {
+        "tag": "gpc:exercise:d-D",
+        "masteryThreshold": {
+          "minCount": 3
+        }
+      },
+      {
+        "tag": "gpc:expose:d-D",
+        "masteryThreshold": {
+          "minCount": 6
+        }
+      },
+      {
+        "tag": "gpc:intro:e-EH",
+        "masteryThreshold": {
+          "minCount": 1
+        }
+      }
+    ],
+    "concept:match:digraph": [
+      {
+        "tag": "concept:match:simple",
+        "masteryThreshold": {
+          "minCount": 20,
+          "minElo": 1040
+        }
+      },
+      {
+        "tag": "concept:vowel:short",
+        "masteryThreshold": {
+          "minCount": 10,
+          "minElo": 1030
+        }
+      }
+    ],
+    "concept:match:split_digraph": [
+      {
+        "tag": "concept:vowel:short",
+        "masteryThreshold": {
+          "minCount": 15,
+          "minElo": 1070
+        }
+      },
+      {
+        "tag": "concept:match:simple",
+        "masteryThreshold": {
+          "minCount": 25,
+          "minElo": 1050
+        }
+      }
+    ],
+    "concept:match:whole_word": [
+      {
+        "tag": "concept:match:simple",
+        "masteryThreshold": {
+          "minCount": 15,
+          "minElo": 1030
+        }
+      },
+      {
+        "tag": "concept:vowel:short",
+        "masteryThreshold": {
+          "minCount": 8
+        }
+      }
+    ],
+    "concept:vowel:final_open": [
+      {
+        "tag": "concept:match:split_digraph",
+        "masteryThreshold": {
+          "minCount": 5
+        }
+      }
+    ],
+    "concept:vowel:teams": [
+      {
+        "tag": "concept:match:split_digraph",
+        "masteryThreshold": {
+          "minCount": 10,
+          "minElo": 1040
+        }
+      }
+    ],
+    "concept:vowel:r_controlled": [
+      {
+        "tag": "concept:vowel:teams",
+        "masteryThreshold": {
+          "minCount": 8
+        }
+      }
+    ],
+    "concept:vowel:l_controlled": [
+      {
+        "tag": "concept:vowel:r_controlled",
+        "masteryThreshold": {
+          "minCount": 5
+        }
+      }
+    ],
+    "concept:consonant:soft": [
+      {
+        "tag": "concept:match:simple",
+        "masteryThreshold": {
+          "minCount": 40,
+          "minElo": 1080
+        }
+      },
+      {
+        "tag": "concept:match:digraph",
+        "masteryThreshold": {
+          "minCount": 15
+        }
+      }
+    ],
+    "concept:consonant:doubled": [
+      {
+        "tag": "concept:match:simple",
+        "masteryThreshold": {
+          "minCount": 30,
+          "minElo": 1060
+        }
+      }
+    ],
+    "concept:match:silent": [
+      {
+        "tag": "concept:consonant:doubled",
+        "masteryThreshold": {
+          "minCount": 5
+        }
+      }
+    ],
+    "concept:skill:final-phoneme-diff": [
+      {
+        "tag": "concept:skill:first-phoneme-diff",
+        "masteryThreshold": {
+          "minCount": 10,
+          "minElo": 1020
+        }
+      }
+    ],
+    "concept:skill:medial-vowel-diff": [
+      {
+        "tag": "concept:skill:first-phoneme-diff",
+        "masteryThreshold": {
+          "minCount": 10,
+          "minElo": 1020
+        }
+      }
+    ]
+  }
+}

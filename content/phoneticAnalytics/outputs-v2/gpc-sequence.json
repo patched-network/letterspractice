@@ -1,0 +1,1965 @@
+{
+  "sequence": [
+    {
+      "step": 0,
+      "gpcId": "(initial: 4 GPCs)",
+      "marginalGain": 10,
+      "marginalFrequency": 1490915,
+      "cumulativeGpcs": 4,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 1490915,
+      "coveragePercent": 3.46
+    },
+    {
+      "step": 1,
+      "gpcId": "GPC-s-Z",
+      "marginalGain": 5,
+      "marginalFrequency": 460524,
+      "cumulativeGpcs": 5,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 1951439,
+      "coveragePercent": 4.53
+    },
+    {
+      "step": 2,
+      "gpcId": "GPC-f-F",
+      "marginalGain": 10,
+      "marginalFrequency": 185052,
+      "cumulativeGpcs": 6,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 2136491,
+      "coveragePercent": 4.96
+    },
+    {
+      "step": 3,
+      "gpcId": "GPC-h-HH",
+      "marginalGain": 5,
+      "marginalFrequency": 123961,
+      "cumulativeGpcs": 7,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 2260452,
+      "coveragePercent": 5.25
+    },
+    {
+      "step": 4,
+      "gpcId": "GPC-o-AA",
+      "marginalGain": 10,
+      "marginalFrequency": 644098,
+      "cumulativeGpcs": 8,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 2904550,
+      "coveragePercent": 6.75
+    },
+    {
+      "step": 5,
+      "gpcId": "GPC-a-AE",
+      "marginalGain": 10,
+      "marginalFrequency": 453505,
+      "cumulativeGpcs": 9,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 3358055,
+      "coveragePercent": 7.8
+    },
+    {
+      "step": 6,
+      "gpcId": "GPC-d-D",
+      "marginalGain": 10,
+      "marginalFrequency": 962888,
+      "cumulativeGpcs": 10,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 4320943,
+      "coveragePercent": 10.04
+    },
+    {
+      "step": 7,
+      "gpcId": "GPC-m-M",
+      "marginalGain": 10,
+      "marginalFrequency": 375119,
+      "cumulativeGpcs": 11,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 4696062,
+      "coveragePercent": 10.91
+    },
+    {
+      "step": 8,
+      "gpcId": "GPC-v-V",
+      "marginalGain": 10,
+      "marginalFrequency": 320777,
+      "cumulativeGpcs": 12,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 5016839,
+      "coveragePercent": 11.65
+    },
+    {
+      "step": 9,
+      "gpcId": "GPC-c-K",
+      "marginalGain": 10,
+      "marginalFrequency": 314411,
+      "cumulativeGpcs": 13,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 5331250,
+      "coveragePercent": 12.38
+    },
+    {
+      "step": 10,
+      "gpcId": "GPC-th-DH",
+      "marginalGain": 3,
+      "marginalFrequency": 1164271,
+      "cumulativeGpcs": 14,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 6495521,
+      "coveragePercent": 15.09
+    },
+    {
+      "step": 11,
+      "gpcId": "GPC-o-AH",
+      "marginalGain": 10,
+      "marginalFrequency": 303715,
+      "cumulativeGpcs": 15,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 6799236,
+      "coveragePercent": 15.79
+    },
+    {
+      "step": 12,
+      "gpcId": "GPC-e-EH",
+      "marginalGain": 10,
+      "marginalFrequency": 317370,
+      "cumulativeGpcs": 16,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 7116606,
+      "coveragePercent": 16.53
+    },
+    {
+      "step": 13,
+      "gpcId": "GPC-g-G",
+      "marginalGain": 10,
+      "marginalFrequency": 539101,
+      "cumulativeGpcs": 17,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 7655707,
+      "coveragePercent": 17.78
+    },
+    {
+      "step": 14,
+      "gpcId": "GPC-l-L",
+      "marginalGain": 10,
+      "marginalFrequency": 405770,
+      "cumulativeGpcs": 18,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 8061477,
+      "coveragePercent": 18.72
+    },
+    {
+      "step": 15,
+      "gpcId": "GPC-WORD-the",
+      "marginalGain": 1,
+      "marginalFrequency": 1501908,
+      "cumulativeGpcs": 19,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 9563385,
+      "coveragePercent": 22.21
+    },
+    {
+      "step": 16,
+      "gpcId": "GPC-WORD-to",
+      "marginalGain": 1,
+      "marginalFrequency": 1156570,
+      "cumulativeGpcs": 20,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 10719955,
+      "coveragePercent": 24.9
+    },
+    {
+      "step": 17,
+      "gpcId": "GPC-WORD-of",
+      "marginalGain": 1,
+      "marginalFrequency": 590439,
+      "cumulativeGpcs": 21,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 11310394,
+      "coveragePercent": 26.27
+    },
+    {
+      "step": 18,
+      "gpcId": "GPC-WORD-what",
+      "marginalGain": 1,
+      "marginalFrequency": 501965,
+      "cumulativeGpcs": 22,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 11812359,
+      "coveragePercent": 27.44
+    },
+    {
+      "step": 19,
+      "gpcId": "GPC-r-R",
+      "marginalGain": 10,
+      "marginalFrequency": 398393,
+      "cumulativeGpcs": 23,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 12210752,
+      "coveragePercent": 28.36
+    },
+    {
+      "step": 20,
+      "gpcId": "GPC-o-AO",
+      "marginalGain": 10,
+      "marginalFrequency": 593658,
+      "cumulativeGpcs": 24,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 12804410,
+      "coveragePercent": 29.74
+    },
+    {
+      "step": 21,
+      "gpcId": "GPC-WORD-my",
+      "marginalGain": 1,
+      "marginalFrequency": 344899,
+      "cumulativeGpcs": 25,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 13149309,
+      "coveragePercent": 30.54
+    },
+    {
+      "step": 22,
+      "gpcId": "GPC-WORD-your",
+      "marginalGain": 1,
+      "marginalFrequency": 328715,
+      "cumulativeGpcs": 26,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 13478024,
+      "coveragePercent": 31.31
+    },
+    {
+      "step": 23,
+      "gpcId": "GPC-WORD-do",
+      "marginalGain": 1,
+      "marginalFrequency": 312915,
+      "cumulativeGpcs": 27,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 13790939,
+      "coveragePercent": 32.03
+    },
+    {
+      "step": 24,
+      "gpcId": "GPC-WORD-was",
+      "marginalGain": 1,
+      "marginalFrequency": 288391,
+      "cumulativeGpcs": 28,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 14079330,
+      "coveragePercent": 32.7
+    },
+    {
+      "step": 25,
+      "gpcId": "GPC-e-IY-final",
+      "marginalGain": 5,
+      "marginalFrequency": 863346,
+      "cumulativeGpcs": 29,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 14942676,
+      "coveragePercent": 34.71
+    },
+    {
+      "step": 26,
+      "gpcId": "GPC-o-OW-final",
+      "marginalGain": 10,
+      "marginalFrequency": 731463,
+      "cumulativeGpcs": 30,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 15674139,
+      "coveragePercent": 36.41
+    },
+    {
+      "step": 27,
+      "gpcId": "GPC-w-W",
+      "marginalGain": 10,
+      "marginalFrequency": 557040,
+      "cumulativeGpcs": 31,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 16231179,
+      "coveragePercent": 37.7
+    },
+    {
+      "step": 28,
+      "gpcId": "GPC-b-B",
+      "marginalGain": 10,
+      "marginalFrequency": 473768,
+      "cumulativeGpcs": 32,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 16704947,
+      "coveragePercent": 38.8
+    },
+    {
+      "step": 29,
+      "gpcId": "GPC-u-AH",
+      "marginalGain": 10,
+      "marginalFrequency": 523368,
+      "cumulativeGpcs": 33,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 17228315,
+      "coveragePercent": 40.02
+    },
+    {
+      "step": 30,
+      "gpcId": "GPC-p-P",
+      "marginalGain": 10,
+      "marginalFrequency": 472989,
+      "cumulativeGpcs": 34,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 17701304,
+      "coveragePercent": 41.11
+    },
+    {
+      "step": 31,
+      "gpcId": "GPC-a-AA",
+      "marginalGain": 10,
+      "marginalFrequency": 337713,
+      "cumulativeGpcs": 35,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 18039017,
+      "coveragePercent": 41.9
+    },
+    {
+      "step": 32,
+      "gpcId": "GPC-sh-SH",
+      "marginalGain": 10,
+      "marginalFrequency": 317724,
+      "cumulativeGpcs": 36,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 18356741,
+      "coveragePercent": 42.64
+    },
+    {
+      "step": 33,
+      "gpcId": "GPC-i_e-AY",
+      "marginalGain": 10,
+      "marginalFrequency": 315929,
+      "cumulativeGpcs": 37,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 18672670,
+      "coveragePercent": 43.37
+    },
+    {
+      "step": 34,
+      "gpcId": "GPC-k-K",
+      "marginalGain": 10,
+      "marginalFrequency": 320772,
+      "cumulativeGpcs": 38,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 18993442,
+      "coveragePercent": 44.12
+    },
+    {
+      "step": 35,
+      "gpcId": "GPC-a_e-EY",
+      "marginalGain": 10,
+      "marginalFrequency": 460052,
+      "cumulativeGpcs": 39,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 19453494,
+      "coveragePercent": 45.18
+    },
+    {
+      "step": 36,
+      "gpcId": "GPC-ee-IY",
+      "marginalGain": 10,
+      "marginalFrequency": 453405,
+      "cumulativeGpcs": 40,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 19906899,
+      "coveragePercent": 46.24
+    },
+    {
+      "step": 37,
+      "gpcId": "GPC-ow-AW",
+      "marginalGain": 10,
+      "marginalFrequency": 431936,
+      "cumulativeGpcs": 41,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 20338835,
+      "coveragePercent": 47.24
+    },
+    {
+      "step": 38,
+      "gpcId": "GPC-ea-IY",
+      "marginalGain": 10,
+      "marginalFrequency": 369139,
+      "cumulativeGpcs": 42,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 20707974,
+      "coveragePercent": 48.1
+    },
+    {
+      "step": 39,
+      "gpcId": "GPC-ay-EY",
+      "marginalGain": 10,
+      "marginalFrequency": 351681,
+      "cumulativeGpcs": 43,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 21059655,
+      "coveragePercent": 48.92
+    },
+    {
+      "step": 40,
+      "gpcId": "GPC-ng-NG",
+      "marginalGain": 10,
+      "marginalFrequency": 368845,
+      "cumulativeGpcs": 44,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 21428500,
+      "coveragePercent": 49.77
+    },
+    {
+      "step": 41,
+      "gpcId": "GPC-th-TH",
+      "marginalGain": 10,
+      "marginalFrequency": 456860,
+      "cumulativeGpcs": 45,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 21885360,
+      "coveragePercent": 50.83
+    },
+    {
+      "step": 42,
+      "gpcId": "GPC-ou-AW",
+      "marginalGain": 10,
+      "marginalFrequency": 338388,
+      "cumulativeGpcs": 46,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 22223748,
+      "coveragePercent": 51.62
+    },
+    {
+      "step": 43,
+      "gpcId": "GPC-a-AH",
+      "marginalGain": 10,
+      "marginalFrequency": 401569,
+      "cumulativeGpcs": 47,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 22625317,
+      "coveragePercent": 52.55
+    },
+    {
+      "step": 44,
+      "gpcId": "GPC-oo-UH",
+      "marginalGain": 10,
+      "marginalFrequency": 321021,
+      "cumulativeGpcs": 48,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 22946338,
+      "coveragePercent": 53.3
+    },
+    {
+      "step": 45,
+      "gpcId": "GPC-nk-NG_K",
+      "marginalGain": 10,
+      "marginalFrequency": 302718,
+      "cumulativeGpcs": 49,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 23249056,
+      "coveragePercent": 54
+    },
+    {
+      "step": 46,
+      "gpcId": "GPC-ey-EY",
+      "marginalGain": 10,
+      "marginalFrequency": 299256,
+      "cumulativeGpcs": 50,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 23548312,
+      "coveragePercent": 54.7
+    },
+    {
+      "step": 47,
+      "gpcId": "GPC-j-JH",
+      "marginalGain": 10,
+      "marginalFrequency": 297593,
+      "cumulativeGpcs": 51,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 23845905,
+      "coveragePercent": 55.39
+    },
+    {
+      "step": 48,
+      "gpcId": "GPC-e_e-IY",
+      "marginalGain": 10,
+      "marginalFrequency": 289658,
+      "cumulativeGpcs": 52,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 24135563,
+      "coveragePercent": 56.06
+    },
+    {
+      "step": 49,
+      "gpcId": "GPC-WORD-are",
+      "marginalGain": 1,
+      "marginalFrequency": 265672,
+      "cumulativeGpcs": 53,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 24401235,
+      "coveragePercent": 56.68
+    },
+    {
+      "step": 50,
+      "gpcId": "GPC-er-ER",
+      "marginalGain": 10,
+      "marginalFrequency": 866237,
+      "cumulativeGpcs": 54,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 25267472,
+      "coveragePercent": 58.69
+    },
+    {
+      "step": 51,
+      "gpcId": "GPC-ck-K",
+      "marginalGain": 10,
+      "marginalFrequency": 270235,
+      "cumulativeGpcs": 55,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 25537707,
+      "coveragePercent": 59.32
+    },
+    {
+      "step": 52,
+      "gpcId": "GPC-y-IY-final",
+      "marginalGain": 10,
+      "marginalFrequency": 266901,
+      "cumulativeGpcs": 56,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 25804608,
+      "coveragePercent": 59.94
+    },
+    {
+      "step": 53,
+      "gpcId": "GPC-wh-W",
+      "marginalGain": 10,
+      "marginalFrequency": 251326,
+      "cumulativeGpcs": 57,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 26055934,
+      "coveragePercent": 60.52
+    },
+    {
+      "step": 54,
+      "gpcId": "GPC-y-AY-final",
+      "marginalGain": 10,
+      "marginalFrequency": 224222,
+      "cumulativeGpcs": 58,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 26280156,
+      "coveragePercent": 61.04
+    },
+    {
+      "step": 55,
+      "gpcId": "GPC-all-AO_L",
+      "marginalGain": 10,
+      "marginalFrequency": 356154,
+      "cumulativeGpcs": 59,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 26636310,
+      "coveragePercent": 61.87
+    },
+    {
+      "step": 56,
+      "gpcId": "GPC-oo-UW",
+      "marginalGain": 10,
+      "marginalFrequency": 211029,
+      "cumulativeGpcs": 60,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 26847339,
+      "coveragePercent": 62.36
+    },
+    {
+      "step": 57,
+      "gpcId": "GPC-e-IH",
+      "marginalGain": 10,
+      "marginalFrequency": 207077,
+      "cumulativeGpcs": 61,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 27054416,
+      "coveragePercent": 62.84
+    },
+    {
+      "step": 58,
+      "gpcId": "GPC-ch-CH",
+      "marginalGain": 10,
+      "marginalFrequency": 206992,
+      "cumulativeGpcs": 62,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 27261408,
+      "coveragePercent": 63.32
+    },
+    {
+      "step": 59,
+      "gpcId": "GPC-or-ER",
+      "marginalGain": 10,
+      "marginalFrequency": 199953,
+      "cumulativeGpcs": 63,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 27461361,
+      "coveragePercent": 63.78
+    },
+    {
+      "step": 60,
+      "gpcId": "GPC-o_e-OW",
+      "marginalGain": 10,
+      "marginalFrequency": 185418,
+      "cumulativeGpcs": 64,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 27646779,
+      "coveragePercent": 64.22
+    },
+    {
+      "step": 61,
+      "gpcId": "GPC-ea-EH",
+      "marginalGain": 10,
+      "marginalFrequency": 175805,
+      "cumulativeGpcs": 65,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 27822584,
+      "coveragePercent": 64.62
+    },
+    {
+      "step": 62,
+      "gpcId": "GPC-ir-ER",
+      "marginalGain": 10,
+      "marginalFrequency": 167831,
+      "cumulativeGpcs": 66,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 27990415,
+      "coveragePercent": 65.01
+    },
+    {
+      "step": 63,
+      "gpcId": "GPC-WORD-oh",
+      "marginalGain": 1,
+      "marginalFrequency": 167781,
+      "cumulativeGpcs": 67,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 28158196,
+      "coveragePercent": 65.4
+    },
+    {
+      "step": 64,
+      "gpcId": "GPC-ai-EY",
+      "marginalGain": 10,
+      "marginalFrequency": 166059,
+      "cumulativeGpcs": 68,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 28324255,
+      "coveragePercent": 65.79
+    },
+    {
+      "step": 65,
+      "gpcId": "GPC-c-S-soft",
+      "marginalGain": 10,
+      "marginalFrequency": 223385,
+      "cumulativeGpcs": 69,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 28547640,
+      "coveragePercent": 66.31
+    },
+    {
+      "step": 66,
+      "gpcId": "GPC-WORD-one",
+      "marginalGain": 1,
+      "marginalFrequency": 156684,
+      "cumulativeGpcs": 70,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 28704324,
+      "coveragePercent": 66.67
+    },
+    {
+      "step": 67,
+      "gpcId": "GPC-y-Y",
+      "marginalGain": 10,
+      "marginalFrequency": 155396,
+      "cumulativeGpcs": 71,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 28859720,
+      "coveragePercent": 67.03
+    },
+    {
+      "step": 68,
+      "gpcId": "GPC-ou-UW",
+      "marginalGain": 10,
+      "marginalFrequency": 2146650,
+      "cumulativeGpcs": 72,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 31006370,
+      "coveragePercent": 72.02
+    },
+    {
+      "step": 69,
+      "gpcId": "GPC-ai-EH",
+      "marginalGain": 10,
+      "marginalFrequency": 151295,
+      "cumulativeGpcs": 73,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 31157665,
+      "coveragePercent": 72.37
+    },
+    {
+      "step": 70,
+      "gpcId": "GPC-ind-AY_N_D",
+      "marginalGain": 10,
+      "marginalFrequency": 121102,
+      "cumulativeGpcs": 74,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 31278767,
+      "coveragePercent": 72.65
+    },
+    {
+      "step": 71,
+      "gpcId": "GPC-ow-OW",
+      "marginalGain": 10,
+      "marginalFrequency": 114467,
+      "cumulativeGpcs": 75,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 31393234,
+      "coveragePercent": 72.92
+    },
+    {
+      "step": 72,
+      "gpcId": "GPC-WORD-who",
+      "marginalGain": 1,
+      "marginalFrequency": 113370,
+      "cumulativeGpcs": 76,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 31506604,
+      "coveragePercent": 73.18
+    },
+    {
+      "step": 73,
+      "gpcId": "GPC-old-OW_L_D",
+      "marginalGain": 10,
+      "marginalFrequency": 112891,
+      "cumulativeGpcs": 77,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 31619495,
+      "coveragePercent": 73.44
+    },
+    {
+      "step": 74,
+      "gpcId": "GPC-x-K_S",
+      "marginalGain": 10,
+      "marginalFrequency": 104086,
+      "cumulativeGpcs": 78,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 31723581,
+      "coveragePercent": 73.68
+    },
+    {
+      "step": 75,
+      "gpcId": "GPC-ll-L",
+      "marginalGain": 10,
+      "marginalFrequency": 608049,
+      "cumulativeGpcs": 79,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 32331630,
+      "coveragePercent": 75.1
+    },
+    {
+      "step": 76,
+      "gpcId": "GPC-nn-N",
+      "marginalGain": 10,
+      "marginalFrequency": 206254,
+      "cumulativeGpcs": 80,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 32537884,
+      "coveragePercent": 75.58
+    },
+    {
+      "step": 77,
+      "gpcId": "GPC-tt-T",
+      "marginalGain": 10,
+      "marginalFrequency": 205551,
+      "cumulativeGpcs": 81,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 32743435,
+      "coveragePercent": 76.05
+    },
+    {
+      "step": 78,
+      "gpcId": "GPC-ss-S",
+      "marginalGain": 10,
+      "marginalFrequency": 162043,
+      "cumulativeGpcs": 82,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 32905478,
+      "coveragePercent": 76.43
+    },
+    {
+      "step": 79,
+      "gpcId": "GPC-ff-F",
+      "marginalGain": 10,
+      "marginalFrequency": 129614,
+      "cumulativeGpcs": 83,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 33035092,
+      "coveragePercent": 76.73
+    },
+    {
+      "step": 80,
+      "gpcId": "GPC-kn-N-initial",
+      "marginalGain": 10,
+      "marginalFrequency": 323784,
+      "cumulativeGpcs": 84,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 33358876,
+      "coveragePercent": 77.48
+    },
+    {
+      "step": 81,
+      "gpcId": "GPC-rr-R",
+      "marginalGain": 10,
+      "marginalFrequency": 101709,
+      "cumulativeGpcs": 85,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 33460585,
+      "coveragePercent": 77.72
+    },
+    {
+      "step": 82,
+      "gpcId": "GPC-ie-IY",
+      "marginalGain": 10,
+      "marginalFrequency": 99375,
+      "cumulativeGpcs": 86,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 33559960,
+      "coveragePercent": 77.95
+    },
+    {
+      "step": 83,
+      "gpcId": "GPC-ur-ER",
+      "marginalGain": 10,
+      "marginalFrequency": 94822,
+      "cumulativeGpcs": 87,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 33654782,
+      "coveragePercent": 78.17
+    },
+    {
+      "step": 84,
+      "gpcId": "GPC-g-JH-soft",
+      "marginalGain": 10,
+      "marginalFrequency": 96508,
+      "cumulativeGpcs": 88,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 33751290,
+      "coveragePercent": 78.39
+    },
+    {
+      "step": 85,
+      "gpcId": "GPC-igh-AY",
+      "marginalGain": 10,
+      "marginalFrequency": 367458,
+      "cumulativeGpcs": 89,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 34118748,
+      "coveragePercent": 79.25
+    },
+    {
+      "step": 86,
+      "gpcId": "GPC-WORD-would",
+      "marginalGain": 1,
+      "marginalFrequency": 90162,
+      "cumulativeGpcs": 90,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 34208910,
+      "coveragePercent": 79.46
+    },
+    {
+      "step": 87,
+      "gpcId": "GPC-WORD-been",
+      "marginalGain": 1,
+      "marginalFrequency": 88573,
+      "cumulativeGpcs": 91,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 34297483,
+      "coveragePercent": 79.66
+    },
+    {
+      "step": 88,
+      "gpcId": "GPC-alk-AO_K",
+      "marginalGain": 10,
+      "marginalFrequency": 87943,
+      "cumulativeGpcs": 92,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 34385426,
+      "coveragePercent": 79.87
+    },
+    {
+      "step": 89,
+      "gpcId": "GPC-ew-UW",
+      "marginalGain": 10,
+      "marginalFrequency": 85726,
+      "cumulativeGpcs": 93,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 34471152,
+      "coveragePercent": 80.07
+    },
+    {
+      "step": 90,
+      "gpcId": "GPC-u-UH",
+      "marginalGain": 10,
+      "marginalFrequency": 85195,
+      "cumulativeGpcs": 94,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 34556347,
+      "coveragePercent": 80.26
+    },
+    {
+      "step": 91,
+      "gpcId": "GPC-WORD-could",
+      "marginalGain": 1,
+      "marginalFrequency": 83109,
+      "cumulativeGpcs": 95,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 34639456,
+      "coveragePercent": 80.46
+    },
+    {
+      "step": 92,
+      "gpcId": "GPC-ear-IH_R",
+      "marginalGain": 10,
+      "marginalFrequency": 83010,
+      "cumulativeGpcs": 96,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 34722466,
+      "coveragePercent": 80.65
+    },
+    {
+      "step": 93,
+      "gpcId": "GPC-au-AO",
+      "marginalGain": 10,
+      "marginalFrequency": 80730,
+      "cumulativeGpcs": 97,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 34803196,
+      "coveragePercent": 80.84
+    },
+    {
+      "step": 94,
+      "gpcId": "GPC-ar-ER",
+      "marginalGain": 10,
+      "marginalFrequency": 78633,
+      "cumulativeGpcs": 98,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 34881829,
+      "coveragePercent": 81.02
+    },
+    {
+      "step": 95,
+      "gpcId": "GPC-ey-IY",
+      "marginalGain": 10,
+      "marginalFrequency": 78338,
+      "cumulativeGpcs": 99,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 34960167,
+      "coveragePercent": 81.2
+    },
+    {
+      "step": 96,
+      "gpcId": "GPC-gu-G",
+      "marginalGain": 10,
+      "marginalFrequency": 77282,
+      "cumulativeGpcs": 100,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35037449,
+      "coveragePercent": 81.38
+    },
+    {
+      "step": 97,
+      "gpcId": "GPC-are-EH_R",
+      "marginalGain": 10,
+      "marginalFrequency": 66714,
+      "cumulativeGpcs": 101,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35104163,
+      "coveragePercent": 81.54
+    },
+    {
+      "step": 98,
+      "gpcId": "GPC-tch-CH",
+      "marginalGain": 10,
+      "marginalFrequency": 61491,
+      "cumulativeGpcs": 102,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35165654,
+      "coveragePercent": 81.68
+    },
+    {
+      "step": 99,
+      "gpcId": "GPC-oy-OY",
+      "marginalGain": 10,
+      "marginalFrequency": 60915,
+      "cumulativeGpcs": 103,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35226569,
+      "coveragePercent": 81.82
+    },
+    {
+      "step": 100,
+      "gpcId": "GPC-ea-EY",
+      "marginalGain": 10,
+      "marginalFrequency": 60118,
+      "cumulativeGpcs": 104,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35286687,
+      "coveragePercent": 81.96
+    },
+    {
+      "step": 101,
+      "gpcId": "GPC-ti-SH",
+      "marginalGain": 10,
+      "marginalFrequency": 58757,
+      "cumulativeGpcs": 105,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35345444,
+      "coveragePercent": 82.1
+    },
+    {
+      "step": 102,
+      "gpcId": "GPC-ough-AO",
+      "marginalGain": 10,
+      "marginalFrequency": 57877,
+      "cumulativeGpcs": 106,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35403321,
+      "coveragePercent": 82.23
+    },
+    {
+      "step": 103,
+      "gpcId": "GPC-WORD-sure",
+      "marginalGain": 1,
+      "marginalFrequency": 56091,
+      "cumulativeGpcs": 107,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35459412,
+      "coveragePercent": 82.36
+    },
+    {
+      "step": 104,
+      "gpcId": "GPC-WORD-any",
+      "marginalGain": 1,
+      "marginalFrequency": 56068,
+      "cumulativeGpcs": 108,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35515480,
+      "coveragePercent": 82.49
+    },
+    {
+      "step": 105,
+      "gpcId": "GPC-pp-P",
+      "marginalGain": 10,
+      "marginalFrequency": 55854,
+      "cumulativeGpcs": 109,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35571334,
+      "coveragePercent": 82.62
+    },
+    {
+      "step": 106,
+      "gpcId": "GPC-ie-AY",
+      "marginalGain": 10,
+      "marginalFrequency": 56538,
+      "cumulativeGpcs": 110,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35627872,
+      "coveragePercent": 82.75
+    },
+    {
+      "step": 107,
+      "gpcId": "GPC-WORD-only",
+      "marginalGain": 1,
+      "marginalFrequency": 55269,
+      "cumulativeGpcs": 111,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35683141,
+      "coveragePercent": 82.88
+    },
+    {
+      "step": 108,
+      "gpcId": "GPC-WORD-two",
+      "marginalGain": 1,
+      "marginalFrequency": 54384,
+      "cumulativeGpcs": 112,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35737525,
+      "coveragePercent": 83.01
+    },
+    {
+      "step": 109,
+      "gpcId": "GPC-WORD-should",
+      "marginalGain": 1,
+      "marginalFrequency": 54159,
+      "cumulativeGpcs": 113,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35791684,
+      "coveragePercent": 83.13
+    },
+    {
+      "step": 110,
+      "gpcId": "GPC-en-AH_N",
+      "marginalGain": 10,
+      "marginalFrequency": 166591,
+      "cumulativeGpcs": 114,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 35958275,
+      "coveragePercent": 83.52
+    },
+    {
+      "step": 111,
+      "gpcId": "GPC-le-AH_L",
+      "marginalGain": 10,
+      "marginalFrequency": 144750,
+      "cumulativeGpcs": 115,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36103025,
+      "coveragePercent": 83.86
+    },
+    {
+      "step": 112,
+      "gpcId": "GPC-ou-AH",
+      "marginalGain": 10,
+      "marginalFrequency": 67356,
+      "cumulativeGpcs": 116,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36170381,
+      "coveragePercent": 84.01
+    },
+    {
+      "step": 113,
+      "gpcId": "GPC-dd-D",
+      "marginalGain": 10,
+      "marginalFrequency": 55034,
+      "cumulativeGpcs": 117,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36225415,
+      "coveragePercent": 84.14
+    },
+    {
+      "step": 114,
+      "gpcId": "GPC-oa-OW",
+      "marginalGain": 10,
+      "marginalFrequency": 51709,
+      "cumulativeGpcs": 118,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36277124,
+      "coveragePercent": 84.26
+    },
+    {
+      "step": 115,
+      "gpcId": "GPC-aw-AO",
+      "marginalGain": 10,
+      "marginalFrequency": 50432,
+      "cumulativeGpcs": 119,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36327556,
+      "coveragePercent": 84.38
+    },
+    {
+      "step": 116,
+      "gpcId": "GPC-mm-M",
+      "marginalGain": 10,
+      "marginalFrequency": 50085,
+      "cumulativeGpcs": 120,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36377641,
+      "coveragePercent": 84.49
+    },
+    {
+      "step": 117,
+      "gpcId": "GPC-oi-OY",
+      "marginalGain": 10,
+      "marginalFrequency": 49812,
+      "cumulativeGpcs": 121,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36427453,
+      "coveragePercent": 84.61
+    },
+    {
+      "step": 118,
+      "gpcId": "GPC-our-AO_R",
+      "marginalGain": 10,
+      "marginalFrequency": 49529,
+      "cumulativeGpcs": 122,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36476982,
+      "coveragePercent": 84.72
+    },
+    {
+      "step": 119,
+      "gpcId": "GPC-gh-",
+      "marginalGain": 10,
+      "marginalFrequency": 49145,
+      "cumulativeGpcs": 123,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36526127,
+      "coveragePercent": 84.84
+    },
+    {
+      "step": 120,
+      "gpcId": "GPC-ear-ER",
+      "marginalGain": 10,
+      "marginalFrequency": 46460,
+      "cumulativeGpcs": 124,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36572587,
+      "coveragePercent": 84.95
+    },
+    {
+      "step": 121,
+      "gpcId": "GPC-wr-R-initial",
+      "marginalGain": 10,
+      "marginalFrequency": 43747,
+      "cumulativeGpcs": 125,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36616334,
+      "coveragePercent": 85.05
+    },
+    {
+      "step": 122,
+      "gpcId": "GPC-qu-K_W",
+      "marginalGain": 10,
+      "marginalFrequency": 41702,
+      "cumulativeGpcs": 126,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36658036,
+      "coveragePercent": 85.15
+    },
+    {
+      "step": 123,
+      "gpcId": "GPC-ire-AY_ER",
+      "marginalGain": 10,
+      "marginalFrequency": 37404,
+      "cumulativeGpcs": 127,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36695440,
+      "coveragePercent": 85.23
+    },
+    {
+      "step": 124,
+      "gpcId": "GPC-WORD-does",
+      "marginalGain": 1,
+      "marginalFrequency": 34002,
+      "cumulativeGpcs": 128,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36729442,
+      "coveragePercent": 85.31
+    },
+    {
+      "step": 125,
+      "gpcId": "GPC-el-AH_L",
+      "marginalGain": 10,
+      "marginalFrequency": 33942,
+      "cumulativeGpcs": 129,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36763384,
+      "coveragePercent": 85.39
+    },
+    {
+      "step": 126,
+      "gpcId": "GPC-WORD-their",
+      "marginalGain": 1,
+      "marginalFrequency": 33413,
+      "cumulativeGpcs": 130,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36796797,
+      "coveragePercent": 85.47
+    },
+    {
+      "step": 127,
+      "gpcId": "GPC-gh-F",
+      "marginalGain": 10,
+      "marginalFrequency": 32743,
+      "cumulativeGpcs": 131,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36829540,
+      "coveragePercent": 85.54
+    },
+    {
+      "step": 128,
+      "gpcId": "GPC-in-AH_N",
+      "marginalGain": 10,
+      "marginalFrequency": 32292,
+      "cumulativeGpcs": 132,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36861832,
+      "coveragePercent": 85.62
+    },
+    {
+      "step": 129,
+      "gpcId": "GPC-u_e-Y_UW",
+      "marginalGain": 10,
+      "marginalFrequency": 30816,
+      "cumulativeGpcs": 133,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36892648,
+      "coveragePercent": 85.69
+    },
+    {
+      "step": 130,
+      "gpcId": "GPC-z-Z",
+      "marginalGain": 10,
+      "marginalFrequency": 30680,
+      "cumulativeGpcs": 134,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36923328,
+      "coveragePercent": 85.76
+    },
+    {
+      "step": 131,
+      "gpcId": "GPC-ch-K",
+      "marginalGain": 10,
+      "marginalFrequency": 29558,
+      "cumulativeGpcs": 135,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36952886,
+      "coveragePercent": 85.83
+    },
+    {
+      "step": 132,
+      "gpcId": "GPC-i-AY-final",
+      "marginalGain": 10,
+      "marginalFrequency": 29421,
+      "cumulativeGpcs": 136,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 36982307,
+      "coveragePercent": 85.9
+    },
+    {
+      "step": 133,
+      "gpcId": "GPC-u_e-UW",
+      "marginalGain": 10,
+      "marginalFrequency": 27420,
+      "cumulativeGpcs": 137,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37009727,
+      "coveragePercent": 85.96
+    },
+    {
+      "step": 134,
+      "gpcId": "GPC-ue-UW",
+      "marginalGain": 10,
+      "marginalFrequency": 27360,
+      "cumulativeGpcs": 138,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37037087,
+      "coveragePercent": 86.03
+    },
+    {
+      "step": 135,
+      "gpcId": "GPC-our-ER",
+      "marginalGain": 10,
+      "marginalFrequency": 26862,
+      "cumulativeGpcs": 139,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37063949,
+      "coveragePercent": 86.09
+    },
+    {
+      "step": 136,
+      "gpcId": "GPC-ph-F",
+      "marginalGain": 10,
+      "marginalFrequency": 26645,
+      "cumulativeGpcs": 140,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37090594,
+      "coveragePercent": 86.15
+    },
+    {
+      "step": 137,
+      "gpcId": "GPC-oor-AO_R",
+      "marginalGain": 10,
+      "marginalFrequency": 23671,
+      "cumulativeGpcs": 141,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37114265,
+      "coveragePercent": 86.21
+    },
+    {
+      "step": 138,
+      "gpcId": "GPC-x-G_Z",
+      "marginalGain": 10,
+      "marginalFrequency": 21467,
+      "cumulativeGpcs": 142,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37135732,
+      "coveragePercent": 86.26
+    },
+    {
+      "step": 139,
+      "gpcId": "GPC-WORD-friend",
+      "marginalGain": 1,
+      "marginalFrequency": 21384,
+      "cumulativeGpcs": 143,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37157116,
+      "coveragePercent": 86.3
+    },
+    {
+      "step": 140,
+      "gpcId": "GPC-mn-M",
+      "marginalGain": 10,
+      "marginalFrequency": 21374,
+      "cumulativeGpcs": 144,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37178490,
+      "coveragePercent": 86.35
+    },
+    {
+      "step": 141,
+      "gpcId": "GPC-WORD-move",
+      "marginalGain": 1,
+      "marginalFrequency": 21325,
+      "cumulativeGpcs": 145,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37199815,
+      "coveragePercent": 86.4
+    },
+    {
+      "step": 142,
+      "gpcId": "GPC-gg-G",
+      "marginalGain": 10,
+      "marginalFrequency": 21264,
+      "cumulativeGpcs": 146,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37221079,
+      "coveragePercent": 86.45
+    },
+    {
+      "step": 143,
+      "gpcId": "GPC-WORD-whole",
+      "marginalGain": 1,
+      "marginalFrequency": 19660,
+      "cumulativeGpcs": 147,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37240739,
+      "coveragePercent": 86.5
+    },
+    {
+      "step": 144,
+      "gpcId": "GPC-ci-SH",
+      "marginalGain": 10,
+      "marginalFrequency": 18938,
+      "cumulativeGpcs": 148,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37259677,
+      "coveragePercent": 86.54
+    },
+    {
+      "step": 145,
+      "gpcId": "GPC-WORD-many",
+      "marginalGain": 1,
+      "marginalFrequency": 18331,
+      "cumulativeGpcs": 149,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37278008,
+      "coveragePercent": 86.59
+    },
+    {
+      "step": 146,
+      "gpcId": "GPC-ou-OW",
+      "marginalGain": 10,
+      "marginalFrequency": 18312,
+      "cumulativeGpcs": 150,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37296320,
+      "coveragePercent": 86.63
+    },
+    {
+      "step": 147,
+      "gpcId": "GPC-ew-Y_UW",
+      "marginalGain": 10,
+      "marginalFrequency": 17662,
+      "cumulativeGpcs": 151,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37313982,
+      "coveragePercent": 86.67
+    },
+    {
+      "step": 148,
+      "gpcId": "GPC-WORD-once",
+      "marginalGain": 1,
+      "marginalFrequency": 17589,
+      "cumulativeGpcs": 152,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37331571,
+      "coveragePercent": 86.71
+    },
+    {
+      "step": 149,
+      "gpcId": "GPC-bb-B",
+      "marginalGain": 10,
+      "marginalFrequency": 16393,
+      "cumulativeGpcs": 153,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37347964,
+      "coveragePercent": 86.75
+    },
+    {
+      "step": 150,
+      "gpcId": "GPC-WORD-says",
+      "marginalGain": 1,
+      "marginalFrequency": 16356,
+      "cumulativeGpcs": 154,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37364320,
+      "coveragePercent": 86.79
+    },
+    {
+      "step": 151,
+      "gpcId": "GPC-ei-EY",
+      "marginalGain": 10,
+      "marginalFrequency": 15495,
+      "cumulativeGpcs": 155,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37379815,
+      "coveragePercent": 86.82
+    },
+    {
+      "step": 152,
+      "gpcId": "GPC-ei-IY",
+      "marginalGain": 10,
+      "marginalFrequency": 15372,
+      "cumulativeGpcs": 156,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37395187,
+      "coveragePercent": 86.86
+    },
+    {
+      "step": 153,
+      "gpcId": "GPC-ild-AY_L_D",
+      "marginalGain": 10,
+      "marginalFrequency": 13170,
+      "cumulativeGpcs": 157,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37408357,
+      "coveragePercent": 86.89
+    },
+    {
+      "step": 154,
+      "gpcId": "GPC-dge-JH",
+      "marginalGain": 10,
+      "marginalFrequency": 12887,
+      "cumulativeGpcs": 158,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37421244,
+      "coveragePercent": 86.92
+    },
+    {
+      "step": 155,
+      "gpcId": "GPC-WORD-heart",
+      "marginalGain": 1,
+      "marginalFrequency": 12453,
+      "cumulativeGpcs": 159,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37433697,
+      "coveragePercent": 86.95
+    },
+    {
+      "step": 156,
+      "gpcId": "GPC-WORD-eyes",
+      "marginalGain": 1,
+      "marginalFrequency": 11299,
+      "cumulativeGpcs": 160,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37444996,
+      "coveragePercent": 86.97
+    },
+    {
+      "step": 157,
+      "gpcId": "GPC-au-AE",
+      "marginalGain": 10,
+      "marginalFrequency": 11223,
+      "cumulativeGpcs": 161,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37456219,
+      "coveragePercent": 87
+    },
+    {
+      "step": 158,
+      "gpcId": "GPC-ue-Y_UW",
+      "marginalGain": 10,
+      "marginalFrequency": 10777,
+      "cumulativeGpcs": 162,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37466996,
+      "coveragePercent": 87.02
+    },
+    {
+      "step": 159,
+      "gpcId": "GPC-WORD-half",
+      "marginalGain": 1,
+      "marginalFrequency": 10156,
+      "cumulativeGpcs": 163,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37477152,
+      "coveragePercent": 87.05
+    },
+    {
+      "step": 160,
+      "gpcId": "GPC-cc-K",
+      "marginalGain": 10,
+      "marginalFrequency": 9900,
+      "cumulativeGpcs": 164,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37487052,
+      "coveragePercent": 87.07
+    },
+    {
+      "step": 161,
+      "gpcId": "GPC-mb-M",
+      "marginalGain": 10,
+      "marginalFrequency": 9933,
+      "cumulativeGpcs": 165,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37496985,
+      "coveragePercent": 87.09
+    },
+    {
+      "step": 162,
+      "gpcId": "GPC-WORD-buy",
+      "marginalGain": 1,
+      "marginalFrequency": 9814,
+      "cumulativeGpcs": 166,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37506799,
+      "coveragePercent": 87.12
+    },
+    {
+      "step": 163,
+      "gpcId": "GPC-si-ZH",
+      "marginalGain": 10,
+      "marginalFrequency": 8443,
+      "cumulativeGpcs": 167,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37515242,
+      "coveragePercent": 87.14
+    },
+    {
+      "step": 164,
+      "gpcId": "GPC-oar-AO_R",
+      "marginalGain": 10,
+      "marginalFrequency": 7864,
+      "cumulativeGpcs": 168,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37523106,
+      "coveragePercent": 87.15
+    },
+    {
+      "step": 165,
+      "gpcId": "GPC-oll-OW_L",
+      "marginalGain": 10,
+      "marginalFrequency": 7629,
+      "cumulativeGpcs": 169,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37530735,
+      "coveragePercent": 87.17
+    },
+    {
+      "step": 166,
+      "gpcId": "GPC-i-IY-final",
+      "marginalGain": 10,
+      "marginalFrequency": 7360,
+      "cumulativeGpcs": 170,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37538095,
+      "coveragePercent": 87.19
+    },
+    {
+      "step": 167,
+      "gpcId": "GPC-alt-AO_L_T",
+      "marginalGain": 10,
+      "marginalFrequency": 6934,
+      "cumulativeGpcs": 171,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37545029,
+      "coveragePercent": 87.21
+    },
+    {
+      "step": 168,
+      "gpcId": "GPC-sc-S",
+      "marginalGain": 10,
+      "marginalFrequency": 6657,
+      "cumulativeGpcs": 172,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37551686,
+      "coveragePercent": 87.22
+    },
+    {
+      "step": 169,
+      "gpcId": "GPC-ore-AO_R",
+      "marginalGain": 10,
+      "marginalFrequency": 6084,
+      "cumulativeGpcs": 173,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37557770,
+      "coveragePercent": 87.24
+    },
+    {
+      "step": 170,
+      "gpcId": "GPC-WORD-eye",
+      "marginalGain": 1,
+      "marginalFrequency": 5701,
+      "cumulativeGpcs": 174,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37563471,
+      "coveragePercent": 87.25
+    },
+    {
+      "step": 171,
+      "gpcId": "GPC-bt-T",
+      "marginalGain": 10,
+      "marginalFrequency": 5499,
+      "cumulativeGpcs": 175,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37568970,
+      "coveragePercent": 87.26
+    },
+    {
+      "step": 172,
+      "gpcId": "GPC-ure-Y_UH_R",
+      "marginalGain": 10,
+      "marginalFrequency": 5295,
+      "cumulativeGpcs": 176,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37574265,
+      "coveragePercent": 87.27
+    },
+    {
+      "step": 173,
+      "gpcId": "GPC-zz-Z",
+      "marginalGain": 10,
+      "marginalFrequency": 4522,
+      "cumulativeGpcs": 177,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37578787,
+      "coveragePercent": 87.28
+    },
+    {
+      "step": 174,
+      "gpcId": "GPC-ch-SH",
+      "marginalGain": 10,
+      "marginalFrequency": 3756,
+      "cumulativeGpcs": 178,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37582543,
+      "coveragePercent": 87.29
+    },
+    {
+      "step": 175,
+      "gpcId": "GPC-ie-IH",
+      "marginalGain": 10,
+      "marginalFrequency": 3061,
+      "cumulativeGpcs": 179,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37585604,
+      "coveragePercent": 87.3
+    },
+    {
+      "step": 176,
+      "gpcId": "GPC-ei-AY",
+      "marginalGain": 10,
+      "marginalFrequency": 2961,
+      "cumulativeGpcs": 180,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37588565,
+      "coveragePercent": 87.31
+    },
+    {
+      "step": 177,
+      "gpcId": "GPC-ire-AY_R",
+      "marginalGain": 10,
+      "marginalFrequency": 2532,
+      "cumulativeGpcs": 181,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37591097,
+      "coveragePercent": 87.31
+    },
+    {
+      "step": 178,
+      "gpcId": "GPC-si-SH",
+      "marginalGain": 10,
+      "marginalFrequency": 2514,
+      "cumulativeGpcs": 182,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37593611,
+      "coveragePercent": 87.32
+    },
+    {
+      "step": 179,
+      "gpcId": "GPC-eu-UW",
+      "marginalGain": 10,
+      "marginalFrequency": 1571,
+      "cumulativeGpcs": 183,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37595182,
+      "coveragePercent": 87.32
+    },
+    {
+      "step": 180,
+      "gpcId": "GPC-eu-Y_UW",
+      "marginalGain": 10,
+      "marginalFrequency": 1010,
+      "cumulativeGpcs": 184,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37596192,
+      "coveragePercent": 87.32
+    },
+    {
+      "step": 181,
+      "gpcId": "GPC-sch-SH",
+      "marginalGain": 10,
+      "marginalFrequency": 798,
+      "cumulativeGpcs": 185,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37596990,
+      "coveragePercent": 87.33
+    },
+    {
+      "step": 182,
+      "gpcId": "GPC-ure-ER",
+      "marginalGain": 8,
+      "marginalFrequency": 630,
+      "cumulativeGpcs": 186,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37597620,
+      "coveragePercent": 87.33
+    },
+    {
+      "step": 183,
+      "gpcId": "GPC-ew-OW",
+      "marginalGain": 3,
+      "marginalFrequency": 544,
+      "cumulativeGpcs": 187,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37598164,
+      "coveragePercent": 87.33
+    },
+    {
+      "step": 184,
+      "gpcId": "GPC-q-K",
+      "marginalGain": 7,
+      "marginalFrequency": 351,
+      "cumulativeGpcs": 188,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37598515,
+      "coveragePercent": 87.33
+    },
+    {
+      "step": 185,
+      "gpcId": "GPC-gu-G_W",
+      "marginalGain": 10,
+      "marginalFrequency": 335,
+      "cumulativeGpcs": 189,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37598850,
+      "coveragePercent": 87.33
+    },
+    {
+      "step": 186,
+      "gpcId": "GPC-ough-AO_F",
+      "marginalGain": 3,
+      "marginalFrequency": 229,
+      "cumulativeGpcs": 190,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37599079,
+      "coveragePercent": 87.33
+    },
+    {
+      "step": 187,
+      "gpcId": "GPC-gn-N-initial",
+      "marginalGain": 9,
+      "marginalFrequency": 181,
+      "cumulativeGpcs": 191,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37599260,
+      "coveragePercent": 87.33
+    },
+    {
+      "step": 188,
+      "gpcId": "GPC-rh-R-initial",
+      "marginalGain": 8,
+      "marginalFrequency": 156,
+      "cumulativeGpcs": 192,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37599416,
+      "coveragePercent": 87.33
+    },
+    {
+      "step": 189,
+      "gpcId": "GPC-ure-UH_R",
+      "marginalGain": 2,
+      "marginalFrequency": 97,
+      "cumulativeGpcs": 193,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37599513,
+      "coveragePercent": 87.33
+    },
+    {
+      "step": 190,
+      "gpcId": "GPC-ps-S-initial",
+      "marginalGain": 4,
+      "marginalFrequency": 83,
+      "cumulativeGpcs": 194,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37599596,
+      "coveragePercent": 87.33
+    },
+    {
+      "step": 191,
+      "gpcId": "GPC-x-Z",
+      "marginalGain": 4,
+      "marginalFrequency": 56,
+      "cumulativeGpcs": 195,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37599652,
+      "coveragePercent": 87.33
+    },
+    {
+      "step": 192,
+      "gpcId": "GPC-pn-N-initial",
+      "marginalGain": 2,
+      "marginalFrequency": 31,
+      "cumulativeGpcs": 196,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37599683,
+      "coveragePercent": 87.33
+    },
+    {
+      "step": 193,
+      "gpcId": "GPC-zz-T_S",
+      "marginalGain": 1,
+      "marginalFrequency": 28,
+      "cumulativeGpcs": 197,
+      "cumulativeWords": 0,
+      "cumulativeFrequency": 37599711,
+      "coveragePercent": 87.33
+    }
+  ],
+  "initialKnown": [
+    "GPC-s-S",
+    "GPC-n-N",
+    "GPC-i-IH",
+    "GPC-t-T"
+  ],
+  "totalWords": 45358,
+  "totalFrequency": 43053390,
+  "finalCoverage": 87.33,
+  "meta": {
+    "generatedBy": "calculate-gpc-sequence.ts (decode-based)",
+    "generatedAt": "2026-09-27T15:59:44.497Z",
+    "options": {
+      "minFrequency": 0,
+      "maxSteps": 200,
+      "targetCoverage": 99.9,
+      "initialKnownCount": 4
+    },
+    "plateau": 2,
+    "unusedGpcs": 49
+  }
+}

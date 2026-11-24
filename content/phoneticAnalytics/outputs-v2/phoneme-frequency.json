@@ -1,0 +1,4330 @@
+{
+  "meta": {
+    "generatedAt": "2026-01-16T18:06:28.943Z",
+    "generatedBy": "phoneme-frequency.ts",
+    "corpusSize": {
+      "cmudictWords": 117477,
+      "subtlexWords": 60361,
+      "matchedWords": 45364,
+      "totalFrequency": 46801165
+    }
+  },
+  "phonemeRanking": [
+    {
+      "rank": 1,
+      "phoneme": "AH",
+      "type": "vowel",
+      "totalFrequency": 11668369,
+      "percentOfCorpus": 24.93179176202131
+    },
+    {
+      "rank": 2,
+      "phoneme": "T",
+      "type": "consonant",
+      "totalFrequency": 11297322,
+      "percentOfCorpus": 24.13897602762666
+    },
+    {
+      "rank": 3,
+      "phoneme": "N",
+      "type": "consonant",
+      "totalFrequency": 9329459,
+      "percentOfCorpus": 19.934245226587844
+    },
+    {
+      "rank": 4,
+      "phoneme": "IH",
+      "type": "vowel",
+      "totalFrequency": 8295891,
+      "percentOfCorpus": 17.725821568757958
+    },
+    {
+      "rank": 5,
+      "phoneme": "R",
+      "type": "consonant",
+      "totalFrequency": 6293743,
+      "percentOfCorpus": 13.447834044302102
+    },
+    {
+      "rank": 6,
+      "phoneme": "S",
+      "type": "consonant",
+      "totalFrequency": 6243896,
+      "percentOfCorpus": 13.341326011863167
+    },
+    {
+      "rank": 7,
+      "phoneme": "D",
+      "type": "consonant",
+      "totalFrequency": 5793075,
+      "percentOfCorpus": 12.37805725562601
+    },
+    {
+      "rank": 8,
+      "phoneme": "IY",
+      "type": "vowel",
+      "totalFrequency": 5635438,
+      "percentOfCorpus": 12.041234443629769
+    },
+    {
+      "rank": 9,
+      "phoneme": "L",
+      "type": "consonant",
+      "totalFrequency": 5422115,
+      "percentOfCorpus": 11.5854274140398
+    },
+    {
+      "rank": 10,
+      "phoneme": "K",
+      "type": "consonant",
+      "totalFrequency": 4790952,
+      "percentOfCorpus": 10.236822096202092
+    },
+    {
+      "rank": 11,
+      "phoneme": "UW",
+      "type": "vowel",
+      "totalFrequency": 4779247,
+      "percentOfCorpus": 10.211812035020923
+    },
+    {
+      "rank": 12,
+      "phoneme": "M",
+      "type": "consonant",
+      "totalFrequency": 4633949,
+      "percentOfCorpus": 9.901353951338605
+    },
+    {
+      "rank": 13,
+      "phoneme": "AY",
+      "type": "vowel",
+      "totalFrequency": 4543615,
+      "percentOfCorpus": 9.708337388609877
+    },
+    {
+      "rank": 14,
+      "phoneme": "EH",
+      "type": "vowel",
+      "totalFrequency": 4170149,
+      "percentOfCorpus": 8.910352979461088
+    },
+    {
+      "rank": 15,
+      "phoneme": "AE",
+      "type": "vowel",
+      "totalFrequency": 3933082,
+      "percentOfCorpus": 8.403812170060297
+    },
+    {
+      "rank": 16,
+      "phoneme": "DH",
+      "type": "consonant",
+      "totalFrequency": 3884921,
+      "percentOfCorpus": 8.300906612046944
+    },
+    {
+      "rank": 17,
+      "phoneme": "W",
+      "type": "consonant",
+      "totalFrequency": 3833402,
+      "percentOfCorpus": 8.19082601896769
+    },
+    {
+      "rank": 18,
+      "phoneme": "AA",
+      "type": "vowel",
+      "totalFrequency": 3551784,
+      "percentOfCorpus": 7.589093134754231
+    },
+    {
+      "rank": 19,
+      "phoneme": "Y",
+      "type": "consonant",
+      "totalFrequency": 3194814,
+      "percentOfCorpus": 6.8263557114443625
+    },
+    {
+      "rank": 20,
+      "phoneme": "Z",
+      "type": "consonant",
+      "totalFrequency": 2917797,
+      "percentOfCorpus": 6.234453779088619
+    },
+    {
+      "rank": 21,
+      "phoneme": "ER",
+      "type": "vowel",
+      "totalFrequency": 2896454,
+      "percentOfCorpus": 6.188850213450883
+    },
+    {
+      "rank": 22,
+      "phoneme": "HH",
+      "type": "consonant",
+      "totalFrequency": 2886895,
+      "percentOfCorpus": 6.1684255082111745
+    },
+    {
+      "rank": 23,
+      "phoneme": "EY",
+      "type": "vowel",
+      "totalFrequency": 2756024,
+      "percentOfCorpus": 5.888793580245278
+    },
+    {
+      "rank": 24,
+      "phoneme": "B",
+      "type": "consonant",
+      "totalFrequency": 2728357,
+      "percentOfCorpus": 5.829677530463185
+    },
+    {
+      "rank": 25,
+      "phoneme": "OW",
+      "type": "vowel",
+      "totalFrequency": 2685340,
+      "percentOfCorpus": 5.737763151836071
+    },
+    {
+      "rank": 26,
+      "phoneme": "P",
+      "type": "consonant",
+      "totalFrequency": 2407608,
+      "percentOfCorpus": 5.144333479732823
+    },
+    {
+      "rank": 27,
+      "phoneme": "AO",
+      "type": "vowel",
+      "totalFrequency": 2398206,
+      "percentOfCorpus": 5.12424423622788
+    },
+    {
+      "rank": 28,
+      "phoneme": "F",
+      "type": "consonant",
+      "totalFrequency": 2349137,
+      "percentOfCorpus": 5.019398555570144
+    },
+    {
+      "rank": 29,
+      "phoneme": "V",
+      "type": "consonant",
+      "totalFrequency": 2215820,
+      "percentOfCorpus": 4.7345402619785215
+    },
+    {
+      "rank": 30,
+      "phoneme": "G",
+      "type": "consonant",
+      "totalFrequency": 2052620,
+      "percentOfCorpus": 4.385830993737015
+    },
+    {
+      "rank": 31,
+      "phoneme": "NG",
+      "type": "consonant",
+      "totalFrequency": 1941053,
+      "percentOfCorpus": 4.147445902254784
+    },
+    {
+      "rank": 32,
+      "phoneme": "AW",
+      "type": "vowel",
+      "totalFrequency": 1193266,
+      "percentOfCorpus": 2.5496502063570428
+    },
+    {
+      "rank": 33,
+      "phoneme": "SH",
+      "type": "consonant",
+      "totalFrequency": 900727,
+      "percentOfCorpus": 1.9245824329372996
+    },
+    {
+      "rank": 34,
+      "phoneme": "TH",
+      "type": "consonant",
+      "totalFrequency": 862040,
+      "percentOfCorpus": 1.8419199607531138
+    },
+    {
+      "rank": 35,
+      "phoneme": "UH",
+      "type": "vowel",
+      "totalFrequency": 804868,
+      "percentOfCorpus": 1.7197606085233135
+    },
+    {
+      "rank": 36,
+      "phoneme": "JH",
+      "type": "consonant",
+      "totalFrequency": 776403,
+      "percentOfCorpus": 1.6589394729810678
+    },
+    {
+      "rank": 37,
+      "phoneme": "CH",
+      "type": "consonant",
+      "totalFrequency": 562240,
+      "percentOfCorpus": 1.2013376162751503
+    },
+    {
+      "rank": 38,
+      "phoneme": "OY",
+      "type": "vowel",
+      "totalFrequency": 127241,
+      "percentOfCorpus": 0.2718757107862593
+    },
+    {
+      "rank": 39,
+      "phoneme": "ZH",
+      "type": "consonant",
+      "totalFrequency": 40548,
+      "percentOfCorpus": 0.08663886892559192
+    },
+    {
+      "rank": 40,
+      "phoneme": "AH L",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 41,
+      "phoneme": "AH N",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 42,
+      "phoneme": "",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 43,
+      "phoneme": "AO R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 44,
+      "phoneme": "K S",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 45,
+      "phoneme": "IH N",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 46,
+      "phoneme": "AH M",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 47,
+      "phoneme": "AA R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 48,
+      "phoneme": "AY ER",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 49,
+      "phoneme": "AY R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 50,
+      "phoneme": "EH R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 51,
+      "phoneme": "OW L D",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 52,
+      "phoneme": "G Z",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 53,
+      "phoneme": "AO L",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 54,
+      "phoneme": "AO L T",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 55,
+      "phoneme": "N JH",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 56,
+      "phoneme": "N G",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 57,
+      "phoneme": "IH R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 58,
+      "phoneme": "K W",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 59,
+      "phoneme": "Y UW",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 60,
+      "phoneme": "AO K",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 61,
+      "phoneme": "AY N D",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 62,
+      "phoneme": "OW L",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 63,
+      "phoneme": "UH R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 64,
+      "phoneme": "AY L D",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 65,
+      "phoneme": "Y UH R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 66,
+      "phoneme": "AE F",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 67,
+      "phoneme": "AH F",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 68,
+      "phoneme": "S K",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 69,
+      "phoneme": "AW R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    },
+    {
+      "rank": 70,
+      "phoneme": "T S",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "percentOfCorpus": 0
+    }
+  ],
+  "phonemeDetails": {
+    "AH": {
+      "phoneme": "AH",
+      "type": "vowel",
+      "totalFrequency": 10945036,
+      "totalOccurrences": 11668369,
+      "wordCount": 20922,
+      "graphemes": [
+        {
+          "grapheme": "a",
+          "gpcId": "GPC-a-AH-final",
+          "frequency": 2315488,
+          "occurrences": 1867,
+          "percentage": 25.970325594760553,
+          "exampleWords": [
+            "a",
+            "what",
+            "about",
+            "gonna",
+            "again"
+          ]
+        },
+        {
+          "grapheme": "u",
+          "gpcId": "GPC-u-AH",
+          "frequency": 1407653,
+          "occurrences": 2087,
+          "percentage": 15.78812187082873,
+          "exampleWords": [
+            "just",
+            "but",
+            "up",
+            "us",
+            "much"
+          ]
+        },
+        {
+          "grapheme": "o",
+          "gpcId": "GPC-o-AH",
+          "frequency": 360520,
+          "occurrences": 678,
+          "percentage": 4.043563077598793,
+          "exampleWords": [
+            "love",
+            "nothing",
+            "other",
+            "another",
+            "mother"
+          ]
+        },
+        {
+          "grapheme": "ou",
+          "gpcId": "GPC-ou-AH",
+          "frequency": 74916,
+          "occurrences": 135,
+          "percentage": 0.8402517794335713,
+          "exampleWords": [
+            "young",
+            "trouble",
+            "couple",
+            "country",
+            "touch"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 4757322,
+        "occurrences": 13657,
+        "percentage": 53.35773767737836,
+        "exampleWords": [
+          "the",
+          "of",
+          "one",
+          "something",
+          "people"
+        ]
+      }
+    },
+    "T": {
+      "phoneme": "T",
+      "type": "consonant",
+      "totalFrequency": 10917312,
+      "totalOccurrences": 11297322,
+      "wordCount": 17404,
+      "graphemes": [
+        {
+          "grapheme": "t",
+          "gpcId": "GPC-t-T",
+          "frequency": 8041341,
+          "occurrences": 8175,
+          "percentage": 72.25941224075193,
+          "exampleWords": [
+            "it",
+            "that",
+            "what",
+            "not",
+            "just"
+          ]
+        },
+        {
+          "grapheme": "tt",
+          "gpcId": "GPC-tt-T",
+          "frequency": 307345,
+          "occurrences": 509,
+          "percentage": 2.761799189355843,
+          "exampleWords": [
+            "little",
+            "better",
+            "gotta",
+            "getting",
+            "pretty"
+          ]
+        },
+        {
+          "grapheme": "bt",
+          "gpcId": "GPC-bt-T",
+          "frequency": 5499,
+          "occurrences": 15,
+          "percentage": 0.04941396067047708,
+          "exampleWords": [
+            "doubt",
+            "debt",
+            "subtle",
+            "doubts",
+            "debts"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 2774249,
+        "occurrences": 9683,
+        "percentage": 24.929374609221746,
+        "exampleWords": [
+          "to",
+          "mr",
+          "two",
+          "into",
+          "wanted"
+        ]
+      }
+    },
+    "N": {
+      "phoneme": "N",
+      "type": "consonant",
+      "totalFrequency": 8998734,
+      "totalOccurrences": 9329459,
+      "wordCount": 16610,
+      "graphemes": [
+        {
+          "grapheme": "n",
+          "gpcId": "GPC-n-N",
+          "frequency": 4317087,
+          "occurrences": 4841,
+          "percentage": 62.32884277292358,
+          "exampleWords": [
+            "on",
+            "don",
+            "no",
+            "not",
+            "can"
+          ]
+        },
+        {
+          "grapheme": "kn",
+          "gpcId": "GPC-kn-N-initial",
+          "frequency": 344506,
+          "occurrences": 55,
+          "percentage": 4.973877132503656,
+          "exampleWords": [
+            "know",
+            "knew",
+            "knows",
+            "known",
+            "knock"
+          ]
+        },
+        {
+          "grapheme": "nn",
+          "gpcId": "GPC-nn-N",
+          "frequency": 186124,
+          "occurrences": 151,
+          "percentage": 2.6872040179564665,
+          "exampleWords": [
+            "gonna",
+            "wanna",
+            "funny",
+            "running",
+            "cannot"
+          ]
+        },
+        {
+          "grapheme": "gn",
+          "gpcId": "GPC-gn-N-initial",
+          "frequency": 181,
+          "occurrences": 9,
+          "percentage": 0.0026132252006733168,
+          "exampleWords": [
+            "gnarly",
+            "gnome",
+            "gnat",
+            "gnawing",
+            "gnaw"
+          ]
+        },
+        {
+          "grapheme": "pn",
+          "gpcId": "GPC-pn-N-initial",
+          "frequency": 31,
+          "occurrences": 2,
+          "percentage": 0.00044756895702139683,
+          "exampleWords": [
+            "pneumatic",
+            "pneumonic"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 2078378,
+        "occurrences": 9102,
+        "percentage": 30.007015282458603,
+        "exampleWords": [
+          "one",
+          "been",
+          "any",
+          "only",
+          "anything"
+        ]
+      }
+    },
+    "IH": {
+      "phoneme": "IH",
+      "type": "vowel",
+      "totalFrequency": 7939484,
+      "totalOccurrences": 8295891,
+      "wordCount": 16530,
+      "graphemes": [
+        {
+          "grapheme": "i",
+          "gpcId": "GPC-i-IH",
+          "frequency": 4872548,
+          "occurrences": 6528,
+          "percentage": 66.19001270808556,
+          "exampleWords": [
+            "it",
+            "is",
+            "this",
+            "with",
+            "if"
+          ]
+        },
+        {
+          "grapheme": "e",
+          "gpcId": "GPC-e-IH",
+          "frequency": 477528,
+          "occurrences": 1883,
+          "percentage": 6.486869783215409,
+          "exampleWords": [
+            "because",
+            "before",
+            "believe",
+            "enough",
+            "pretty"
+          ]
+        },
+        {
+          "grapheme": "ie",
+          "gpcId": "GPC-ie-IH",
+          "frequency": 3033,
+          "occurrences": 29,
+          "percentage": 0.04120109407718991,
+          "exampleWords": [
+            "pierce",
+            "pier",
+            "fierce",
+            "premiere",
+            "cashier"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 2008346,
+        "occurrences": 8585,
+        "percentage": 27.281916414621836,
+        "exampleWords": [
+          "think",
+          "going",
+          "been",
+          "really",
+          "something"
+        ]
+      }
+    },
+    "R": {
+      "phoneme": "R",
+      "type": "consonant",
+      "totalFrequency": 6196719,
+      "totalOccurrences": 6293743,
+      "wordCount": 14436,
+      "graphemes": [
+        {
+          "grapheme": "r",
+          "gpcId": "GPC-r-R",
+          "frequency": 2284870,
+          "occurrences": 4344,
+          "percentage": 50.727622017973026,
+          "exampleWords": [
+            "here",
+            "there",
+            "right",
+            "from",
+            "where"
+          ]
+        },
+        {
+          "grapheme": "rr",
+          "gpcId": "GPC-rr-R",
+          "frequency": 103853,
+          "occurrences": 119,
+          "percentage": 2.305696048104511,
+          "exampleWords": [
+            "sorry",
+            "tomorrow",
+            "carry",
+            "jerry",
+            "merry"
+          ]
+        },
+        {
+          "grapheme": "wr",
+          "gpcId": "GPC-wr-R-initial",
+          "frequency": 43672,
+          "occurrences": 52,
+          "percentage": 0.9695854507122585,
+          "exampleWords": [
+            "wrong",
+            "write",
+            "wrote",
+            "written",
+            "wrap"
+          ]
+        },
+        {
+          "grapheme": "rh",
+          "gpcId": "GPC-rh-R-initial",
+          "frequency": 156,
+          "occurrences": 8,
+          "percentage": 0.003463439510695923,
+          "exampleWords": [
+            "rhetorical",
+            "rhine",
+            "rhapsody",
+            "rhetoric",
+            "rheumatic"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 2071642,
+        "occurrences": 7934,
+        "percentage": 45.993633043699504,
+        "exampleWords": [
+          "re",
+          "are",
+          "really",
+          "sure",
+          "their"
+        ]
+      }
+    },
+    "S": {
+      "phoneme": "S",
+      "type": "consonant",
+      "totalFrequency": 5905389,
+      "totalOccurrences": 6243896,
+      "wordCount": 16286,
+      "graphemes": [
+        {
+          "grapheme": "s",
+          "gpcId": "GPC-s-S",
+          "frequency": 3734338,
+          "occurrences": 6466,
+          "percentage": 62.930849401941416,
+          "exampleWords": [
+            "this",
+            "just",
+            "so",
+            "see",
+            "yes"
+          ]
+        },
+        {
+          "grapheme": "c",
+          "gpcId": "GPC-c-S-soft",
+          "frequency": 304211,
+          "occurrences": 741,
+          "percentage": 5.126546292117639,
+          "exampleWords": [
+            "nice",
+            "place",
+            "since",
+            "face",
+            "chance"
+          ]
+        },
+        {
+          "grapheme": "ss",
+          "gpcId": "GPC-ss-S",
+          "frequency": 200590,
+          "occurrences": 503,
+          "percentage": 3.3803311541524703,
+          "exampleWords": [
+            "miss",
+            "guess",
+            "ass",
+            "boss",
+            "kiss"
+          ]
+        },
+        {
+          "grapheme": "sc",
+          "gpcId": "GPC-sc-S",
+          "frequency": 6697,
+          "occurrences": 69,
+          "percentage": 0.11285745919217854,
+          "exampleWords": [
+            "scene",
+            "muscle",
+            "scent",
+            "obscene",
+            "descent"
+          ]
+        },
+        {
+          "grapheme": "ps",
+          "gpcId": "GPC-ps-S-initial",
+          "frequency": 83,
+          "occurrences": 4,
+          "percentage": 0.0013987112308422903,
+          "exampleWords": [
+            "psalm",
+            "psi",
+            "psalms",
+            "pseudo"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 1688115,
+        "occurrences": 9063,
+        "percentage": 28.44801698136546,
+        "exampleWords": [
+          "something",
+          "mr",
+          "thanks",
+          "listen",
+          "someone"
+        ]
+      }
+    },
+    "D": {
+      "phoneme": "D",
+      "type": "consonant",
+      "totalFrequency": 5437212,
+      "totalOccurrences": 5793075,
+      "wordCount": 11493,
+      "graphemes": [
+        {
+          "grapheme": "d",
+          "gpcId": "GPC-d-D",
+          "frequency": 3639339,
+          "occurrences": 5087,
+          "percentage": 66.73961066135196,
+          "exampleWords": [
+            "and",
+            "don",
+            "good",
+            "did",
+            "did"
+          ]
+        },
+        {
+          "grapheme": "dd",
+          "gpcId": "GPC-dd-D",
+          "frequency": 55371,
+          "occurrences": 182,
+          "percentage": 1.015414882188694,
+          "exampleWords": [
+            "daddy",
+            "kidding",
+            "buddy",
+            "wedding",
+            "middle"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 1758332,
+        "occurrences": 6512,
+        "percentage": 32.244974456459346,
+        "exampleWords": [
+          "do",
+          "would",
+          "could",
+          "should",
+          "doing"
+        ]
+      }
+    },
+    "IY": {
+      "phoneme": "IY",
+      "type": "vowel",
+      "totalFrequency": 5519275,
+      "totalOccurrences": 5635438,
+      "wordCount": 9741,
+      "graphemes": [
+        {
+          "grapheme": "e",
+          "gpcId": "GPC-e-IY-final",
+          "frequency": 1812802,
+          "occurrences": 52,
+          "percentage": 32.706017644415184,
+          "exampleWords": [
+            "me",
+            "we",
+            "he",
+            "be",
+            "she"
+          ]
+        },
+        {
+          "grapheme": "y",
+          "gpcId": "GPC-y-IY-final",
+          "frequency": 625308,
+          "occurrences": 1496,
+          "percentage": 11.281615135681653,
+          "exampleWords": [
+            "very",
+            "sorry",
+            "every",
+            "pretty",
+            "ready"
+          ]
+        },
+        {
+          "grapheme": "ee",
+          "gpcId": "GPC-ee-IY",
+          "frequency": 587011,
+          "occurrences": 639,
+          "percentage": 10.59067240849569,
+          "exampleWords": [
+            "see",
+            "need",
+            "keep",
+            "feel",
+            "three"
+          ]
+        },
+        {
+          "grapheme": "ea",
+          "gpcId": "GPC-ea-IY",
+          "frequency": 484657,
+          "occurrences": 637,
+          "percentage": 8.744032935471898,
+          "exampleWords": [
+            "mean",
+            "please",
+            "leave",
+            "hear",
+            "real"
+          ]
+        },
+        {
+          "grapheme": "e_e",
+          "gpcId": "GPC-e_e-IY",
+          "frequency": 297614,
+          "occurrences": 71,
+          "percentage": 5.369460501050297,
+          "exampleWords": [
+            "here",
+            "these",
+            "scene",
+            "steve",
+            "complete"
+          ]
+        },
+        {
+          "grapheme": "ie",
+          "gpcId": "GPC-ie-IY",
+          "frequency": 112246,
+          "occurrences": 529,
+          "percentage": 2.0251079028570285,
+          "exampleWords": [
+            "believe",
+            "piece",
+            "charlie",
+            "chief",
+            "field"
+          ]
+        },
+        {
+          "grapheme": "ey",
+          "gpcId": "GPC-ey-IY",
+          "frequency": 76989,
+          "occurrences": 131,
+          "percentage": 1.3890119232138318,
+          "exampleWords": [
+            "money",
+            "honey",
+            "key",
+            "keys",
+            "attorney"
+          ]
+        },
+        {
+          "grapheme": "ei",
+          "gpcId": "GPC-ei-IY",
+          "frequency": 15401,
+          "occurrences": 28,
+          "percentage": 0.2778601180612324,
+          "exampleWords": [
+            "either",
+            "neither",
+            "ceiling",
+            "sheila",
+            "bein"
+          ]
+        },
+        {
+          "grapheme": "i",
+          "gpcId": "GPC-i-IY-final",
+          "frequency": 7324,
+          "occurrences": 91,
+          "percentage": 0.13213736151421765,
+          "exampleWords": [
+            "taxi",
+            "li",
+            "lori",
+            "ski",
+            "si"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 1523365,
+        "occurrences": 6180,
+        "percentage": 27.484084069238968,
+        "exampleWords": [
+          "really",
+          "people",
+          "any",
+          "only",
+          "maybe"
+        ]
+      }
+    },
+    "L": {
+      "phoneme": "L",
+      "type": "consonant",
+      "totalFrequency": 5270296,
+      "totalOccurrences": 5422115,
+      "wordCount": 15056,
+      "graphemes": [
+        {
+          "grapheme": "l",
+          "gpcId": "GPC-l-L",
+          "frequency": 2349198,
+          "occurrences": 4926,
+          "percentage": 51.74459750655673,
+          "exampleWords": [
+            "like",
+            "let",
+            "look",
+            "little",
+            "love"
+          ]
+        },
+        {
+          "grapheme": "ll",
+          "gpcId": "GPC-ll-L",
+          "frequency": 652515,
+          "occurrences": 742,
+          "percentage": 14.37261824758529,
+          "exampleWords": [
+            "well",
+            "will",
+            "tell",
+            "still",
+            "hell"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 1538274,
+        "occurrences": 8200,
+        "percentage": 33.88278424585797,
+        "exampleWords": [
+          "really",
+          "people",
+          "only",
+          "always",
+          "hello"
+        ]
+      }
+    },
+    "K": {
+      "phoneme": "K",
+      "type": "consonant",
+      "totalFrequency": 4641211,
+      "totalOccurrences": 4790952,
+      "wordCount": 12761,
+      "graphemes": [
+        {
+          "grapheme": "c",
+          "gpcId": "GPC-c-K",
+          "frequency": 1439616,
+          "occurrences": 3364,
+          "percentage": 32.28579111307369,
+          "exampleWords": [
+            "can",
+            "come",
+            "because",
+            "call",
+            "coming"
+          ]
+        },
+        {
+          "grapheme": "k",
+          "gpcId": "GPC-k-K",
+          "frequency": 1064401,
+          "occurrences": 1107,
+          "percentage": 23.870968610064597,
+          "exampleWords": [
+            "like",
+            "look",
+            "take",
+            "make",
+            "work"
+          ]
+        },
+        {
+          "grapheme": "ck",
+          "gpcId": "GPC-ck-K",
+          "frequency": 382066,
+          "occurrences": 824,
+          "percentage": 8.568467610395837,
+          "exampleWords": [
+            "back",
+            "fuck",
+            "fucking",
+            "check",
+            "jack"
+          ]
+        },
+        {
+          "grapheme": "ch",
+          "gpcId": "GPC-ch-K",
+          "frequency": 10622,
+          "occurrences": 101,
+          "percentage": 0.2382160751221637,
+          "exampleWords": [
+            "stomach",
+            "christopher",
+            "technology",
+            "headache",
+            "characters"
+          ]
+        },
+        {
+          "grapheme": "cc",
+          "gpcId": "GPC-cc-K",
+          "frequency": 9734,
+          "occurrences": 69,
+          "percentage": 0.21830119330061584,
+          "exampleWords": [
+            "account",
+            "according",
+            "soccer",
+            "accounts",
+            "occur"
+          ]
+        },
+        {
+          "grapheme": "q",
+          "gpcId": "GPC-q-K",
+          "frequency": 351,
+          "occurrences": 7,
+          "percentage": 0.007871760720003715,
+          "exampleWords": [
+            "que",
+            "iraq",
+            "barbeque",
+            "iraqi",
+            "ques"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 1552187,
+        "occurrences": 7170,
+        "percentage": 34.81038363732309,
+        "exampleWords": [
+          "think",
+          "okay",
+          "could",
+          "thank",
+          "thanks"
+        ]
+      }
+    },
+    "UW": {
+      "phoneme": "UW",
+      "type": "vowel",
+      "totalFrequency": 4776413,
+      "totalOccurrences": 4779247,
+      "wordCount": 3194,
+      "graphemes": [
+        {
+          "grapheme": "ou",
+          "gpcId": "GPC-ou-UW",
+          "frequency": 2151254,
+          "occurrences": 71,
+          "percentage": 45.28987254016712,
+          "exampleWords": [
+            "you",
+            "group",
+            "outta",
+            "louis",
+            "soup"
+          ]
+        },
+        {
+          "grapheme": "oo",
+          "gpcId": "GPC-oo-UW",
+          "frequency": 240519,
+          "occurrences": 514,
+          "percentage": 5.0635930733834575,
+          "exampleWords": [
+            "too",
+            "room",
+            "school",
+            "soon",
+            "cool"
+          ]
+        },
+        {
+          "grapheme": "ew",
+          "gpcId": "GPC-ew-UW",
+          "frequency": 85021,
+          "occurrences": 110,
+          "percentage": 1.7899282247645087,
+          "exampleWords": [
+            "new",
+            "knew",
+            "news",
+            "crew",
+            "threw"
+          ]
+        },
+        {
+          "grapheme": "ough",
+          "gpcId": "GPC-ough-UW",
+          "frequency": 28773,
+          "occurrences": 6,
+          "percentage": 0.6057515768004282,
+          "exampleWords": [
+            "through",
+            "throughout",
+            "breakthrough",
+            "breakthroughs",
+            "throughput"
+          ]
+        },
+        {
+          "grapheme": "u_e",
+          "gpcId": "GPC-u_e-UW",
+          "frequency": 27600,
+          "occurrences": 82,
+          "percentage": 0.5810566683936962,
+          "exampleWords": [
+            "dude",
+            "luke",
+            "rule",
+            "introduce",
+            "assume"
+          ]
+        },
+        {
+          "grapheme": "ue",
+          "gpcId": "GPC-ue-UW",
+          "frequency": 27357,
+          "occurrences": 61,
+          "percentage": 0.5759408433784908,
+          "exampleWords": [
+            "true",
+            "blue",
+            "due",
+            "sue",
+            "clue"
+          ]
+        },
+        {
+          "grapheme": "eu",
+          "gpcId": "GPC-eu-UW",
+          "frequency": 1632,
+          "occurrences": 36,
+          "percentage": 0.03435813343545334,
+          "exampleWords": [
+            "zeus",
+            "neutral",
+            "deuce",
+            "maneuver",
+            "pharmaceutical"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 2187811,
+        "occurrences": 2242,
+        "percentage": 46.05949893967684,
+        "exampleWords": [
+          "to",
+          "do",
+          "who",
+          "two",
+          "doing"
+        ]
+      }
+    },
+    "M": {
+      "phoneme": "M",
+      "type": "consonant",
+      "totalFrequency": 4512482,
+      "totalOccurrences": 4633949,
+      "wordCount": 8707,
+      "graphemes": [
+        {
+          "grapheme": "m",
+          "gpcId": "GPC-m-M",
+          "frequency": 2822386,
+          "occurrences": 3213,
+          "percentage": 69.5380148700332,
+          "exampleWords": [
+            "me",
+            "my",
+            "him",
+            "time",
+            "man"
+          ]
+        },
+        {
+          "grapheme": "mm",
+          "gpcId": "GPC-mm-M",
+          "frequency": 32527,
+          "occurrences": 139,
+          "percentage": 0.8014010166141589,
+          "exampleWords": [
+            "hmm",
+            "jimmy",
+            "mommy",
+            "tommy",
+            "common"
+          ]
+        },
+        {
+          "grapheme": "mn",
+          "gpcId": "GPC-mn-M",
+          "frequency": 14666,
+          "occurrences": 6,
+          "percentage": 0.36134126447761106,
+          "exampleWords": [
+            "damn",
+            "condemn",
+            "condemning",
+            "damning",
+            "condemns"
+          ]
+        },
+        {
+          "grapheme": "mb",
+          "gpcId": "GPC-mb-M",
+          "frequency": 5447,
+          "occurrences": 20,
+          "percentage": 0.13420331839694172,
+          "exampleWords": [
+            "bomb",
+            "bombs",
+            "lamb",
+            "bombing",
+            "limb"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 1183741,
+        "occurrences": 5058,
+        "percentage": 29.165039530478097,
+        "exampleWords": [
+          "something",
+          "mr",
+          "maybe",
+          "remember",
+          "someone"
+        ]
+      }
+    },
+    "AY": {
+      "phoneme": "AY",
+      "type": "vowel",
+      "totalFrequency": 4536964,
+      "totalOccurrences": 4543615,
+      "wordCount": 4294,
+      "graphemes": [
+        {
+          "grapheme": "i",
+          "gpcId": "GPC-i-AY-final",
+          "frequency": 2068362,
+          "occurrences": 17,
+          "percentage": 47.16838538127187,
+          "exampleWords": [
+            "i",
+            "hi",
+            "chi",
+            "rabbi",
+            "pi"
+          ]
+        },
+        {
+          "grapheme": "i_e",
+          "gpcId": "GPC-i_e-AY",
+          "frequency": 702411,
+          "occurrences": 479,
+          "percentage": 16.018275690640493,
+          "exampleWords": [
+            "like",
+            "time",
+            "life",
+            "nice",
+            "fine"
+          ]
+        },
+        {
+          "grapheme": "y",
+          "gpcId": "GPC-y-AY-final",
+          "frequency": 614055,
+          "occurrences": 44,
+          "percentage": 14.003343169762786,
+          "exampleWords": [
+            "my",
+            "why",
+            "by",
+            "guy",
+            "try"
+          ]
+        },
+        {
+          "grapheme": "igh",
+          "gpcId": "GPC-igh-AY",
+          "frequency": 371097,
+          "occurrences": 193,
+          "percentage": 8.462757636155493,
+          "exampleWords": [
+            "right",
+            "night",
+            "might",
+            "tonight",
+            "fight"
+          ]
+        },
+        {
+          "grapheme": "ie",
+          "gpcId": "GPC-ie-AY",
+          "frequency": 56476,
+          "occurrences": 78,
+          "percentage": 1.2879185233497377,
+          "exampleWords": [
+            "die",
+            "tried",
+            "died",
+            "lie",
+            "tie"
+          ]
+        },
+        {
+          "grapheme": "ei",
+          "gpcId": "GPC-ei-AY",
+          "frequency": 2022,
+          "occurrences": 34,
+          "percentage": 0.04611111364496723,
+          "exampleWords": [
+            "einstein",
+            "einstein",
+            "heist",
+            "heil",
+            "stein"
+          ]
+        },
+        {
+          "grapheme": "eigh",
+          "gpcId": "GPC-eigh-AY",
+          "frequency": 895,
+          "occurrences": 6,
+          "percentage": 0.02041021103474069,
+          "exampleWords": [
+            "height",
+            "heights",
+            "sleight",
+            "heighten",
+            "heightens"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 569742,
+        "occurrences": 3285,
+        "percentage": 12.992798274139922,
+        "exampleWords": [
+          "guys",
+          "trying",
+          "idea",
+          "myself",
+          "dr"
+        ]
+      }
+    },
+    "EH": {
+      "phoneme": "EH",
+      "type": "vowel",
+      "totalFrequency": 4121326,
+      "totalOccurrences": 4170149,
+      "wordCount": 8034,
+      "graphemes": [
+        {
+          "grapheme": "e",
+          "gpcId": "GPC-e-EH",
+          "frequency": 2768147,
+          "occurrences": 3536,
+          "percentage": 69.20303487192744,
+          "exampleWords": [
+            "get",
+            "there",
+            "well",
+            "let",
+            "when"
+          ]
+        },
+        {
+          "grapheme": "ea",
+          "gpcId": "GPC-ea-EH",
+          "frequency": 162096,
+          "occurrences": 249,
+          "percentage": 4.05236251564673,
+          "exampleWords": [
+            "dead",
+            "ready",
+            "head",
+            "read",
+            "death"
+          ]
+        },
+        {
+          "grapheme": "ai",
+          "gpcId": "GPC-ai-EH",
+          "frequency": 107288,
+          "occurrences": 5,
+          "percentage": 2.6821751898794934,
+          "exampleWords": [
+            "said",
+            "again",
+            "against",
+            "unsaid",
+            "aforesaid"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 962506,
+        "occurrences": 4103,
+        "percentage": 24.062427422546342,
+        "exampleWords": [
+          "any",
+          "anything",
+          "their",
+          "everything",
+          "remember"
+        ]
+      }
+    },
+    "AE": {
+      "phoneme": "AE",
+      "type": "vowel",
+      "totalFrequency": 3918022,
+      "totalOccurrences": 3933082,
+      "wordCount": 7139,
+      "graphemes": [
+        {
+          "grapheme": "a",
+          "gpcId": "GPC-a-AE",
+          "frequency": 3232276,
+          "occurrences": 3843,
+          "percentage": 82.475755678272,
+          "exampleWords": [
+            "that",
+            "have",
+            "can",
+            "at",
+            "as"
+          ]
+        },
+        {
+          "grapheme": "au",
+          "gpcId": "GPC-au-AE",
+          "frequency": 3295,
+          "occurrences": 3,
+          "percentage": 0.0840762406922881,
+          "exampleWords": [
+            "aunt",
+            "auntie",
+            "aunts"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 683491,
+        "occurrences": 3446,
+        "percentage": 17.44016808103572,
+        "exampleWords": [
+          "yeah",
+          "thank",
+          "thanks",
+          "happened",
+          "family"
+        ]
+      }
+    },
+    "DH": {
+      "phoneme": "DH",
+      "type": "consonant",
+      "totalFrequency": 3884921,
+      "totalOccurrences": 3884921,
+      "wordCount": 260,
+      "graphemes": [
+        {
+          "grapheme": "th",
+          "gpcId": "GPC-th-DH",
+          "frequency": 2334487,
+          "occurrences": 181,
+          "percentage": 60.09097739696637,
+          "exampleWords": [
+            "that",
+            "this",
+            "with",
+            "there",
+            "they"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 1550434,
+        "occurrences": 79,
+        "percentage": 39.90902260303363,
+        "exampleWords": [
+          "the",
+          "their",
+          "clothes",
+          "themselves",
+          "although"
+        ]
+      }
+    },
+    "W": {
+      "phoneme": "W",
+      "type": "consonant",
+      "totalFrequency": 3832036,
+      "totalOccurrences": 3833402,
+      "wordCount": 2613,
+      "graphemes": [
+        {
+          "grapheme": "w",
+          "gpcId": "GPC-w-W",
+          "frequency": 2244012,
+          "occurrences": 1109,
+          "percentage": 59.214900120249936,
+          "exampleWords": [
+            "we",
+            "was",
+            "with",
+            "well",
+            "want"
+          ]
+        },
+        {
+          "grapheme": "wh",
+          "gpcId": "GPC-wh-W",
+          "frequency": 905952,
+          "occurrences": 105,
+          "percentage": 23.906225632367683,
+          "exampleWords": [
+            "what",
+            "why",
+            "when",
+            "where",
+            "which"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 639643,
+        "occurrences": 1227,
+        "percentage": 16.87887424738238,
+        "exampleWords": [
+          "one",
+          "would",
+          "always",
+          "wanted",
+          "someone"
+        ]
+      }
+    },
+    "AA": {
+      "phoneme": "AA",
+      "type": "vowel",
+      "totalFrequency": 3544827,
+      "totalOccurrences": 3551784,
+      "wordCount": 5788,
+      "graphemes": [
+        {
+          "grapheme": "o",
+          "gpcId": "GPC-o-AA",
+          "frequency": 1920800,
+          "occurrences": 1821,
+          "percentage": 59.449215767412674,
+          "exampleWords": [
+            "on",
+            "don",
+            "not",
+            "got",
+            "gonna"
+          ]
+        },
+        {
+          "grapheme": "a",
+          "gpcId": "GPC-a-AA",
+          "frequency": 599226,
+          "occurrences": 461,
+          "percentage": 18.546186884341747,
+          "exampleWords": [
+            "was",
+            "want",
+            "father",
+            "wanna",
+            "watch"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 710967,
+        "occurrences": 2774,
+        "percentage": 22.004597348245568,
+        "exampleWords": [
+          "are",
+          "somebody",
+          "everybody",
+          "problem",
+          "cause"
+        ]
+      }
+    },
+    "Y": {
+      "phoneme": "Y",
+      "type": "consonant",
+      "totalFrequency": 3192934,
+      "totalOccurrences": 3194814,
+      "wordCount": 1745,
+      "graphemes": [
+        {
+          "grapheme": "y",
+          "gpcId": "GPC-y-Y",
+          "frequency": 2707799,
+          "occurrences": 147,
+          "percentage": 85.66224551710873,
+          "exampleWords": [
+            "you",
+            "your",
+            "yes",
+            "years",
+            "yourself"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 453219,
+        "occurrences": 1501,
+        "percentage": 14.33775448289127,
+        "exampleWords": [
+          "yeah",
+          "excuse",
+          "used",
+          "use",
+          "beautiful"
+        ]
+      }
+    },
+    "Z": {
+      "phoneme": "Z",
+      "type": "consonant",
+      "totalFrequency": 2891157,
+      "totalOccurrences": 2917797,
+      "wordCount": 9243,
+      "graphemes": [
+        {
+          "grapheme": "s",
+          "gpcId": "GPC-s-Z",
+          "frequency": 1987103,
+          "occurrences": 3819,
+          "percentage": 68.98290722019541,
+          "exampleWords": [
+            "is",
+            "was",
+            "as",
+            "his",
+            "has"
+          ]
+        },
+        {
+          "grapheme": "z",
+          "gpcId": "GPC-z-Z",
+          "frequency": 31410,
+          "occurrences": 250,
+          "percentage": 1.090408054230877,
+          "exampleWords": [
+            "apologize",
+            "size",
+            "recognize",
+            "freeze",
+            "dozen"
+          ]
+        },
+        {
+          "grapheme": "zz",
+          "gpcId": "GPC-zz-Z",
+          "frequency": 4466,
+          "occurrences": 54,
+          "percentage": 0.1550385982233396,
+          "exampleWords": [
+            "buzz",
+            "jazz",
+            "dizzy",
+            "lizzie",
+            "puzzle"
+          ]
+        },
+        {
+          "grapheme": "x",
+          "gpcId": "GPC-x-Z",
+          "frequency": 56,
+          "occurrences": 4,
+          "percentage": 0.00194405765797291,
+          "exampleWords": [
+            "xerox",
+            "xenophobic",
+            "xeroxing",
+            "xeroxes"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 857538,
+        "occurrences": 5175,
+        "percentage": 29.769702069692382,
+        "exampleWords": [
+          "does",
+          "always",
+          "guys",
+          "used",
+          "business"
+        ]
+      }
+    },
+    "ER": {
+      "phoneme": "ER",
+      "type": "vowel",
+      "totalFrequency": 2842350,
+      "totalOccurrences": 2896454,
+      "wordCount": 9209,
+      "graphemes": [
+        {
+          "grapheme": "er",
+          "gpcId": "GPC-er-ER",
+          "frequency": 1274711,
+          "occurrences": 3326,
+          "percentage": 44.529677462176124,
+          "exampleWords": [
+            "her",
+            "were",
+            "never",
+            "better",
+            "other"
+          ]
+        },
+        {
+          "grapheme": "or",
+          "gpcId": "GPC-or-ER",
+          "frequency": 234926,
+          "occurrences": 509,
+          "percentage": 8.20670646717506,
+          "exampleWords": [
+            "work",
+            "world",
+            "forget",
+            "doctor",
+            "working"
+          ]
+        },
+        {
+          "grapheme": "ir",
+          "gpcId": "GPC-ir-ER",
+          "frequency": 176304,
+          "occurrences": 207,
+          "percentage": 6.158855030898376,
+          "exampleWords": [
+            "sir",
+            "first",
+            "girl",
+            "girls",
+            "birthday"
+          ]
+        },
+        {
+          "grapheme": "ur",
+          "gpcId": "GPC-ur-ER",
+          "frequency": 105482,
+          "occurrences": 346,
+          "percentage": 3.6848190986547245,
+          "exampleWords": [
+            "turn",
+            "hurt",
+            "murder",
+            "return",
+            "surprise"
+          ]
+        },
+        {
+          "grapheme": "ar",
+          "gpcId": "GPC-ar-ER",
+          "frequency": 82874,
+          "occurrences": 251,
+          "percentage": 2.895050321210364,
+          "exampleWords": [
+            "around",
+            "dollars",
+            "richard",
+            "forward",
+            "bastard"
+          ]
+        },
+        {
+          "grapheme": "ear",
+          "gpcId": "GPC-ear-ER",
+          "frequency": 46785,
+          "occurrences": 57,
+          "percentage": 1.6343476757225048,
+          "exampleWords": [
+            "heard",
+            "learn",
+            "early",
+            "earth",
+            "search"
+          ]
+        },
+        {
+          "grapheme": "our",
+          "gpcId": "GPC-our-ER",
+          "frequency": 27461,
+          "occurrences": 36,
+          "percentage": 0.9592993806351545,
+          "exampleWords": [
+            "yourself",
+            "courage",
+            "journey",
+            "journal",
+            "colour"
+          ]
+        },
+        {
+          "grapheme": "ure",
+          "gpcId": "GPC-ure-ER",
+          "frequency": 753,
+          "occurrences": 11,
+          "percentage": 0.026304666021567728,
+          "exampleWords": [
+            "injured",
+            "conjure",
+            "injure",
+            "leisurely",
+            "perjured"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 913314,
+        "occurrences": 4604,
+        "percentage": 31.904939897506125,
+        "exampleWords": [
+          "our",
+          "over",
+          "mr",
+          "remember",
+          "later"
+        ]
+      }
+    },
+    "HH": {
+      "phoneme": "HH",
+      "type": "consonant",
+      "totalFrequency": 2886011,
+      "totalOccurrences": 2886895,
+      "wordCount": 2244,
+      "graphemes": [
+        {
+          "grapheme": "h",
+          "gpcId": "GPC-h-HH",
+          "frequency": 2470472,
+          "occurrences": 1136,
+          "percentage": 85.59550442672884,
+          "exampleWords": [
+            "he",
+            "have",
+            "here",
+            "him",
+            "how"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 415745,
+        "occurrences": 1121,
+        "percentage": 14.40449557327117,
+        "exampleWords": [
+          "who",
+          "hello",
+          "happened",
+          "huh",
+          "whole"
+        ]
+      }
+    },
+    "EY": {
+      "phoneme": "EY",
+      "type": "vowel",
+      "totalFrequency": 2750155,
+      "totalOccurrences": 2756024,
+      "wordCount": 5768,
+      "graphemes": [
+        {
+          "grapheme": "a_e",
+          "gpcId": "GPC-a_e-EY",
+          "frequency": 594942,
+          "occurrences": 488,
+          "percentage": 21.618641955300642,
+          "exampleWords": [
+            "take",
+            "make",
+            "name",
+            "place",
+            "made"
+          ]
+        },
+        {
+          "grapheme": "ay",
+          "gpcId": "GPC-ay-EY",
+          "frequency": 445737,
+          "occurrences": 321,
+          "percentage": 16.196921059918182,
+          "exampleWords": [
+            "say",
+            "way",
+            "day",
+            "away",
+            "stay"
+          ]
+        },
+        {
+          "grapheme": "ey",
+          "gpcId": "GPC-ey-EY",
+          "frequency": 299708,
+          "occurrences": 38,
+          "percentage": 10.890607728382339,
+          "exampleWords": [
+            "they",
+            "hey",
+            "grey",
+            "trey",
+            "peyton"
+          ]
+        },
+        {
+          "grapheme": "ai",
+          "gpcId": "GPC-ai-EY",
+          "frequency": 187208,
+          "occurrences": 499,
+          "percentage": 6.802650885578633,
+          "exampleWords": [
+            "wait",
+            "afraid",
+            "waiting",
+            "straight",
+            "explain"
+          ]
+        },
+        {
+          "grapheme": "ea",
+          "gpcId": "GPC-ea-EY",
+          "frequency": 60364,
+          "occurrences": 40,
+          "percentage": 2.193470460968915,
+          "exampleWords": [
+            "great",
+            "break",
+            "breaking",
+            "breaks",
+            "steak"
+          ]
+        },
+        {
+          "grapheme": "eigh",
+          "gpcId": "GPC-eigh-EY",
+          "frequency": 13351,
+          "occurrences": 43,
+          "percentage": 0.48514054940686474,
+          "exampleWords": [
+            "eight",
+            "neighborhood",
+            "weight",
+            "neighbors",
+            "neighbor"
+          ]
+        },
+        {
+          "grapheme": "ei",
+          "gpcId": "GPC-ei-EY",
+          "frequency": 2155,
+          "occurrences": 20,
+          "percentage": 0.07830708441103988,
+          "exampleWords": [
+            "surveillance",
+            "veins",
+            "vein",
+            "veil",
+            "geisha"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 1148521,
+        "occurrences": 4341,
+        "percentage": 41.73426027603338,
+        "exampleWords": [
+          "re",
+          "okay",
+          "maybe",
+          "always",
+          "baby"
+        ]
+      }
+    },
+    "B": {
+      "phoneme": "B",
+      "type": "consonant",
+      "totalFrequency": 2658194,
+      "totalOccurrences": 2728357,
+      "wordCount": 6215,
+      "graphemes": [
+        {
+          "grapheme": "b",
+          "gpcId": "GPC-b-B",
+          "frequency": 1988219,
+          "occurrences": 3097,
+          "percentage": 73.79982702750857,
+          "exampleWords": [
+            "be",
+            "but",
+            "about",
+            "back",
+            "by"
+          ]
+        },
+        {
+          "grapheme": "bb",
+          "gpcId": "GPC-bb-B",
+          "frequency": 16125,
+          "occurrences": 142,
+          "percentage": 0.5985367863492783,
+          "exampleWords": [
+            "bobby",
+            "robbery",
+            "rubber",
+            "lobby",
+            "abby"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 689726,
+        "occurrences": 3135,
+        "percentage": 25.60163618614216,
+        "exampleWords": [
+          "been",
+          "maybe",
+          "remember",
+          "baby",
+          "being"
+        ]
+      }
+    },
+    "OW": {
+      "phoneme": "OW",
+      "type": "vowel",
+      "totalFrequency": 2673664,
+      "totalOccurrences": 2685340,
+      "wordCount": 4381,
+      "graphemes": [
+        {
+          "grapheme": "o",
+          "gpcId": "GPC-o-OW-final",
+          "frequency": 769993,
+          "occurrences": 239,
+          "percentage": 30.17304989217935,
+          "exampleWords": [
+            "no",
+            "so",
+            "go",
+            "ago",
+            "o"
+          ]
+        },
+        {
+          "grapheme": "ow",
+          "gpcId": "GPC-ow-OW",
+          "frequency": 465581,
+          "occurrences": 261,
+          "percentage": 18.244320067650943,
+          "exampleWords": [
+            "know",
+            "show",
+            "own",
+            "tomorrow",
+            "knows"
+          ]
+        },
+        {
+          "grapheme": "o_e",
+          "gpcId": "GPC-o_e-OW",
+          "frequency": 217750,
+          "occurrences": 258,
+          "percentage": 8.532780965569886,
+          "exampleWords": [
+            "home",
+            "those",
+            "hope",
+            "alone",
+            "phone"
+          ]
+        },
+        {
+          "grapheme": "oa",
+          "gpcId": "GPC-oa-OW",
+          "frequency": 51610,
+          "occurrences": 229,
+          "percentage": 2.0223964437798476,
+          "exampleWords": [
+            "whoa",
+            "road",
+            "boat",
+            "coach",
+            "coat"
+          ]
+        },
+        {
+          "grapheme": "ough",
+          "gpcId": "GPC-ough-OW",
+          "frequency": 11349,
+          "occurrences": 18,
+          "percentage": 0.44472344972791106,
+          "exampleWords": [
+            "though",
+            "dough",
+            "thoroughly",
+            "thorough",
+            "doughnuts"
+          ]
+        },
+        {
+          "grapheme": "ou",
+          "gpcId": "GPC-ou-OW",
+          "frequency": 6953,
+          "occurrences": 18,
+          "percentage": 0.27246119886846115,
+          "exampleWords": [
+            "soul",
+            "shoulder",
+            "souls",
+            "shoulders",
+            "boulder"
+          ]
+        },
+        {
+          "grapheme": "ew",
+          "gpcId": "GPC-ew-OW",
+          "frequency": 544,
+          "occurrences": 3,
+          "percentage": 0.021317257613180336,
+          "exampleWords": [
+            "sew",
+            "sewing",
+            "sewn"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 1028143,
+        "occurrences": 3227,
+        "percentage": 40.28895072461042,
+        "exampleWords": [
+          "oh",
+          "going",
+          "okay",
+          "over",
+          "only"
+        ]
+      }
+    },
+    "P": {
+      "phoneme": "P",
+      "type": "consonant",
+      "totalFrequency": 2285728,
+      "totalOccurrences": 2407608,
+      "wordCount": 8528,
+      "graphemes": [
+        {
+          "grapheme": "p",
+          "gpcId": "GPC-p-P",
+          "frequency": 1519640,
+          "occurrences": 3836,
+          "percentage": 65.48478841678876,
+          "exampleWords": [
+            "up",
+            "please",
+            "help",
+            "put",
+            "stop"
+          ]
+        },
+        {
+          "grapheme": "pp",
+          "gpcId": "GPC-pp-P",
+          "frequency": 90468,
+          "occurrences": 317,
+          "percentage": 3.8984745324485046,
+          "exampleWords": [
+            "happy",
+            "happen",
+            "happens",
+            "suppose",
+            "happening"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 710492,
+        "occurrences": 4560,
+        "percentage": 30.616737050762733,
+        "exampleWords": [
+          "people",
+          "happened",
+          "problem",
+          "open",
+          "supposed"
+        ]
+      }
+    },
+    "AO": {
+      "phoneme": "AO",
+      "type": "vowel",
+      "totalFrequency": 2395754,
+      "totalOccurrences": 2398206,
+      "wordCount": 3430,
+      "graphemes": [
+        {
+          "grapheme": "o",
+          "gpcId": "GPC-o-AO",
+          "frequency": 229918,
+          "occurrences": 354,
+          "percentage": 30.058569747679435,
+          "exampleWords": [
+            "off",
+            "long",
+            "wrong",
+            "gone",
+            "lost"
+          ]
+        },
+        {
+          "grapheme": "au",
+          "gpcId": "GPC-au-AO",
+          "frequency": 83526,
+          "occurrences": 205,
+          "percentage": 10.91985880507256,
+          "exampleWords": [
+            "because",
+            "fault",
+            "paul",
+            "laura",
+            "launch"
+          ]
+        },
+        {
+          "grapheme": "ough",
+          "gpcId": "GPC-ough-AO",
+          "frequency": 57930,
+          "occurrences": 13,
+          "percentage": 7.573539024709112,
+          "exampleWords": [
+            "thought",
+            "brought",
+            "ought",
+            "thoughts",
+            "fought"
+          ]
+        },
+        {
+          "grapheme": "aw",
+          "gpcId": "GPC-aw-AO",
+          "frequency": 50625,
+          "occurrences": 150,
+          "percentage": 6.618512223820107,
+          "exampleWords": [
+            "saw",
+            "law",
+            "lawyer",
+            "aw",
+            "draw"
+          ]
+        },
+        {
+          "grapheme": "augh",
+          "gpcId": "GPC-augh-AO",
+          "frequency": 13112,
+          "occurrences": 20,
+          "percentage": 1.7142110079748987,
+          "exampleWords": [
+            "daughter",
+            "taught",
+            "naughty",
+            "daughters",
+            "granddaughter"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 329789,
+        "occurrences": 1488,
+        "percentage": 43.115309190743886,
+        "exampleWords": [
+          "always",
+          "wanted",
+          "called",
+          "already",
+          "water"
+        ]
+      }
+    },
+    "F": {
+      "phoneme": "F",
+      "type": "consonant",
+      "totalFrequency": 2339434,
+      "totalOccurrences": 2349137,
+      "wordCount": 4865,
+      "graphemes": [
+        {
+          "grapheme": "f",
+          "gpcId": "GPC-f-F",
+          "frequency": 1703645,
+          "occurrences": 2051,
+          "percentage": 73.90725483186934,
+          "exampleWords": [
+            "for",
+            "if",
+            "from",
+            "first",
+            "find"
+          ]
+        },
+        {
+          "grapheme": "ff",
+          "gpcId": "GPC-ff-F",
+          "frequency": 149412,
+          "occurrences": 290,
+          "percentage": 6.481767480278615,
+          "exampleWords": [
+            "off",
+            "stuff",
+            "different",
+            "office",
+            "coffee"
+          ]
+        },
+        {
+          "grapheme": "ph",
+          "gpcId": "GPC-ph-F",
+          "frequency": 29969,
+          "occurrences": 163,
+          "percentage": 1.3001103634009974,
+          "exampleWords": [
+            "phone",
+            "phil",
+            "christopher",
+            "daphne",
+            "nephew"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 422086,
+        "occurrences": 2398,
+        "percentage": 18.310867324451046,
+        "exampleWords": [
+          "friend",
+          "family",
+          "myself",
+          "friends",
+          "beautiful"
+        ]
+      }
+    },
+    "V": {
+      "phoneme": "V",
+      "type": "consonant",
+      "totalFrequency": 2204370,
+      "totalOccurrences": 2215820,
+      "wordCount": 3633,
+      "graphemes": [
+        {
+          "grapheme": "v",
+          "gpcId": "GPC-v-V",
+          "frequency": 1041076,
+          "occurrences": 1283,
+          "percentage": 47.158104917085254,
+          "exampleWords": [
+            "have",
+            "never",
+            "very",
+            "give",
+            "love"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 1166553,
+        "occurrences": 2374,
+        "percentage": 52.841895082914746,
+        "exampleWords": [
+          "of",
+          "over",
+          "even",
+          "everything",
+          "move"
+        ]
+      }
+    },
+    "G": {
+      "phoneme": "G",
+      "type": "consonant",
+      "totalFrequency": 2049256,
+      "totalOccurrences": 2052620,
+      "wordCount": 3637,
+      "graphemes": [
+        {
+          "grapheme": "g",
+          "gpcId": "GPC-g-G",
+          "frequency": 1532497,
+          "occurrences": 1398,
+          "percentage": 75.52594746439308,
+          "exampleWords": [
+            "get",
+            "go",
+            "got",
+            "good",
+            "gonna"
+          ]
+        },
+        {
+          "grapheme": "gu",
+          "gpcId": "GPC-gu-G",
+          "frequency": 77220,
+          "occurrences": 42,
+          "percentage": 3.805628110985166,
+          "exampleWords": [
+            "guy",
+            "guess",
+            "guilty",
+            "guard",
+            "guest"
+          ]
+        },
+        {
+          "grapheme": "gg",
+          "gpcId": "GPC-gg-G",
+          "frequency": 21256,
+          "occurrences": 162,
+          "percentage": 1.0475580306539845,
+          "exampleWords": [
+            "bigger",
+            "eggs",
+            "maggie",
+            "egg",
+            "nigger"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 398127,
+        "occurrences": 1994,
+        "percentage": 19.62086639396777,
+        "exampleWords": [
+          "going",
+          "guys",
+          "goes",
+          "gun",
+          "figure"
+        ]
+      }
+    },
+    "NG": {
+      "phoneme": "NG",
+      "type": "consonant",
+      "totalFrequency": 1910298,
+      "totalOccurrences": 1941053,
+      "wordCount": 5033,
+      "graphemes": [
+        {
+          "grapheme": "ng",
+          "gpcId": "GPC-ng-NG",
+          "frequency": 959391,
+          "occurrences": 2472,
+          "percentage": 49.96442982520097,
+          "exampleWords": [
+            "thing",
+            "nothing",
+            "things",
+            "long",
+            "coming"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 960757,
+        "occurrences": 2590,
+        "percentage": 50.03557017479903,
+        "exampleWords": [
+          "think",
+          "going",
+          "something",
+          "thank",
+          "doing"
+        ]
+      }
+    },
+    "AW": {
+      "phoneme": "AW",
+      "type": "vowel",
+      "totalFrequency": 1191636,
+      "totalOccurrences": 1193266,
+      "wordCount": 1184,
+      "graphemes": [
+        {
+          "grapheme": "ou",
+          "gpcId": "GPC-ou-AW",
+          "frequency": 598172,
+          "occurrences": 574,
+          "percentage": 50.13237678985237,
+          "exampleWords": [
+            "out",
+            "about",
+            "around",
+            "house",
+            "found"
+          ]
+        },
+        {
+          "grapheme": "ow",
+          "gpcId": "GPC-ow-AW",
+          "frequency": 467357,
+          "occurrences": 241,
+          "percentage": 39.16886316874584,
+          "exampleWords": [
+            "now",
+            "how",
+            "down",
+            "town",
+            "wow"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 127656,
+        "occurrences": 383,
+        "percentage": 10.698760041401794,
+        "exampleWords": [
+          "our",
+          "hours",
+          "hour",
+          "ourselves",
+          "somehow"
+        ]
+      }
+    },
+    "SH": {
+      "phoneme": "SH",
+      "type": "consonant",
+      "totalFrequency": 895532,
+      "totalOccurrences": 900727,
+      "wordCount": 3538,
+      "graphemes": [
+        {
+          "grapheme": "sh",
+          "gpcId": "GPC-sh-SH",
+          "frequency": 453566,
+          "occurrences": 886,
+          "percentage": 50.629737824119914,
+          "exampleWords": [
+            "she",
+            "show",
+            "shit",
+            "shut",
+            "wish"
+          ]
+        },
+        {
+          "grapheme": "ti",
+          "gpcId": "GPC-ti-SH",
+          "frequency": 56659,
+          "occurrences": 335,
+          "percentage": 6.3246149741753355,
+          "exampleWords": [
+            "attention",
+            "position",
+            "action",
+            "mention",
+            "national"
+          ]
+        },
+        {
+          "grapheme": "ci",
+          "gpcId": "GPC-ci-SH",
+          "frequency": 16732,
+          "occurrences": 54,
+          "percentage": 1.8677254760567907,
+          "exampleWords": [
+            "special",
+            "official",
+            "precious",
+            "delicious",
+            "suspicious"
+          ]
+        },
+        {
+          "grapheme": "ch",
+          "gpcId": "GPC-ch-SH",
+          "frequency": 3936,
+          "occurrences": 38,
+          "percentage": 0.43935975817353146,
+          "exampleWords": [
+            "charlotte",
+            "chef",
+            "michigan",
+            "mustache",
+            "moustache"
+          ]
+        },
+        {
+          "grapheme": "si",
+          "gpcId": "GPC-si-SH",
+          "frequency": 2514,
+          "occurrences": 28,
+          "percentage": 0.28062765041876475,
+          "exampleWords": [
+            "tension",
+            "mansion",
+            "extension",
+            "pension",
+            "dimension"
+          ]
+        },
+        {
+          "grapheme": "sch",
+          "gpcId": "GPC-sch-SH",
+          "frequency": 794,
+          "occurrences": 29,
+          "percentage": 0.08863100812748577,
+          "exampleWords": [
+            "schmuck",
+            "schizophrenic",
+            "schneider",
+            "schiller",
+            "schnapps"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 361648,
+        "occurrences": 2181,
+        "percentage": 40.36930330892818,
+        "exampleWords": [
+          "sure",
+          "should",
+          "information",
+          "appreciate",
+          "finished"
+        ]
+      }
+    },
+    "TH": {
+      "phoneme": "TH",
+      "type": "consonant",
+      "totalFrequency": 861947,
+      "totalOccurrences": 862040,
+      "wordCount": 965,
+      "graphemes": [
+        {
+          "grapheme": "th",
+          "gpcId": "GPC-th-TH",
+          "frequency": 402392,
+          "occurrences": 512,
+          "percentage": 46.67925701478824,
+          "exampleWords": [
+            "thing",
+            "nothing",
+            "thought",
+            "things",
+            "through"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 459644,
+        "occurrences": 456,
+        "percentage": 53.32074298521176,
+        "exampleWords": [
+          "think",
+          "something",
+          "thank",
+          "anything",
+          "everything"
+        ]
+      }
+    },
+    "UH": {
+      "phoneme": "UH",
+      "type": "vowel",
+      "totalFrequency": 804762,
+      "totalOccurrences": 804868,
+      "wordCount": 775,
+      "graphemes": [
+        {
+          "grapheme": "oo",
+          "gpcId": "GPC-oo-UH",
+          "frequency": 334826,
+          "occurrences": 239,
+          "percentage": 41.94038114182214,
+          "exampleWords": [
+            "good",
+            "look",
+            "looking",
+            "took",
+            "looks"
+          ]
+        },
+        {
+          "grapheme": "u",
+          "gpcId": "GPC-u-UH",
+          "frequency": 86384,
+          "occurrences": 130,
+          "percentage": 10.82047954625735,
+          "exampleWords": [
+            "put",
+            "full",
+            "pull",
+            "during",
+            "push"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 377128,
+        "occurrences": 368,
+        "percentage": 47.23913931192051,
+        "exampleWords": [
+          "would",
+          "could",
+          "sure",
+          "should",
+          "woman"
+        ]
+      }
+    },
+    "JH": {
+      "phoneme": "JH",
+      "type": "consonant",
+      "totalFrequency": 760968,
+      "totalOccurrences": 776403,
+      "wordCount": 2342,
+      "graphemes": [
+        {
+          "grapheme": "j",
+          "gpcId": "GPC-j-JH",
+          "frequency": 383277,
+          "occurrences": 360,
+          "percentage": 51.61590506305248,
+          "exampleWords": [
+            "just",
+            "job",
+            "jack",
+            "join",
+            "enjoy"
+          ]
+        },
+        {
+          "grapheme": "g",
+          "gpcId": "GPC-g-JH-soft",
+          "frequency": 104917,
+          "occurrences": 421,
+          "percentage": 14.129170055861106,
+          "exampleWords": [
+            "general",
+            "message",
+            "charge",
+            "college",
+            "imagine"
+          ]
+        },
+        {
+          "grapheme": "dge",
+          "gpcId": "GPC-dge-JH",
+          "frequency": 12892,
+          "occurrences": 72,
+          "percentage": 1.7361653531854835,
+          "exampleWords": [
+            "judge",
+            "bridge",
+            "edge",
+            "badge",
+            "fridge"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 241470,
+        "occurrences": 1458,
+        "percentage": 32.518759527900926,
+        "exampleWords": [
+          "john",
+          "jesus",
+          "gentlemen",
+          "george",
+          "joe"
+        ]
+      }
+    },
+    "CH": {
+      "phoneme": "CH",
+      "type": "consonant",
+      "totalFrequency": 558217,
+      "totalOccurrences": 562240,
+      "wordCount": 1638,
+      "graphemes": [
+        {
+          "grapheme": "ch",
+          "gpcId": "GPC-ch-CH",
+          "frequency": 326137,
+          "occurrences": 626,
+          "percentage": 58.01167572644221,
+          "exampleWords": [
+            "much",
+            "which",
+            "such",
+            "check",
+            "each"
+          ]
+        },
+        {
+          "grapheme": "tch",
+          "gpcId": "GPC-tch-CH",
+          "frequency": 62912,
+          "occurrences": 150,
+          "percentage": 11.190482966673306,
+          "exampleWords": [
+            "watch",
+            "bitch",
+            "catch",
+            "watching",
+            "kitchen"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 173143,
+        "occurrences": 870,
+        "percentage": 30.797841306884482,
+        "exampleWords": [
+          "actually",
+          "question",
+          "picture",
+          "questions",
+          "future"
+        ]
+      }
+    },
+    "OY": {
+      "phoneme": "OY",
+      "type": "vowel",
+      "totalFrequency": 127241,
+      "totalOccurrences": 127241,
+      "wordCount": 419,
+      "graphemes": [
+        {
+          "grapheme": "oy",
+          "gpcId": "GPC-oy-OY",
+          "frequency": 60970,
+          "occurrences": 115,
+          "percentage": 47.91694500986317,
+          "exampleWords": [
+            "boy",
+            "boys",
+            "enjoy",
+            "destroy",
+            "joy"
+          ]
+        },
+        {
+          "grapheme": "oi",
+          "gpcId": "GPC-oi-OY",
+          "frequency": 49817,
+          "occurrences": 178,
+          "percentage": 39.15168852806878,
+          "exampleWords": [
+            "point",
+            "choice",
+            "voice",
+            "join",
+            "oil"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 16454,
+        "occurrences": 126,
+        "percentage": 12.931366462068045,
+        "exampleWords": [
+          "boyfriend",
+          "destroyed",
+          "toilet",
+          "enjoyed",
+          "joined"
+        ]
+      }
+    },
+    "ZH": {
+      "phoneme": "ZH",
+      "type": "consonant",
+      "totalFrequency": 40548,
+      "totalOccurrences": 40548,
+      "wordCount": 262,
+      "graphemes": [
+        {
+          "grapheme": "si",
+          "gpcId": "GPC-si-ZH",
+          "frequency": 8441,
+          "occurrences": 50,
+          "percentage": 20.81730294959061,
+          "exampleWords": [
+            "decision",
+            "vision",
+            "division",
+            "version",
+            "decisions"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 32107,
+        "occurrences": 212,
+        "percentage": 79.18269705040939,
+        "exampleWords": [
+          "pleasure",
+          "usually",
+          "usual",
+          "television",
+          "garage"
+        ]
+      }
+    },
+    "AH L": {
+      "phoneme": "AH L",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "le",
+          "gpcId": "GPC-le-AH_L",
+          "frequency": 182761,
+          "occurrences": 453,
+          "percentage": 55.2613834621932,
+          "exampleWords": [
+            "little",
+            "trouble",
+            "couple",
+            "able",
+            "handle"
+          ]
+        },
+        {
+          "grapheme": "al",
+          "gpcId": "GPC-al-AH_L",
+          "frequency": 113899,
+          "occurrences": 486,
+          "percentage": 34.43960317004363,
+          "exampleWords": [
+            "alone",
+            "along",
+            "alive",
+            "special",
+            "hospital"
+          ]
+        },
+        {
+          "grapheme": "el",
+          "gpcId": "GPC-el-AH_L",
+          "frequency": 34061,
+          "occurrences": 228,
+          "percentage": 10.29901336776316,
+          "exampleWords": [
+            "level",
+            "travel",
+            "model",
+            "angeles",
+            "unbelievable"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "AH N": {
+      "phoneme": "AH N",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "an",
+          "gpcId": "GPC-an-AH_N",
+          "frequency": 801349,
+          "occurrences": 554,
+          "percentage": 56.274982654348214,
+          "exampleWords": [
+            "and",
+            "another",
+            "important",
+            "husband",
+            "company"
+          ]
+        },
+        {
+          "grapheme": "on",
+          "gpcId": "GPC-on-AH_N",
+          "frequency": 405370,
+          "occurrences": 1006,
+          "percentage": 28.467234274446135,
+          "exampleWords": [
+            "won",
+            "money",
+            "done",
+            "tonight",
+            "son"
+          ]
+        },
+        {
+          "grapheme": "en",
+          "gpcId": "GPC-en-AH_N",
+          "frequency": 183902,
+          "occurrences": 714,
+          "percentage": 12.914575122824068,
+          "exampleWords": [
+            "happen",
+            "aren",
+            "different",
+            "children",
+            "happens"
+          ]
+        },
+        {
+          "grapheme": "in",
+          "gpcId": "GPC-in-AH_N",
+          "frequency": 33367,
+          "occurrences": 193,
+          "percentage": 2.3432079483815875,
+          "exampleWords": [
+            "imagine",
+            "cousin",
+            "martin",
+            "criminal",
+            "engine"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "": {
+      "phoneme": "",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "e",
+          "gpcId": "GPC-e-silent-split",
+          "frequency": 3508926,
+          "occurrences": 2242,
+          "percentage": 99.79556976821571,
+          "exampleWords": [
+            "have",
+            "here",
+            "there",
+            "like",
+            "come"
+          ]
+        },
+        {
+          "grapheme": "gh",
+          "gpcId": "GPC-gh-",
+          "frequency": 7188,
+          "occurrences": 14,
+          "percentage": 0.20443023178429368,
+          "exampleWords": [
+            "straight",
+            "straighten",
+            "straightforward",
+            "drought",
+            "straightaway"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "AO R": {
+      "phoneme": "AO R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "or",
+          "gpcId": "GPC-or-AO_R",
+          "frequency": 644989,
+          "occurrences": 783,
+          "percentage": 54.67041652786925,
+          "exampleWords": [
+            "for",
+            "or",
+            "morning",
+            "story",
+            "important"
+          ]
+        },
+        {
+          "grapheme": "our",
+          "gpcId": "GPC-our-AO_R",
+          "frequency": 378224,
+          "occurrences": 44,
+          "percentage": 32.058939952211304,
+          "exampleWords": [
+            "your",
+            "course",
+            "four",
+            "court",
+            "source"
+          ]
+        },
+        {
+          "grapheme": "ore",
+          "gpcId": "GPC-ore-AO_R",
+          "frequency": 124967,
+          "occurrences": 126,
+          "percentage": 10.59242551770377,
+          "exampleWords": [
+            "more",
+            "before",
+            "store",
+            "wore",
+            "bored"
+          ]
+        },
+        {
+          "grapheme": "oor",
+          "gpcId": "GPC-oor-AO_R",
+          "frequency": 23733,
+          "occurrences": 22,
+          "percentage": 2.011651354450884,
+          "exampleWords": [
+            "door",
+            "floor",
+            "doors",
+            "doorbell",
+            "floors"
+          ]
+        },
+        {
+          "grapheme": "oar",
+          "gpcId": "GPC-oar-AO_R",
+          "frequency": 7864,
+          "occurrences": 62,
+          "percentage": 0.6665666477647894,
+          "exampleWords": [
+            "board",
+            "aboard",
+            "boarding",
+            "onboard",
+            "boards"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "K S": {
+      "phoneme": "K S",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "x",
+          "gpcId": "GPC-x-K_S",
+          "frequency": 111331,
+          "occurrences": 366,
+          "percentage": 100,
+          "exampleWords": [
+            "next",
+            "six",
+            "sex",
+            "explain",
+            "expect"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "IH N": {
+      "phoneme": "IH N",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "in",
+          "gpcId": "GPC-in-IH_N",
+          "frequency": 671606,
+          "occurrences": 965,
+          "percentage": 100,
+          "exampleWords": [
+            "in",
+            "minute",
+            "since",
+            "inside",
+            "win"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "AH M": {
+      "phoneme": "AH M",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "om",
+          "gpcId": "GPC-om-AH_M",
+          "frequency": 451522,
+          "occurrences": 210,
+          "percentage": 89.97240183722066,
+          "exampleWords": [
+            "come",
+            "from",
+            "some",
+            "coming",
+            "tomorrow"
+          ]
+        },
+        {
+          "grapheme": "um",
+          "gpcId": "GPC-um-AH_M",
+          "frequency": 50323,
+          "occurrences": 207,
+          "percentage": 10.027598162779345,
+          "exampleWords": [
+            "number",
+            "um",
+            "jump",
+            "numbers",
+            "dump"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "AA R": {
+      "phoneme": "AA R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "ar",
+          "gpcId": "GPC-ar-AA_R",
+          "frequency": 317557,
+          "occurrences": 840,
+          "percentage": 100,
+          "exampleWords": [
+            "car",
+            "start",
+            "hard",
+            "part",
+            "aren"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "AY ER": {
+      "phoneme": "AY ER",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "ire",
+          "gpcId": "GPC-ire-AY_ER",
+          "frequency": 15884,
+          "occurrences": 55,
+          "percentage": 100,
+          "exampleWords": [
+            "tired",
+            "fired",
+            "hired",
+            "entirely",
+            "fires"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "AY R": {
+      "phoneme": "AY R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "ire",
+          "gpcId": "GPC-ire-AY_R",
+          "frequency": 2518,
+          "occurrences": 29,
+          "percentage": 100,
+          "exampleWords": [
+            "retired",
+            "vampires",
+            "fireworks",
+            "fireman",
+            "wireless"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "EH R": {
+      "phoneme": "EH R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "are",
+          "gpcId": "GPC-are-EH_R",
+          "frequency": 59741,
+          "occurrences": 104,
+          "percentage": 45.69695486220006,
+          "exampleWords": [
+            "care",
+            "careful",
+            "share",
+            "dare",
+            "cares"
+          ]
+        },
+        {
+          "grapheme": "air",
+          "gpcId": "GPC-air-EH_R",
+          "frequency": 47044,
+          "occurrences": 123,
+          "percentage": 35.98479343394552,
+          "exampleWords": [
+            "hair",
+            "air",
+            "fair",
+            "upstairs",
+            "chair"
+          ]
+        },
+        {
+          "grapheme": "ear",
+          "gpcId": "GPC-ear-EH_R",
+          "frequency": 23948,
+          "occurrences": 33,
+          "percentage": 18.318251703854422,
+          "exampleWords": [
+            "wear",
+            "swear",
+            "wearing",
+            "bear",
+            "tear"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "OW L D": {
+      "phoneme": "OW L D",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "old",
+          "gpcId": "GPC-old-OW_L_D",
+          "frequency": 114572,
+          "occurrences": 92,
+          "percentage": 100,
+          "exampleWords": [
+            "told",
+            "old",
+            "hold",
+            "cold",
+            "gold"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "G Z": {
+      "phoneme": "G Z",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "x",
+          "gpcId": "GPC-x-G_Z",
+          "frequency": 21523,
+          "occurrences": 51,
+          "percentage": 100,
+          "exampleWords": [
+            "exactly",
+            "example",
+            "exist",
+            "exact",
+            "exit"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "AO L": {
+      "phoneme": "AO L",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "all",
+          "gpcId": "GPC-all-AO_L",
+          "frequency": 357332,
+          "occurrences": 123,
+          "percentage": 100,
+          "exampleWords": [
+            "all",
+            "call",
+            "small",
+            "calling",
+            "fall"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "AO L T": {
+      "phoneme": "AO L T",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "alt",
+          "gpcId": "GPC-alt-AO_L_T",
+          "frequency": 6934,
+          "occurrences": 42,
+          "percentage": 100,
+          "exampleWords": [
+            "walter",
+            "salt",
+            "walt",
+            "halt",
+            "alternative"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "N JH": {
+      "phoneme": "N JH",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "ng",
+          "gpcId": "GPC-ng-N_JH",
+          "frequency": 23358,
+          "occurrences": 44,
+          "percentage": 100,
+          "exampleWords": [
+            "change",
+            "strange",
+            "engine",
+            "angeles",
+            "range"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "N G": {
+      "phoneme": "N G",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "ng",
+          "gpcId": "GPC-ng-N_G",
+          "frequency": 759,
+          "occurrences": 21,
+          "percentage": 100,
+          "exampleWords": [
+            "engage",
+            "sunglasses",
+            "disengage",
+            "gangrene",
+            "ungodly"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "IH R": {
+      "phoneme": "IH R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "ear",
+          "gpcId": "GPC-ear-IH_R",
+          "frequency": 87758,
+          "occurrences": 91,
+          "percentage": 100,
+          "exampleWords": [
+            "years",
+            "year",
+            "dear",
+            "clear",
+            "near"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "K W": {
+      "phoneme": "K W",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "qu",
+          "gpcId": "GPC-qu-K_W",
+          "frequency": 43204,
+          "occurrences": 195,
+          "percentage": 100,
+          "exampleWords": [
+            "quite",
+            "quick",
+            "quit",
+            "quickly",
+            "queen"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "Y UW": {
+      "phoneme": "Y UW",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "ew",
+          "gpcId": "GPC-ew-Y_UW",
+          "frequency": 17662,
+          "occurrences": 25,
+          "percentage": 65.80967285192636,
+          "exampleWords": [
+            "few",
+            "nephew",
+            "ewing",
+            "curfew",
+            "fewer"
+          ]
+        },
+        {
+          "grapheme": "ue",
+          "gpcId": "GPC-ue-Y_UW",
+          "frequency": 8168,
+          "occurrences": 31,
+          "percentage": 30.434458603472685,
+          "exampleWords": [
+            "continue",
+            "value",
+            "continues",
+            "tissue",
+            "barbecue"
+          ]
+        },
+        {
+          "grapheme": "eu",
+          "gpcId": "GPC-eu-Y_UW",
+          "frequency": 1008,
+          "occurrences": 20,
+          "percentage": 3.755868544600939,
+          "exampleWords": [
+            "eugene",
+            "cheung",
+            "eulogy",
+            "therapeutic",
+            "feud"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "AO K": {
+      "phoneme": "AO K",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "alk",
+          "gpcId": "GPC-alk-AO_K",
+          "frequency": 88037,
+          "occurrences": 37,
+          "percentage": 100,
+          "exampleWords": [
+            "talk",
+            "talking",
+            "walk",
+            "walking",
+            "talks"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "AY N D": {
+      "phoneme": "AY N D",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "ind",
+          "gpcId": "GPC-ind-AY_N_D",
+          "frequency": 121304,
+          "occurrences": 63,
+          "percentage": 100,
+          "exampleWords": [
+            "find",
+            "kind",
+            "mind",
+            "behind",
+            "wind"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "OW L": {
+      "phoneme": "OW L",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "oll",
+          "gpcId": "GPC-oll-OW_L",
+          "frequency": 7325,
+          "occurrences": 45,
+          "percentage": 100,
+          "exampleWords": [
+            "roll",
+            "rolling",
+            "rolls",
+            "roller",
+            "payroll"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "UH R": {
+      "phoneme": "UH R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "oor",
+          "gpcId": "GPC-oor-UH_R",
+          "frequency": 908,
+          "occurrences": 12,
+          "percentage": 67.55952380952381,
+          "exampleWords": [
+            "moore",
+            "hooray",
+            "moor",
+            "moors",
+            "boorish"
+          ]
+        },
+        {
+          "grapheme": "ure",
+          "gpcId": "GPC-ure-UH_R",
+          "frequency": 436,
+          "occurrences": 5,
+          "percentage": 32.44047619047619,
+          "exampleWords": [
+            "lure",
+            "manure",
+            "lured",
+            "lures",
+            "couture"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "AY L D": {
+      "phoneme": "AY L D",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "ild",
+          "gpcId": "GPC-ild-AY_L_D",
+          "frequency": 13120,
+          "occurrences": 29,
+          "percentage": 100,
+          "exampleWords": [
+            "child",
+            "wild",
+            "childhood",
+            "childish",
+            "mild"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "Y UH R": {
+      "phoneme": "Y UH R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "ure",
+          "gpcId": "GPC-ure-Y_UH_R",
+          "frequency": 5128,
+          "occurrences": 23,
+          "percentage": 100,
+          "exampleWords": [
+            "pure",
+            "secure",
+            "cure",
+            "cured",
+            "secured"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "AE F": {
+      "phoneme": "AE F",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "augh",
+          "gpcId": "GPC-augh-AE_F",
+          "frequency": 7928,
+          "occurrences": 9,
+          "percentage": 100,
+          "exampleWords": [
+            "laugh",
+            "laughing",
+            "laughs",
+            "laughter",
+            "laughingstock"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "AH F": {
+      "phoneme": "AH F",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "ough",
+          "gpcId": "GPC-ough-AH_F",
+          "frequency": 32743,
+          "occurrences": 17,
+          "percentage": 100,
+          "exampleWords": [
+            "enough",
+            "tough",
+            "rough",
+            "tougher",
+            "roughly"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "S K": {
+      "phoneme": "S K",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "sch",
+          "gpcId": "GPC-sch-S_K",
+          "frequency": 19867,
+          "occurrences": 37,
+          "percentage": 100,
+          "exampleWords": [
+            "school",
+            "schools",
+            "scholarship",
+            "scheme",
+            "scholar"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "AW R": {
+      "phoneme": "AW R",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "our",
+          "gpcId": "GPC-our-AW_R",
+          "frequency": 4,
+          "occurrences": 1,
+          "percentage": 100,
+          "exampleWords": [
+            "lour"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    },
+    "T S": {
+      "phoneme": "T S",
+      "type": "consonant",
+      "totalFrequency": 0,
+      "totalOccurrences": 0,
+      "wordCount": 0,
+      "graphemes": [
+        {
+          "grapheme": "zz",
+          "gpcId": "GPC-zz-T_S",
+          "frequency": 28,
+          "occurrences": 1,
+          "percentage": 100,
+          "exampleWords": [
+            "mozzarella"
+          ]
+        }
+      ],
+      "undecodable": {
+        "frequency": 0,
+        "occurrences": 0,
+        "percentage": 0,
+        "exampleWords": []
+      }
+    }
+  },
+  "summary": {
+    "totalPhonemes": 70,
+    "vowelCount": 15,
+    "consonantCount": 55,
+    "mostCommonVowel": "AH",
+    "mostCommonConsonant": "T",
+    "averageGraphemesPerPhoneme": 2.6,
+    "undecodablePercentage": 24.282354937104664
+  }
+}

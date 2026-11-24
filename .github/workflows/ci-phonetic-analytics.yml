@@ -1,0 +1,65 @@
+name: CI - Phonetic Analytics
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+    paths:
+      - "content/phoneticAnalytics/**"
+      - ".github/workflows/ci-phonetic-analytics.yml"
+
+jobs:
+  test-phonetic-analytics:
+    name: Test Phonetic Analytics
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: content/phoneticAnalytics
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Enable Corepack and prepare Yarn
+        run: |
+          corepack enable
+          corepack prepare yarn@4.6.0 --activate
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
+
+      - name: Cache yarn dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('content/phoneticAnalytics/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Run tests
+        run: yarn test
+
+      # --- Curriculum validation (P4.5) ---
+      # Regenerate, then run the card invariants against the fresh output.
+      # No content deploy happens here (gating ships with the app; content
+      # deploy stays manual / app-first — see D6 / P6.1).
+      # Cards FIRST: gen:strategies reads generated-cards.json (borne-tag
+      # ground truth for hierarchy prereq emission).
+      - name: Regenerate pipeline outputs
+        run: yarn gen:cards && yarn gen:strategies
+
+      - name: Run card invariants (test:cards)
+        run: yarn test:cards

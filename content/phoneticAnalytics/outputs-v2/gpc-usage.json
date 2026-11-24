@@ -1,0 +1,5872 @@
+{
+  "meta": {
+    "generatedAt": "2026-09-27T15:47:13.438Z",
+    "stats": {
+      "monosyllables": {
+        "total": 7747,
+        "teaching": 5736,
+        "irregular": 2011,
+        "coverage": 96.69
+      },
+      "fullCorpus": {
+        "total": 45358
+      }
+    }
+  },
+  "monosyllableUsage": [
+    {
+      "id": "GPC-t-T",
+      "grapheme": "t",
+      "phoneme": "T",
+      "wordCount": 1606,
+      "totalFrequency": 6097874,
+      "topWords": [
+        "it",
+        "that",
+        "not",
+        "just",
+        "get"
+      ]
+    },
+    {
+      "id": "GPC-n-N",
+      "grapheme": "n",
+      "phoneme": "N",
+      "wordCount": 1075,
+      "totalFrequency": 4354130,
+      "topWords": [
+        "and",
+        "in",
+        "on",
+        "no",
+        "not"
+      ]
+    },
+    {
+      "id": "GPC-i-IH",
+      "grapheme": "i",
+      "phoneme": "IH",
+      "wordCount": 802,
+      "totalFrequency": 4199764,
+      "topWords": [
+        "it",
+        "in",
+        "is",
+        "this",
+        "with"
+      ]
+    },
+    {
+      "id": "GPC-a-AE",
+      "grapheme": "a",
+      "phoneme": "AE",
+      "wordCount": 800,
+      "totalFrequency": 3150703,
+      "topWords": [
+        "that",
+        "and",
+        "can",
+        "at",
+        "as"
+      ]
+    },
+    {
+      "id": "GPC-s-S",
+      "grapheme": "s",
+      "phoneme": "S",
+      "wordCount": 1938,
+      "totalFrequency": 2891743,
+      "topWords": [
+        "this",
+        "just",
+        "so",
+        "see",
+        "yes"
+      ]
+    },
+    {
+      "id": "GPC-d-D",
+      "grapheme": "d",
+      "phoneme": "D",
+      "wordCount": 904,
+      "totalFrequency": 2405742,
+      "topWords": [
+        "and",
+        "good",
+        "did",
+        "had",
+        "down"
+      ]
+    },
+    {
+      "id": "GPC-WORD-you",
+      "grapheme": "WORD",
+      "phoneme": "you",
+      "wordCount": 1,
+      "totalFrequency": 2134713,
+      "topWords": [
+        "you"
+      ]
+    },
+    {
+      "id": "GPC-m-M",
+      "grapheme": "m",
+      "phoneme": "M",
+      "wordCount": 822,
+      "totalFrequency": 2087783,
+      "topWords": [
+        "me",
+        "him",
+        "time",
+        "man",
+        "them"
+      ]
+    },
+    {
+      "id": "GPC-e-silent-split",
+      "grapheme": "e",
+      "phoneme": "silent-split",
+      "wordCount": 806,
+      "totalFrequency": 1981757,
+      "topWords": [
+        "here",
+        "like",
+        "time",
+        "take",
+        "make"
+      ]
+    },
+    {
+      "id": "GPC-h-HH",
+      "grapheme": "h",
+      "phoneme": "HH",
+      "wordCount": 338,
+      "totalFrequency": 1948561,
+      "topWords": [
+        "he",
+        "here",
+        "him",
+        "how",
+        "her"
+      ]
+    },
+    {
+      "id": "GPC-e-IY-final",
+      "grapheme": "e",
+      "phoneme": "IY-final",
+      "wordCount": 11,
+      "totalFrequency": 1807081,
+      "topWords": [
+        "me",
+        "we",
+        "he",
+        "be",
+        "she"
+      ]
+    },
+    {
+      "id": "GPC-l-L",
+      "grapheme": "l",
+      "phoneme": "L",
+      "wordCount": 1465,
+      "totalFrequency": 1687795,
+      "topWords": [
+        "like",
+        "let",
+        "look",
+        "please",
+        "help"
+      ]
+    },
+    {
+      "id": "GPC-w-W",
+      "grapheme": "w",
+      "phoneme": "W",
+      "wordCount": 354,
+      "totalFrequency": 1608213,
+      "topWords": [
+        "we",
+        "with",
+        "well",
+        "want",
+        "will"
+      ]
+    },
+    {
+      "id": "GPC-e-EH",
+      "grapheme": "e",
+      "phoneme": "EH",
+      "wordCount": 544,
+      "totalFrequency": 1592351,
+      "topWords": [
+        "get",
+        "well",
+        "let",
+        "when",
+        "yes"
+      ]
+    },
+    {
+      "id": "GPC-WORD-the",
+      "grapheme": "WORD",
+      "phoneme": "the",
+      "wordCount": 1,
+      "totalFrequency": 1501908,
+      "topWords": [
+        "the"
+      ]
+    },
+    {
+      "id": "GPC-th-DH",
+      "grapheme": "th",
+      "phoneme": "DH",
+      "wordCount": 45,
+      "totalFrequency": 1439501,
+      "topWords": [
+        "that",
+        "this",
+        "them",
+        "then",
+        "these"
+      ]
+    },
+    {
+      "id": "GPC-r-R",
+      "grapheme": "r",
+      "phoneme": "R",
+      "wordCount": 1295,
+      "totalFrequency": 1373511,
+      "topWords": [
+        "here",
+        "right",
+        "great",
+        "hear",
+        "through"
+      ]
+    },
+    {
+      "id": "GPC-s-Z",
+      "grapheme": "s",
+      "phoneme": "Z",
+      "wordCount": 949,
+      "totalFrequency": 1355407,
+      "topWords": [
+        "is",
+        "as",
+        "his",
+        "has",
+        "please"
+      ]
+    },
+    {
+      "id": "GPC-b-B",
+      "grapheme": "b",
+      "phoneme": "B",
+      "wordCount": 786,
+      "totalFrequency": 1293853,
+      "topWords": [
+        "be",
+        "but",
+        "back",
+        "by",
+        "big"
+      ]
+    },
+    {
+      "id": "GPC-f-F",
+      "grapheme": "f",
+      "phoneme": "F",
+      "wordCount": 574,
+      "totalFrequency": 1179117,
+      "topWords": [
+        "for",
+        "if",
+        "first",
+        "find",
+        "life"
+      ]
+    },
+    {
+      "id": "GPC-WORD-to",
+      "grapheme": "WORD",
+      "phoneme": "to",
+      "wordCount": 1,
+      "totalFrequency": 1156570,
+      "topWords": [
+        "to"
+      ]
+    },
+    {
+      "id": "GPC-o-AA",
+      "grapheme": "o",
+      "phoneme": "AA",
+      "wordCount": 385,
+      "totalFrequency": 1152113,
+      "topWords": [
+        "on",
+        "not",
+        "got",
+        "god",
+        "stop"
+      ]
+    },
+    {
+      "id": "GPC-u-AH",
+      "grapheme": "u",
+      "phoneme": "AH",
+      "wordCount": 532,
+      "totalFrequency": 1149743,
+      "topWords": [
+        "just",
+        "but",
+        "up",
+        "us",
+        "much"
+      ]
+    },
+    {
+      "id": "GPC-g-G",
+      "grapheme": "g",
+      "phoneme": "G",
+      "wordCount": 469,
+      "totalFrequency": 1116467,
+      "topWords": [
+        "get",
+        "go",
+        "got",
+        "good",
+        "god"
+      ]
+    },
+    {
+      "id": "GPC-k-K",
+      "grapheme": "k",
+      "phoneme": "K",
+      "wordCount": 503,
+      "totalFrequency": 1006756,
+      "topWords": [
+        "like",
+        "look",
+        "take",
+        "make",
+        "work"
+      ]
+    },
+    {
+      "id": "GPC-p-P",
+      "grapheme": "p",
+      "phoneme": "P",
+      "wordCount": 1106,
+      "totalFrequency": 1005111,
+      "topWords": [
+        "up",
+        "please",
+        "help",
+        "put",
+        "stop"
+      ]
+    },
+    {
+      "id": "GPC-th-TH",
+      "grapheme": "th",
+      "phoneme": "TH",
+      "wordCount": 182,
+      "totalFrequency": 808824,
+      "topWords": [
+        "with",
+        "think",
+        "thank",
+        "thing",
+        "thought"
+      ]
+    },
+    {
+      "id": "GPC-c-K",
+      "grapheme": "c",
+      "phoneme": "K",
+      "wordCount": 576,
+      "totalFrequency": 764450,
+      "topWords": [
+        "can",
+        "call",
+        "course",
+        "care",
+        "car"
+      ]
+    },
+    {
+      "id": "GPC-o-OW-final",
+      "grapheme": "o",
+      "phoneme": "OW-final",
+      "wordCount": 26,
+      "totalFrequency": 735730,
+      "topWords": [
+        "no",
+        "so",
+        "go",
+        "o",
+        "yo"
+      ]
+    },
+    {
+      "id": "GPC-i_e-AY",
+      "grapheme": "i_e",
+      "phoneme": "AY",
+      "wordCount": 148,
+      "totalFrequency": 606114,
+      "topWords": [
+        "like",
+        "time",
+        "life",
+        "nice",
+        "fine"
+      ]
+    },
+    {
+      "id": "GPC-WORD-of",
+      "grapheme": "WORD",
+      "phoneme": "of",
+      "wordCount": 1,
+      "totalFrequency": 590439,
+      "topWords": [
+        "of"
+      ]
+    },
+    {
+      "id": "GPC-ll-L",
+      "grapheme": "ll",
+      "phoneme": "L",
+      "wordCount": 144,
+      "totalFrequency": 549531,
+      "topWords": [
+        "well",
+        "will",
+        "tell",
+        "still",
+        "hell"
+      ]
+    },
+    {
+      "id": "GPC-a_e-EY",
+      "grapheme": "a_e",
+      "phoneme": "EY",
+      "wordCount": 190,
+      "totalFrequency": 546162,
+      "topWords": [
+        "take",
+        "make",
+        "name",
+        "place",
+        "made"
+      ]
+    },
+    {
+      "id": "GPC-or-AO_R",
+      "grapheme": "or",
+      "phoneme": "AO_R",
+      "wordCount": 114,
+      "totalFrequency": 507216,
+      "topWords": [
+        "for",
+        "or",
+        "sort",
+        "york",
+        "lord"
+      ]
+    },
+    {
+      "id": "GPC-WORD-what",
+      "grapheme": "WORD",
+      "phoneme": "what",
+      "wordCount": 1,
+      "totalFrequency": 501965,
+      "topWords": [
+        "what"
+      ]
+    },
+    {
+      "id": "GPC-ee-IY",
+      "grapheme": "ee",
+      "phoneme": "IY",
+      "wordCount": 236,
+      "totalFrequency": 496727,
+      "topWords": [
+        "see",
+        "need",
+        "keep",
+        "feel",
+        "three"
+      ]
+    },
+    {
+      "id": "GPC-ow-AW",
+      "grapheme": "ow",
+      "phoneme": "AW",
+      "wordCount": 68,
+      "totalFrequency": 430907,
+      "topWords": [
+        "now",
+        "how",
+        "down",
+        "town",
+        "wow"
+      ]
+    },
+    {
+      "id": "GPC-ow-OW",
+      "grapheme": "ow",
+      "phoneme": "OW",
+      "wordCount": 60,
+      "totalFrequency": 403241,
+      "topWords": [
+        "know",
+        "show",
+        "own",
+        "knows",
+        "throw"
+      ]
+    },
+    {
+      "id": "GPC-sh-SH",
+      "grapheme": "sh",
+      "phoneme": "SH",
+      "wordCount": 269,
+      "totalFrequency": 397930,
+      "topWords": [
+        "she",
+        "show",
+        "shit",
+        "shut",
+        "wish"
+      ]
+    },
+    {
+      "id": "GPC-ea-IY",
+      "grapheme": "ea",
+      "phoneme": "IY",
+      "wordCount": 229,
+      "totalFrequency": 390806,
+      "topWords": [
+        "mean",
+        "please",
+        "leave",
+        "hear",
+        "real"
+      ]
+    },
+    {
+      "id": "GPC-y-Y",
+      "grapheme": "y",
+      "phoneme": "Y",
+      "wordCount": 83,
+      "totalFrequency": 370307,
+      "topWords": [
+        "yeah",
+        "yes",
+        "years",
+        "yet",
+        "year"
+      ]
+    },
+    {
+      "id": "GPC-all-AO_L",
+      "grapheme": "all",
+      "phoneme": "AO_L",
+      "wordCount": 31,
+      "totalFrequency": 361016,
+      "topWords": [
+        "all",
+        "call",
+        "called",
+        "small",
+        "fall"
+      ]
+    },
+    {
+      "id": "GPC-j-JH",
+      "grapheme": "j",
+      "phoneme": "JH",
+      "wordCount": 130,
+      "totalFrequency": 356996,
+      "topWords": [
+        "just",
+        "job",
+        "jack",
+        "john",
+        "joe"
+      ]
+    },
+    {
+      "id": "GPC-WORD-my",
+      "grapheme": "WORD",
+      "phoneme": "my",
+      "wordCount": 1,
+      "totalFrequency": 344899,
+      "topWords": [
+        "my"
+      ]
+    },
+    {
+      "id": "GPC-kn-N-initial",
+      "grapheme": "kn",
+      "phoneme": "N-initial",
+      "wordCount": 33,
+      "totalFrequency": 342286,
+      "topWords": [
+        "know",
+        "knew",
+        "knows",
+        "known",
+        "knock"
+      ]
+    },
+    {
+      "id": "GPC-WORD-your",
+      "grapheme": "WORD",
+      "phoneme": "your",
+      "wordCount": 1,
+      "totalFrequency": 328715,
+      "topWords": [
+        "your"
+      ]
+    },
+    {
+      "id": "GPC-ay-EY",
+      "grapheme": "ay",
+      "phoneme": "EY",
+      "wordCount": 67,
+      "totalFrequency": 328491,
+      "topWords": [
+        "say",
+        "way",
+        "day",
+        "stay",
+        "may"
+      ]
+    },
+    {
+      "id": "GPC-igh-AY",
+      "grapheme": "igh",
+      "phoneme": "AY",
+      "wordCount": 36,
+      "totalFrequency": 325575,
+      "topWords": [
+        "right",
+        "night",
+        "might",
+        "fight",
+        "high"
+      ]
+    },
+    {
+      "id": "GPC-WORD-have",
+      "grapheme": "WORD",
+      "phoneme": "have",
+      "wordCount": 1,
+      "totalFrequency": 314232,
+      "topWords": [
+        "have"
+      ]
+    },
+    {
+      "id": "GPC-WORD-do",
+      "grapheme": "WORD",
+      "phoneme": "do",
+      "wordCount": 1,
+      "totalFrequency": 312915,
+      "topWords": [
+        "do"
+      ]
+    },
+    {
+      "id": "GPC-ou-AW",
+      "grapheme": "ou",
+      "phoneme": "AW",
+      "wordCount": 110,
+      "totalFrequency": 308507,
+      "topWords": [
+        "out",
+        "house",
+        "found",
+        "sounds",
+        "sound"
+      ]
+    },
+    {
+      "id": "GPC-oo-UH",
+      "grapheme": "oo",
+      "phoneme": "UH",
+      "wordCount": 43,
+      "totalFrequency": 301619,
+      "topWords": [
+        "good",
+        "look",
+        "took",
+        "looks",
+        "book"
+      ]
+    },
+    {
+      "id": "GPC-e_e-IY",
+      "grapheme": "e_e",
+      "phoneme": "IY",
+      "wordCount": 23,
+      "totalFrequency": 289853,
+      "topWords": [
+        "here",
+        "these",
+        "scene",
+        "steve",
+        "pete"
+      ]
+    },
+    {
+      "id": "GPC-ck-K",
+      "grapheme": "ck",
+      "phoneme": "K",
+      "wordCount": 235,
+      "totalFrequency": 289087,
+      "topWords": [
+        "back",
+        "check",
+        "jack",
+        "pick",
+        "black"
+      ]
+    },
+    {
+      "id": "GPC-WORD-was",
+      "grapheme": "WORD",
+      "phoneme": "was",
+      "wordCount": 1,
+      "totalFrequency": 288391,
+      "topWords": [
+        "was"
+      ]
+    },
+    {
+      "id": "GPC-wh-W",
+      "grapheme": "wh",
+      "phoneme": "W",
+      "wordCount": 53,
+      "totalFrequency": 286565,
+      "topWords": [
+        "why",
+        "when",
+        "which",
+        "while",
+        "white"
+      ]
+    },
+    {
+      "id": "GPC-nk-NG_K",
+      "grapheme": "nk",
+      "phoneme": "NG_K",
+      "wordCount": 130,
+      "totalFrequency": 284093,
+      "topWords": [
+        "think",
+        "thank",
+        "thanks",
+        "drink",
+        "frank"
+      ]
+    },
+    {
+      "id": "GPC-ch-CH",
+      "grapheme": "ch",
+      "phoneme": "CH",
+      "wordCount": 277,
+      "totalFrequency": 282374,
+      "topWords": [
+        "much",
+        "which",
+        "such",
+        "check",
+        "each"
+      ]
+    },
+    {
+      "id": "GPC-WORD-are",
+      "grapheme": "WORD",
+      "phoneme": "are",
+      "wordCount": 1,
+      "totalFrequency": 265672,
+      "topWords": [
+        "are"
+      ]
+    },
+    {
+      "id": "GPC-y-AY-final",
+      "grapheme": "y",
+      "phoneme": "AY-final",
+      "wordCount": 21,
+      "totalFrequency": 262711,
+      "topWords": [
+        "why",
+        "by",
+        "guy",
+        "try",
+        "fly"
+      ]
+    },
+    {
+      "id": "GPC-a-AA",
+      "grapheme": "a",
+      "phoneme": "AA",
+      "wordCount": 130,
+      "totalFrequency": 259175,
+      "topWords": [
+        "want",
+        "watch",
+        "cause",
+        "wants",
+        "ah"
+      ]
+    },
+    {
+      "id": "GPC-ng-NG",
+      "grapheme": "ng",
+      "phoneme": "NG",
+      "wordCount": 143,
+      "totalFrequency": 248550,
+      "topWords": [
+        "thing",
+        "things",
+        "long",
+        "wrong",
+        "bring"
+      ]
+    },
+    {
+      "id": "GPC-WORD-there",
+      "grapheme": "WORD",
+      "phoneme": "there",
+      "wordCount": 1,
+      "totalFrequency": 221754,
+      "topWords": [
+        "there"
+      ]
+    },
+    {
+      "id": "GPC-oo-UW",
+      "grapheme": "oo",
+      "phoneme": "UW",
+      "wordCount": 195,
+      "totalFrequency": 210300,
+      "topWords": [
+        "too",
+        "room",
+        "school",
+        "soon",
+        "cool"
+      ]
+    },
+    {
+      "id": "GPC-WORD-they",
+      "grapheme": "WORD",
+      "phoneme": "they",
+      "wordCount": 1,
+      "totalFrequency": 209250,
+      "topWords": [
+        "they"
+      ]
+    },
+    {
+      "id": "GPC-o_e-OW",
+      "grapheme": "o_e",
+      "phoneme": "OW",
+      "wordCount": 113,
+      "totalFrequency": 187910,
+      "topWords": [
+        "home",
+        "those",
+        "hope",
+        "phone",
+        "close"
+      ]
+    },
+    {
+      "id": "GPC-o-AO",
+      "grapheme": "o",
+      "phoneme": "AO",
+      "wordCount": 100,
+      "totalFrequency": 186544,
+      "topWords": [
+        "off",
+        "long",
+        "wrong",
+        "gone",
+        "lost"
+      ]
+    },
+    {
+      "id": "GPC-c-S-soft",
+      "grapheme": "c",
+      "phoneme": "S-soft",
+      "wordCount": 129,
+      "totalFrequency": 186298,
+      "topWords": [
+        "nice",
+        "place",
+        "since",
+        "face",
+        "chance"
+      ]
+    },
+    {
+      "id": "GPC-ar-AA_R",
+      "grapheme": "ar",
+      "phoneme": "AA_R",
+      "wordCount": 188,
+      "totalFrequency": 180819,
+      "topWords": [
+        "car",
+        "start",
+        "hard",
+        "part",
+        "far"
+      ]
+    },
+    {
+      "id": "GPC-v-V",
+      "grapheme": "v",
+      "phoneme": "V",
+      "wordCount": 262,
+      "totalFrequency": 169571,
+      "topWords": [
+        "leave",
+        "five",
+        "gave",
+        "save",
+        "drive"
+      ]
+    },
+    {
+      "id": "GPC-WORD-oh",
+      "grapheme": "WORD",
+      "phoneme": "oh",
+      "wordCount": 1,
+      "totalFrequency": 167781,
+      "topWords": [
+        "oh"
+      ]
+    },
+    {
+      "id": "GPC-er-ER",
+      "grapheme": "er",
+      "phoneme": "ER",
+      "wordCount": 88,
+      "totalFrequency": 161864,
+      "topWords": [
+        "her",
+        "serve",
+        "er",
+        "jerk",
+        "nerve"
+      ]
+    },
+    {
+      "id": "GPC-WORD-come",
+      "grapheme": "WORD",
+      "phoneme": "come",
+      "wordCount": 1,
+      "totalFrequency": 160190,
+      "topWords": [
+        "come"
+      ]
+    },
+    {
+      "id": "GPC-WORD-one",
+      "grapheme": "WORD",
+      "phoneme": "one",
+      "wordCount": 1,
+      "totalFrequency": 156684,
+      "topWords": [
+        "one"
+      ]
+    },
+    {
+      "id": "GPC-ir-ER",
+      "grapheme": "ir",
+      "phoneme": "ER",
+      "wordCount": 68,
+      "totalFrequency": 149825,
+      "topWords": [
+        "sir",
+        "first",
+        "girl",
+        "girls",
+        "third"
+      ]
+    },
+    {
+      "id": "GPC-ss-S",
+      "grapheme": "ss",
+      "phoneme": "S",
+      "wordCount": 94,
+      "totalFrequency": 137228,
+      "topWords": [
+        "miss",
+        "guess",
+        "ass",
+        "boss",
+        "kiss"
+      ]
+    },
+    {
+      "id": "GPC-gu-G",
+      "grapheme": "gu",
+      "phoneme": "G",
+      "wordCount": 59,
+      "totalFrequency": 124167,
+      "topWords": [
+        "guy",
+        "guys",
+        "guess",
+        "gun",
+        "guns"
+      ]
+    },
+    {
+      "id": "GPC-ai-EY",
+      "grapheme": "ai",
+      "phoneme": "EY",
+      "wordCount": 163,
+      "totalFrequency": 120976,
+      "topWords": [
+        "wait",
+        "straight",
+        "pain",
+        "train",
+        "paid"
+      ]
+    },
+    {
+      "id": "GPC-WORD-who",
+      "grapheme": "WORD",
+      "phoneme": "who",
+      "wordCount": 1,
+      "totalFrequency": 113370,
+      "topWords": [
+        "who"
+      ]
+    },
+    {
+      "id": "GPC-or-ER",
+      "grapheme": "or",
+      "phoneme": "ER",
+      "wordCount": 14,
+      "totalFrequency": 108131,
+      "topWords": [
+        "work",
+        "world",
+        "word",
+        "words",
+        "worked"
+      ]
+    },
+    {
+      "id": "GPC-ind-AY_N_D",
+      "grapheme": "ind",
+      "phoneme": "AY_N_D",
+      "wordCount": 17,
+      "totalFrequency": 106962,
+      "topWords": [
+        "find",
+        "kind",
+        "mind",
+        "wind",
+        "blind"
+      ]
+    },
+    {
+      "id": "GPC-old-OW_L_D",
+      "grapheme": "old",
+      "phoneme": "OW_L_D",
+      "wordCount": 15,
+      "totalFrequency": 104239,
+      "topWords": [
+        "told",
+        "old",
+        "hold",
+        "cold",
+        "gold"
+      ]
+    },
+    {
+      "id": "GPC-WORD-from",
+      "grapheme": "WORD",
+      "phoneme": "from",
+      "wordCount": 1,
+      "totalFrequency": 103992,
+      "topWords": [
+        "from"
+      ]
+    },
+    {
+      "id": "GPC-WORD-where",
+      "grapheme": "WORD",
+      "phoneme": "where",
+      "wordCount": 1,
+      "totalFrequency": 93341,
+      "topWords": [
+        "where"
+      ]
+    },
+    {
+      "id": "GPC-ea-EH",
+      "grapheme": "ea",
+      "phoneme": "EH",
+      "wordCount": 40,
+      "totalFrequency": 91759,
+      "topWords": [
+        "dead",
+        "head",
+        "read",
+        "death",
+        "meant"
+      ]
+    },
+    {
+      "id": "GPC-WORD-would",
+      "grapheme": "WORD",
+      "phoneme": "would",
+      "wordCount": 1,
+      "totalFrequency": 90162,
+      "topWords": [
+        "would"
+      ]
+    },
+    {
+      "id": "GPC-ey-EY",
+      "grapheme": "ey",
+      "phoneme": "EY",
+      "wordCount": 14,
+      "totalFrequency": 89342,
+      "topWords": [
+        "hey",
+        "grey",
+        "trey",
+        "prey",
+        "drey"
+      ]
+    },
+    {
+      "id": "GPC-WORD-been",
+      "grapheme": "WORD",
+      "phoneme": "been",
+      "wordCount": 1,
+      "totalFrequency": 88573,
+      "topWords": [
+        "been"
+      ]
+    },
+    {
+      "id": "GPC-WORD-some",
+      "grapheme": "WORD",
+      "phoneme": "some",
+      "wordCount": 1,
+      "totalFrequency": 88089,
+      "topWords": [
+        "some"
+      ]
+    },
+    {
+      "id": "GPC-WORD-were",
+      "grapheme": "WORD",
+      "phoneme": "were",
+      "wordCount": 1,
+      "totalFrequency": 84804,
+      "topWords": [
+        "were"
+      ]
+    },
+    {
+      "id": "GPC-ff-F",
+      "grapheme": "ff",
+      "phoneme": "F",
+      "wordCount": 65,
+      "totalFrequency": 84358,
+      "topWords": [
+        "off",
+        "stuff",
+        "staff",
+        "jeff",
+        "cliff"
+      ]
+    },
+    {
+      "id": "GPC-WORD-could",
+      "grapheme": "WORD",
+      "phoneme": "could",
+      "wordCount": 1,
+      "totalFrequency": 83109,
+      "topWords": [
+        "could"
+      ]
+    },
+    {
+      "id": "GPC-ew-UW",
+      "grapheme": "ew",
+      "phoneme": "UW",
+      "wordCount": 39,
+      "totalFrequency": 79361,
+      "topWords": [
+        "new",
+        "knew",
+        "news",
+        "crew",
+        "threw"
+      ]
+    },
+    {
+      "id": "GPC-ear-IH_R",
+      "grapheme": "ear",
+      "phoneme": "IH_R",
+      "wordCount": 33,
+      "totalFrequency": 77937,
+      "topWords": [
+        "years",
+        "year",
+        "dear",
+        "clear",
+        "near"
+      ]
+    },
+    {
+      "id": "GPC-ore-AO_R",
+      "grapheme": "ore",
+      "phoneme": "AO_R",
+      "wordCount": 34,
+      "totalFrequency": 77853,
+      "topWords": [
+        "more",
+        "store",
+        "wore",
+        "bored",
+        "shore"
+      ]
+    },
+    {
+      "id": "GPC-u-UH",
+      "grapheme": "u",
+      "phoneme": "UH",
+      "wordCount": 17,
+      "totalFrequency": 70122,
+      "topWords": [
+        "put",
+        "full",
+        "pull",
+        "push",
+        "pulled"
+      ]
+    },
+    {
+      "id": "GPC-x-K_S",
+      "grapheme": "x",
+      "phoneme": "K_S",
+      "wordCount": 69,
+      "totalFrequency": 65926,
+      "topWords": [
+        "next",
+        "six",
+        "sex",
+        "box",
+        "fix"
+      ]
+    },
+    {
+      "id": "GPC-alk-AO_K",
+      "grapheme": "alk",
+      "phoneme": "AO_K",
+      "wordCount": 13,
+      "totalFrequency": 65017,
+      "topWords": [
+        "talk",
+        "walk",
+        "talked",
+        "walked",
+        "talks"
+      ]
+    },
+    {
+      "id": "GPC-WORD-give",
+      "grapheme": "WORD",
+      "phoneme": "give",
+      "wordCount": 1,
+      "totalFrequency": 59559,
+      "topWords": [
+        "give"
+      ]
+    },
+    {
+      "id": "GPC-ur-ER",
+      "grapheme": "ur",
+      "phoneme": "ER",
+      "wordCount": 98,
+      "totalFrequency": 58019,
+      "topWords": [
+        "turn",
+        "hurt",
+        "turned",
+        "church",
+        "burn"
+      ]
+    },
+    {
+      "id": "GPC-ough-AO",
+      "grapheme": "ough",
+      "phoneme": "AO",
+      "wordCount": 11,
+      "totalFrequency": 57744,
+      "topWords": [
+        "thought",
+        "brought",
+        "ought",
+        "thoughts",
+        "fought"
+      ]
+    },
+    {
+      "id": "GPC-WORD-love",
+      "grapheme": "WORD",
+      "phoneme": "love",
+      "wordCount": 1,
+      "totalFrequency": 56864,
+      "topWords": [
+        "love"
+      ]
+    },
+    {
+      "id": "GPC-WORD-said",
+      "grapheme": "WORD",
+      "phoneme": "said",
+      "wordCount": 1,
+      "totalFrequency": 56531,
+      "topWords": [
+        "said"
+      ]
+    },
+    {
+      "id": "GPC-WORD-sure",
+      "grapheme": "WORD",
+      "phoneme": "sure",
+      "wordCount": 1,
+      "totalFrequency": 56091,
+      "topWords": [
+        "sure"
+      ]
+    },
+    {
+      "id": "GPC-ea-EY",
+      "grapheme": "ea",
+      "phoneme": "EY",
+      "wordCount": 10,
+      "totalFrequency": 55626,
+      "topWords": [
+        "great",
+        "break",
+        "breaks",
+        "steak",
+        "yea"
+      ]
+    },
+    {
+      "id": "GPC-WORD-two",
+      "grapheme": "WORD",
+      "phoneme": "two",
+      "wordCount": 1,
+      "totalFrequency": 54384,
+      "topWords": [
+        "two"
+      ]
+    },
+    {
+      "id": "GPC-WORD-should",
+      "grapheme": "WORD",
+      "phoneme": "should",
+      "wordCount": 1,
+      "totalFrequency": 54159,
+      "topWords": [
+        "should"
+      ]
+    },
+    {
+      "id": "GPC-ie-AY",
+      "grapheme": "ie",
+      "phoneme": "AY",
+      "wordCount": 35,
+      "totalFrequency": 52993,
+      "topWords": [
+        "die",
+        "tried",
+        "died",
+        "lie",
+        "tie"
+      ]
+    },
+    {
+      "id": "GPC-tch-CH",
+      "grapheme": "tch",
+      "phoneme": "CH",
+      "wordCount": 57,
+      "totalFrequency": 49645,
+      "topWords": [
+        "watch",
+        "bitch",
+        "catch",
+        "match",
+        "switch"
+      ]
+    },
+    {
+      "id": "GPC-oy-OY",
+      "grapheme": "oy",
+      "phoneme": "OY",
+      "wordCount": 22,
+      "totalFrequency": 43198,
+      "topWords": [
+        "boy",
+        "boys",
+        "joy",
+        "toy",
+        "toys"
+      ]
+    },
+    {
+      "id": "GPC-are-EH_R",
+      "grapheme": "are",
+      "phoneme": "EH_R",
+      "wordCount": 48,
+      "totalFrequency": 42478,
+      "topWords": [
+        "care",
+        "share",
+        "dare",
+        "cares",
+        "square"
+      ]
+    },
+    {
+      "id": "GPC-oa-OW",
+      "grapheme": "oa",
+      "phoneme": "OW",
+      "wordCount": 89,
+      "totalFrequency": 42084,
+      "topWords": [
+        "whoa",
+        "road",
+        "boat",
+        "coach",
+        "coat"
+      ]
+    },
+    {
+      "id": "GPC-wr-R-initial",
+      "grapheme": "wr",
+      "phoneme": "R-initial",
+      "wordCount": 37,
+      "totalFrequency": 41814,
+      "topWords": [
+        "wrong",
+        "write",
+        "wrote",
+        "wrap",
+        "wreck"
+      ]
+    },
+    {
+      "id": "GPC-ear-ER",
+      "grapheme": "ear",
+      "phoneme": "ER",
+      "wordCount": 23,
+      "totalFrequency": 41168,
+      "topWords": [
+        "heard",
+        "learn",
+        "earth",
+        "learned",
+        "search"
+      ]
+    },
+    {
+      "id": "GPC-aw-AO",
+      "grapheme": "aw",
+      "phoneme": "AO",
+      "wordCount": 79,
+      "totalFrequency": 41159,
+      "topWords": [
+        "saw",
+        "law",
+        "aw",
+        "draw",
+        "dawn"
+      ]
+    },
+    {
+      "id": "GPC-WORD-won",
+      "grapheme": "WORD",
+      "phoneme": "won",
+      "wordCount": 1,
+      "totalFrequency": 38729,
+      "topWords": [
+        "won"
+      ]
+    },
+    {
+      "id": "GPC-oi-OY",
+      "grapheme": "oi",
+      "phoneme": "OY",
+      "wordCount": 56,
+      "totalFrequency": 38061,
+      "topWords": [
+        "point",
+        "choice",
+        "voice",
+        "join",
+        "oil"
+      ]
+    },
+    {
+      "id": "GPC-sc-S",
+      "grapheme": "sc",
+      "phoneme": "S",
+      "wordCount": 116,
+      "totalFrequency": 36486,
+      "topWords": [
+        "scared",
+        "scene",
+        "screw",
+        "scott",
+        "scare"
+      ]
+    },
+    {
+      "id": "GPC-g-JH-soft",
+      "grapheme": "g",
+      "phoneme": "JH-soft",
+      "wordCount": 78,
+      "totalFrequency": 35751,
+      "topWords": [
+        "george",
+        "charge",
+        "age",
+        "gee",
+        "stage"
+      ]
+    },
+    {
+      "id": "GPC-our-AO_R",
+      "grapheme": "our",
+      "phoneme": "AO_R",
+      "wordCount": 18,
+      "totalFrequency": 34503,
+      "topWords": [
+        "course",
+        "court",
+        "source",
+        "fourth",
+        "pour"
+      ]
+    },
+    {
+      "id": "GPC-WORD-does",
+      "grapheme": "WORD",
+      "phoneme": "does",
+      "wordCount": 1,
+      "totalFrequency": 34002,
+      "topWords": [
+        "does"
+      ]
+    },
+    {
+      "id": "GPC-WORD-their",
+      "grapheme": "WORD",
+      "phoneme": "their",
+      "wordCount": 1,
+      "totalFrequency": 33413,
+      "topWords": [
+        "their"
+      ]
+    },
+    {
+      "id": "GPC-qu-K_W",
+      "grapheme": "qu",
+      "phoneme": "K_W",
+      "wordCount": 85,
+      "totalFrequency": 32543,
+      "topWords": [
+        "quite",
+        "quick",
+        "quit",
+        "queen",
+        "square"
+      ]
+    },
+    {
+      "id": "GPC-i-AY-final",
+      "grapheme": "i",
+      "phoneme": "AY-final",
+      "wordCount": 9,
+      "totalFrequency": 29326,
+      "topWords": [
+        "hi",
+        "chi",
+        "pi",
+        "vi",
+        "fi"
+      ]
+    },
+    {
+      "id": "GPC-air-EH_R",
+      "grapheme": "air",
+      "phoneme": "EH_R",
+      "wordCount": 25,
+      "totalFrequency": 28815,
+      "topWords": [
+        "hair",
+        "air",
+        "fair",
+        "chair",
+        "pair"
+      ]
+    },
+    {
+      "id": "GPC-ough-UW",
+      "grapheme": "ough",
+      "phoneme": "UW",
+      "wordCount": 1,
+      "totalFrequency": 28026,
+      "topWords": [
+        "through"
+      ]
+    },
+    {
+      "id": "GPC-u_e-Y_UW",
+      "grapheme": "u_e",
+      "phoneme": "Y_UW",
+      "wordCount": 12,
+      "totalFrequency": 25821,
+      "topWords": [
+        "use",
+        "cute",
+        "huge",
+        "mule",
+        "puke"
+      ]
+    },
+    {
+      "id": "GPC-WORD-done",
+      "grapheme": "WORD",
+      "phoneme": "done",
+      "wordCount": 1,
+      "totalFrequency": 24737,
+      "topWords": [
+        "done"
+      ]
+    },
+    {
+      "id": "GPC-on-AH_N",
+      "grapheme": "on",
+      "phoneme": "AH_N",
+      "wordCount": 12,
+      "totalFrequency": 24643,
+      "topWords": [
+        "front",
+        "months",
+        "month",
+        "sons",
+        "tons"
+      ]
+    },
+    {
+      "id": "GPC-ue-UW",
+      "grapheme": "ue",
+      "phoneme": "UW",
+      "wordCount": 18,
+      "totalFrequency": 24593,
+      "topWords": [
+        "true",
+        "blue",
+        "due",
+        "sue",
+        "clue"
+      ]
+    },
+    {
+      "id": "GPC-o-AH",
+      "grapheme": "o",
+      "phoneme": "AH",
+      "wordCount": 19,
+      "totalFrequency": 24065,
+      "topWords": [
+        "blood",
+        "loved",
+        "loves",
+        "tongue",
+        "gloves"
+      ]
+    },
+    {
+      "id": "GPC-ng-N_JH",
+      "grapheme": "ng",
+      "phoneme": "N_JH",
+      "wordCount": 28,
+      "totalFrequency": 24007,
+      "topWords": [
+        "change",
+        "changed",
+        "strange",
+        "range",
+        "lounge"
+      ]
+    },
+    {
+      "id": "GPC-oor-AO_R",
+      "grapheme": "oor",
+      "phoneme": "AO_R",
+      "wordCount": 5,
+      "totalFrequency": 22209,
+      "topWords": [
+        "door",
+        "floor",
+        "doors",
+        "floors",
+        "floored"
+      ]
+    },
+    {
+      "id": "GPC-ie-IY",
+      "grapheme": "ie",
+      "phoneme": "IY",
+      "wordCount": 50,
+      "totalFrequency": 22113,
+      "topWords": [
+        "piece",
+        "chief",
+        "field",
+        "priest",
+        "thief"
+      ]
+    },
+    {
+      "id": "GPC-ou-AH",
+      "grapheme": "ou",
+      "phoneme": "AH",
+      "wordCount": 4,
+      "totalFrequency": 21444,
+      "topWords": [
+        "young",
+        "touch",
+        "touched",
+        "youngs"
+      ]
+    },
+    {
+      "id": "GPC-WORD-friend",
+      "grapheme": "WORD",
+      "phoneme": "friend",
+      "wordCount": 1,
+      "totalFrequency": 21384,
+      "topWords": [
+        "friend"
+      ]
+    },
+    {
+      "id": "GPC-WORD-move",
+      "grapheme": "WORD",
+      "phoneme": "move",
+      "wordCount": 1,
+      "totalFrequency": 21325,
+      "topWords": [
+        "move"
+      ]
+    },
+    {
+      "id": "GPC-WORD-son",
+      "grapheme": "WORD",
+      "phoneme": "son",
+      "wordCount": 1,
+      "totalFrequency": 20949,
+      "topWords": [
+        "son"
+      ]
+    },
+    {
+      "id": "GPC-WORD-whole",
+      "grapheme": "WORD",
+      "phoneme": "whole",
+      "wordCount": 1,
+      "totalFrequency": 19660,
+      "topWords": [
+        "whole"
+      ]
+    },
+    {
+      "id": "GPC-u_e-UW",
+      "grapheme": "u_e",
+      "phoneme": "UW",
+      "wordCount": 38,
+      "totalFrequency": 19168,
+      "topWords": [
+        "dude",
+        "luke",
+        "rule",
+        "duke",
+        "rude"
+      ]
+    },
+    {
+      "id": "GPC-ph-F",
+      "grapheme": "ph",
+      "phoneme": "F",
+      "wordCount": 29,
+      "totalFrequency": 19157,
+      "topWords": [
+        "phone",
+        "phil",
+        "ralph",
+        "phones",
+        "phase"
+      ]
+    },
+    {
+      "id": "GPC-sch-S_K",
+      "grapheme": "sch",
+      "phoneme": "S_K",
+      "wordCount": 6,
+      "totalFrequency": 18199,
+      "topWords": [
+        "school",
+        "schools",
+        "scheme",
+        "schemes",
+        "schooled"
+      ]
+    },
+    {
+      "id": "GPC-WORD-once",
+      "grapheme": "WORD",
+      "phoneme": "once",
+      "wordCount": 1,
+      "totalFrequency": 17589,
+      "topWords": [
+        "once"
+      ]
+    },
+    {
+      "id": "GPC-WORD-live",
+      "grapheme": "WORD",
+      "phoneme": "live",
+      "wordCount": 1,
+      "totalFrequency": 17574,
+      "topWords": [
+        "live"
+      ]
+    },
+    {
+      "id": "GPC-ear-EH_R",
+      "grapheme": "ear",
+      "phoneme": "EH_R",
+      "wordCount": 10,
+      "totalFrequency": 16985,
+      "topWords": [
+        "wear",
+        "swear",
+        "bear",
+        "tear",
+        "tears"
+      ]
+    },
+    {
+      "id": "GPC-z-Z",
+      "grapheme": "z",
+      "phoneme": "Z",
+      "wordCount": 91,
+      "totalFrequency": 16772,
+      "topWords": [
+        "size",
+        "freeze",
+        "prize",
+        "jeez",
+        "zack"
+      ]
+    },
+    {
+      "id": "GPC-WORD-says",
+      "grapheme": "WORD",
+      "phoneme": "says",
+      "wordCount": 1,
+      "totalFrequency": 16356,
+      "topWords": [
+        "says"
+      ]
+    },
+    {
+      "id": "GPC-au-AO",
+      "grapheme": "au",
+      "phoneme": "AO",
+      "wordCount": 47,
+      "totalFrequency": 15937,
+      "topWords": [
+        "fault",
+        "paul",
+        "launch",
+        "sauce",
+        "claus"
+      ]
+    },
+    {
+      "id": "GPC-ew-Y_UW",
+      "grapheme": "ew",
+      "phoneme": "Y_UW",
+      "wordCount": 14,
+      "totalFrequency": 15676,
+      "topWords": [
+        "few",
+        "phew",
+        "pew",
+        "spew",
+        "mew"
+      ]
+    },
+    {
+      "id": "GPC-mn-M",
+      "grapheme": "mn",
+      "phoneme": "M",
+      "wordCount": 5,
+      "totalFrequency": 15494,
+      "topWords": [
+        "damn",
+        "damned",
+        "hymn",
+        "hymns",
+        "damns"
+      ]
+    },
+    {
+      "id": "GPC-pp-P",
+      "grapheme": "pp",
+      "phoneme": "P",
+      "wordCount": 62,
+      "totalFrequency": 14941,
+      "topWords": [
+        "stopped",
+        "dropped",
+        "trapped",
+        "ripped",
+        "slipped"
+      ]
+    },
+    {
+      "id": "GPC-e-IH",
+      "grapheme": "e",
+      "phoneme": "IH",
+      "wordCount": 32,
+      "totalFrequency": 14043,
+      "topWords": [
+        "weird",
+        "beer",
+        "cheers",
+        "cheer",
+        "beers"
+      ]
+    },
+    {
+      "id": "GPC-WORD-four",
+      "grapheme": "WORD",
+      "phoneme": "four",
+      "wordCount": 1,
+      "totalFrequency": 13045,
+      "topWords": [
+        "four"
+      ]
+    },
+    {
+      "id": "GPC-WORD-heart",
+      "grapheme": "WORD",
+      "phoneme": "heart",
+      "wordCount": 1,
+      "totalFrequency": 12453,
+      "topWords": [
+        "heart"
+      ]
+    },
+    {
+      "id": "GPC-dge-JH",
+      "grapheme": "dge",
+      "phoneme": "JH",
+      "wordCount": 43,
+      "totalFrequency": 12285,
+      "topWords": [
+        "judge",
+        "bridge",
+        "edge",
+        "badge",
+        "fridge"
+      ]
+    },
+    {
+      "id": "GPC-om-AH_M",
+      "grapheme": "om",
+      "phoneme": "AH_M",
+      "wordCount": 1,
+      "totalFrequency": 11656,
+      "topWords": [
+        "comes"
+      ]
+    },
+    {
+      "id": "GPC-WORD-eyes",
+      "grapheme": "WORD",
+      "phoneme": "eyes",
+      "wordCount": 1,
+      "totalFrequency": 11299,
+      "topWords": [
+        "eyes"
+      ]
+    },
+    {
+      "id": "GPC-ild-AY_L_D",
+      "grapheme": "ild",
+      "phoneme": "AY_L_D",
+      "wordCount": 4,
+      "totalFrequency": 11224,
+      "topWords": [
+        "child",
+        "wild",
+        "mild",
+        "wilds"
+      ]
+    },
+    {
+      "id": "GPC-mb-M",
+      "grapheme": "mb",
+      "phoneme": "M",
+      "wordCount": 31,
+      "totalFrequency": 10825,
+      "topWords": [
+        "bomb",
+        "dumb",
+        "climb",
+        "bombs",
+        "thumb"
+      ]
+    },
+    {
+      "id": "GPC-gh-",
+      "grapheme": "gh",
+      "phoneme": "",
+      "wordCount": 16,
+      "totalFrequency": 10422,
+      "topWords": [
+        "straight",
+        "ghost",
+        "ugh",
+        "ghosts",
+        "hugh"
+      ]
+    },
+    {
+      "id": "GPC-WORD-half",
+      "grapheme": "WORD",
+      "phoneme": "half",
+      "wordCount": 1,
+      "totalFrequency": 10156,
+      "topWords": [
+        "half"
+      ]
+    },
+    {
+      "id": "GPC-ough-OW",
+      "grapheme": "ough",
+      "phoneme": "OW",
+      "wordCount": 2,
+      "totalFrequency": 10089,
+      "topWords": [
+        "though",
+        "dough"
+      ]
+    },
+    {
+      "id": "GPC-WORD-buy",
+      "grapheme": "WORD",
+      "phoneme": "buy",
+      "wordCount": 1,
+      "totalFrequency": 9814,
+      "topWords": [
+        "buy"
+      ]
+    },
+    {
+      "id": "GPC-ou-UW",
+      "grapheme": "ou",
+      "phoneme": "UW",
+      "wordCount": 32,
+      "totalFrequency": 9226,
+      "topWords": [
+        "group",
+        "soup",
+        "route",
+        "youth",
+        "wounds"
+      ]
+    },
+    {
+      "id": "GPC-ey-IY",
+      "grapheme": "ey",
+      "phoneme": "IY",
+      "wordCount": 3,
+      "totalFrequency": 7070,
+      "topWords": [
+        "key",
+        "keys",
+        "keyed"
+      ]
+    },
+    {
+      "id": "GPC-nn-N",
+      "grapheme": "nn",
+      "phoneme": "N",
+      "wordCount": 40,
+      "totalFrequency": 6905,
+      "topWords": [
+        "planned",
+        "ann",
+        "anne",
+        "lynn",
+        "inn"
+      ]
+    },
+    {
+      "id": "GPC-ch-K",
+      "grapheme": "ch",
+      "phoneme": "K",
+      "wordCount": 24,
+      "totalFrequency": 6854,
+      "topWords": [
+        "christ",
+        "chi",
+        "psych",
+        "tech",
+        "psyched"
+      ]
+    },
+    {
+      "id": "GPC-ough-AH_F",
+      "grapheme": "ough",
+      "phoneme": "AH_F",
+      "wordCount": 6,
+      "totalFrequency": 6590,
+      "topWords": [
+        "tough",
+        "rough",
+        "slough",
+        "roughed",
+        "hough"
+      ]
+    },
+    {
+      "id": "GPC-gg-G",
+      "grapheme": "gg",
+      "phoneme": "G",
+      "wordCount": 34,
+      "totalFrequency": 6079,
+      "topWords": [
+        "eggs",
+        "egg",
+        "dragged",
+        "begged",
+        "rigged"
+      ]
+    },
+    {
+      "id": "GPC-WORD-eye",
+      "grapheme": "WORD",
+      "phoneme": "eye",
+      "wordCount": 1,
+      "totalFrequency": 5701,
+      "topWords": [
+        "eye"
+      ]
+    },
+    {
+      "id": "GPC-WORD-none",
+      "grapheme": "WORD",
+      "phoneme": "none",
+      "wordCount": 1,
+      "totalFrequency": 5641,
+      "topWords": [
+        "none"
+      ]
+    },
+    {
+      "id": "GPC-oll-OW_L",
+      "grapheme": "oll",
+      "phoneme": "OW_L",
+      "wordCount": 18,
+      "totalFrequency": 5103,
+      "topWords": [
+        "roll",
+        "rolls",
+        "rolled",
+        "stroll",
+        "toll"
+      ]
+    },
+    {
+      "id": "GPC-augh-AE_F",
+      "grapheme": "augh",
+      "phoneme": "AE_F",
+      "wordCount": 5,
+      "totalFrequency": 5018,
+      "topWords": [
+        "laugh",
+        "laughs",
+        "laughed",
+        "draught",
+        "draughts"
+      ]
+    },
+    {
+      "id": "GPC-WORD-eight",
+      "grapheme": "WORD",
+      "phoneme": "eight",
+      "wordCount": 1,
+      "totalFrequency": 5010,
+      "topWords": [
+        "eight"
+      ]
+    },
+    {
+      "id": "GPC-tt-T",
+      "grapheme": "tt",
+      "phoneme": "T",
+      "wordCount": 19,
+      "totalFrequency": 4857,
+      "topWords": [
+        "butt",
+        "matt",
+        "butts",
+        "brett",
+        "mutt"
+      ]
+    },
+    {
+      "id": "GPC-ou-OW",
+      "grapheme": "ou",
+      "phoneme": "OW",
+      "wordCount": 4,
+      "totalFrequency": 4726,
+      "topWords": [
+        "soul",
+        "souls",
+        "mould",
+        "moulds"
+      ]
+    },
+    {
+      "id": "GPC-bt-T",
+      "grapheme": "bt",
+      "phoneme": "T",
+      "wordCount": 4,
+      "totalFrequency": 4573,
+      "topWords": [
+        "doubt",
+        "debt",
+        "doubts",
+        "debts"
+      ]
+    },
+    {
+      "id": "GPC-oar-AO_R",
+      "grapheme": "oar",
+      "phoneme": "AO_R",
+      "wordCount": 15,
+      "totalFrequency": 4251,
+      "topWords": [
+        "board",
+        "boards",
+        "roar",
+        "boar",
+        "roars"
+      ]
+    },
+    {
+      "id": "GPC-dd-D",
+      "grapheme": "dd",
+      "phoneme": "D",
+      "wordCount": 9,
+      "totalFrequency": 4245,
+      "topWords": [
+        "add",
+        "odd",
+        "odds",
+        "adds",
+        "mudd"
+      ]
+    },
+    {
+      "id": "GPC-eigh-EY",
+      "grapheme": "eigh",
+      "phoneme": "EY",
+      "wordCount": 11,
+      "totalFrequency": 3472,
+      "topWords": [
+        "weight",
+        "weigh",
+        "eighth",
+        "freight",
+        "weighs"
+      ]
+    },
+    {
+      "id": "GPC-alt-AO_L_T",
+      "grapheme": "alt",
+      "phoneme": "AO_L_T",
+      "wordCount": 9,
+      "totalFrequency": 2965,
+      "topWords": [
+        "salt",
+        "walt",
+        "halt",
+        "waltz",
+        "malt"
+      ]
+    },
+    {
+      "id": "GPC-au-AE",
+      "grapheme": "au",
+      "phoneme": "AE",
+      "wordCount": 2,
+      "totalFrequency": 2894,
+      "topWords": [
+        "aunt",
+        "aunts"
+      ]
+    },
+    {
+      "id": "GPC-ure-Y_UH_R",
+      "grapheme": "ure",
+      "phoneme": "Y_UH_R",
+      "wordCount": 4,
+      "totalFrequency": 2708,
+      "topWords": [
+        "pure",
+        "cure",
+        "cured",
+        "cures"
+      ]
+    },
+    {
+      "id": "GPC-bb-B",
+      "grapheme": "bb",
+      "phoneme": "B",
+      "wordCount": 25,
+      "totalFrequency": 2508,
+      "topWords": [
+        "robbed",
+        "grabbed",
+        "stabbed",
+        "cobb",
+        "rubbed"
+      ]
+    },
+    {
+      "id": "GPC-i-IY-final",
+      "grapheme": "i",
+      "phoneme": "IY-final",
+      "wordCount": 13,
+      "totalFrequency": 2384,
+      "topWords": [
+        "li",
+        "ski",
+        "si",
+        "mi",
+        "di"
+      ]
+    },
+    {
+      "id": "GPC-augh-AO",
+      "grapheme": "augh",
+      "phoneme": "AO",
+      "wordCount": 5,
+      "totalFrequency": 2321,
+      "topWords": [
+        "taught",
+        "fraught",
+        "naught",
+        "aught",
+        "waugh"
+      ]
+    },
+    {
+      "id": "GPC-ie-IH",
+      "grapheme": "ie",
+      "phoneme": "IH",
+      "wordCount": 6,
+      "totalFrequency": 2085,
+      "topWords": [
+        "pierce",
+        "pier",
+        "fierce",
+        "pierced",
+        "sieve"
+      ]
+    },
+    {
+      "id": "GPC-zz-Z",
+      "grapheme": "zz",
+      "phoneme": "Z",
+      "wordCount": 9,
+      "totalFrequency": 1646,
+      "topWords": [
+        "buzz",
+        "jazz",
+        "fuzz",
+        "buzzed",
+        "jazzed"
+      ]
+    },
+    {
+      "id": "GPC-mm-M",
+      "grapheme": "mm",
+      "phoneme": "M",
+      "wordCount": 22,
+      "totalFrequency": 1561,
+      "topWords": [
+        "jammed",
+        "umm",
+        "slammed",
+        "comm",
+        "bummed"
+      ]
+    },
+    {
+      "id": "GPC-ch-SH",
+      "grapheme": "ch",
+      "phoneme": "SH",
+      "wordCount": 11,
+      "totalFrequency": 1404,
+      "topWords": [
+        "chef",
+        "chute",
+        "cher",
+        "douche",
+        "chic"
+      ]
+    },
+    {
+      "id": "GPC-q-K",
+      "grapheme": "q",
+      "phoneme": "K",
+      "wordCount": 29,
+      "totalFrequency": 1379,
+      "topWords": [
+        "cheque",
+        "que",
+        "qu",
+        "plaque",
+        "cheques"
+      ]
+    },
+    {
+      "id": "GPC-ei-EY",
+      "grapheme": "ei",
+      "phoneme": "EY",
+      "wordCount": 22,
+      "totalFrequency": 1205,
+      "topWords": [
+        "veins",
+        "vein",
+        "reign",
+        "veil",
+        "reins"
+      ]
+    },
+    {
+      "id": "GPC-ei-IY",
+      "grapheme": "ei",
+      "phoneme": "IY",
+      "wordCount": 9,
+      "totalFrequency": 1014,
+      "topWords": [
+        "bein",
+        "seize",
+        "seized",
+        "mein",
+        "sheik"
+      ]
+    },
+    {
+      "id": "GPC-eigh-AY",
+      "grapheme": "eigh",
+      "phoneme": "AY",
+      "wordCount": 3,
+      "totalFrequency": 877,
+      "topWords": [
+        "height",
+        "heights",
+        "sleight"
+      ]
+    },
+    {
+      "id": "GPC-ue-Y_UW",
+      "grapheme": "ue",
+      "phoneme": "Y_UW",
+      "wordCount": 9,
+      "totalFrequency": 857,
+      "topWords": [
+        "cue",
+        "que",
+        "hue",
+        "queue",
+        "cues"
+      ]
+    },
+    {
+      "id": "GPC-sch-SH",
+      "grapheme": "sch",
+      "phoneme": "SH",
+      "wordCount": 22,
+      "totalFrequency": 706,
+      "topWords": [
+        "schmuck",
+        "schultz",
+        "schnapps",
+        "borscht",
+        "kirsch"
+      ]
+    },
+    {
+      "id": "GPC-rr-R",
+      "grapheme": "rr",
+      "phoneme": "R",
+      "wordCount": 5,
+      "totalFrequency": 655,
+      "topWords": [
+        "herr",
+        "err",
+        "guerre",
+        "erred",
+        "errs"
+      ]
+    },
+    {
+      "id": "GPC-ei-AY",
+      "grapheme": "ei",
+      "phoneme": "AY",
+      "wordCount": 6,
+      "totalFrequency": 618,
+      "topWords": [
+        "heist",
+        "heil",
+        "stein",
+        "reich",
+        "geist"
+      ]
+    },
+    {
+      "id": "GPC-rh-R-initial",
+      "grapheme": "rh",
+      "phoneme": "R-initial",
+      "wordCount": 6,
+      "totalFrequency": 604,
+      "topWords": [
+        "rhyme",
+        "rhodes",
+        "rhymes",
+        "rhine",
+        "rhymed"
+      ]
+    },
+    {
+      "id": "GPC-oor-UH_R",
+      "grapheme": "oor",
+      "phoneme": "UH_R",
+      "wordCount": 7,
+      "totalFrequency": 577,
+      "topWords": [
+        "moore",
+        "moor",
+        "moors",
+        "moored",
+        "spoor"
+      ]
+    },
+    {
+      "id": "GPC-ps-S-initial",
+      "grapheme": "ps",
+      "phoneme": "S-initial",
+      "wordCount": 5,
+      "totalFrequency": 549,
+      "topWords": [
+        "psych",
+        "psyched",
+        "psalm",
+        "psi",
+        "psalms"
+      ]
+    },
+    {
+      "id": "GPC-eu-UW",
+      "grapheme": "eu",
+      "phoneme": "UW",
+      "wordCount": 6,
+      "totalFrequency": 544,
+      "topWords": [
+        "zeus",
+        "deuce",
+        "deux",
+        "bleu",
+        "sleuth"
+      ]
+    },
+    {
+      "id": "GPC-ew-OW",
+      "grapheme": "ew",
+      "phoneme": "OW",
+      "wordCount": 3,
+      "totalFrequency": 433,
+      "topWords": [
+        "sew",
+        "sewed",
+        "sewn"
+      ]
+    },
+    {
+      "id": "GPC-ure-UH_R",
+      "grapheme": "ure",
+      "phoneme": "UH_R",
+      "wordCount": 3,
+      "totalFrequency": 314,
+      "topWords": [
+        "lure",
+        "lured",
+        "lures"
+      ]
+    },
+    {
+      "id": "GPC-eu-Y_UW",
+      "grapheme": "eu",
+      "phoneme": "Y_UW",
+      "wordCount": 5,
+      "totalFrequency": 270,
+      "topWords": [
+        "cheung",
+        "feud",
+        "feuds",
+        "meuse",
+        "veuve"
+      ]
+    },
+    {
+      "id": "GPC-a-AH",
+      "grapheme": "a",
+      "phoneme": "AH",
+      "wordCount": 4,
+      "totalFrequency": 234,
+      "topWords": [
+        "whats",
+        "twas",
+        "dah",
+        "maam"
+      ]
+    },
+    {
+      "id": "GPC-gn-N-initial",
+      "grapheme": "gn",
+      "phoneme": "N-initial",
+      "wordCount": 10,
+      "totalFrequency": 181,
+      "topWords": [
+        "gnu",
+        "gnome",
+        "gnat",
+        "gnomes",
+        "gnaw"
+      ]
+    },
+    {
+      "id": "GPC-a-AH-final",
+      "grapheme": "a",
+      "phoneme": "AH-final",
+      "wordCount": 2,
+      "totalFrequency": 128,
+      "topWords": [
+        "ca",
+        "sta"
+      ]
+    },
+    {
+      "id": "GPC-ire-AY_R",
+      "grapheme": "ire",
+      "phoneme": "AY_R",
+      "wordCount": 3,
+      "totalFrequency": 38,
+      "topWords": [
+        "spires",
+        "mired",
+        "shires"
+      ]
+    },
+    {
+      "id": "GPC-x-Z",
+      "grapheme": "x",
+      "phoneme": "Z",
+      "wordCount": 1,
+      "totalFrequency": 15,
+      "topWords": [
+        "xu"
+      ]
+    },
+    {
+      "id": "GPC-ng-N_G",
+      "grapheme": "ng",
+      "phoneme": "N_G",
+      "wordCount": 1,
+      "totalFrequency": 4,
+      "topWords": [
+        "dengue"
+      ]
+    },
+    {
+      "id": "GPC-our-AW_R",
+      "grapheme": "our",
+      "phoneme": "AW_R",
+      "wordCount": 1,
+      "totalFrequency": 4,
+      "topWords": [
+        "lour"
+      ]
+    }
+  ],
+  "fullCorpusUsage": [
+    {
+      "id": "GPC-t-T",
+      "grapheme": "t",
+      "phoneme": "T",
+      "wordCount": 14404,
+      "totalFrequency": 8699058,
+      "topWords": [
+        "it",
+        "that",
+        "not",
+        "just",
+        "get"
+      ]
+    },
+    {
+      "id": "GPC-i-IH",
+      "grapheme": "i",
+      "phoneme": "IH",
+      "wordCount": 12266,
+      "totalFrequency": 6678244,
+      "topWords": [
+        "it",
+        "in",
+        "is",
+        "this",
+        "with"
+      ]
+    },
+    {
+      "id": "GPC-n-N",
+      "grapheme": "n",
+      "phoneme": "N",
+      "wordCount": 10306,
+      "totalFrequency": 6139557,
+      "topWords": [
+        "and",
+        "in",
+        "on",
+        "no",
+        "not"
+      ]
+    },
+    {
+      "id": "GPC-s-S",
+      "grapheme": "s",
+      "phoneme": "S",
+      "wordCount": 11135,
+      "totalFrequency": 4605772,
+      "topWords": [
+        "this",
+        "just",
+        "so",
+        "see",
+        "yes"
+      ]
+    },
+    {
+      "id": "GPC-a-AE",
+      "grapheme": "a",
+      "phoneme": "AE",
+      "wordCount": 6798,
+      "totalFrequency": 4094656,
+      "topWords": [
+        "that",
+        "and",
+        "can",
+        "at",
+        "as"
+      ]
+    },
+    {
+      "id": "GPC-d-D",
+      "grapheme": "d",
+      "phoneme": "D",
+      "wordCount": 9045,
+      "totalFrequency": 4015024,
+      "topWords": [
+        "and",
+        "good",
+        "did",
+        "had",
+        "down"
+      ]
+    },
+    {
+      "id": "GPC-m-M",
+      "grapheme": "m",
+      "phoneme": "M",
+      "wordCount": 6864,
+      "totalFrequency": 3357906,
+      "topWords": [
+        "me",
+        "him",
+        "time",
+        "man",
+        "them"
+      ]
+    },
+    {
+      "id": "GPC-l-L",
+      "grapheme": "l",
+      "phoneme": "L",
+      "wordCount": 9424,
+      "totalFrequency": 3160903,
+      "topWords": [
+        "like",
+        "let",
+        "look",
+        "little",
+        "people"
+      ]
+    },
+    {
+      "id": "GPC-e-EH",
+      "grapheme": "e",
+      "phoneme": "EH",
+      "wordCount": 6430,
+      "totalFrequency": 2939289,
+      "topWords": [
+        "get",
+        "well",
+        "let",
+        "when",
+        "yes"
+      ]
+    },
+    {
+      "id": "GPC-r-R",
+      "grapheme": "r",
+      "phoneme": "R",
+      "wordCount": 9884,
+      "totalFrequency": 2837776,
+      "topWords": [
+        "here",
+        "right",
+        "really",
+        "very",
+        "great"
+      ]
+    },
+    {
+      "id": "GPC-e-silent-split",
+      "grapheme": "e",
+      "phoneme": "silent-split",
+      "wordCount": 3442,
+      "totalFrequency": 2769607,
+      "topWords": [
+        "here",
+        "like",
+        "time",
+        "take",
+        "make"
+      ]
+    },
+    {
+      "id": "GPC-b-B",
+      "grapheme": "b",
+      "phoneme": "B",
+      "wordCount": 5402,
+      "totalFrequency": 2432301,
+      "topWords": [
+        "be",
+        "but",
+        "about",
+        "back",
+        "by"
+      ]
+    },
+    {
+      "id": "GPC-h-HH",
+      "grapheme": "h",
+      "phoneme": "HH",
+      "wordCount": 2176,
+      "totalFrequency": 2403996,
+      "topWords": [
+        "he",
+        "here",
+        "him",
+        "how",
+        "her"
+      ]
+    },
+    {
+      "id": "GPC-p-P",
+      "grapheme": "p",
+      "phoneme": "P",
+      "wordCount": 7691,
+      "totalFrequency": 2143830,
+      "topWords": [
+        "up",
+        "people",
+        "please",
+        "help",
+        "put"
+      ]
+    },
+    {
+      "id": "GPC-WORD-you",
+      "grapheme": "WORD",
+      "phoneme": "you",
+      "wordCount": 1,
+      "totalFrequency": 2134713,
+      "topWords": [
+        "you"
+      ]
+    },
+    {
+      "id": "GPC-s-Z",
+      "grapheme": "s",
+      "phoneme": "Z",
+      "wordCount": 6802,
+      "totalFrequency": 2121188,
+      "topWords": [
+        "is",
+        "as",
+        "his",
+        "has",
+        "please"
+      ]
+    },
+    {
+      "id": "GPC-w-W",
+      "grapheme": "w",
+      "phoneme": "W",
+      "wordCount": 1682,
+      "totalFrequency": 2062077,
+      "topWords": [
+        "we",
+        "with",
+        "well",
+        "want",
+        "will"
+      ]
+    },
+    {
+      "id": "GPC-f-F",
+      "grapheme": "f",
+      "phoneme": "F",
+      "wordCount": 3783,
+      "totalFrequency": 1858077,
+      "topWords": [
+        "for",
+        "if",
+        "first",
+        "find",
+        "life"
+      ]
+    },
+    {
+      "id": "GPC-c-K",
+      "grapheme": "c",
+      "phoneme": "K",
+      "wordCount": 7123,
+      "totalFrequency": 1849403,
+      "topWords": [
+        "can",
+        "because",
+        "call",
+        "coming",
+        "course"
+      ]
+    },
+    {
+      "id": "GPC-o-AA",
+      "grapheme": "o",
+      "phoneme": "AA",
+      "wordCount": 3340,
+      "totalFrequency": 1829005,
+      "topWords": [
+        "on",
+        "not",
+        "got",
+        "gonna",
+        "sorry"
+      ]
+    },
+    {
+      "id": "GPC-e-IY-final",
+      "grapheme": "e",
+      "phoneme": "IY-final",
+      "wordCount": 84,
+      "totalFrequency": 1815710,
+      "topWords": [
+        "me",
+        "we",
+        "he",
+        "be",
+        "she"
+      ]
+    },
+    {
+      "id": "GPC-g-G",
+      "grapheme": "g",
+      "phoneme": "G",
+      "wordCount": 2521,
+      "totalFrequency": 1718906,
+      "topWords": [
+        "get",
+        "go",
+        "got",
+        "good",
+        "going"
+      ]
+    },
+    {
+      "id": "GPC-u-AH",
+      "grapheme": "u",
+      "phoneme": "AH",
+      "wordCount": 4008,
+      "totalFrequency": 1672876,
+      "topWords": [
+        "just",
+        "but",
+        "up",
+        "us",
+        "much"
+      ]
+    },
+    {
+      "id": "GPC-th-DH",
+      "grapheme": "th",
+      "phoneme": "DH",
+      "wordCount": 247,
+      "totalFrequency": 1623427,
+      "topWords": [
+        "that",
+        "this",
+        "them",
+        "then",
+        "these"
+      ]
+    },
+    {
+      "id": "GPC-WORD-the",
+      "grapheme": "WORD",
+      "phoneme": "the",
+      "wordCount": 1,
+      "totalFrequency": 1501908,
+      "topWords": [
+        "the"
+      ]
+    },
+    {
+      "id": "GPC-er-ER",
+      "grapheme": "er",
+      "phoneme": "ER",
+      "wordCount": 5441,
+      "totalFrequency": 1467924,
+      "topWords": [
+        "her",
+        "never",
+        "over",
+        "better",
+        "ever"
+      ]
+    },
+    {
+      "id": "GPC-ng-NG",
+      "grapheme": "ng",
+      "phoneme": "NG",
+      "wordCount": 4039,
+      "totalFrequency": 1394138,
+      "topWords": [
+        "going",
+        "thing",
+        "doing",
+        "anything",
+        "nothing"
+      ]
+    },
+    {
+      "id": "GPC-k-K",
+      "grapheme": "k",
+      "phoneme": "K",
+      "wordCount": 1789,
+      "totalFrequency": 1356803,
+      "topWords": [
+        "like",
+        "okay",
+        "look",
+        "take",
+        "make"
+      ]
+    },
+    {
+      "id": "GPC-WORD-to",
+      "grapheme": "WORD",
+      "phoneme": "to",
+      "wordCount": 1,
+      "totalFrequency": 1156570,
+      "topWords": [
+        "to"
+      ]
+    },
+    {
+      "id": "GPC-v-V",
+      "grapheme": "v",
+      "phoneme": "V",
+      "wordCount": 3446,
+      "totalFrequency": 1114566,
+      "topWords": [
+        "never",
+        "over",
+        "very",
+        "even",
+        "ever"
+      ]
+    },
+    {
+      "id": "GPC-th-TH",
+      "grapheme": "th",
+      "phoneme": "TH",
+      "wordCount": 914,
+      "totalFrequency": 1002956,
+      "topWords": [
+        "with",
+        "think",
+        "thank",
+        "thing",
+        "anything"
+      ]
+    },
+    {
+      "id": "GPC-y-IY-final",
+      "grapheme": "y",
+      "phoneme": "IY-final",
+      "wordCount": 2504,
+      "totalFrequency": 915501,
+      "topWords": [
+        "very",
+        "sorry",
+        "every",
+        "baby",
+        "pretty"
+      ]
+    },
+    {
+      "id": "GPC-e-IH",
+      "grapheme": "e",
+      "phoneme": "IH",
+      "wordCount": 3670,
+      "totalFrequency": 899806,
+      "topWords": [
+        "really",
+        "because",
+        "even",
+        "before",
+        "believe"
+      ]
+    },
+    {
+      "id": "GPC-o-OW-final",
+      "grapheme": "o",
+      "phoneme": "OW-final",
+      "wordCount": 457,
+      "totalFrequency": 814373,
+      "topWords": [
+        "no",
+        "so",
+        "go",
+        "ago",
+        "also"
+      ]
+    },
+    {
+      "id": "GPC-a-AH",
+      "grapheme": "a",
+      "phoneme": "AH",
+      "wordCount": 3060,
+      "totalFrequency": 761299,
+      "topWords": [
+        "about",
+        "again",
+        "away",
+        "ago",
+        "probably"
+      ]
+    },
+    {
+      "id": "GPC-i_e-AY",
+      "grapheme": "i_e",
+      "phoneme": "AY",
+      "wordCount": 645,
+      "totalFrequency": 718209,
+      "topWords": [
+        "like",
+        "time",
+        "life",
+        "nice",
+        "fine"
+      ]
+    },
+    {
+      "id": "GPC-or-AO_R",
+      "grapheme": "or",
+      "phoneme": "AO_R",
+      "wordCount": 1362,
+      "totalFrequency": 710023,
+      "topWords": [
+        "for",
+        "or",
+        "morning",
+        "story",
+        "important"
+      ]
+    },
+    {
+      "id": "GPC-ll-L",
+      "grapheme": "ll",
+      "phoneme": "L",
+      "wordCount": 1124,
+      "totalFrequency": 709281,
+      "topWords": [
+        "well",
+        "will",
+        "tell",
+        "still",
+        "hell"
+      ]
+    },
+    {
+      "id": "GPC-ou-AW",
+      "grapheme": "ou",
+      "phoneme": "AW",
+      "wordCount": 765,
+      "totalFrequency": 686876,
+      "topWords": [
+        "out",
+        "about",
+        "our",
+        "around",
+        "house"
+      ]
+    },
+    {
+      "id": "GPC-a_e-EY",
+      "grapheme": "a_e",
+      "phoneme": "EY",
+      "wordCount": 700,
+      "totalFrequency": 659317,
+      "topWords": [
+        "take",
+        "make",
+        "maybe",
+        "name",
+        "place"
+      ]
+    },
+    {
+      "id": "GPC-ee-IY",
+      "grapheme": "ee",
+      "phoneme": "IY",
+      "wordCount": 818,
+      "totalFrequency": 606634,
+      "topWords": [
+        "see",
+        "need",
+        "keep",
+        "feel",
+        "three"
+      ]
+    },
+    {
+      "id": "GPC-ay-EY",
+      "grapheme": "ay",
+      "phoneme": "EY",
+      "wordCount": 395,
+      "totalFrequency": 603526,
+      "topWords": [
+        "okay",
+        "say",
+        "way",
+        "day",
+        "away"
+      ]
+    },
+    {
+      "id": "GPC-WORD-of",
+      "grapheme": "WORD",
+      "phoneme": "of",
+      "wordCount": 1,
+      "totalFrequency": 590439,
+      "topWords": [
+        "of"
+      ]
+    },
+    {
+      "id": "GPC-ea-IY",
+      "grapheme": "ea",
+      "phoneme": "IY",
+      "wordCount": 1056,
+      "totalFrequency": 557088,
+      "topWords": [
+        "mean",
+        "please",
+        "leave",
+        "hear",
+        "real"
+      ]
+    },
+    {
+      "id": "GPC-on-AH_N",
+      "grapheme": "on",
+      "phoneme": "AH_N",
+      "wordCount": 2675,
+      "totalFrequency": 542539,
+      "topWords": [
+        "money",
+        "someone",
+        "tonight",
+        "honey",
+        "second"
+      ]
+    },
+    {
+      "id": "GPC-sh-SH",
+      "grapheme": "sh",
+      "phoneme": "SH",
+      "wordCount": 1276,
+      "totalFrequency": 506013,
+      "topWords": [
+        "she",
+        "show",
+        "shit",
+        "shut",
+        "wish"
+      ]
+    },
+    {
+      "id": "GPC-WORD-what",
+      "grapheme": "WORD",
+      "phoneme": "what",
+      "wordCount": 1,
+      "totalFrequency": 501965,
+      "topWords": [
+        "what"
+      ]
+    },
+    {
+      "id": "GPC-c-S-soft",
+      "grapheme": "c",
+      "phoneme": "S-soft",
+      "wordCount": 1982,
+      "totalFrequency": 498744,
+      "topWords": [
+        "nice",
+        "place",
+        "since",
+        "face",
+        "chance"
+      ]
+    },
+    {
+      "id": "GPC-ow-OW",
+      "grapheme": "ow",
+      "phoneme": "OW",
+      "wordCount": 350,
+      "totalFrequency": 477126,
+      "topWords": [
+        "know",
+        "show",
+        "own",
+        "tomorrow",
+        "knows"
+      ]
+    },
+    {
+      "id": "GPC-ow-AW",
+      "grapheme": "ow",
+      "phoneme": "AW",
+      "wordCount": 297,
+      "totalFrequency": 470866,
+      "topWords": [
+        "now",
+        "how",
+        "down",
+        "town",
+        "wow"
+      ]
+    },
+    {
+      "id": "GPC-j-JH",
+      "grapheme": "j",
+      "phoneme": "JH",
+      "wordCount": 653,
+      "totalFrequency": 466347,
+      "topWords": [
+        "just",
+        "job",
+        "jack",
+        "john",
+        "jesus"
+      ]
+    },
+    {
+      "id": "GPC-o-AH",
+      "grapheme": "o",
+      "phoneme": "AH",
+      "wordCount": 1661,
+      "totalFrequency": 423722,
+      "topWords": [
+        "nothing",
+        "another",
+        "mother",
+        "today",
+        "together"
+      ]
+    },
+    {
+      "id": "GPC-y-Y",
+      "grapheme": "y",
+      "phoneme": "Y",
+      "wordCount": 203,
+      "totalFrequency": 414172,
+      "topWords": [
+        "yeah",
+        "yes",
+        "years",
+        "yourself",
+        "yet"
+      ]
+    },
+    {
+      "id": "GPC-a-AA",
+      "grapheme": "a",
+      "phoneme": "AA",
+      "wordCount": 825,
+      "totalFrequency": 388995,
+      "topWords": [
+        "want",
+        "father",
+        "wanna",
+        "watch",
+        "cause"
+      ]
+    },
+    {
+      "id": "GPC-ck-K",
+      "grapheme": "ck",
+      "phoneme": "K",
+      "wordCount": 1092,
+      "totalFrequency": 386563,
+      "topWords": [
+        "back",
+        "check",
+        "jack",
+        "pick",
+        "black"
+      ]
+    },
+    {
+      "id": "GPC-ch-CH",
+      "grapheme": "ch",
+      "phoneme": "CH",
+      "wordCount": 966,
+      "totalFrequency": 383632,
+      "topWords": [
+        "much",
+        "which",
+        "such",
+        "check",
+        "each"
+      ]
+    },
+    {
+      "id": "GPC-igh-AY",
+      "grapheme": "igh",
+      "phoneme": "AY",
+      "wordCount": 241,
+      "totalFrequency": 381393,
+      "topWords": [
+        "right",
+        "night",
+        "might",
+        "tonight",
+        "fight"
+      ]
+    },
+    {
+      "id": "GPC-all-AO_L",
+      "grapheme": "all",
+      "phoneme": "AO_L",
+      "wordCount": 152,
+      "totalFrequency": 379373,
+      "topWords": [
+        "all",
+        "call",
+        "called",
+        "small",
+        "calling"
+      ]
+    },
+    {
+      "id": "GPC-ar-AA_R",
+      "grapheme": "ar",
+      "phoneme": "AA_R",
+      "wordCount": 1352,
+      "totalFrequency": 364868,
+      "topWords": [
+        "car",
+        "start",
+        "hard",
+        "part",
+        "aren"
+      ]
+    },
+    {
+      "id": "GPC-en-AH_N",
+      "grapheme": "en",
+      "phoneme": "AH_N",
+      "wordCount": 1238,
+      "totalFrequency": 360330,
+      "topWords": [
+        "happened",
+        "haven",
+        "open",
+        "happen",
+        "aren"
+      ]
+    },
+    {
+      "id": "GPC-oo-UH",
+      "grapheme": "oo",
+      "phoneme": "UH",
+      "wordCount": 287,
+      "totalFrequency": 354156,
+      "topWords": [
+        "good",
+        "look",
+        "looking",
+        "took",
+        "looks"
+      ]
+    },
+    {
+      "id": "GPC-kn-N-initial",
+      "grapheme": "kn",
+      "phoneme": "N-initial",
+      "wordCount": 67,
+      "totalFrequency": 347744,
+      "topWords": [
+        "know",
+        "knew",
+        "knows",
+        "known",
+        "knock"
+      ]
+    },
+    {
+      "id": "GPC-WORD-my",
+      "grapheme": "WORD",
+      "phoneme": "my",
+      "wordCount": 1,
+      "totalFrequency": 344899,
+      "topWords": [
+        "my"
+      ]
+    },
+    {
+      "id": "GPC-WORD-your",
+      "grapheme": "WORD",
+      "phoneme": "your",
+      "wordCount": 1,
+      "totalFrequency": 328715,
+      "topWords": [
+        "your"
+      ]
+    },
+    {
+      "id": "GPC-or-ER",
+      "grapheme": "or",
+      "phoneme": "ER",
+      "wordCount": 1063,
+      "totalFrequency": 324387,
+      "topWords": [
+        "work",
+        "world",
+        "worry",
+        "forget",
+        "doctor"
+      ]
+    },
+    {
+      "id": "GPC-tt-T",
+      "grapheme": "tt",
+      "phoneme": "T",
+      "wordCount": 703,
+      "totalFrequency": 320971,
+      "topWords": [
+        "little",
+        "better",
+        "gotta",
+        "getting",
+        "pretty"
+      ]
+    },
+    {
+      "id": "GPC-wh-W",
+      "grapheme": "wh",
+      "phoneme": "W",
+      "wordCount": 173,
+      "totalFrequency": 320925,
+      "topWords": [
+        "why",
+        "when",
+        "which",
+        "while",
+        "whatever"
+      ]
+    },
+    {
+      "id": "GPC-nk-NG_K",
+      "grapheme": "nk",
+      "phoneme": "NG_K",
+      "wordCount": 337,
+      "totalFrequency": 317774,
+      "topWords": [
+        "think",
+        "thank",
+        "thanks",
+        "thinking",
+        "drink"
+      ]
+    },
+    {
+      "id": "GPC-WORD-have",
+      "grapheme": "WORD",
+      "phoneme": "have",
+      "wordCount": 1,
+      "totalFrequency": 314232,
+      "topWords": [
+        "have"
+      ]
+    },
+    {
+      "id": "GPC-WORD-do",
+      "grapheme": "WORD",
+      "phoneme": "do",
+      "wordCount": 1,
+      "totalFrequency": 312915,
+      "topWords": [
+        "do"
+      ]
+    },
+    {
+      "id": "GPC-e_e-IY",
+      "grapheme": "e_e",
+      "phoneme": "IY",
+      "wordCount": 98,
+      "totalFrequency": 300402,
+      "topWords": [
+        "here",
+        "these",
+        "scene",
+        "steve",
+        "complete"
+      ]
+    },
+    {
+      "id": "GPC-ss-S",
+      "grapheme": "ss",
+      "phoneme": "S",
+      "wordCount": 1153,
+      "totalFrequency": 289878,
+      "topWords": [
+        "miss",
+        "guess",
+        "ass",
+        "boss",
+        "kiss"
+      ]
+    },
+    {
+      "id": "GPC-om-AH_M",
+      "grapheme": "om",
+      "phoneme": "AH_M",
+      "wordCount": 523,
+      "totalFrequency": 288404,
+      "topWords": [
+        "something",
+        "coming",
+        "someone",
+        "somebody",
+        "tomorrow"
+      ]
+    },
+    {
+      "id": "GPC-WORD-was",
+      "grapheme": "WORD",
+      "phoneme": "was",
+      "wordCount": 1,
+      "totalFrequency": 288391,
+      "topWords": [
+        "was"
+      ]
+    },
+    {
+      "id": "GPC-y-AY-final",
+      "grapheme": "y",
+      "phoneme": "AY-final",
+      "wordCount": 94,
+      "totalFrequency": 273647,
+      "topWords": [
+        "why",
+        "by",
+        "guy",
+        "try",
+        "fly"
+      ]
+    },
+    {
+      "id": "GPC-WORD-are",
+      "grapheme": "WORD",
+      "phoneme": "are",
+      "wordCount": 1,
+      "totalFrequency": 265672,
+      "topWords": [
+        "are"
+      ]
+    },
+    {
+      "id": "GPC-o-AO",
+      "grapheme": "o",
+      "phoneme": "AO",
+      "wordCount": 543,
+      "totalFrequency": 258023,
+      "topWords": [
+        "off",
+        "long",
+        "wrong",
+        "gone",
+        "lost"
+      ]
+    },
+    {
+      "id": "GPC-a-AH-final",
+      "grapheme": "a",
+      "phoneme": "AH-final",
+      "wordCount": 797,
+      "totalFrequency": 257847,
+      "topWords": [
+        "gonna",
+        "gotta",
+        "wanna",
+        "mama",
+        "america"
+      ]
+    },
+    {
+      "id": "GPC-oo-UW",
+      "grapheme": "oo",
+      "phoneme": "UW",
+      "wordCount": 617,
+      "totalFrequency": 249785,
+      "topWords": [
+        "too",
+        "room",
+        "school",
+        "soon",
+        "cool"
+      ]
+    },
+    {
+      "id": "GPC-o_e-OW",
+      "grapheme": "o_e",
+      "phoneme": "OW",
+      "wordCount": 330,
+      "totalFrequency": 227328,
+      "topWords": [
+        "home",
+        "those",
+        "hope",
+        "alone",
+        "phone"
+      ]
+    },
+    {
+      "id": "GPC-WORD-there",
+      "grapheme": "WORD",
+      "phoneme": "there",
+      "wordCount": 1,
+      "totalFrequency": 221754,
+      "topWords": [
+        "there"
+      ]
+    },
+    {
+      "id": "GPC-le-AH_L",
+      "grapheme": "le",
+      "phoneme": "AH_L",
+      "wordCount": 641,
+      "totalFrequency": 221481,
+      "topWords": [
+        "little",
+        "trouble",
+        "couple",
+        "able",
+        "uncle"
+      ]
+    },
+    {
+      "id": "GPC-nn-N",
+      "grapheme": "nn",
+      "phoneme": "N",
+      "wordCount": 345,
+      "totalFrequency": 220993,
+      "topWords": [
+        "gonna",
+        "wanna",
+        "funny",
+        "dinner",
+        "running"
+      ]
+    },
+    {
+      "id": "GPC-al-AH_L",
+      "grapheme": "al",
+      "phoneme": "AH_L",
+      "wordCount": 1432,
+      "totalFrequency": 219219,
+      "topWords": [
+        "alone",
+        "along",
+        "alive",
+        "special",
+        "hospital"
+      ]
+    },
+    {
+      "id": "GPC-WORD-they",
+      "grapheme": "WORD",
+      "phoneme": "they",
+      "wordCount": 1,
+      "totalFrequency": 209250,
+      "topWords": [
+        "they"
+      ]
+    },
+    {
+      "id": "GPC-ai-EY",
+      "grapheme": "ai",
+      "phoneme": "EY",
+      "wordCount": 676,
+      "totalFrequency": 203614,
+      "topWords": [
+        "wait",
+        "afraid",
+        "waiting",
+        "straight",
+        "explain"
+      ]
+    },
+    {
+      "id": "GPC-an-AH_N",
+      "grapheme": "an",
+      "phoneme": "AH_N",
+      "wordCount": 1149,
+      "totalFrequency": 195093,
+      "topWords": [
+        "another",
+        "woman",
+        "important",
+        "husband",
+        "company"
+      ]
+    },
+    {
+      "id": "GPC-g-JH-soft",
+      "grapheme": "g",
+      "phoneme": "JH-soft",
+      "wordCount": 1143,
+      "totalFrequency": 194992,
+      "topWords": [
+        "gentlemen",
+        "george",
+        "general",
+        "agent",
+        "message"
+      ]
+    },
+    {
+      "id": "GPC-ea-EH",
+      "grapheme": "ea",
+      "phoneme": "EH",
+      "wordCount": 337,
+      "totalFrequency": 191338,
+      "topWords": [
+        "dead",
+        "ready",
+        "head",
+        "already",
+        "read"
+      ]
+    },
+    {
+      "id": "GPC-ir-ER",
+      "grapheme": "ir",
+      "phoneme": "ER",
+      "wordCount": 328,
+      "totalFrequency": 190706,
+      "topWords": [
+        "sir",
+        "first",
+        "girl",
+        "girls",
+        "birthday"
+      ]
+    },
+    {
+      "id": "GPC-ie-IY",
+      "grapheme": "ie",
+      "phoneme": "IY",
+      "wordCount": 982,
+      "totalFrequency": 183546,
+      "topWords": [
+        "believe",
+        "married",
+        "ladies",
+        "piece",
+        "movie"
+      ]
+    },
+    {
+      "id": "GPC-x-K_S",
+      "grapheme": "x",
+      "phoneme": "K_S",
+      "wordCount": 784,
+      "totalFrequency": 182362,
+      "topWords": [
+        "next",
+        "excuse",
+        "six",
+        "sex",
+        "except"
+      ]
+    },
+    {
+      "id": "GPC-pp-P",
+      "grapheme": "pp",
+      "phoneme": "P",
+      "wordCount": 560,
+      "totalFrequency": 170285,
+      "topWords": [
+        "happened",
+        "happy",
+        "happen",
+        "supposed",
+        "happens"
+      ]
+    },
+    {
+      "id": "GPC-ff-F",
+      "grapheme": "ff",
+      "phoneme": "F",
+      "wordCount": 417,
+      "totalFrequency": 170211,
+      "topWords": [
+        "off",
+        "stuff",
+        "different",
+        "office",
+        "coffee"
+      ]
+    },
+    {
+      "id": "GPC-WORD-oh",
+      "grapheme": "WORD",
+      "phoneme": "oh",
+      "wordCount": 1,
+      "totalFrequency": 167781,
+      "topWords": [
+        "oh"
+      ]
+    },
+    {
+      "id": "GPC-gu-G",
+      "grapheme": "gu",
+      "phoneme": "G",
+      "wordCount": 341,
+      "totalFrequency": 161561,
+      "topWords": [
+        "guy",
+        "guys",
+        "guess",
+        "gun",
+        "figure"
+      ]
+    },
+    {
+      "id": "GPC-WORD-come",
+      "grapheme": "WORD",
+      "phoneme": "come",
+      "wordCount": 1,
+      "totalFrequency": 160190,
+      "topWords": [
+        "come"
+      ]
+    },
+    {
+      "id": "GPC-WORD-one",
+      "grapheme": "WORD",
+      "phoneme": "one",
+      "wordCount": 1,
+      "totalFrequency": 156684,
+      "topWords": [
+        "one"
+      ]
+    },
+    {
+      "id": "GPC-rr-R",
+      "grapheme": "rr",
+      "phoneme": "R",
+      "wordCount": 289,
+      "totalFrequency": 154855,
+      "topWords": [
+        "sorry",
+        "tomorrow",
+        "married",
+        "marry",
+        "terrible"
+      ]
+    },
+    {
+      "id": "GPC-ti-SH",
+      "grapheme": "ti",
+      "phoneme": "SH",
+      "wordCount": 1328,
+      "totalFrequency": 149732,
+      "topWords": [
+        "attention",
+        "information",
+        "station",
+        "position",
+        "relationship"
+      ]
+    },
+    {
+      "id": "GPC-ur-ER",
+      "grapheme": "ur",
+      "phoneme": "ER",
+      "wordCount": 617,
+      "totalFrequency": 149416,
+      "topWords": [
+        "turn",
+        "hurt",
+        "hurry",
+        "murder",
+        "turned"
+      ]
+    },
+    {
+      "id": "GPC-ore-AO_R",
+      "grapheme": "ore",
+      "phoneme": "AO_R",
+      "wordCount": 195,
+      "totalFrequency": 140746,
+      "topWords": [
+        "more",
+        "before",
+        "anymore",
+        "store",
+        "foreign"
+      ]
+    },
+    {
+      "id": "GPC-ind-AY_N_D",
+      "grapheme": "ind",
+      "phoneme": "AY_N_D",
+      "wordCount": 80,
+      "totalFrequency": 125793,
+      "topWords": [
+        "find",
+        "kind",
+        "mind",
+        "behind",
+        "wind"
+      ]
+    },
+    {
+      "id": "GPC-ar-ER",
+      "grapheme": "ar",
+      "phoneme": "ER",
+      "wordCount": 462,
+      "totalFrequency": 118250,
+      "topWords": [
+        "around",
+        "dollars",
+        "richard",
+        "forward",
+        "bastard"
+      ]
+    },
+    {
+      "id": "GPC-old-OW_L_D",
+      "grapheme": "old",
+      "phoneme": "OW_L_D",
+      "wordCount": 109,
+      "totalFrequency": 115440,
+      "topWords": [
+        "told",
+        "old",
+        "hold",
+        "cold",
+        "gold"
+      ]
+    },
+    {
+      "id": "GPC-ou-AH",
+      "grapheme": "ou",
+      "phoneme": "AH",
+      "wordCount": 367,
+      "totalFrequency": 113689,
+      "topWords": [
+        "young",
+        "trouble",
+        "couple",
+        "country",
+        "serious"
+      ]
+    },
+    {
+      "id": "GPC-WORD-who",
+      "grapheme": "WORD",
+      "phoneme": "who",
+      "wordCount": 1,
+      "totalFrequency": 113370,
+      "topWords": [
+        "who"
+      ]
+    },
+    {
+      "id": "GPC-WORD-from",
+      "grapheme": "WORD",
+      "phoneme": "from",
+      "wordCount": 1,
+      "totalFrequency": 103992,
+      "topWords": [
+        "from"
+      ]
+    },
+    {
+      "id": "GPC-u-UH",
+      "grapheme": "u",
+      "phoneme": "UH",
+      "wordCount": 213,
+      "totalFrequency": 100026,
+      "topWords": [
+        "put",
+        "full",
+        "pull",
+        "during",
+        "push"
+      ]
+    },
+    {
+      "id": "GPC-alk-AO_K",
+      "grapheme": "alk",
+      "phoneme": "AO_K",
+      "wordCount": 42,
+      "totalFrequency": 96105,
+      "topWords": [
+        "talk",
+        "talking",
+        "walk",
+        "talked",
+        "walking"
+      ]
+    },
+    {
+      "id": "GPC-ew-UW",
+      "grapheme": "ew",
+      "phoneme": "UW",
+      "wordCount": 166,
+      "totalFrequency": 94000,
+      "topWords": [
+        "new",
+        "knew",
+        "news",
+        "crew",
+        "threw"
+      ]
+    },
+    {
+      "id": "GPC-WORD-where",
+      "grapheme": "WORD",
+      "phoneme": "where",
+      "wordCount": 1,
+      "totalFrequency": 93341,
+      "topWords": [
+        "where"
+      ]
+    },
+    {
+      "id": "GPC-ear-IH_R",
+      "grapheme": "ear",
+      "phoneme": "IH_R",
+      "wordCount": 118,
+      "totalFrequency": 92676,
+      "topWords": [
+        "years",
+        "year",
+        "dear",
+        "clear",
+        "near"
+      ]
+    },
+    {
+      "id": "GPC-ey-EY",
+      "grapheme": "ey",
+      "phoneme": "EY",
+      "wordCount": 46,
+      "totalFrequency": 91211,
+      "topWords": [
+        "hey",
+        "grey",
+        "obey",
+        "trey",
+        "peyton"
+      ]
+    },
+    {
+      "id": "GPC-WORD-would",
+      "grapheme": "WORD",
+      "phoneme": "would",
+      "wordCount": 1,
+      "totalFrequency": 90162,
+      "topWords": [
+        "would"
+      ]
+    },
+    {
+      "id": "GPC-au-AO",
+      "grapheme": "au",
+      "phoneme": "AO",
+      "wordCount": 325,
+      "totalFrequency": 89237,
+      "topWords": [
+        "because",
+        "fault",
+        "paul",
+        "laura",
+        "launch"
+      ]
+    },
+    {
+      "id": "GPC-WORD-been",
+      "grapheme": "WORD",
+      "phoneme": "been",
+      "wordCount": 1,
+      "totalFrequency": 88573,
+      "topWords": [
+        "been"
+      ]
+    },
+    {
+      "id": "GPC-ey-IY",
+      "grapheme": "ey",
+      "phoneme": "IY",
+      "wordCount": 186,
+      "totalFrequency": 88439,
+      "topWords": [
+        "money",
+        "honey",
+        "key",
+        "joey",
+        "keys"
+      ]
+    },
+    {
+      "id": "GPC-WORD-some",
+      "grapheme": "WORD",
+      "phoneme": "some",
+      "wordCount": 1,
+      "totalFrequency": 88089,
+      "topWords": [
+        "some"
+      ]
+    },
+    {
+      "id": "GPC-sc-S",
+      "grapheme": "sc",
+      "phoneme": "S",
+      "wordCount": 755,
+      "totalFrequency": 87023,
+      "topWords": [
+        "scared",
+        "scene",
+        "discuss",
+        "escape",
+        "screaming"
+      ]
+    },
+    {
+      "id": "GPC-mb-M",
+      "grapheme": "mb",
+      "phoneme": "M",
+      "wordCount": 431,
+      "totalFrequency": 85924,
+      "topWords": [
+        "remember",
+        "number",
+        "bomb",
+        "dumb",
+        "numbers"
+      ]
+    },
+    {
+      "id": "GPC-qu-K_W",
+      "grapheme": "qu",
+      "phoneme": "K_W",
+      "wordCount": 461,
+      "totalFrequency": 85040,
+      "topWords": [
+        "quite",
+        "question",
+        "questions",
+        "quiet",
+        "quick"
+      ]
+    },
+    {
+      "id": "GPC-WORD-were",
+      "grapheme": "WORD",
+      "phoneme": "were",
+      "wordCount": 1,
+      "totalFrequency": 84804,
+      "topWords": [
+        "were"
+      ]
+    },
+    {
+      "id": "GPC-WORD-could",
+      "grapheme": "WORD",
+      "phoneme": "could",
+      "wordCount": 1,
+      "totalFrequency": 83109,
+      "topWords": [
+        "could"
+      ]
+    },
+    {
+      "id": "GPC-are-EH_R",
+      "grapheme": "are",
+      "phoneme": "EH_R",
+      "wordCount": 150,
+      "totalFrequency": 81656,
+      "topWords": [
+        "care",
+        "parents",
+        "careful",
+        "area",
+        "share"
+      ]
+    },
+    {
+      "id": "GPC-ie-AY",
+      "grapheme": "ie",
+      "phoneme": "AY",
+      "wordCount": 238,
+      "totalFrequency": 80091,
+      "topWords": [
+        "die",
+        "tried",
+        "died",
+        "lie",
+        "quiet"
+      ]
+    },
+    {
+      "id": "GPC-el-AH_L",
+      "grapheme": "el",
+      "phoneme": "AH_L",
+      "wordCount": 371,
+      "totalFrequency": 79396,
+      "topWords": [
+        "hello",
+        "angel",
+        "level",
+        "travel",
+        "model"
+      ]
+    },
+    {
+      "id": "GPC-z-Z",
+      "grapheme": "z",
+      "phoneme": "Z",
+      "wordCount": 842,
+      "totalFrequency": 73743,
+      "topWords": [
+        "crazy",
+        "amazing",
+        "apologize",
+        "size",
+        "recognize"
+      ]
+    },
+    {
+      "id": "GPC-tu-CH",
+      "grapheme": "tu",
+      "phoneme": "CH",
+      "wordCount": 305,
+      "totalFrequency": 71118,
+      "topWords": [
+        "actually",
+        "picture",
+        "situation",
+        "congratulations",
+        "pictures"
+      ]
+    },
+    {
+      "id": "GPC-tch-CH",
+      "grapheme": "tch",
+      "phoneme": "CH",
+      "wordCount": 209,
+      "totalFrequency": 69283,
+      "topWords": [
+        "watch",
+        "bitch",
+        "catch",
+        "watching",
+        "kitchen"
+      ]
+    },
+    {
+      "id": "GPC-oy-OY",
+      "grapheme": "oy",
+      "phoneme": "OY",
+      "wordCount": 140,
+      "totalFrequency": 68806,
+      "topWords": [
+        "boy",
+        "boys",
+        "enjoy",
+        "boyfriend",
+        "destroy"
+      ]
+    },
+    {
+      "id": "GPC-dd-D",
+      "grapheme": "dd",
+      "phoneme": "D",
+      "wordCount": 251,
+      "totalFrequency": 64831,
+      "topWords": [
+        "daddy",
+        "kidding",
+        "goddamn",
+        "buddy",
+        "wedding"
+      ]
+    },
+    {
+      "id": "GPC-ea-EY",
+      "grapheme": "ea",
+      "phoneme": "EY",
+      "wordCount": 45,
+      "totalFrequency": 63080,
+      "topWords": [
+        "great",
+        "break",
+        "greatest",
+        "breaking",
+        "breaks"
+      ]
+    },
+    {
+      "id": "GPC-in-AH_N",
+      "grapheme": "in",
+      "phoneme": "AH_N",
+      "wordCount": 436,
+      "totalFrequency": 60750,
+      "topWords": [
+        "imagine",
+        "definitely",
+        "cousin",
+        "martin",
+        "criminal"
+      ]
+    },
+    {
+      "id": "GPC-WORD-give",
+      "grapheme": "WORD",
+      "phoneme": "give",
+      "wordCount": 1,
+      "totalFrequency": 59559,
+      "topWords": [
+        "give"
+      ]
+    },
+    {
+      "id": "GPC-ough-AO",
+      "grapheme": "ough",
+      "phoneme": "AO",
+      "wordCount": 20,
+      "totalFrequency": 58272,
+      "topWords": [
+        "thought",
+        "brought",
+        "ought",
+        "thoughts",
+        "fought"
+      ]
+    },
+    {
+      "id": "GPC-ph-F",
+      "grapheme": "ph",
+      "phoneme": "F",
+      "wordCount": 463,
+      "totalFrequency": 58180,
+      "topWords": [
+        "phone",
+        "phoebe",
+        "phil",
+        "telephone",
+        "physical"
+      ]
+    },
+    {
+      "id": "GPC-WORD-love",
+      "grapheme": "WORD",
+      "phoneme": "love",
+      "wordCount": 1,
+      "totalFrequency": 56864,
+      "topWords": [
+        "love"
+      ]
+    },
+    {
+      "id": "GPC-oi-OY",
+      "grapheme": "oi",
+      "phoneme": "OY",
+      "wordCount": 249,
+      "totalFrequency": 56768,
+      "topWords": [
+        "point",
+        "choice",
+        "voice",
+        "join",
+        "oil"
+      ]
+    },
+    {
+      "id": "GPC-WORD-said",
+      "grapheme": "WORD",
+      "phoneme": "said",
+      "wordCount": 1,
+      "totalFrequency": 56531,
+      "topWords": [
+        "said"
+      ]
+    },
+    {
+      "id": "GPC-WORD-sure",
+      "grapheme": "WORD",
+      "phoneme": "sure",
+      "wordCount": 1,
+      "totalFrequency": 56091,
+      "topWords": [
+        "sure"
+      ]
+    },
+    {
+      "id": "GPC-WORD-any",
+      "grapheme": "WORD",
+      "phoneme": "any",
+      "wordCount": 1,
+      "totalFrequency": 56068,
+      "topWords": [
+        "any"
+      ]
+    },
+    {
+      "id": "GPC-ear-ER",
+      "grapheme": "ear",
+      "phoneme": "ER",
+      "wordCount": 77,
+      "totalFrequency": 55479,
+      "topWords": [
+        "heard",
+        "learn",
+        "early",
+        "earth",
+        "learned"
+      ]
+    },
+    {
+      "id": "GPC-WORD-only",
+      "grapheme": "WORD",
+      "phoneme": "only",
+      "wordCount": 1,
+      "totalFrequency": 55269,
+      "topWords": [
+        "only"
+      ]
+    },
+    {
+      "id": "GPC-oa-OW",
+      "grapheme": "oa",
+      "phoneme": "OW",
+      "wordCount": 309,
+      "totalFrequency": 55240,
+      "topWords": [
+        "whoa",
+        "road",
+        "boat",
+        "coach",
+        "coat"
+      ]
+    },
+    {
+      "id": "GPC-WORD-two",
+      "grapheme": "WORD",
+      "phoneme": "two",
+      "wordCount": 1,
+      "totalFrequency": 54384,
+      "topWords": [
+        "two"
+      ]
+    },
+    {
+      "id": "GPC-WORD-should",
+      "grapheme": "WORD",
+      "phoneme": "should",
+      "wordCount": 1,
+      "totalFrequency": 54159,
+      "topWords": [
+        "should"
+      ]
+    },
+    {
+      "id": "GPC-aw-AO",
+      "grapheme": "aw",
+      "phoneme": "AO",
+      "wordCount": 197,
+      "totalFrequency": 53322,
+      "topWords": [
+        "saw",
+        "law",
+        "lawyer",
+        "aw",
+        "draw"
+      ]
+    },
+    {
+      "id": "GPC-ng-N_JH",
+      "grapheme": "ng",
+      "phoneme": "N_JH",
+      "wordCount": 178,
+      "totalFrequency": 51936,
+      "topWords": [
+        "change",
+        "changed",
+        "strange",
+        "angel",
+        "dangerous"
+      ]
+    },
+    {
+      "id": "GPC-our-ER",
+      "grapheme": "our",
+      "phoneme": "ER",
+      "wordCount": 77,
+      "totalFrequency": 51827,
+      "topWords": [
+        "yourself",
+        "hours",
+        "hour",
+        "courage",
+        "journey"
+      ]
+    },
+    {
+      "id": "GPC-ai-EH",
+      "grapheme": "ai",
+      "phoneme": "EH",
+      "wordCount": 5,
+      "totalFrequency": 50788,
+      "topWords": [
+        "again",
+        "against",
+        "unsaid",
+        "aramaic",
+        "aforesaid"
+      ]
+    },
+    {
+      "id": "GPC-wr-R-initial",
+      "grapheme": "wr",
+      "phoneme": "R-initial",
+      "wordCount": 83,
+      "totalFrequency": 50674,
+      "topWords": [
+        "wrong",
+        "write",
+        "wrote",
+        "writing",
+        "written"
+      ]
+    },
+    {
+      "id": "GPC-u_e-Y_UW",
+      "grapheme": "u_e",
+      "phoneme": "Y_UW",
+      "wordCount": 65,
+      "totalFrequency": 50408,
+      "topWords": [
+        "excuse",
+        "use",
+        "cute",
+        "huge",
+        "refuse"
+      ]
+    },
+    {
+      "id": "GPC-ch-K",
+      "grapheme": "ch",
+      "phoneme": "K",
+      "wordCount": 330,
+      "totalFrequency": 50367,
+      "topWords": [
+        "michael",
+        "christmas",
+        "christ",
+        "character",
+        "stomach"
+      ]
+    },
+    {
+      "id": "GPC-mm-M",
+      "grapheme": "mm",
+      "phoneme": "M",
+      "wordCount": 313,
+      "totalFrequency": 49296,
+      "topWords": [
+        "hmm",
+        "jimmy",
+        "summer",
+        "mommy",
+        "tommy"
+      ]
+    },
+    {
+      "id": "GPC-air-EH_R",
+      "grapheme": "air",
+      "phoneme": "EH_R",
+      "wordCount": 158,
+      "totalFrequency": 48753,
+      "topWords": [
+        "hair",
+        "air",
+        "fair",
+        "upstairs",
+        "chair"
+      ]
+    },
+    {
+      "id": "GPC-ei-IY",
+      "grapheme": "ei",
+      "phoneme": "IY",
+      "wordCount": 111,
+      "totalFrequency": 46872,
+      "topWords": [
+        "being",
+        "either",
+        "neither",
+        "received",
+        "receive"
+      ]
+    },
+    {
+      "id": "GPC-WORD-won",
+      "grapheme": "WORD",
+      "phoneme": "won",
+      "wordCount": 1,
+      "totalFrequency": 38729,
+      "topWords": [
+        "won"
+      ]
+    },
+    {
+      "id": "GPC-our-AO_R",
+      "grapheme": "our",
+      "phoneme": "AO_R",
+      "wordCount": 55,
+      "totalFrequency": 38069,
+      "topWords": [
+        "course",
+        "court",
+        "source",
+        "fourth",
+        "pour"
+      ]
+    },
+    {
+      "id": "GPC-WORD-other",
+      "grapheme": "WORD",
+      "phoneme": "other",
+      "wordCount": 1,
+      "totalFrequency": 37505,
+      "topWords": [
+        "other"
+      ]
+    },
+    {
+      "id": "GPC-WORD-does",
+      "grapheme": "WORD",
+      "phoneme": "does",
+      "wordCount": 1,
+      "totalFrequency": 34002,
+      "topWords": [
+        "does"
+      ]
+    },
+    {
+      "id": "GPC-cc-K",
+      "grapheme": "cc",
+      "phoneme": "K",
+      "wordCount": 229,
+      "totalFrequency": 33891,
+      "topWords": [
+        "accident",
+        "accept",
+        "account",
+        "according",
+        "access"
+      ]
+    },
+    {
+      "id": "GPC-ci-SH",
+      "grapheme": "ci",
+      "phoneme": "SH",
+      "wordCount": 177,
+      "totalFrequency": 33641,
+      "topWords": [
+        "special",
+        "appreciate",
+        "especially",
+        "social",
+        "official"
+      ]
+    },
+    {
+      "id": "GPC-WORD-their",
+      "grapheme": "WORD",
+      "phoneme": "their",
+      "wordCount": 1,
+      "totalFrequency": 33413,
+      "topWords": [
+        "their"
+      ]
+    },
+    {
+      "id": "GPC-ough-AH_F",
+      "grapheme": "ough",
+      "phoneme": "AH_F",
+      "wordCount": 23,
+      "totalFrequency": 33021,
+      "topWords": [
+        "enough",
+        "tough",
+        "rough",
+        "tougher",
+        "toughest"
+      ]
+    },
+    {
+      "id": "GPC-u_e-UW",
+      "grapheme": "u_e",
+      "phoneme": "UW",
+      "wordCount": 118,
+      "totalFrequency": 31780,
+      "topWords": [
+        "dude",
+        "luke",
+        "rule",
+        "introduce",
+        "assume"
+      ]
+    },
+    {
+      "id": "GPC-ue-UW",
+      "grapheme": "ue",
+      "phoneme": "UW",
+      "wordCount": 99,
+      "totalFrequency": 31541,
+      "topWords": [
+        "true",
+        "blue",
+        "due",
+        "sue",
+        "tuesday"
+      ]
+    },
+    {
+      "id": "GPC-i-AY-final",
+      "grapheme": "i",
+      "phoneme": "AY-final",
+      "wordCount": 22,
+      "totalFrequency": 30757,
+      "topWords": [
+        "hi",
+        "eli",
+        "alibi",
+        "chi",
+        "rabbi"
+      ]
+    },
+    {
+      "id": "GPC-ough-UW",
+      "grapheme": "ough",
+      "phoneme": "UW",
+      "wordCount": 7,
+      "totalFrequency": 28798,
+      "topWords": [
+        "through",
+        "throughout",
+        "breakthrough",
+        "brougham",
+        "breakthroughs"
+      ]
+    },
+    {
+      "id": "GPC-gg-G",
+      "grapheme": "gg",
+      "phoneme": "G",
+      "wordCount": 259,
+      "totalFrequency": 28582,
+      "topWords": [
+        "bigger",
+        "biggest",
+        "eggs",
+        "maggie",
+        "egg"
+      ]
+    },
+    {
+      "id": "GPC-x-G_Z",
+      "grapheme": "x",
+      "phoneme": "G_Z",
+      "wordCount": 116,
+      "totalFrequency": 26156,
+      "topWords": [
+        "exactly",
+        "example",
+        "exist",
+        "exact",
+        "exit"
+      ]
+    },
+    {
+      "id": "GPC-WORD-done",
+      "grapheme": "WORD",
+      "phoneme": "done",
+      "wordCount": 1,
+      "totalFrequency": 24737,
+      "topWords": [
+        "done"
+      ]
+    },
+    {
+      "id": "GPC-ear-EH_R",
+      "grapheme": "ear",
+      "phoneme": "EH_R",
+      "wordCount": 37,
+      "totalFrequency": 24005,
+      "topWords": [
+        "wear",
+        "swear",
+        "wearing",
+        "bear",
+        "tear"
+      ]
+    },
+    {
+      "id": "GPC-oor-AO_R",
+      "grapheme": "oor",
+      "phoneme": "AO_R",
+      "wordCount": 23,
+      "totalFrequency": 23753,
+      "topWords": [
+        "door",
+        "floor",
+        "doors",
+        "doorbell",
+        "floors"
+      ]
+    },
+    {
+      "id": "GPC-sch-S_K",
+      "grapheme": "sch",
+      "phoneme": "S_K",
+      "wordCount": 59,
+      "totalFrequency": 22664,
+      "topWords": [
+        "school",
+        "schedule",
+        "schools",
+        "scholarship",
+        "scheduled"
+      ]
+    },
+    {
+      "id": "GPC-WORD-friend",
+      "grapheme": "WORD",
+      "phoneme": "friend",
+      "wordCount": 1,
+      "totalFrequency": 21384,
+      "topWords": [
+        "friend"
+      ]
+    },
+    {
+      "id": "GPC-bb-B",
+      "grapheme": "bb",
+      "phoneme": "B",
+      "wordCount": 218,
+      "totalFrequency": 21372,
+      "topWords": [
+        "bobby",
+        "robbery",
+        "rabbit",
+        "robbed",
+        "rubber"
+      ]
+    },
+    {
+      "id": "GPC-WORD-move",
+      "grapheme": "WORD",
+      "phoneme": "move",
+      "wordCount": 1,
+      "totalFrequency": 21325,
+      "topWords": [
+        "move"
+      ]
+    },
+    {
+      "id": "GPC-WORD-son",
+      "grapheme": "WORD",
+      "phoneme": "son",
+      "wordCount": 1,
+      "totalFrequency": 20949,
+      "topWords": [
+        "son"
+      ]
+    },
+    {
+      "id": "GPC-ou-UW",
+      "grapheme": "ou",
+      "phoneme": "UW",
+      "wordCount": 132,
+      "totalFrequency": 20397,
+      "topWords": [
+        "group",
+        "outta",
+        "louis",
+        "soup",
+        "route"
+      ]
+    },
+    {
+      "id": "GPC-WORD-whole",
+      "grapheme": "WORD",
+      "phoneme": "whole",
+      "wordCount": 1,
+      "totalFrequency": 19660,
+      "topWords": [
+        "whole"
+      ]
+    },
+    {
+      "id": "GPC-si-ZH",
+      "grapheme": "si",
+      "phoneme": "ZH",
+      "wordCount": 132,
+      "totalFrequency": 18500,
+      "topWords": [
+        "decision",
+        "television",
+        "vision",
+        "frasier",
+        "division"
+      ]
+    },
+    {
+      "id": "GPC-mn-M",
+      "grapheme": "mn",
+      "phoneme": "M",
+      "wordCount": 59,
+      "totalFrequency": 18481,
+      "topWords": [
+        "damn",
+        "damned",
+        "column",
+        "condemned",
+        "chimney"
+      ]
+    },
+    {
+      "id": "GPC-WORD-many",
+      "grapheme": "WORD",
+      "phoneme": "many",
+      "wordCount": 1,
+      "totalFrequency": 18331,
+      "topWords": [
+        "many"
+      ]
+    },
+    {
+      "id": "GPC-ew-Y_UW",
+      "grapheme": "ew",
+      "phoneme": "Y_UW",
+      "wordCount": 31,
+      "totalFrequency": 17724,
+      "topWords": [
+        "few",
+        "nephew",
+        "ewing",
+        "curfew",
+        "fewer"
+      ]
+    },
+    {
+      "id": "GPC-WORD-once",
+      "grapheme": "WORD",
+      "phoneme": "once",
+      "wordCount": 1,
+      "totalFrequency": 17589,
+      "topWords": [
+        "once"
+      ]
+    },
+    {
+      "id": "GPC-WORD-live",
+      "grapheme": "WORD",
+      "phoneme": "live",
+      "wordCount": 1,
+      "totalFrequency": 17574,
+      "topWords": [
+        "live"
+      ]
+    },
+    {
+      "id": "GPC-ire-AY_ER",
+      "grapheme": "ire",
+      "phoneme": "AY_ER",
+      "wordCount": 62,
+      "totalFrequency": 17427,
+      "topWords": [
+        "tired",
+        "fired",
+        "hired",
+        "entirely",
+        "required"
+      ]
+    },
+    {
+      "id": "GPC-WORD-says",
+      "grapheme": "WORD",
+      "phoneme": "says",
+      "wordCount": 1,
+      "totalFrequency": 16356,
+      "topWords": [
+        "says"
+      ]
+    },
+    {
+      "id": "GPC-dge-JH",
+      "grapheme": "dge",
+      "phoneme": "JH",
+      "wordCount": 119,
+      "totalFrequency": 15989,
+      "topWords": [
+        "judge",
+        "bridge",
+        "edge",
+        "badge",
+        "budget"
+      ]
+    },
+    {
+      "id": "GPC-ch-SH",
+      "grapheme": "ch",
+      "phoneme": "SH",
+      "wordCount": 108,
+      "totalFrequency": 14328,
+      "topWords": [
+        "machine",
+        "chicago",
+        "champagne",
+        "charlotte",
+        "machines"
+      ]
+    },
+    {
+      "id": "GPC-ough-OW",
+      "grapheme": "ough",
+      "phoneme": "OW",
+      "wordCount": 22,
+      "totalFrequency": 13528,
+      "topWords": [
+        "though",
+        "although",
+        "dough",
+        "thoroughly",
+        "thorough"
+      ]
+    },
+    {
+      "id": "GPC-augh-AO",
+      "grapheme": "augh",
+      "phoneme": "AO",
+      "wordCount": 21,
+      "totalFrequency": 13279,
+      "topWords": [
+        "daughter",
+        "taught",
+        "naughty",
+        "daughters",
+        "granddaughter"
+      ]
+    },
+    {
+      "id": "GPC-ild-AY_L_D",
+      "grapheme": "ild",
+      "phoneme": "AY_L_D",
+      "wordCount": 34,
+      "totalFrequency": 13225,
+      "topWords": [
+        "child",
+        "wild",
+        "childhood",
+        "childish",
+        "mild"
+      ]
+    },
+    {
+      "id": "GPC-WORD-four",
+      "grapheme": "WORD",
+      "phoneme": "four",
+      "wordCount": 1,
+      "totalFrequency": 13045,
+      "topWords": [
+        "four"
+      ]
+    },
+    {
+      "id": "GPC-gh-",
+      "grapheme": "gh",
+      "phoneme": "",
+      "wordCount": 56,
+      "totalFrequency": 13042,
+      "topWords": [
+        "straight",
+        "ghost",
+        "ugh",
+        "ghosts",
+        "straighten"
+      ]
+    },
+    {
+      "id": "GPC-WORD-heart",
+      "grapheme": "WORD",
+      "phoneme": "heart",
+      "wordCount": 1,
+      "totalFrequency": 12453,
+      "topWords": [
+        "heart"
+      ]
+    },
+    {
+      "id": "GPC-i-IY-final",
+      "grapheme": "i",
+      "phoneme": "IY-final",
+      "wordCount": 145,
+      "totalFrequency": 11373,
+      "topWords": [
+        "taxi",
+        "miami",
+        "li",
+        "lori",
+        "ski"
+      ]
+    },
+    {
+      "id": "GPC-WORD-eyes",
+      "grapheme": "WORD",
+      "phoneme": "eyes",
+      "wordCount": 1,
+      "totalFrequency": 11299,
+      "topWords": [
+        "eyes"
+      ]
+    },
+    {
+      "id": "GPC-WORD-half",
+      "grapheme": "WORD",
+      "phoneme": "half",
+      "wordCount": 1,
+      "totalFrequency": 10156,
+      "topWords": [
+        "half"
+      ]
+    },
+    {
+      "id": "GPC-WORD-buy",
+      "grapheme": "WORD",
+      "phoneme": "buy",
+      "wordCount": 1,
+      "totalFrequency": 9814,
+      "topWords": [
+        "buy"
+      ]
+    },
+    {
+      "id": "GPC-su-ZH",
+      "grapheme": "su",
+      "phoneme": "ZH",
+      "wordCount": 45,
+      "totalFrequency": 9389,
+      "topWords": [
+        "pleasure",
+        "treasure",
+        "visual",
+        "measure",
+        "casual"
+      ]
+    },
+    {
+      "id": "GPC-ue-Y_UW",
+      "grapheme": "ue",
+      "phoneme": "Y_UW",
+      "wordCount": 48,
+      "totalFrequency": 9389,
+      "topWords": [
+        "continue",
+        "value",
+        "continues",
+        "fuel",
+        "tissue"
+      ]
+    },
+    {
+      "id": "GPC-eigh-EY",
+      "grapheme": "eigh",
+      "phoneme": "EY",
+      "wordCount": 52,
+      "totalFrequency": 9225,
+      "topWords": [
+        "neighborhood",
+        "weight",
+        "neighbors",
+        "neighbor",
+        "weigh"
+      ]
+    },
+    {
+      "id": "GPC-augh-AE_F",
+      "grapheme": "augh",
+      "phoneme": "AE_F",
+      "wordCount": 10,
+      "totalFrequency": 8473,
+      "topWords": [
+        "laugh",
+        "laughing",
+        "laughs",
+        "laughter",
+        "laughed"
+      ]
+    },
+    {
+      "id": "GPC-oll-OW_L",
+      "grapheme": "oll",
+      "phoneme": "OW_L",
+      "wordCount": 61,
+      "totalFrequency": 8340,
+      "topWords": [
+        "roll",
+        "rolling",
+        "rolls",
+        "rolled",
+        "controlled"
+      ]
+    },
+    {
+      "id": "GPC-oar-AO_R",
+      "grapheme": "oar",
+      "phoneme": "AO_R",
+      "wordCount": 71,
+      "totalFrequency": 8327,
+      "topWords": [
+        "board",
+        "aboard",
+        "boarding",
+        "overboard",
+        "onboard"
+      ]
+    },
+    {
+      "id": "GPC-alt-AO_L_T",
+      "grapheme": "alt",
+      "phoneme": "AO_L_T",
+      "wordCount": 64,
+      "totalFrequency": 8207,
+      "topWords": [
+        "walter",
+        "salt",
+        "walt",
+        "halt",
+        "alternative"
+      ]
+    },
+    {
+      "id": "GPC-ou-OW",
+      "grapheme": "ou",
+      "phoneme": "OW",
+      "wordCount": 25,
+      "totalFrequency": 7051,
+      "topWords": [
+        "soul",
+        "shoulder",
+        "souls",
+        "shoulders",
+        "boulder"
+      ]
+    },
+    {
+      "id": "GPC-su-SH",
+      "grapheme": "su",
+      "phoneme": "SH",
+      "wordCount": 34,
+      "totalFrequency": 6307,
+      "topWords": [
+        "insurance",
+        "sugar",
+        "surely",
+        "ensure",
+        "insured"
+      ]
+    },
+    {
+      "id": "GPC-q-K",
+      "grapheme": "q",
+      "phoneme": "K",
+      "wordCount": 98,
+      "totalFrequency": 6171,
+      "topWords": [
+        "liquor",
+        "technique",
+        "antique",
+        "tequila",
+        "cheque"
+      ]
+    },
+    {
+      "id": "GPC-ure-Y_UH_R",
+      "grapheme": "ure",
+      "phoneme": "Y_UH_R",
+      "wordCount": 36,
+      "totalFrequency": 5963,
+      "topWords": [
+        "pure",
+        "secure",
+        "cure",
+        "bureau",
+        "cured"
+      ]
+    },
+    {
+      "id": "GPC-WORD-eye",
+      "grapheme": "WORD",
+      "phoneme": "eye",
+      "wordCount": 1,
+      "totalFrequency": 5701,
+      "topWords": [
+        "eye"
+      ]
+    },
+    {
+      "id": "GPC-WORD-none",
+      "grapheme": "WORD",
+      "phoneme": "none",
+      "wordCount": 1,
+      "totalFrequency": 5641,
+      "topWords": [
+        "none"
+      ]
+    },
+    {
+      "id": "GPC-bt-T",
+      "grapheme": "bt",
+      "phoneme": "T",
+      "wordCount": 22,
+      "totalFrequency": 5614,
+      "topWords": [
+        "doubt",
+        "debt",
+        "subtle",
+        "doubts",
+        "debts"
+      ]
+    },
+    {
+      "id": "GPC-zz-Z",
+      "grapheme": "zz",
+      "phoneme": "Z",
+      "wordCount": 79,
+      "totalFrequency": 5210,
+      "topWords": [
+        "buzz",
+        "jazz",
+        "dizzy",
+        "lizzie",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "GPC-WORD-eight",
+      "grapheme": "WORD",
+      "phoneme": "eight",
+      "wordCount": 1,
+      "totalFrequency": 5010,
+      "topWords": [
+        "eight"
+      ]
+    },
+    {
+      "id": "GPC-ps-S-initial",
+      "grapheme": "ps",
+      "phoneme": "S-initial",
+      "wordCount": 45,
+      "totalFrequency": 4731,
+      "topWords": [
+        "psychiatrist",
+        "psychic",
+        "psycho",
+        "psych",
+        "psychological"
+      ]
+    },
+    {
+      "id": "GPC-ng-N_G",
+      "grapheme": "ng",
+      "phoneme": "N_G",
+      "wordCount": 52,
+      "totalFrequency": 3845,
+      "topWords": [
+        "engaged",
+        "engagement",
+        "engage",
+        "ungrateful",
+        "sunglasses"
+      ]
+    },
+    {
+      "id": "GPC-ire-AY_R",
+      "grapheme": "ire",
+      "phoneme": "AY_R",
+      "wordCount": 43,
+      "totalFrequency": 3553,
+      "topWords": [
+        "retired",
+        "vampires",
+        "siren",
+        "fireworks",
+        "sirens"
+      ]
+    },
+    {
+      "id": "GPC-si-SH",
+      "grapheme": "si",
+      "phoneme": "SH",
+      "wordCount": 41,
+      "totalFrequency": 3405,
+      "topWords": [
+        "discussion",
+        "tension",
+        "mansion",
+        "extension",
+        "pension"
+      ]
+    },
+    {
+      "id": "GPC-ie-IH",
+      "grapheme": "ie",
+      "phoneme": "IH",
+      "wordCount": 39,
+      "totalFrequency": 3321,
+      "topWords": [
+        "pierce",
+        "pier",
+        "fierce",
+        "premiere",
+        "cashier"
+      ]
+    },
+    {
+      "id": "GPC-au-AE",
+      "grapheme": "au",
+      "phoneme": "AE",
+      "wordCount": 3,
+      "totalFrequency": 3295,
+      "topWords": [
+        "aunt",
+        "auntie",
+        "aunts"
+      ]
+    },
+    {
+      "id": "GPC-ei-EY",
+      "grapheme": "ei",
+      "phoneme": "EY",
+      "wordCount": 42,
+      "totalFrequency": 2889,
+      "topWords": [
+        "surveillance",
+        "veins",
+        "vein",
+        "reindeer",
+        "reign"
+      ]
+    },
+    {
+      "id": "GPC-ei-AY",
+      "grapheme": "ei",
+      "phoneme": "AY",
+      "wordCount": 49,
+      "totalFrequency": 2627,
+      "topWords": [
+        "frankenstein",
+        "einstein",
+        "heist",
+        "heil",
+        "stein"
+      ]
+    },
+    {
+      "id": "GPC-eu-UW",
+      "grapheme": "eu",
+      "phoneme": "UW",
+      "wordCount": 56,
+      "totalFrequency": 2276,
+      "topWords": [
+        "zeus",
+        "pneumonia",
+        "neutral",
+        "deuce",
+        "maneuver"
+      ]
+    },
+    {
+      "id": "GPC-ure-ER",
+      "grapheme": "ure",
+      "phoneme": "ER",
+      "wordCount": 21,
+      "totalFrequency": 2203,
+      "topWords": [
+        "procedure",
+        "injured",
+        "procedures",
+        "seizure",
+        "seizures"
+      ]
+    },
+    {
+      "id": "GPC-zz-T_S",
+      "grapheme": "zz",
+      "phoneme": "T_S",
+      "wordCount": 4,
+      "totalFrequency": 1872,
+      "topWords": [
+        "pizza",
+        "pizzas",
+        "mozzarella",
+        "pizzeria"
+      ]
+    },
+    {
+      "id": "GPC-rh-R-initial",
+      "grapheme": "rh",
+      "phoneme": "R-initial",
+      "wordCount": 33,
+      "totalFrequency": 1793,
+      "topWords": [
+        "rhythm",
+        "rhyme",
+        "rhodes",
+        "rhymes",
+        "rhino"
+      ]
+    },
+    {
+      "id": "GPC-eu-Y_UW",
+      "grapheme": "eu",
+      "phoneme": "Y_UW",
+      "wordCount": 37,
+      "totalFrequency": 1297,
+      "topWords": [
+        "eugene",
+        "cheung",
+        "eulogy",
+        "beulah",
+        "therapeutic"
+      ]
+    },
+    {
+      "id": "GPC-sch-SH",
+      "grapheme": "sch",
+      "phoneme": "SH",
+      "wordCount": 38,
+      "totalFrequency": 1093,
+      "topWords": [
+        "schmuck",
+        "schultz",
+        "schizophrenic",
+        "schneider",
+        "schubert"
+      ]
+    },
+    {
+      "id": "GPC-eigh-AY",
+      "grapheme": "eigh",
+      "phoneme": "AY",
+      "wordCount": 7,
+      "totalFrequency": 938,
+      "topWords": [
+        "height",
+        "heights",
+        "heightened",
+        "sleight",
+        "heighten"
+      ]
+    },
+    {
+      "id": "GPC-oor-UH_R",
+      "grapheme": "oor",
+      "phoneme": "UH_R",
+      "wordCount": 14,
+      "totalFrequency": 919,
+      "topWords": [
+        "moore",
+        "hooray",
+        "moor",
+        "moors",
+        "boorish"
+      ]
+    },
+    {
+      "id": "GPC-ure-UH_R",
+      "grapheme": "ure",
+      "phoneme": "UH_R",
+      "wordCount": 10,
+      "totalFrequency": 737,
+      "topWords": [
+        "lure",
+        "manure",
+        "brochure",
+        "eureka",
+        "lured"
+      ]
+    },
+    {
+      "id": "GPC-x-Z",
+      "grapheme": "x",
+      "phoneme": "Z",
+      "wordCount": 13,
+      "totalFrequency": 631,
+      "topWords": [
+        "anxiety",
+        "auxiliary",
+        "xerox",
+        "xenon",
+        "anxieties"
+      ]
+    },
+    {
+      "id": "GPC-ew-OW",
+      "grapheme": "ew",
+      "phoneme": "OW",
+      "wordCount": 4,
+      "totalFrequency": 631,
+      "topWords": [
+        "sew",
+        "sewing",
+        "sewed",
+        "sewn"
+      ]
+    },
+    {
+      "id": "GPC-pn-N-initial",
+      "grapheme": "pn",
+      "phoneme": "N-initial",
+      "wordCount": 4,
+      "totalFrequency": 290,
+      "topWords": [
+        "pneumonia",
+        "pneumatic",
+        "pneumonic",
+        "pneumatics"
+      ]
+    },
+    {
+      "id": "GPC-gn-N-initial",
+      "grapheme": "gn",
+      "phoneme": "N-initial",
+      "wordCount": 14,
+      "totalFrequency": 272,
+      "topWords": [
+        "gnarly",
+        "gnu",
+        "gnome",
+        "gnat",
+        "gnawing"
+      ]
+    },
+    {
+      "id": "GPC-our-AW_R",
+      "grapheme": "our",
+      "phoneme": "AW_R",
+      "wordCount": 1,
+      "totalFrequency": 4,
+      "topWords": [
+        "lour"
+      ]
+    }
+  ]
+}

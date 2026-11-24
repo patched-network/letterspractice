@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Exclude debug/development routes
+Disallow: /dbg/
+
+# The build adds the Sitemap lines from VITE_SITE_URL, and any
+# deployment extras from ROBOTS_* env (scripts/prerender-public.ts).

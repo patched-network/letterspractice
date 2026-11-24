@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.letterspractice.app",
+      "sha256_cert_fingerprints": [
+        "E0:7E:D7:EB:99:9C:DB:72:B7:C0:0E:A1:2A:0C:BB:CE:0F:1A:F9:01:B7:5D:40:CD:1B:B4:4E:33:8D:00:81:02"
+      ]
+    }
+  }
+]

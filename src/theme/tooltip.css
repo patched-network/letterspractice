@@ -1,0 +1,35 @@
+/*
+ * App tooltips: an inverse surface (dark on the light theme, light on the
+ * dark one), so a tooltip reads as a layer above the page and its text has
+ * plenty of contrast. Vuetify's default is the theme's surface-variant pair,
+ * which in skuilder.config.json's light theme is orange on cream (2.5:1).
+ *
+ * Applied to every v-tooltip through createVuetify's defaults (main.ts:
+ * VTooltip.contentClass). `app-tooltip--edged` adds a left edge in
+ * `--tip-edge` (LessonChip passes its lesson's colour).
+ */
+
+.v-tooltip > .v-overlay__content.app-tooltip {
+  --tip-bg: rgb(33, 33, 33);
+  --tip-fg: rgb(255, 255, 255);
+  background: var(--tip-bg);
+  color: var(--tip-fg);
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  padding: 6px 12px;
+  border-radius: 6px;
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.18),
+    0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.v-tooltip.v-theme--dark > .v-overlay__content.app-tooltip {
+  --tip-bg: rgb(240, 240, 240);
+  --tip-fg: rgb(28, 28, 28);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+.v-tooltip > .v-overlay__content.app-tooltip--edged {
+  border-left: 3px solid var(--tip-edge, transparent);
+  padding-left: 10px;
+}

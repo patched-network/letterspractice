@@ -250,8 +250,12 @@ const optionsEl = ref<HTMLElement | null>(null);
 /** Rendered height of each word, in px. Set once, pre-render, by `chooseWordHeight()`. */
 const wordHeight = ref(100);
 
-/** Candidate word heights, largest first. */
-const WORD_HEIGHT_LADDER = [100, 88, 76, 64, 56, 48, 42, 36];
+/**
+ * Candidate word heights, largest first. The rungs above 100 let a laptop or a
+ * large display use its room (100 was the old cap and left it mostly empty);
+ * 180 is the cap, as a word's letters at MissingLetters' largest.
+ */
+const WORD_HEIGHT_LADDER = [180, 160, 140, 120, 100, 88, 76, 64, 56, 48, 42, 36];
 
 /**
  * Rendered width ÷ height per glyph. Letters are drawn into a

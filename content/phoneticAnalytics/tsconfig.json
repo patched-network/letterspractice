@@ -7,9 +7,7 @@
     "strict": true,
     "skipLibCheck": true,
     "types": ["node"],
-    "outDir": "./dist",
-    "rootDir": "./scripts",
-    "declaration": true,
+    "noEmit": true,
     "resolveJsonModule": true
   },
   "include": ["scripts/**/*.ts"],

@@ -304,7 +304,7 @@ export function matchPositionInitial(
   pos: number,
   grapheme: string,
   phoneme: string,
-  params?: PositionParams
+  _params?: PositionParams
 ): MatchResult | null {
   // Must be at position 0
   if (pos !== 0) {
@@ -341,7 +341,7 @@ export function matchPositionFinal(
   pos: number,
   grapheme: string,
   phoneme: string,
-  params?: PositionParams
+  _params?: PositionParams
 ): MatchResult | null {
   // Must be at the final position
   if (pos !== word.length - grapheme.length) {
@@ -452,7 +452,7 @@ export function tryMatch(
   gpc: GPCEntry,
   word: string,
   pos: number,
-  ctx?: MatchContext
+  _ctx?: MatchContext
 ): MatchResult | null {
   switch (gpc.matchType) {
     case 'simple':
@@ -579,7 +579,7 @@ export function tryMatchWithOracle(
  */
 export function detectSplitDigraph(
   word: string,
-  phonemes?: ArpabetPhoneme[]
+  _phonemes?: ArpabetPhoneme[]
 ): { vowel: string; vowelPos: number; endPos: number } | null {
   // Must end with 'e'
   if (!word.endsWith('e')) {

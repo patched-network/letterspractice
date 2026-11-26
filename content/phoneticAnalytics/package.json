@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.lib.json",
     "build:check": "tsc --noEmit",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.lib.json --noEmit",
     "test": "tsx test/test-alignment.ts",
     "test:cards": "tsx scripts/test-cards.ts",
     "gen:words": "tsx scripts/parse-corpus-with-GPCs.ts",

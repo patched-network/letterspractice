@@ -49,6 +49,11 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable
 
+      # Scripts (tsconfig.json) and the library (tsconfig.lib.json, stricter:
+      # noUnused*). Both must stay at zero errors.
+      - name: Type-check
+        run: yarn typecheck
+
       - name: Run tests
         run: yarn test
 

@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.lib.json",
     "build:check": "tsc --noEmit",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.lib.json --noEmit",
     "test": "tsx test/test-alignment.ts",
     "test:cards": "tsx scripts/test-cards.ts",
     "gen:words": "tsx scripts/parse-corpus-with-GPCs.ts",
@@ -31,7 +32,7 @@
     "@types/node": "^20.0.0",
     "@vitejs/plugin-vue": "^6.0.3",
     "tsx": "^4.7.0",
-    "typescript": "^5.3.0",
+    "typescript": "~6.0.3",
     "vite": "^7.3.1",
     "vue": "^3.5.27"
   }

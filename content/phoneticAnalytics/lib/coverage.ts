@@ -680,7 +680,7 @@ export function computeDecodeOptimalSequence(
     targetCoverage = 100,
     onStep,
     onStageUnlock,
-    prerequisites = new Map(),
+    prerequisites = new Map<string, string[]>(),
     stageGating = new Map(),
   } = options;
 
@@ -795,7 +795,7 @@ export function computeDecodeOptimalSequence(
       const gpcPhonemes = candidateGpc.phoneme.split(' ').filter(p => p);
       const candidateWords = uncoveredWords.filter(w => {
         // Check all phonemes in the GPC are present in the word
-        const hasPhonemes = gpcPhonemes.every(p => w.phonemes.includes(p));
+        const hasPhonemes = gpcPhonemes.every(p => (w.phonemes as readonly string[]).includes(p));
         // Split digraphs use notation like 'a_e' which won't match literal word text
         if (candidateGpc.matchType === 'split_digraph') {
           return hasPhonemes;

@@ -5,7 +5,7 @@
  * See /ref/arpabet-phonemes.md for the complete reference.
  */
 
-import type { MatchType, GPCEntry } from './catalogue';
+import type { MatchType } from './catalogue';
 
 // =============================================================================
 // ARPAbet Phoneme Types

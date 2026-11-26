@@ -64,6 +64,8 @@ interface TagPrerequisite {
   };
   /** Score boost for cards carrying this prereq tag while the gate is closed */
   preReqBoost?: number;
+  /** Score boost for cards carrying the gated tag once the gate is open */
+  targetBoost?: number;
 }
 
 interface HierarchyConfig {

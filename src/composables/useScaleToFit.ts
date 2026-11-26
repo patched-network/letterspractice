@@ -76,17 +76,31 @@ export interface ScaleToFitOptions {
     reflow?: boolean;
     /** Smallest scale tried with reflow. Default 0.4. */
     minScale?: number;
+    /**
+     * Largest scale tried, with reflow: above 1 the content also *grows* into
+     * spare room (a laptop, a large display), laid out narrower so it re-wraps
+     * into more rows if that lets it grow further. Default 1 (shrink only).
+     */
+    maxScale?: number;
     /** Slack kept below the fit, px. Default 4. */
     margin?: number;
 }
 
 /** Reflow search step. Coarse on purpose: each step is a synchronous layout. */
 const REFLOW_STEP = 0.05;
+/** Search step above 1 (maxScale): coarser, as growth matters less than a fit. */
+const GROW_STEP = 0.1;
+/**
+ * Share of the available height a grown block may fill: the rest is room for
+ * an option's hover/selection scale (1.2) near the boundary, which clips.
+ */
+const GROW_HEADROOM = 0.88;
 
 export function useScaleToFit(options: ScaleToFitOptions) {
     const { root, viewport, content } = options;
     const reflow = options.reflow ?? false;
     const minScale = options.minScale ?? 0.4;
+    const maxScale = options.reflow ? Math.max(1, options.maxScale ?? 1) : 1;
     const margin = options.margin ?? 4;
 
     function reset(c: HTMLElement, v: HTMLElement): void {
@@ -95,11 +109,33 @@ export function useScaleToFit(options: ScaleToFitOptions) {
         v.style.height = "";
     }
 
+    /**
+     * The content's laid-out size: its own box, or its children's extent where
+     * they overflow it (a word wider than the re-wrap width). From layout boxes
+     * (offset*), not scrollWidth/Height: those count transformed descendants,
+     * so an option mid-way through its hover/selection scale (1.2) measured
+     * bigger, and a re-fit then (the submit button coming or going) chose a
+     * different scale and re-wrapped the rows.
+     */
     function naturalSize(c: HTMLElement): { width: number; height: number } {
-        return {
-            width: Math.max(c.offsetWidth, c.scrollWidth),
-            height: Math.max(c.offsetHeight, c.scrollHeight),
-        };
+        let left = 0;
+        let top = 0;
+        let right = c.offsetWidth;
+        let bottom = c.offsetHeight;
+        for (const child of Array.from(c.children)) {
+            if (!(child instanceof HTMLElement) || child.offsetParent === null) continue;
+            // Offsets are from the child's offsetParent: the content itself, if
+            // it's positioned, or the ancestor the content measures from too.
+            // A centered flex item wider than the line overflows both sides.
+            const own = child.offsetParent === c;
+            const x = child.offsetLeft - (own ? 0 : c.offsetLeft);
+            const y = child.offsetTop - (own ? 0 : c.offsetTop);
+            left = Math.min(left, x);
+            top = Math.min(top, y);
+            right = Math.max(right, x + child.offsetWidth);
+            bottom = Math.max(bottom, y + child.offsetHeight);
+        }
+        return { width: right - left, height: bottom - top };
     }
 
     /**
@@ -126,7 +162,10 @@ export function useScaleToFit(options: ScaleToFitOptions) {
         const fitsAt = (size: { width: number; height: number }, s: number) =>
             size.height * s <= available && size.width * s <= viewportWidth + 0.5;
 
-        if (fitsAt(natural, 1)) return;
+        if (fitsAt(natural, 1)) {
+            if (maxScale > 1) grow(c, v, viewportWidth, available * GROW_HEADROOM);
+            return;
+        }
 
         let scale: number;
         let height: number;
@@ -165,6 +204,23 @@ export function useScaleToFit(options: ScaleToFitOptions) {
         }
         c.style.transform = `scale(${scale})`;
         v.style.height = `${Math.round(height * scale)}px`;
+    }
+
+    /**
+     * Largest scale in (1, maxScale] whose re-wrapped layout fits `room`, if
+     * any; applied as a fit is. Left at its natural size otherwise.
+     */
+    function grow(c: HTMLElement, v: HTMLElement, viewportWidth: number, room: number): void {
+        for (let s = maxScale; s > 1 + 1e-9; s -= GROW_STEP) {
+            c.style.width = `${viewportWidth / s}px`;
+            const size = naturalSize(c);
+            if (size.height * s <= room && size.width * s <= viewportWidth + 0.5) {
+                c.style.transform = `scale(${s})`;
+                v.style.height = `${Math.round(size.height * s)}px`;
+                return;
+            }
+        }
+        c.style.width = "";
     }
 
     let observer: ResizeObserver | null = null;

@@ -234,8 +234,9 @@ const previousSelectedIndex = ref<number | null>(null);
 // Six suspects on a phone wrap to three rows; with the header and play button
 // that is taller than the study area above the keyboard, which clips it top
 // and bottom (play button half gone, last row gone). The suspects block is
-// scaled and re-wrapped to fit; see useScaleToFit. Re-fit whenever the
-// suspects' rendered size or the surrounding chrome changes.
+// scaled and re-wrapped to fit (and grown, where there's room); see
+// useScaleToFit. Re-fit whenever the suspects' rendered size or the
+// surrounding chrome changes.
 
 const rootEl = ref<HTMLElement | null>(null);
 const suspectsViewport = ref<HTMLElement | null>(null);
@@ -246,6 +247,10 @@ const { applyFit, start: startFitObserver } = useScaleToFit({
     viewport: suspectsViewport,
     content: suspectsEl,
     reflow: true,
+    // Grow into a laptop's or a large display's room too (the 80px letters
+    // left it mostly empty); 2 puts a letter at 160px, about MissingLetters' size.
+    // Not in preview (landing-page embeds), as WordSelection's ladder.
+    maxScale: props.preview ? 1 : 2,
 });
 
 /** Re-fit after the DOM settles (letters drawn, chrome shown/hidden). */

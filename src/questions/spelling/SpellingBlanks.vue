@@ -12,7 +12,7 @@
 -->
 
 <template>
-    <div ref="rootEl" class="sb-blanks">
+    <div ref="rootEl" class="sb-blanks" :style="{ '--sb-n': sizeN }">
         <!-- ========== Fixed-blank mode (Levels 0–2) ========== -->
         <template v-if="isFixedMode">
             <div
@@ -99,6 +99,7 @@ import {
     onMounted,
     onUnmounted,
     nextTick,
+    watchEffect,
     type ComponentPublicInstance,
 } from 'vue';
 import { createLetter } from '../../letterpeople';
@@ -165,6 +166,35 @@ const missingCount = computed(() => {
     if (!props.showResult) return 0;
     if (isFixedMode.value) return 0; // fixed mode already shows all slots
     return Math.max(0, props.word.length - props.typedLetters.length);
+});
+
+/**
+ * How many slots the letter size is fitted to (--sb-n; see the style's
+ * "Letter size"). Fixed mode: the slot count. Append mode: the word's length
+ * to begin with, so a correct spelling is drawn as large as it can be, then
+ * as many slots as are on screen once the learner types past it.
+ *
+ * It only grows within a word: shrinking back on a backspace would make the
+ * letters pump as the learner edits. And it holds while letters are floating
+ * (the phonetic fix): floaters are placed in px from the row as it was drawn,
+ * so the row mustn't resize under them. The change itself is animated
+ * (--sb-n is a registered <number>, transitioned in CSS).
+ */
+const sizeN = ref(1);
+/** Floaters alive (floaters isn't reactive). */
+const floating = ref(0);
+
+watch(
+    () => props.word,
+    () => (sizeN.value = 1),
+);
+
+watchEffect(() => {
+    const shown = isFixedMode.value
+        ? props.slotCount!
+        : Math.max(props.word.length, props.typedLetters.length + missingCount.value);
+    if (floating.value > 0) return;
+    if (shown > sizeN.value) sizeN.value = shown;
 });
 
 // ============================================================================
@@ -482,6 +512,7 @@ function floatLetters(indices: number[], color: string): number[] {
         letterInstances.value[index] = null;
         const id = nextFloatId++;
         floaters.set(id, { wrapper, instance });
+        floating.value = floaters.size;
         ids.push(id);
     }
 
@@ -527,6 +558,7 @@ async function dismissFloats(ids: number[]): Promise<void> {
             const f = floaters.get(id);
             if (!f) return Promise.resolve();
             floaters.delete(id);
+            floating.value = floaters.size;
             return new Promise<void>((resolve) =>
                 animate(f.wrapper, {
                     opacity: [1, 0],
@@ -598,24 +630,52 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
+/* --sb-n is a number so it can be transitioned: the letters ease to a new size
+   when the learner types past the word's length (sizeN). */
+@property --sb-n {
+    syntax: '<number>';
+    inherits: true;
+    initial-value: 1;
+}
+
+/* ---------- Letter size ---------- */
+/* --sb-h: a slot's height; every slot measure below is a fraction of it. As
+   MissingLetters' --ml-h (keep the two in step), the smallest of:
+   - width: --sb-n slots (≈0.85 h wide each, 0.08 h gaps) across the question
+     (cqi: SpellingQuestionView's .spelling-question is the query container);
+   - height: the viewport less what else is stacked in it on the study page
+     (app bar, title, play button, the retry row, the on-screen keyboard):
+     SQ_CHROME. Raise it if a laptop scrolls; lower it to grow;
+   - a cap and a floor (the floor is the old phone size).
+   Was a fixed 125px (80px under 600px). */
 .sb-blanks {
+    --sb-h: clamp(
+        80px,
+        min(
+            100cqi / (var(--sb-n) * 0.85 + (var(--sb-n) - 1) * 0.08),
+            100dvh - 580px /* SQ_CHROME */
+        ),
+        240px
+    );
+    transition: --sb-n 0.3s ease;
+
     position: relative;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: calc(var(--sb-h) * 0.08);
     margin-bottom: 20px;
     flex-wrap: nowrap;
-    min-height: 100px;
+    min-height: calc(var(--sb-h) * 0.8);
     align-items: flex-end;
 }
 
 .sb-slot {
     width: auto;
-    min-width: 65px;
-    height: 125px;
-    padding: 12px 15px;
+    min-width: calc(var(--sb-h) * 0.52);
+    height: var(--sb-h);
+    padding: calc(var(--sb-h) * 0.096) calc(var(--sb-h) * 0.12);
     border: 3px solid #ccc;
-    border-radius: 10px;
+    border-radius: calc(var(--sb-h) * 0.08);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -698,9 +758,9 @@ onUnmounted(() => {
 
 /* LetterPeople container inside each slot — matches WST sizing */
 .sb-letter-container {
-    height: 100px;
+    height: calc(var(--sb-h) * 0.8);
     width: auto;
-    min-width: 40px;
+    min-width: calc(var(--sb-h) * 0.32);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -739,16 +799,16 @@ onUnmounted(() => {
 /* Gap cursor — zero-width line between letters, cancels flex gap */
 .sb-gap-cursor {
     width: 0;
-    height: 125px;
+    height: var(--sb-h);
     position: relative;
     flex-shrink: 0;
-    margin-left: -10px;
+    margin-left: calc(var(--sb-h) * -0.08);
 }
 
 .sb-gap-cursor::after {
     content: '';
     position: absolute;
-    left: 4px;
+    left: calc(var(--sb-h) * 0.04 - 1.5px);
     top: 15%;
     bottom: 15%;
     width: 3px;
@@ -762,21 +822,5 @@ onUnmounted(() => {
     50% { opacity: 0; }
 }
 
-/* ---------- Responsive ---------- */
-
-@media (max-width: 600px) {
-    .sb-slot {
-        min-width: 42px;
-        height: 80px;
-        padding: 8px 10px;
-    }
-
-    .sb-letter-container {
-        height: 60px;
-    }
-
-    .sb-blanks {
-        gap: 6px;
-    }
-}
+/* Narrow screens: --sb-h covers them (its floor is the old 80px phone size). */
 </style>

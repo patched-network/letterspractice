@@ -70,7 +70,12 @@
         />
 
         <!-- Retry hint: pre-rendered for layout stability, fades in on wrong answer -->
-        <div v-if="phase === 'input' && question" class="sq-retry-area" :class="{ 'sq-retry-area--visible': retryMode !== 'none' }">
+        <div
+            v-if="phase === 'input' && question"
+            class="sq-retry-area"
+            :class="{ 'sq-retry-area--visible': retryMode !== 'none' }"
+            :style="{ '--sq-n': question.letters.length || 1 }"
+        >
             <div class="sq-retry-word">
                 <div
                     v-for="(letter, index) in (retryMode !== 'none' ? retryDisplay : question.letters)"
@@ -1210,7 +1215,17 @@ watch(isComplete, (complete) => {
 
 /* ---------- Retry masked word ---------- */
 
+/* Sized off the slot height SpellingBlanks would give the word (its --sb-h,
+   same formula at the word's length), as MissingLetters' correction row. */
 .sq-retry-area {
+    --sq-h: clamp(
+        80px,
+        min(
+            100cqi / (var(--sq-n) * 0.85 + (var(--sq-n) - 1) * 0.08),
+            100dvh - 580px /* SQ_CHROME, as SpellingBlanks */
+        ),
+        240px
+    );
     margin: 12px 0;
     opacity: 0;
     transition: opacity 200ms ease-out;
@@ -1223,16 +1238,18 @@ watch(isComplete, (complete) => {
 .sq-retry-word {
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: calc(var(--sq-h) * 0.06);
 }
 
+/* Smaller than the slots relative to the old 45×55: it has to fit above the
+   keyboard too (SQ_CHROME). */
 .sq-retry-letter {
-    width: 45px;
-    height: 55px;
+    width: max(38px, calc(var(--sq-h) * 0.27));
+    height: max(46px, calc(var(--sq-h) * 0.32));
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: max(1.2rem, calc(var(--sq-h) * 0.18));
     font-weight: 700;
     color: #2e7d32;
     background: #e8f5e9;
@@ -1283,11 +1300,4 @@ watch(isComplete, (complete) => {
     }
 }
 
-@media (max-width: 600px) {
-    .sq-retry-letter {
-        width: 38px;
-        height: 46px;
-        font-size: 1.2rem;
-    }
-}
 </style>

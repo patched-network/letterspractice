@@ -37,16 +37,11 @@
                 <!-- Right: Hero copy -->
                 <v-col cols="12" md="6">
                     <div class="hero-copy">
-                        <p class="text-h6 text-md-h5 mb-6 text-medium-emphasis">
-                            {{ copy.subtitle }}
-                        </p>
                         <p
-                            class="text-h6 text-md-h5 mb-3 text-medium-emphasis"
-                            v-html="renderInline(copy.description)"
-                        ></p>
-                        <p
+                            v-for="(p, i) in copy.lede"
+                            :key="i"
                             class="text-h6 text-md-h5 mb-6 text-medium-emphasis"
-                            v-html="renderInline(copy.descriptionOffscreen)"
+                            v-html="renderInline(p)"
                         ></p>
                         <!-- The deployment's pricing line (deployment/pitch.ts);
                              none in the open build. Not in the Play Store app,

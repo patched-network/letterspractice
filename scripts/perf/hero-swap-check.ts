@@ -48,7 +48,7 @@ const BOXES: Record<string, string> = {
   headline: ".hero-headline",
   vignette: ".hero-read",
   copy: ".hero-copy",
-  subtitle: ".hero-copy p",
+  lede: ".hero-copy p",
   cta: ".hero-cta-row",
 };
 // Text the static copy shows that must stay put through the mount.

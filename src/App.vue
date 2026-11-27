@@ -134,4 +134,76 @@ onMounted(() => {
   opacity: 0.6;
 }
 
+/* Copy markup's explainers, {word|explanation} (renderInline). The word gets a
+   dotted underline (the <abbr> convention, and distinct from _underline_'s
+   solid one); the popover opens on hover or keyboard focus where the device
+   can hover, and on tap/click everywhere (data-open, set by the delegated
+   listener in inlineMarkup.ts). Not :focus-within: a tap focuses the button,
+   which would hold the popover open after a second tap closed it. */
+.inline-tip {
+  position: relative;
+}
+.inline-tip__word {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: help;
+  text-decoration: underline dotted rgb(var(--v-theme-primary));
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+.inline-tip__word:focus-visible {
+  outline: 2px solid rgb(var(--v-theme-primary));
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+.inline-tip__pop {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 8px);
+  left: 50%;
+  /* --tip-shift: set on open, to keep the popover inside the viewport */
+  transform: translateX(calc(-50% + var(--tip-shift, 0px)));
+  width: max-content;
+  max-width: min(20rem, calc(100vw - 24px));
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: rgb(var(--v-theme-surface));
+  color: rgb(var(--v-theme-on-surface));
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.16);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease, visibility 0.12s;
+}
+/* Bridges the gap to the word, so the pointer can move onto the popover. */
+.inline-tip__pop::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -8px;
+  height: 8px;
+}
+.inline-tip[data-open] .inline-tip__pop,
+.inline-tip:has(.inline-tip__word:focus-visible) .inline-tip__pop {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+@media (hover: hover) {
+  .inline-tip:hover .inline-tip__pop {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
 </style>

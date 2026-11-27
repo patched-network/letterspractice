@@ -104,25 +104,25 @@ export const landingPageCopy = {
       { word: "juggle?", act: "juggle", actLetter: 4 },
       { word: "dance!", act: "floss" },
     ],
-    subtitle: "Meet the Letters—friendly guides for focused learning.",
+    // The lede: the paragraphs beside the headline, one <p> each, all styled
+    // alike. Until 2026-11-27 these were `subtitle` + `description`, but the
+    // "subtitle" was never styled as one; it was just the first paragraph.
     // **bold**/*italic*/_underline_ markers are rendered via renderInline (see inlineMarkup.ts).
-    description: "Efficient, age-appropriate reading instruction for talkative toddlers. For **ages 2-5+**, in **2-5 minutes** a day — a minute per year of age.",
-    // Added 2026-09-20: raises and answers the screen/offline question in the
-    // first screenful. Its own paragraph, not a fourth sentence on `description`
-    // — at hero type size that block got long enough to skim past, and this is a
-    // different claim from the dose line.
-    //
-    // Deliberately phrased as a CONSEQUENCE of progress ("as the letters add
-    // up"), never as a setup step: asking a visitor to print something before
-    // they've evaluated anything is a funnel ask, and it would misdescribe the
-    // app, which says nothing about the sheet until PRINT_PROMPT_MIN_LETTERS
-    // letters are unlocked (services/fridgeSheet.ts). The sheet gets its picture
-    // and its explanation in the scrollytell's closing beat
-    // (SessionWalkthroughSection, beat id "offscreen").
-    descriptionOffscreen: "As the letters add up, they come off the screen: a one-page sheet for the fridge the whole house can use.",
+    // {word|explanation} is an explainer popover (inlineMarkup.ts).
+    // PLACEHOLDER COPY (2026-11-27), mid-rewrite toward "what this does for
+    // you / who it's for / why".
+    lede: [
+      "Read to your child every day! When they are {ready|Usually between **2** and **5**. Interested in stories, speaking in short sentences.}, add **a few minutes** each day with us.",
+      "We provide efficient, age-appropriate phonics instruction, so they can start finding sounds and words on the page.",
+      // Bookends the opener: "Read *to*…" → "Read *with*…".
+      "And then? Read *with* your child every day!",
+    ],
+    // (The fridge-sheet line `descriptionOffscreen`, added 2026-09-20, was
+    // removed 2026-11-27. The sheet is still pictured and explained in the
+    // tour's closing beat: SessionWalkthroughSection, beat id "offscreen".)
     // No pricing line here: what's for sale, and how it's described, is the
     // deployment's (src/deployment/pitch.ts). HeroGreeting shows it after
-    // `descriptionOffscreen` when there is one.
+    // the lede when there is one.
     // Primary path into the product. `primary`/`secondary` are the logged-out
     // CTAs (→ /peek, → /study); `resume` is shown to a returning logged-in
     // visitor (→ /study) with `sample` demoted to a quiet link.

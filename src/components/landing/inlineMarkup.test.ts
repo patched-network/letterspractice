@@ -73,3 +73,31 @@ describe('renderInline', () => {
     expect(out).not.toContain('href');
   });
 });
+
+describe('renderInline explainers', () => {
+  it('renders {word|explanation} as a button described by a hidden popover', () => {
+    const out = renderInline('When you are {ready|Usually *2-5*.}, start.');
+    expect(out).toMatch(/^When you are <span class="inline-tip">/);
+    expect(out).toMatch(/<button type="button" class="inline-tip__word" aria-expanded="false" aria-describedby="(tip-[a-z0-9]+)">ready<\/button>/);
+    const id = out.match(/aria-describedby="([^"]+)"/)![1];
+    expect(out).toContain(`<span class="inline-tip__pop" id="${id}" role="tooltip">Usually <em>2-5</em>.</span>`);
+    expect(out).toMatch(/<\/span><\/span>, start\.$/);
+  });
+
+  it('is stable across renders and keeps the markup around it', () => {
+    const t = '**a** {b|c} [x](/y) {d|e}';
+    expect(renderInline(t)).toBe(renderInline(t));
+    expect(renderInline(t)).toMatch(/^<strong>a<\/strong> <span class="inline-tip">.*<a href="\/y"/);
+    expect(renderInline(t).match(/inline-tip__word/g)).toHaveLength(2);
+  });
+
+  it('escapes both parts', () => {
+    const out = renderInline('{<b>|<i>x</i>}');
+    expect(out).not.toMatch(/<b>|<i>/);
+    expect(out).toContain('&lt;b&gt;');
+  });
+
+  it('leaves braces without a pipe alone', () => {
+    expect(renderInline('a {b} c')).toBe('a {b} c');
+  });
+});

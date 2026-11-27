@@ -80,7 +80,9 @@ describe('renderInline explainers', () => {
     expect(out).toMatch(/^When you are <span class="inline-tip">/);
     expect(out).toMatch(/<button type="button" class="inline-tip__word" aria-expanded="false" aria-describedby="(tip-[a-z0-9]+)">ready<\/button>/);
     const id = out.match(/aria-describedby="([^"]+)"/)![1];
-    expect(out).toContain(`<span class="inline-tip__pop" id="${id}" role="tooltip">Usually <em>2-5</em>.</span>`);
+    expect(out).toContain(
+      `<span class="inline-tip__pop" id="${id}" role="tooltip"><span class="inline-tip__lead">Usually <em>2-5</em>.</span></span>`,
+    );
     expect(out).toMatch(/<\/span><\/span>, start\.$/);
   });
 
@@ -89,6 +91,23 @@ describe('renderInline explainers', () => {
     expect(renderInline(t)).toBe(renderInline(t));
     expect(renderInline(t)).toMatch(/^<strong>a<\/strong> <span class="inline-tip">.*<a href="\/y"/);
     expect(renderInline(t).match(/inline-tip__word/g)).toHaveLength(2);
+  });
+
+  it('renders further | parts as a list under the lead', () => {
+    const out = renderInline('{ready|Usually *2-5*.|Likes stories| Talks }');
+    expect(out).toContain(
+      '<span class="inline-tip__lead">Usually <em>2-5</em>.</span>' +
+        '<span class="inline-tip__list" role="list">' +
+        '<span class="inline-tip__item" role="listitem">Likes stories</span>' +
+        '<span class="inline-tip__item" role="listitem">Talks</span></span>',
+    );
+    expect(out).not.toMatch(/<ul|<li/);
+  });
+
+  it('renders a bare list when the lead is empty', () => {
+    const out = renderInline('{ready||a|b}');
+    expect(out).not.toContain('inline-tip__lead');
+    expect(out.match(/role="listitem"/g)).toHaveLength(2);
   });
 
   it('escapes both parts', () => {

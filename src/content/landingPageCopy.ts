@@ -104,38 +104,12 @@ export const landingPageCopy = {
       { word: "juggle?", act: "juggle", actLetter: 4 },
       { word: "dance!", act: "floss" },
     ],
-    // The lede: the paragraphs beside the headline, one <p> each, all styled
-    // alike. Until 2026-11-27 these were `subtitle` + `description`, but the
-    // "subtitle" was never styled as one; it was just the first paragraph.
-    // **bold**/*italic*/_underline_ markers are rendered via renderInline (see inlineMarkup.ts).
-    // {word|explanation} is an explainer popover (inlineMarkup.ts).
-    // PLACEHOLDER COPY (2026-11-27), mid-rewrite toward "what this does for
-    // you / who it's for / why".
     lede: [
-      "Read to your child every day! When they are {ready|Usually between **2** and **5**. Interested in stories, speaking in short sentences.}, add **a few minutes** each day with us.",
+      "Read to your child every day! When they are {ready|Usually between **2** and **5**.|Interested in stories|Speaking in short sentences}, add **a few minutes** each day with us.",
       "We provide efficient, age-appropriate phonics instruction, so they can start finding sounds and words on the page.",
       // Bookends the opener: "Read *to*…" → "Read *with*…".
       "And then? Read *with* your child every day!",
     ],
-    // (The fridge-sheet line `descriptionOffscreen`, added 2026-09-20, was
-    // removed 2026-11-27. The sheet is still pictured and explained in the
-    // tour's closing beat: SessionWalkthroughSection, beat id "offscreen".)
-    // No pricing line here: what's for sale, and how it's described, is the
-    // deployment's (src/deployment/pitch.ts). HeroGreeting shows it after
-    // the lede when there is one.
-    // Primary path into the product. `primary`/`secondary` are the logged-out
-    // CTAs (→ /peek, → /study); `resume` is shown to a returning logged-in
-    // visitor (→ /study) with `sample` demoted to a quiet link.
-    //
-    // The pair encodes WHO'S PRESENT, not just destination: "View" = parent
-    // alone, read-only stakes (nothing recorded); "together" = bring the kid,
-    // the real start. "Start learning together" deliberately reuses the exact
-    // phrase from the study-hub acknowledgment card, the peek transition card,
-    // and the peek end screen — the same words at every begin-for-real
-    // threshold. Rendered as hub-idiom pills (HeroGreeting.vue): lip colors
-    // reuse the hub's language — orange = Practice (peek shows practice
-    // exercises), green = Learn (study is where lessons live). Captions sit
-    // under the pills and carry the stakes.
     cta: {
       primary: "View a sample lesson",
       primaryCaption: "Just you — explore freely, nothing recorded",
@@ -145,8 +119,6 @@ export const landingPageCopy = {
       resumeCaption: "Pick up where you left off",
       sample: "View a sample lesson",
     },
-    // (Hero newsletter form removed 2026-07-03 — the footer's EmailSignupForm
-    // is the page's single newsletter capture.)
   },
 
   // Straddles the hero → under-the-hood seam. Its job is CREDIBILITY, not

@@ -11,6 +11,8 @@
  *     the device can hover, on tap/click everywhere. The explanation is in the
  *     HTML either way (hidden until opened), so search and screen readers
  *     (via aria-describedby) get it without interaction.
+ *     {word|lead|point|point}: further `|` parts become a bulleted list
+ *     under the lead (leave the lead empty, {word||a|b}, for a bare list).
  *
  * HTML is escaped before any tag is generated, so authored copy can't inject
  * markup; only the tags emitted here reach the DOM. Link targets are checked
@@ -107,7 +109,7 @@ function linkHtml(seg: Extract<CopySegment, { kind: "link" }>): string {
   return emphasis(label);
 }
 
-/** `{word|explanation}`. Neither part may hold braces; the word no `|`. */
+/** `{word|explanation|point…}`. No braces in any part; `|` separates them. */
 const TIP = /\{([^{}|]+)\|([^{}]+)\}/g;
 
 /** Stable id from the content: the same copy renders the same markup every time. */
@@ -117,13 +119,32 @@ function tipId(label: string, tip: string): string {
   return `tip-${(h >>> 0).toString(36)}`;
 }
 
+/**
+ * The popover's body: the lead line, then any further parts as a list. Spans,
+ * not <ul>/<li>, styled as a list (App.vue) and given list roles: the popover
+ * sits inside a <p>, and a <ul> there would make the browser close the <p>
+ * when it parses the prerendered HTML.
+ */
+function tipBody(tip: string): string {
+  const [lead, ...points] = tip.split("|").map((part) => part.trim());
+  const items = points.filter(Boolean);
+  let html = lead ? `<span class="inline-tip__lead">${emphasis(lead)}</span>` : "";
+  if (items.length) {
+    html +=
+      `<span class="inline-tip__list" role="list">` +
+      items.map((it) => `<span class="inline-tip__item" role="listitem">${emphasis(it)}</span>`).join("") +
+      `</span>`;
+  }
+  return html;
+}
+
 function tipHtml(label: string, tip: string): string {
   const id = tipId(label, tip);
   return (
     `<span class="inline-tip">` +
     `<button type="button" class="inline-tip__word" aria-expanded="false" aria-describedby="${id}">` +
     `${emphasis(label)}</button>` +
-    `<span class="inline-tip__pop" id="${id}" role="tooltip">${emphasis(tip)}</span>` +
+    `<span class="inline-tip__pop" id="${id}" role="tooltip">${tipBody(tip)}</span>` +
     `</span>`
   );
 }

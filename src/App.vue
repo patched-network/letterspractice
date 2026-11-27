@@ -183,6 +183,27 @@ onMounted(() => {
   pointer-events: none;
   transition: opacity 0.12s ease, visibility 0.12s;
 }
+.inline-tip__lead,
+.inline-tip__list,
+.inline-tip__item {
+  display: block;
+}
+.inline-tip__lead + .inline-tip__list {
+  margin-top: 6px;
+}
+.inline-tip__item {
+  position: relative;
+  padding-left: 1.1em;
+}
+.inline-tip__item + .inline-tip__item {
+  margin-top: 2px;
+}
+.inline-tip__item::before {
+  content: "•";
+  position: absolute;
+  left: 0.2em;
+  color: rgb(var(--v-theme-primary));
+}
 /* Bridges the gap to the word, so the pointer can move onto the popover. */
 .inline-tip__pop::before {
   content: "";
